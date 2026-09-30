@@ -60,8 +60,8 @@ enhancement-mode devices you may know from other contexts.
 damage** (ESD), not to set a bias reference or regulate temperature.
 
 Two questions in this group reference Figure E6-1 for schematic symbols (an N-channel dual-gate
-MOSFET and a P-channel junction FET); the pool text is reproduced below exactly, but the figure
-itself isn't reproducible here.
+MOSFET and a P-channel junction FET); the pool text is reproduced below exactly, with the figure
+shown beside each question.
 
 #### All 12 pool questions for E6A
 
@@ -168,6 +168,8 @@ What is a depletion-mode field-effect transistor (FET)?
 
 In Figure E6-1, which is the schematic symbol for an N-channel dual-gate MOSFET?
 
+![Figure E6-1](figures/e6-1.png)
+
 - A. 2
 - B. 4
 - C. 5
@@ -178,6 +180,8 @@ In Figure E6-1, which is the schematic symbol for an N-channel dual-gate MOSFET?
 **E6A11**
 
 In Figure E6-1, which is the schematic symbol for a P-channel junction FET?
+
+![Figure E6-1](figures/e6-1.png)
 
 - A. 1
 - B. 2
@@ -227,7 +231,7 @@ detector**.
 temperature**, not from inverse voltage or a lack of forward voltage.
 
 A figure question here (E6B10) asks you to pick the Schottky diode's schematic symbol out of Figure
-E6-2; the text is reproduced as printed, without the figure.
+E6-2; the text is reproduced as printed, with the figure shown beside the question.
 
 #### All 11 pool questions for E6B
 
@@ -334,6 +338,8 @@ What is a common use for point-contact diodes?
 
 In Figure E6-2, which is the schematic symbol for a Schottky diode?
 
+![Figure E6-2](figures/e6-2.png)
+
 - A. 1
 - B. 6
 - C. 2
@@ -379,7 +385,7 @@ auto-router, and not assembly language.
 
 Three questions in this group (E6C08, E6C10, E6C11) ask you to match a gate's schematic symbol —
 NAND, NOR, and the NOT/inversion symbol — against Figure E6-3; the question text is reproduced as
-printed, without the figure itself.
+printed, with the figure shown beside each question.
 
 #### All 11 pool questions for E6C
 
@@ -464,6 +470,8 @@ What best describes a pull-up or pull-down resistor?
 
 In Figure E6-3, which is the schematic symbol for a NAND gate?
 
+![Figure E6-3](figures/e6-3.png)
+
 - A. 1
 - B. 2
 - C. 3
@@ -486,6 +494,8 @@ What is used to design the configuration of a field-programmable gate array (FPG
 
 In Figure E6-3, which is the schematic symbol for a NOR gate?
 
+![Figure E6-3](figures/e6-3.png)
+
 - A. 1
 - B. 2
 - C. 3
@@ -496,6 +506,8 @@ In Figure E6-3, which is the schematic symbol for a NOR gate?
 **E6C11**
 
 In Figure E6-3, which is the schematic symbol for the NOT operation (inversion)?
+
+![Figure E6-3](figures/e6-3.png)
 
 - A. 2
 - B. 4

@@ -14,8 +14,8 @@ is twice the size and carries twice the exam weight (4 questions instead of 1), 
 per question — it is the same style of straightforward fact recall spread across more ground,
 including an entire group (T6C) built around identifying schematic symbols in the pool's diagrams.
 Learn the plain-language function of each part in T6A/T6B/T6D solidly, and for T6C, study the actual
-pool figures (T-1, T-2, T-3) in the official question pool or app, since the text alone can't convey
-a schematic drawing.
+pool figures (T-1, T-2, T-3), which are shown beside each question below, since the text alone can't
+convey a schematic drawing.
 
 ## Table of Contents
 
@@ -43,7 +43,7 @@ controls **resistance**, which is why it's the classic adjustable volume control
 **Switches.** An **SPDT** (single-pole, double-throw) switch connects **a single circuit to one of
 two other circuits** — think of it as routing one line to either of two destinations, not opening or
 closing two separate circuits. One question (T6A09) asks you to identify a switch type from
-component 3 in pool figure T-2 — that's a diagram-recognition item you'll need the actual figure for.
+component 3 in pool figure T-2 — a diagram-recognition item; the figure is shown with the question.
 
 **Batteries — rechargeable vs. not.** Nickel-metal hydride, lithium-ion, and lead-acid are all
 **rechargeable** ("all these choices are correct" when the pool asks which chemistries recharge).
@@ -143,6 +143,8 @@ What is the function of an SPDT switch?
 **T6A09**
 
 What type of switch is represented by component 3 in figure T-2?
+
+![Figure T-2](figures/t-2.png)
 
 - A. Single-pole single-throw
 - B. Single-pole double-throw
@@ -341,12 +343,11 @@ drawing.
 
 **Symbol recognition dominates this group** — nine of its twelve questions ask you to identify a
 numbered component in one of the pool's three figures (T-1, T-2, and T-3). Those questions
-(T6C02–T6C10, plus T6D10 in the next group) can't be answered from text alone; you need to study the
-actual figures in the question pool or the app, where you'll learn to recognize the standard symbols
+(T6C02–T6C10, plus T6D10 in the next group) can't be answered from text alone; study the figures
+shown with each question to learn to recognize the standard symbols
 for a resistor, battery, lamp, ground, transistor, capacitor, regulator IC, LED, variable resistor,
 transformer, variable inductor, and antenna. The text below reproduces each question exactly as
-written, including the figure reference, but the diagrams themselves are outside what this guide can
-render.
+written, with the figure shown above its answer choices.
 
 #### All 12 pool questions for T6C
 
@@ -365,6 +366,8 @@ What is an electrical diagram using standard component symbols called?
 
 What is component 1 in figure T-1?
 
+![Figure T-1](figures/t-1.png)
+
 - A. Resistor
 - B. Transistor
 - C. Battery
@@ -375,6 +378,8 @@ What is component 1 in figure T-1?
 **T6C03**
 
 What is component 2 in figure T-1?
+
+![Figure T-1](figures/t-1.png)
 
 - A. Resistor
 - B. Transistor
@@ -387,6 +392,8 @@ What is component 2 in figure T-1?
 
 What is component 3 in figure T-1?
 
+![Figure T-1](figures/t-1.png)
+
 - A. Resistor
 - B. Transistor
 - C. Lamp
@@ -397,6 +404,8 @@ What is component 3 in figure T-1?
 **T6C05**
 
 What is component 4 in figure T-1?
+
+![Figure T-1](figures/t-1.png)
 
 - A. Resistor
 - B. Transistor
@@ -409,6 +418,8 @@ What is component 4 in figure T-1?
 
 What is component 6 in figure T-2?
 
+![Figure T-2](figures/t-2.png)
+
 - A. Resistor
 - B. Capacitor
 - C. Regulator IC
@@ -419,6 +430,8 @@ What is component 6 in figure T-2?
 **T6C07**
 
 What is component 8 in figure T-2?
+
+![Figure T-2](figures/t-2.png)
 
 - A. Resistor
 - B. Inductor
@@ -431,6 +444,8 @@ What is component 8 in figure T-2?
 
 What is component 9 in figure T-2?
 
+![Figure T-2](figures/t-2.png)
+
 - A. Variable capacitor
 - B. Variable inductor
 - C. Variable resistor
@@ -441,6 +456,8 @@ What is component 9 in figure T-2?
 **T6C09**
 
 What is component 4 in figure T-2?
+
+![Figure T-2](figures/t-2.png)
 
 - A. Variable inductor
 - B. Double-pole switch
@@ -453,6 +470,8 @@ What is component 4 in figure T-2?
 
 What is component 3 in figure T-3?
 
+![Figure T-3](figures/t-3.png)
+
 - A. Connector
 - B. Meter
 - C. Variable capacitor
@@ -463,6 +482,8 @@ What is component 3 in figure T-3?
 **T6C11**
 
 What is component 4 in figure T-3?
+
+![Figure T-3](figures/t-3.png)
 
 - A. Antenna
 - B. Transmitter
@@ -607,6 +628,8 @@ What is the name of a device that combines several semiconductors and other comp
 **T6D10**
 
 What is the function of component 2 in figure T-1?
+
+![Figure T-1](figures/t-1.png)
 
 - A. Give off light when current flows through it
 - B. Supply electrical energy

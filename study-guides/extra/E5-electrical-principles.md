@@ -11,8 +11,8 @@ arithmetic with arctangent, and formal rectangular/polar notation for impedance.
 As with G5, the arithmetic is fixed — the same handful of RLC and phase-angle problems recur with the
 same numbers every renewal cycle — so working each calculation once by hand is worth more than
 memorizing the answer letter. E5C's three figure-based questions (E5C10–E5C12) reference a pool
-diagram this guide cannot reproduce; know the underlying R/X-plane geometry and you can still answer
-them by calculation.
+diagram (Figure E5-1, shown with each question); know the underlying R/X-plane geometry and you can
+also answer them by calculation.
 
 ## Table of Contents
 
@@ -405,7 +405,7 @@ phase relationship between multiple impedances at one frequency (E5C05).
 span orders of magnitude, so log scaling is standard.
 
 **The three figure questions (E5C10–E5C12)** ask you to locate a computed impedance on the pool's
-Figure E5-1 R-X plane. You can't see the figure here, but the underlying arithmetic is ordinary:
+Figure E5-1 R-X plane. The figure is shown with each question, and the underlying arithmetic is ordinary:
 compute XC = 1/(2πfC) or XL = 2πfL at the given frequency, pair it with the given resistance, and
 that (R, X) pair is the point you're looking for. The pool's stated answers are **Point 4** (400 Ω
 resistor with a 38 pF capacitor at 14 MHz), **Point 3** (300 Ω resistor with an 18 µH inductor at
@@ -516,6 +516,8 @@ When using rectangular coordinates to graph the impedance of a circuit, what do 
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 400-ohm resistor and a 38-picofarad capacitor at 14 MHz?
 
+![Figure E5-1](figures/e5-1.png)
+
 - A. Point 2
 - B. Point 4
 - C. Point 5
@@ -527,6 +529,8 @@ Which point on Figure E5-1 best represents the impedance of a series circuit con
 
 Which point in Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and an 18-microhenry inductor at 3.505 MHz?
 
+![Figure E5-1](figures/e5-1.png)
+
 - A. Point 1
 - B. Point 3
 - C. Point 7
@@ -537,6 +541,8 @@ Which point in Figure E5-1 best represents the impedance of a series circuit con
 **E5C12**
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and a 19-picofarad capacitor at 21.200 MHz?
+
+![Figure E5-1](figures/e5-1.png)
 
 - A. Point 1
 - B. Point 3

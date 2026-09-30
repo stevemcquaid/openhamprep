@@ -44,7 +44,7 @@ why a 30 A switcher weighs a few pounds and a linear one weighs thirty.
 an **NPN transistor** has the emitter arrow pointing *outward* (Not Pointing iN); a **FET** has a
 flat gate bar instead of an emitter arrow; a **Zener diode** has a bent, flag-like cathode bar; a
 **solid core transformer** shows solid lines between the two coils; a **tapped inductor** has an
-extra lead off the middle of the winding. Practice on the real figure before exam day.
+extra lead off the middle of the winding. The figure is shown with each question below; practice reading it before exam day.
 
 #### All 13 pool questions for G7A
 
@@ -140,6 +140,8 @@ Which of the following is characteristic of a switchmode power supply as compare
 
 Which symbol in figure G7-1 represents a field effect transistor?
 
+![Figure G7-1](figures/g7-1.png)
+
 - A. Symbol 2
 - B. Symbol 5
 - C. Symbol 1
@@ -150,6 +152,8 @@ Which symbol in figure G7-1 represents a field effect transistor?
 **G7A10** &nbsp;·&nbsp; *refer to Figure G7-1*
 
 Which symbol in figure G7-1 represents a Zener diode?
+
+![Figure G7-1](figures/g7-1.png)
 
 - A. Symbol 4
 - B. Symbol 1
@@ -162,6 +166,8 @@ Which symbol in figure G7-1 represents a Zener diode?
 
 Which symbol in figure G7-1 represents an NPN junction transistor?
 
+![Figure G7-1](figures/g7-1.png)
+
 - A. Symbol 1
 - B. Symbol 2
 - C. Symbol 7
@@ -173,6 +179,8 @@ Which symbol in figure G7-1 represents an NPN junction transistor?
 
 Which symbol in Figure G7-1 represents a solid core transformer?
 
+![Figure G7-1](figures/g7-1.png)
+
 - A. Symbol 4
 - B. Symbol 7
 - C. Symbol 6
@@ -183,6 +191,8 @@ Which symbol in Figure G7-1 represents a solid core transformer?
 **G7A13** &nbsp;·&nbsp; *refer to Figure G7-1*
 
 Which symbol in Figure G7-1 represents a tapped inductor?
+
+![Figure G7-1](figures/g7-1.png)
 
 - A. Symbol 7
 - B. Symbol 11

@@ -202,7 +202,7 @@ How much gain does an antenna have compared to a half-wavelength dipole if it ha
 *One exam question comes from this group. 11 questions in the pool.*
 
 **Figures E9-1 and E9-2** are provided at the exam and drive six of these eleven questions — practice
-reading the real figures before test day; the notes below explain what each term means, but the
+reading the figures (shown with each question) before test day; the notes below explain what each term means, but the
 actual numeric answers (beamwidth, front-to-back, front-to-side, elevation angle) come straight off
 the plotted pattern. An **azimuth pattern** is a horizontal (compass-view) slice of the antenna's
 radiation; an **elevation pattern** is a vertical slice showing how radiation varies with takeoff
@@ -226,6 +226,8 @@ even though the pattern shape often still looks reasonable.
 
 What is the 3 dB beamwidth of the antenna radiation pattern shown in Figure E9-1?
 
+![Figure E9-1](figures/e9-1.png)
+
 - A. 75 degrees
 - B. 50 degrees
 - C. 25 degrees
@@ -236,6 +238,8 @@ What is the 3 dB beamwidth of the antenna radiation pattern shown in Figure E9-1
 **E9B02** &nbsp;·&nbsp; *refer to Figure E9-1*
 
 What is the front-to-back ratio of the antenna radiation pattern shown in Figure E9-1?
+
+![Figure E9-1](figures/e9-1.png)
 
 - A. 36 dB
 - B. 14 dB
@@ -248,6 +252,8 @@ What is the front-to-back ratio of the antenna radiation pattern shown in Figure
 
 What is the front-to-side ratio of the antenna radiation pattern shown in Figure E9-1?
 
+![Figure E9-1](figures/e9-1.png)
+
 - A. 12 dB
 - B. 24 dB
 - C. 18 dB
@@ -258,6 +264,8 @@ What is the front-to-side ratio of the antenna radiation pattern shown in Figure
 **E9B04** &nbsp;·&nbsp; *refer to Figure E9-2*
 
 What is the front-to-back ratio of the radiation pattern shown in Figure E9-2?
+
+![Figure E9-2](figures/e9-2.png)
 
 - A. 15 dB
 - B. 28 dB
@@ -270,6 +278,8 @@ What is the front-to-back ratio of the radiation pattern shown in Figure E9-2?
 
 What type of antenna pattern is shown in Figure E9-2?
 
+![Figure E9-2](figures/e9-2.png)
+
 - A. Elevation
 - B. Azimuth
 - C. Near field
@@ -280,6 +290,8 @@ What type of antenna pattern is shown in Figure E9-2?
 **E9B06** &nbsp;·&nbsp; *refer to Figure E9-2*
 
 What is the elevation angle of peak response in the antenna radiation pattern shown in Figure E9-2?
+
+![Figure E9-2](figures/e9-2.png)
 
 - A. 45 degrees
 - B. 75 degrees
@@ -1082,6 +1094,8 @@ Which of the following is a common use for a Smith chart?
 
 On the Smith chart shown in Figure E9-3, what is the name for the large outer circle on which the reactance arcs terminate?
 
+![Figure E9-3](figures/e9-3.png)
+
 - A. Prime axis
 - B. Reactance axis
 - C. Impedance axis
@@ -1092,6 +1106,8 @@ On the Smith chart shown in Figure E9-3, what is the name for the large outer ci
 **E9G07**
 
 On the Smith chart shown in Figure E9-3, what is the only straight line shown?
+
+![Figure E9-3](figures/e9-3.png)
 
 - A. The reactance axis
 - B. The current axis
