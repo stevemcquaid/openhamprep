@@ -11,6 +11,15 @@ who's responsible for compliance). None of it requires math or Part 97 citations
 fact recall, and unlike most of the exam it's genuinely worth knowing cold rather than just for test
 day, since some of these facts will keep you alive.
 
+## Table of Contents
+
+- [T0A — Power circuits and hazards: hazardous voltages, fuses and circuit breakers, grounding, electrical code compliance; Lightning protection; Battery safety](#t0a--power-circuits-and-hazards-hazardous-voltages-fuses-and-circuit-breakers-grounding-electrical-code-compliance-lightning-protection-battery-safety)
+  - [All 12 pool questions for T0A](#all-12-pool-questions-for-t0a)
+- [T0B — Antenna safety: tower safety and grounding, installing antennas, antenna supports](#t0b--antenna-safety-tower-safety-and-grounding-installing-antennas-antenna-supports)
+  - [All 11 pool questions for T0B](#all-11-pool-questions-for-t0b)
+- [T0C — RF hazards: radiation exposure, proximity to antennas, recognized safe power levels, radiation types, duty cycle](#t0c--rf-hazards-radiation-exposure-proximity-to-antennas-recognized-safe-power-levels-radiation-types-duty-cycle)
+  - [All 13 pool questions for T0C](#all-13-pool-questions-for-t0c)
+
 ---
 
 ## T0A — Power circuits and hazards: hazardous voltages, fuses and circuit breakers, grounding, electrical code compliance; Lightning protection; Battery safety
@@ -52,9 +61,11 @@ voltages being measured**.
 Which of the following is a safety hazard of a 12-volt storage battery that lacks internal protection circuitry?
 
 - A. Touching both terminals with your hands can cause electrical shock
-- **B. Shorting the terminals can cause burns, fire, or an explosion**  ←
+- B. Shorting the terminals can cause burns, fire, or an explosion
 - C. RF emissions from a nearby transmitter can cause the electrolyte to emit poison gas
 - D. All these choices are correct
+-
+- Answer: B
 
 **T0A02**
 
@@ -63,25 +74,31 @@ What health hazard is posed by electrical current flowing through the body?
 - A. It may cause injury by heating body tissue
 - B. It may disrupt the electrical functions of cells
 - C. It may cause involuntary muscle contractions
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T0A03**
 
 In the United States, what circuit does black wire insulation indicate in a three-wire 120 V AC cable?
 
 - A. Neutral
-- **B. Hot**  ←
+- B. Hot
 - C. Equipment ground
 - D. Negative
+-
+- Answer: B
 
 **T0A04**
 
 What is the purpose of a fuse in an electrical circuit?
 
 - A. To prevent power supply ripple from damaging a component
-- **B. To remove power in case of an overload**  ←
+- B. To remove power in case of an overload
 - C. To limit current and prevent shocks
 - D. All these choices are correct
+-
+- Answer: B
 
 **T0A05**
 
@@ -89,8 +106,10 @@ Why should a 5-ampere fuse never be replaced with a 20-ampere fuse?
 
 - A. The larger fuse would be likely to blow because it is rated for higher current
 - B. The power supply ripple would greatly increase
-- **C. Excessive current could cause a fire**  ←
+- C. Excessive current could cause a fire
 - D. Voltage drop in the higher current fuse could result in excessively low voltage to the device
+-
+- Answer: C
 
 **T0A06**
 
@@ -99,7 +118,9 @@ What is a good way to guard against electrical shock at your station?
 - A. Use three-wire cords and plugs for all AC powered equipment
 - B. Connect all AC powered station equipment to a common safety ground
 - C. Ensure all capacitors used for high-voltage DC are fully discharged before working inside equipment
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T0A07**
 
@@ -108,16 +129,20 @@ Where should a lightning arrester be installed in a coaxial feed line?
 - A. At the output connector of a transceiver
 - B. At the antenna feed point
 - C. At the AC power service panel
-- **D. On a grounded panel near where feed lines enter the building**  ←
+- D. On a grounded panel near where feed lines enter the building
+-
+- Answer: D
 
 **T0A08**
 
 Where should a fuse or circuit breaker be installed in a 120V AC power circuit?
 
-- **A. In series with the hot conductor only**  ←
+- A. In series with the hot conductor only
 - B. In series with the hot and neutral conductors
 - C. In parallel with the hot conductor only
 - D. In parallel with the hot and neutral conductors
+-
+- Answer: A
 
 **T0A09**
 
@@ -125,17 +150,21 @@ What should be done to all external ground rods or earth connections?
 
 - A. Waterproof them with silicone caulk or electrical tape
 - B. Keep them as far apart as possible
-- **C. Bond them together with heavy wire or conductive strap**  ←
+- C. Bond them together with heavy wire or conductive strap
 - D. Tune them for resonance on the lowest frequency of operation
+-
+- Answer: C
 
 **T0A10**
 
 What hazard exists when rapidly charging or discharging an unprotected battery?
 
-- **A. Overheating or out-gassing**  ←
+- A. Overheating or out-gassing
 - B. Excess output ripple
 - C. Electric shock
 - D. Overvoltage
+-
+- Answer: A
 
 **T0A11**
 
@@ -144,16 +173,20 @@ What hazard exists in a power supply immediately after turning it off?
 - A. Circulating currents in the dc filter
 - B. Leakage flux in the power transformer
 - C. Voltage transients from kickback diodes
-- **D. Charge stored in filter capacitors**  ←
+- D. Charge stored in filter capacitors
+-
+- Answer: D
 
 **T0A12**
 
 Which of the following precautions should be taken when measuring high voltages with a voltmeter?
 
 - A. Ensure that the voltmeter has very low impedance
-- **B. Ensure that the voltmeter and its leads are rated for use at the voltages being measured**  ←
+- B. Ensure that the voltmeter and its leads are rated for use at the voltages being measured
 - C. Ensure that the circuit is grounded through the voltmeter
 - D. Ensure that the voltmeter is set to the correct frequency
+-
+- Answer: B
 
 ---
 
@@ -195,8 +228,10 @@ Which of the following is good practice when installing ground wires on a tower 
 
 - A. Put a drip loop in the ground connection to prevent water damage to the ground system
 - B. Make sure all ground wire bends are right angles
-- **C. Ensure that connections are short and direct**  ←
+- C. Ensure that connections are short and direct
 - D. All these choices are correct
+-
+- Answer: C
 
 **T0B02**
 
@@ -205,7 +240,9 @@ What is required when climbing an antenna tower?
 - A. Have sufficient training on safe tower climbing techniques
 - B. Use appropriate tie-off to the tower at all times
 - C. Always wear an approved climbing harness
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T0B03**
 
@@ -214,7 +251,9 @@ Under what circumstances is it safe to climb a tower without a helper or observe
 - A. When no electrical work is being performed
 - B. When no mechanical work is being performed
 - C. When the work being done is not more than 20 feet above the ground
-- **D. Never**  ←
+- D. Never
+-
+- Answer: D
 
 **T0B04**
 
@@ -222,17 +261,21 @@ Which of the following is an important safety precaution to observe when putting
 
 - A. Wear a ground strap connected to your wrist at all times
 - B. Insulate the base of the tower to avoid lightning strikes
-- **C. Look for and stay clear of any overhead electrical wires**  ←
+- C. Look for and stay clear of any overhead electrical wires
 - D. All these choices are correct
+-
+- Answer: C
 
 **T0B05**
 
 What is the purpose of a safety wire through a turnbuckle used to tension guy lines?
 
 - A. Secure the guy line if the turnbuckle breaks
-- **B. Prevent loosening of the turnbuckle from vibration**  ←
+- B. Prevent loosening of the turnbuckle from vibration
 - C. Provide a ground path for lightning strikes
 - D. Provide an ability to measure for proper tensioning
+-
+- Answer: B
 
 **T0B06**
 
@@ -241,7 +284,9 @@ What is the minimum safe distance from a power line to allow when installing an 
 - A. Add the height of the antenna to the height of the power line and multiply by a factor of 1.5
 - B. The height of the power line above ground
 - C. 1/2 wavelength at the operating frequency
-- **D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires**  ←
+- D. Enough so that if the antenna falls, no part of it can come within 10 feet of the power wires
+-
+- Answer: D
 
 **T0B07**
 
@@ -249,8 +294,10 @@ Which of the following is an important safety rule to remember when using a cran
 
 - A. This type of tower must never be painted
 - B. This type of tower must never be grounded
-- **C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed**  ←
+- C. This type of tower must not be climbed unless it is retracted, or mechanical safety locking devices have been installed
 - D. All these choices are correct
+-
+- Answer: C
 
 **T0B08**
 
@@ -259,7 +306,9 @@ Which is a proper grounding method for a tower?
 - A. A single four-foot ground rod, driven into the ground no more than 12 inches from the base
 - B. A ferrite-core RF choke connected between the tower and ground
 - C. A connection between the tower base and a cold-water pipe
-- **D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other**  ←
+- D. Separate eight-foot ground rods for each tower leg, bonded to the tower and each other
+-
+- Answer: D
 
 **T0B09**
 
@@ -267,8 +316,10 @@ Why should you avoid attaching an antenna to a utility pole?
 
 - A. The antenna will not work properly because of induced voltages
 - B. The antenna may unbalance the power transformer, causing power fluctuations
-- **C. The antenna could contact high-voltage power lines**  ←
+- C. The antenna could contact high-voltage power lines
 - D. All these choices are correct
+-
+- Answer: C
 
 **T0B10**
 
@@ -276,17 +327,21 @@ Which of the following is true when installing grounding conductors used for lig
 
 - A. Use only non-insulated wire
 - B. Wires must be carefully routed with precise right-angle bends
-- **C. Sharp bends must be avoided**  ←
+- C. Sharp bends must be avoided
 - D. Common grounds must be avoided
+-
+- Answer: C
 
 **T0B11**
 
 Which of the following establishes grounding requirements for an amateur radio tower or antenna?
 
 - A. FCC Part 97 rules
-- **B. Local electrical codes**  ←
+- B. Local electrical codes
 - C. FAA tower lighting regulations
 - D. UL recommended practices
+-
+- Answer: B
 
 ---
 
@@ -330,16 +385,20 @@ What type of radiation are radio signals?
 - A. Gamma radiation
 - B. Ionizing radiation
 - C. Alpha radiation
-- **D. Non-ionizing radiation**  ←
+- D. Non-ionizing radiation
+-
+- Answer: D
 
 **T0C02**
 
 Which of the following bands has the lowest maximum permissible exposure for RF safety?
 
 - A. 3.5 MHz
-- **B. 50 MHz**  ←
+- B. 50 MHz
 - C. 440 MHz
 - D. 1296 MHz
+-
+- Answer: B
 
 **T0C03**
 
@@ -347,8 +406,10 @@ How does the allowable power density for RF safety change if duty cycle changes 
 
 - A. It increases by a factor of 3
 - B. It decreases by 50 percent
-- **C. It increases by a factor of 2**  ←
+- C. It increases by a factor of 2
 - D. There is no adjustment allowed for lower duty cycle
+-
+- Answer: C
 
 **T0C04**
 
@@ -357,7 +418,9 @@ What factors affect the RF exposure of people near an amateur station antenna?
 - A. Frequency and power level of the RF field
 - B. Distance from the antenna to a person
 - C. Radiation pattern of the antenna
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T0C05**
 
@@ -366,7 +429,9 @@ Why do exposure limits vary with frequency?
 - A. Lower frequency RF fields have more energy than higher frequency fields
 - B. Lower frequency RF fields do not penetrate the human body
 - C. Higher frequency RF fields are transient in nature
-- **D. The human body absorbs more RF energy at some frequencies than at others**  ←
+- D. The human body absorbs more RF energy at some frequencies than at others
+-
+- Answer: D
 
 **T0C06**
 
@@ -375,43 +440,53 @@ Which of the following is an acceptable method to determine whether your station
 - A. By calculation based on FCC OET Bulletin 65
 - B. By calculation based on computer modeling
 - C. By measurement of field strength using calibrated equipment
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T0C07**
 
 What hazard is created by touching an antenna during a transmission?
 
 - A. Electrocution
-- **B. RF burn to skin**  ←
+- B. RF burn to skin
 - C. Exposure to ionizing radiation
 - D. All these choices are correct
+-
+- Answer: B
 
 **T0C08**
 
 Which of the following actions can reduce exposure to RF radiation?
 
-- **A. Relocate antennas**  ←
+- A. Relocate antennas
 - B. Relocate the transmitter
 - C. Increase the duty cycle
 - D. All these choices are correct
+-
+- Answer: A
 
 **T0C09**
 
 How can you make sure your station stays in compliance with RF safety regulations?
 
 - A. By informing the FCC of any changes made in your station
-- **B. By re-evaluating the station whenever an item in the transmitter or antenna system is changed**  ←
+- B. By re-evaluating the station whenever an item in the transmitter or antenna system is changed
 - C. By making sure your antennas have low SWR
 - D. By using only Underwriter Laboratories approved transmitting equipment
+-
+- Answer: B
 
 **T0C10**
 
 Why is duty cycle one of the factors used to determine safe RF radiation exposure levels?
 
-- **A. It affects the average exposure to radiation**  ←
+- A. It affects the average exposure to radiation
 - B. It affects the peak exposure to radiation
 - C. It takes into account the antenna feed line loss
 - D. It takes into account the thermal effects of the final amplifier
+-
+- Answer: A
 
 **T0C11**
 
@@ -419,23 +494,29 @@ What is the definition of duty cycle during the averaging time for RF exposure?
 
 - A. The difference between the lowest and highest power output of a transmitter
 - B. The difference between the PEP and the average power output of a transmitter
-- **C. The percentage of time that a transmitter is transmitting**  ←
+- C. The percentage of time that a transmitter is transmitting
 - D. The percentage of time that a transmitter is not transmitting
+-
+- Answer: C
 
 **T0C12**
 
 How does RF radiation differ from ionizing radiation (radioactivity)?
 
-- **A. RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA**  ←
+- A. RF radiation does not have sufficient energy to cause chemical changes in cells and damage DNA
 - B. RF radiation can only be detected with an RF dosimeter
 - C. RF radiation is limited in range to a few feet
 - D. RF radiation is perfectly safe
+-
+- Answer: A
 
 **T0C13**
 
 Who is responsible for ensuring that no person is exposed to RF energy above the FCC exposure limits?
 
 - A. The FCC
-- **B. The station licensee**  ←
+- B. The station licensee
 - C. Anyone who is near an antenna
 - D. The local zoning board
+-
+- Answer: B

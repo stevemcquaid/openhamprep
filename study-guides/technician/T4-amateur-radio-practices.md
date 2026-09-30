@@ -9,6 +9,13 @@ noise blanker, RIT, and DMR code plugs. Small and hands-on, like G6 in the Gener
 23 questions, and nothing here requires math or a table of numbers to memorize. Learn what each
 control and connection actually does and both questions fall into place.
 
+## Table of Contents
+
+- [T4A — Station setup: connecting a microphone, RF power meter, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation](#t4a--station-setup-connecting-a-microphone-rf-power-meter-a-power-source-a-computer-digital-equipment-an-swr-meter-bonding-mobile-radio-installation)
+  - [All 12 pool questions for T4A](#all-12-pool-questions-for-t4a)
+- [T4B — Operating controls: frequency tuning, use of filters, squelch function, AGC, memory channels, noise blanker, microphone gain, receiver incremental tuning (RIT), bandwidth selection, scanning function; Digital transceiver configuration; DMR code plugs and talk groups](#t4b--operating-controls-frequency-tuning-use-of-filters-squelch-function-agc-memory-channels-noise-blanker-microphone-gain-receiver-incremental-tuning-rit-bandwidth-selection-scanning-function-digital-transceiver-configuration-dmr-code-plugs-and-talk-groups)
+  - [All 11 pool questions for T4B](#all-11-pool-questions-for-t4b)
+
 ---
 
 ## T4A — Station setup: connecting a microphone, RF power meter, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation
@@ -51,43 +58,53 @@ Which of the following is an appropriate power supply rating for a typical 50-wa
 - A. 24.0 volts at 4 amperes
 - B. 13.8 volts at 4 amperes
 - C. 24.0 volts at 12 amperes
-- **D. 13.8 volts at 12 amperes**  ←
+- D. 13.8 volts at 12 amperes
+-
+- Answer: D
 
 **T4A02**
 
 Which of the following should be considered when selecting an accessory SWR meter?
 
-- **A. The frequency and power level at which the measurements will be made**  ←
+- A. The frequency and power level at which the measurements will be made
 - B. The distance that the meter will be located from the antenna
 - C. The maximum SWR anticipated on the transmission line
 - D. The ability of the meter to compensate for a poor transmission line match to the antenna
+-
+- Answer: A
 
 **T4A03**
 
 Why are short, heavy-gauge wires used for a transceiver's DC power connection?
 
-- **A. To minimize voltage drop when transmitting**  ←
+- A. To minimize voltage drop when transmitting
 - B. To provide a close match to the power supply output impedance
 - C. To avoid RF interference
 - D. To minimize radiative losses in the power cable
+-
+- Answer: A
 
 **T4A04**
 
 How are the audio input and output of a transceiver connected in a station configured to operate using FT8?
 
 - A. To a computer running a terminal program and connected to a terminal node controller unit
-- **B. To the audio output and input of a computer running FT8 software**  ←
+- B. To the audio output and input of a computer running FT8 software
 - C. To an FT8 conversion unit, a keyboard, and a computer monitor
 - D. To a computer connected to the FT8converter.com website
+-
+- Answer: B
 
 **T4A05**
 
 Where should an RF power meter be installed?
 
-- **A. In the feed line, between the transmitter and antenna**  ←
+- A. In the feed line, between the transmitter and antenna
 - B. At the power supply output
 - C. In parallel with the push-to-talk line and the antenna
 - D. In the power supply cable, as close as possible to the radio
+-
+- Answer: A
 
 **T4A06**
 
@@ -95,8 +112,10 @@ What signals are used in a computer-radio interface for digital mode operation?
 
 - A. Receive and transmit mode, status, and location
 - B. Antenna and RF power
-- **C. Receive audio, transmit audio, and transmitter keying**  ←
+- C. Receive audio, transmit audio, and transmitter keying
 - D. NMEA GPS location and DC power
+-
+- Answer: C
 
 **T4A07**
 
@@ -104,8 +123,10 @@ Which of the following is one of the connections required between a computer and
 
 - A. Computer "line out" to transceiver push-to-talk
 - B. Computer "line in" to transceiver push-to-talk
-- **C. Computer "line in" to transceiver speaker connector**  ←
+- C. Computer "line in" to transceiver speaker connector
 - D. Computer "line out" to transceiver speaker connector
+-
+- Answer: C
 
 **T4A08**
 
@@ -114,34 +135,42 @@ Which of the following conductors is preferred for bonding at RF?
 - A. Copper braid removed from coaxial cable
 - B. Copper-clad steel wire
 - C. Twisted-pair cable
-- **D. Flat copper strap**  ←
+- D. Flat copper strap
+-
+- Answer: D
 
 **T4A09**
 
 How can you determine the length of time that equipment can be powered from a battery?
 
 - A. Divide the watt-hour rating of the battery by the peak power consumption of the equipment
-- **B. Divide the battery ampere-hour rating by the average current draw of the equipment**  ←
+- B. Divide the battery ampere-hour rating by the average current draw of the equipment
 - C. Multiply the watts per hour consumed by the equipment by the battery power rating
 - D. Multiply the square of the current rating of the battery by the input resistance of the equipment
+-
+- Answer: B
 
 **T4A10**
 
 What function does a digital mode hotspot perform for nearby transceivers?
 
-- **A. Communication with a digital voice or data network**  ←
+- A. Communication with a digital voice or data network
 - B. FT8 digital communications via AFSK using a smartphone connected to the internet
 - C. RTTY encoding and decoding without a computer
 - D. High-speed digital communications for meteor scatter
+-
+- Answer: A
 
 **T4A11**
 
 Where should the negative power return of a mobile transceiver be connected in a vehicle?
 
-- **A. At the 12-volt battery chassis ground**  ←
+- A. At the 12-volt battery chassis ground
 - B. To the shell of the power connector
 - C. To any metal part of the vehicle
 - D. Through the transceiver's mounting bracket
+-
+- Answer: A
 
 **T4A12**
 
@@ -149,8 +178,10 @@ What is an electronic keyer?
 
 - A. A device for switching antennas from transmit to receive
 - B. A device for voice activated switching from receive to transmit
-- **C. A device that assists in manual sending of Morse code**  ←
+- C. A device that assists in manual sending of Morse code
 - D. An interlock to prevent unauthorized use of a radio
+-
+- Answer: C
 
 ---
 
@@ -191,27 +222,33 @@ programmed into it — every D-STAR transmission carries it.
 What is the effect of excessive microphone gain on SSB transmissions?
 
 - A. Frequency instability
-- **B. Distorted transmitted audio**  ←
+- B. Distorted transmitted audio
 - C. Increased SWR
 - D. Sideband inversion
+-
+- Answer: B
 
 **T4B02**
 
 Which of the following can be used to enter a transceiver's operating frequency?
 
-- **A. The keypad or VFO knob**  ←
+- A. The keypad or VFO knob
 - B. The CTCSS or DTMF encoder
 - C. The Automatic Frequency Control
 - D. All these choices are correct
+-
+- Answer: A
 
 **T4B03**
 
 How is squelch adjusted so that a weak FM signal can be heard?
 
-- **A. Set the squelch threshold so that receiver output audio is on all the time**  ←
+- A. Set the squelch threshold so that receiver output audio is on all the time
 - B. Turn up the audio level until it overcomes the squelch threshold
 - C. Turn on the anti-squelch function
 - D. Enable squelch enhancement
+-
+- Answer: A
 
 **T4B04**
 
@@ -220,7 +257,9 @@ What does an FM signal sound like when received slightly off frequency?
 - A. The audio increases in pitch
 - B. The audio decrease in pitch
 - C. There is no effect except for reduction in amplitude
-- **D. The audio becomes distorted**  ←
+- D. The audio becomes distorted
+-
+- Answer: D
 
 **T4B05**
 
@@ -228,8 +267,10 @@ What does the scanning function of an FM transceiver do?
 
 - A. Checks incoming signal deviation
 - B. Prevents interference to nearby repeaters
-- **C. Tunes through a range of frequencies to check for activity**  ←
+- C. Tunes through a range of frequencies to check for activity
 - D. Tunes through a range of frequencies to determine the antenna's resonant frequency
+-
+- Answer: C
 
 **T4B06**
 
@@ -238,25 +279,31 @@ Which of the following controls could be used if the voice pitch of a single-sid
 - A. The AGC or limiter
 - B. The bandwidth selection
 - C. The tone squelch
-- **D. The RIT or Clarifier**  ←
+- D. The RIT or Clarifier
+-
+- Answer: D
 
 **T4B07**
 
 What is a DMR "code plug"?
 
 - A. An adapter cable used to connect a DMR radio to a computer for internet access
-- **B. Configuration data loaded onto your radio to access repeaters and talkgroups**  ←
+- B. Configuration data loaded onto your radio to access repeaters and talkgroups
 - C. An upgrade to DMR programming software provided by the radio manufacturer to accommodate new radio models
 - D. A Coder-Decoder (CODEC) that converts analog voice data to DMR digital data and vice versa
+-
+- Answer: B
 
 **T4B08**
 
 What is the advantage of having a choice of receiver filter bandwidths in a multimode transceiver?
 
 - A. Permits monitoring several modes simultaneously by selecting a separate filter for each mode
-- **B. Permits noise or interference reduction by selecting a bandwidth matching the mode**  ←
+- B. Permits noise or interference reduction by selecting a bandwidth matching the mode
 - C. Increases the number of frequencies that can be stored in memory
 - D. Increases the amount of offset between receive and transmit frequencies
+-
+- Answer: B
 
 **T4B09**
 
@@ -264,8 +311,10 @@ How is a specific group of stations selected on a DMR digital voice transceiver?
 
 - A. By retrieving the frequencies from transceiver memory
 - B. By enabling the group's CTCSS tone
-- **C. By entering the group's identification code**  ←
+- C. By entering the group's identification code
 - D. By inserting a five-pin, pre-programmed code plug
+-
+- Answer: C
 
 **T4B10**
 
@@ -273,14 +322,18 @@ Which of the following receiver filter bandwidths provides the best signal-to-no
 
 - A. 500 Hz
 - B. 1000 Hz
-- **C. 2400 Hz**  ←
+- C. 2400 Hz
 - D. 5000 Hz
+-
+- Answer: C
 
 **T4B11**
 
 Which of the following must be programmed into a D-STAR digital transceiver before transmitting?
 
-- **A. Your call sign**  ←
+- A. Your call sign
 - B. Your output power
 - C. The codec type being used
 - D. All these choices are correct
+-
+- Answer: A

@@ -17,6 +17,17 @@ Learn the plain-language function of each part in T6A/T6B/T6D solidly, and for T
 pool figures (T-1, T-2, T-3) in the official question pool or app, since the text alone can't convey
 a schematic drawing.
 
+## Table of Contents
+
+- [T6A — Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries](#t6a--fixed-and-variable-resistors-capacitors-inductors-fuses-switches-batteries)
+  - [All 11 pool questions for T6A](#all-11-pool-questions-for-t6a)
+- [T6B — Semiconductors: basic principles and applications of solid-state devices, diodes and transistors; Gain](#t6b--semiconductors-basic-principles-and-applications-of-solid-state-devices-diodes-and-transistors-gain)
+  - [All 12 pool questions for T6B](#all-12-pool-questions-for-t6b)
+- [T6C — Circuit diagrams: use of schematics, basic structure; Schematic symbols of basic components](#t6c--circuit-diagrams-use-of-schematics-basic-structure-schematic-symbols-of-basic-components)
+  - [All 12 pool questions for T6C](#all-12-pool-questions-for-t6c)
+- [T6D — Component functions: rectifiers, relays, voltage regulators, meters, indicators, integrated circuits, transformers; Resonant circuit; Shielding](#t6d--component-functions-rectifiers-relays-voltage-regulators-meters-indicators-integrated-circuits-transformers-resonant-circuit-shielding)
+  - [All 11 pool questions for T6D](#all-11-pool-questions-for-t6d)
+
 ---
 
 ## T6A — Fixed and variable resistors; Capacitors; Inductors; Fuses; Switches; Batteries
@@ -46,9 +57,11 @@ nickel-cadmium, lead-acid, and lithium-ion, which are all rechargeable.
 What electrical component opposes the flow of current in a DC circuit?
 
 - A. Inductor
-- **B. Resistor**  ←
+- B. Resistor
 - C. Inverter
 - D. Transformer
+-
+- Answer: B
 
 **T6A02**
 
@@ -56,26 +69,32 @@ What type of component is often used as an adjustable volume control?
 
 - A. Fixed resistor
 - B. Power resistor
-- **C. Potentiometer**  ←
+- C. Potentiometer
 - D. Transformer
+-
+- Answer: C
 
 **T6A03**
 
 What electrical parameter is controlled by a potentiometer?
 
 - A. Inductance
-- **B. Resistance**  ←
+- B. Resistance
 - C. Capacitance
 - D. Field strength
+-
+- Answer: B
 
 **T6A04**
 
 What electrical component stores energy in an electric field?
 
 - A. Resistor
-- **B. Capacitor**  ←
+- B. Capacitor
 - C. Inductor
 - D. Diode
+-
+- Answer: B
 
 **T6A05**
 
@@ -84,7 +103,9 @@ What type of electrical component consists of conductive surfaces separated by a
 - A. Resistor
 - B. Potentiometer
 - C. Oscillator
-- **D. Capacitor**  ←
+- D. Capacitor
+-
+- Answer: D
 
 **T6A06**
 
@@ -92,8 +113,10 @@ What type of electrical component stores energy in a magnetic field?
 
 - A. Resistor
 - B. Capacitor
-- **C. Inductor**  ←
+- C. Inductor
 - D. Diode
+-
+- Answer: C
 
 **T6A07**
 
@@ -102,7 +125,9 @@ What electrical component is typically constructed as a coil of wire?
 - A. Transistor
 - B. Capacitor
 - C. Diode
-- **D. Inductor**  ←
+- D. Inductor
+-
+- Answer: D
 
 **T6A08**
 
@@ -110,17 +135,21 @@ What is the function of an SPDT switch?
 
 - A. A single circuit is opened or closed
 - B. Two circuits are opened or closed
-- **C. A single circuit is switched between one of two other circuits**  ←
+- C. A single circuit is switched between one of two other circuits
 - D. Two circuits are each switched between one of two other circuits
+-
+- Answer: C
 
 **T6A09**
 
 What type of switch is represented by component 3 in figure T-2?
 
-- **A. Single-pole single-throw**  ←
+- A. Single-pole single-throw
 - B. Single-pole double-throw
 - C. Double-pole single-throw
 - D. Double-pole double-throw
+-
+- Answer: A
 
 **T6A10**
 
@@ -129,16 +158,20 @@ Which of the following battery chemistries is rechargeable?
 - A. Nickel-metal hydride
 - B. Lithium-ion
 - C. Lead-acid
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T6A11**
 
 Which of the following battery chemistries is not rechargeable?
 
 - A. Nickel-cadmium
-- **B. Carbon-zinc**  ←
+- B. Carbon-zinc
 - C. Lead-acid
 - D. Lithium-ion
+-
+- Answer: B
 
 ---
 
@@ -167,10 +200,12 @@ gain** — the pool's answer is **"all these choices are correct,"** so don't ov
 
 Which is true about forward voltage drop in a diode?
 
-- **A. It is lower in some diode types than in others**  ←
+- A. It is lower in some diode types than in others
 - B. It is proportional to peak inverse voltage
 - C. It indicates that the diode is defective
 - D. It has no impact on the voltage delivered to the load
+-
+- Answer: A
 
 **T6B02**
 
@@ -178,8 +213,10 @@ What electronic component allows current to flow in only one direction?
 
 - A. Resistor
 - B. Fuse
-- **C. Diode**  ←
+- C. Diode
 - D. Driven element
+-
+- Answer: C
 
 **T6B03**
 
@@ -187,44 +224,54 @@ Which of these components can be used as an electronic switch?
 
 - A. Varistor
 - B. Potentiometer
-- **C. Transistor**  ←
+- C. Transistor
 - D. Thermistor
+-
+- Answer: C
 
 **T6B04**
 
 Which of the following components can consist of three regions of semiconductor material?
 
 - A. Alternator
-- **B. Transistor**  ←
+- B. Transistor
 - C. Triode
 - D. Pentode
+-
+- Answer: B
 
 **T6B05**
 
 What type of transistor has a gate, drain, and source?
 
 - A. Varistor
-- **B. Field-effect**  ←
+- B. Field-effect
 - C. Hall-effect
 - D. Bipolar junction
+-
+- Answer: B
 
 **T6B06**
 
 How is the cathode lead of a semiconductor diode often marked on the package?
 
 - A. With the word "cathode"
-- **B. With a stripe**  ←
+- B. With a stripe
 - C. With the letter C
 - D. With the letter K
+-
+- Answer: B
 
 **T6B07**
 
 What causes a light-emitting diode (LED) to emit light?
 
-- **A. Forward current**  ←
+- A. Forward current
 - B. Reverse current
 - C. Capacitively-coupled RF signal
 - D. Inductively-coupled RF signal
+-
+- Answer: A
 
 **T6B08**
 
@@ -233,7 +280,9 @@ What does the abbreviation FET stand for?
 - A. Frequency Emission Transmitter
 - B. Fast Electron Transistor
 - C. Free Electron Transmitter
-- **D. Field Effect Transistor**  ←
+- D. Field Effect Transistor
+-
+- Answer: D
 
 **T6B09**
 
@@ -241,17 +290,21 @@ What are the names for the electrodes of a diode?
 
 - A. Plus and minus
 - B. Source and drain
-- **C. Anode and cathode**  ←
+- C. Anode and cathode
 - D. Gate and base
+-
+- Answer: C
 
 **T6B10**
 
 Which of the following can provide power gain?
 
 - A. Transformer
-- **B. Transistor**  ←
+- B. Transistor
 - C. Reactor
 - D. Resistor
+-
+- Answer: B
 
 **T6B11**
 
@@ -260,16 +313,20 @@ What does the term gain mean in amplifiers?
 - A. The output signal voltage relative to the input signal voltage
 - B. The output signal current relative to the input signal current
 - C. The output signal power relative to the input signal power
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T6B12**
 
 What are the names of the electrodes of a bipolar junction transistor?
 
 - A. Signal, bias, power
-- **B. Emitter, base, collector**  ←
+- B. Emitter, base, collector
 - C. Input, output, supply
 - D. Pole one, pole two, output
+-
+- Answer: B
 
 ---
 
@@ -299,26 +356,32 @@ What is an electrical diagram using standard component symbols called?
 
 - A. Connection chart
 - B. Instrumentation system
-- **C. Schematic**  ←
+- C. Schematic
 - D. Flow chart
+-
+- Answer: C
 
 **T6C02**
 
 What is component 1 in figure T-1?
 
-- **A. Resistor**  ←
+- A. Resistor
 - B. Transistor
 - C. Battery
 - D. Connector
+-
+- Answer: A
 
 **T6C03**
 
 What is component 2 in figure T-1?
 
 - A. Resistor
-- **B. Transistor**  ←
+- B. Transistor
 - C. Indicator lamp
 - D. Connector
+-
+- Answer: B
 
 **T6C04**
 
@@ -326,8 +389,10 @@ What is component 3 in figure T-1?
 
 - A. Resistor
 - B. Transistor
-- **C. Lamp**  ←
+- C. Lamp
 - D. Ground symbol
+-
+- Answer: C
 
 **T6C05**
 
@@ -336,16 +401,20 @@ What is component 4 in figure T-1?
 - A. Resistor
 - B. Transistor
 - C. Ground symbol
-- **D. Battery**  ←
+- D. Battery
+-
+- Answer: D
 
 **T6C06**
 
 What is component 6 in figure T-2?
 
 - A. Resistor
-- **B. Capacitor**  ←
+- B. Capacitor
 - C. Regulator IC
 - D. Transistor
+-
+- Answer: B
 
 **T6C07**
 
@@ -354,7 +423,9 @@ What is component 8 in figure T-2?
 - A. Resistor
 - B. Inductor
 - C. Regulator IC
-- **D. Light emitting diode**  ←
+- D. Light emitting diode
+-
+- Answer: D
 
 **T6C08**
 
@@ -362,8 +433,10 @@ What is component 9 in figure T-2?
 
 - A. Variable capacitor
 - B. Variable inductor
-- **C. Variable resistor**  ←
+- C. Variable resistor
 - D. Variable transformer
+-
+- Answer: C
 
 **T6C09**
 
@@ -372,7 +445,9 @@ What is component 4 in figure T-2?
 - A. Variable inductor
 - B. Double-pole switch
 - C. Potentiometer
-- **D. Transformer**  ←
+- D. Transformer
+-
+- Answer: D
 
 **T6C10**
 
@@ -381,16 +456,20 @@ What is component 3 in figure T-3?
 - A. Connector
 - B. Meter
 - C. Variable capacitor
-- **D. Variable inductor**  ←
+- D. Variable inductor
+-
+- Answer: D
 
 **T6C11**
 
 What is component 4 in figure T-3?
 
-- **A. Antenna**  ←
+- A. Antenna
 - B. Transmitter
 - C. Dummy load
 - D. Ground
+-
+- Answer: A
 
 **T6C12**
 
@@ -398,8 +477,10 @@ Which of the following is accurately represented in electrical schematics?
 
 - A. Wire lengths
 - B. Physical appearance of components
-- **C. Component connections**  ←
+- C. Component connections
 - D. All these choices are correct
+-
+- Answer: C
 
 ---
 
@@ -429,18 +510,22 @@ into figure T-1 to ask what component 2 *does*, functionally, rather than what i
 Which of the following devices or circuits changes an alternating current into a varying direct current signal?
 
 - A. Transformer
-- **B. Rectifier**  ←
+- B. Rectifier
 - C. Amplifier
 - D. Reflector
+-
+- Answer: B
 
 **T6D02**
 
 What is a relay?
 
-- **A. An electrically-controlled switch**  ←
+- A. An electrically-controlled switch
 - B. A current-controlled amplifier
 - C. An inverting amplifier
 - D. A pass transistor
+-
+- Answer: A
 
 **T6D03**
 
@@ -448,8 +533,10 @@ Which of the following is a reason to use shielded wire?
 
 - A. To decrease the resistance of DC power connections
 - B. To increase the current carrying capability of the wire
-- **C. To prevent coupling of unwanted signals to or from the wire**  ←
+- C. To prevent coupling of unwanted signals to or from the wire
 - D. To reduce receiver overload
+-
+- Answer: C
 
 **T6D04**
 
@@ -457,35 +544,43 @@ Which of the following displays an electrical quantity as a numeric value?
 
 - A. Potentiometer
 - B. Transistor
-- **C. Meter**  ←
+- C. Meter
 - D. Relay
+-
+- Answer: C
 
 **T6D05**
 
 What type of circuit controls the amount of voltage from a power supply?
 
-- **A. Regulator**  ←
+- A. Regulator
 - B. Oscillator
 - C. Filter
 - D. Phase inverter
+-
+- Answer: A
 
 **T6D06**
 
 What component changes 120 V AC power to a lower AC voltage for other uses?
 
 - A. Variable capacitor
-- **B. Transformer**  ←
+- B. Transformer
 - C. Transistor
 - D. Diode
+-
+- Answer: B
 
 **T6D07**
 
 Which of the following is commonly used as a visual indicator?
 
-- **A. LED**  ←
+- A. LED
 - B. FET
 - C. Zener diode
 - D. All these choices are correct
+-
+- Answer: A
 
 **T6D08**
 
@@ -494,7 +589,9 @@ Which of the following is combined with an inductor to make a resonant circuit?
 - A. Resistor
 - B. Zener diode
 - C. Potentiometer
-- **D. Capacitor**  ←
+- D. Capacitor
+-
+- Answer: D
 
 **T6D09**
 
@@ -502,8 +599,10 @@ What is the name of a device that combines several semiconductors and other comp
 
 - A. Transducer
 - B. Multi-pole relay
-- **C. Integrated circuit**  ←
+- C. Integrated circuit
 - D. Transformer
+-
+- Answer: C
 
 **T6D10**
 
@@ -511,14 +610,18 @@ What is the function of component 2 in figure T-1?
 
 - A. Give off light when current flows through it
 - B. Supply electrical energy
-- **C. Control the flow of current**  ←
+- C. Control the flow of current
 - D. Convert electrical energy into radio waves
+-
+- Answer: C
 
 **T6D11**
 
 Which of the following is a resonant or tuned circuit?
 
-- **A. An inductor and a capacitor in series or parallel**  ←
+- A. An inductor and a capacitor in series or parallel
 - B. A linear voltage regulator
 - C. A resistor circuit used for reducing standing wave ratio
 - D. A circuit designed to provide high-fidelity audio
+-
+- Answer: A

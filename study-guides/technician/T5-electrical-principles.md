@@ -13,6 +13,18 @@ Compared to the rest of the Technician pool, T5 asks for more genuine understand
 memorization — but it rewards that effort directly, since General class licensees will recognize this
 same material (units, decibels, Ohm's Law) return in more depth in G5.
 
+## Table of Contents
+
+- [T5A — Current and voltage: terminology and units, conductors and insulators, alternating and direct current](#t5a--current-and-voltage-terminology-and-units-conductors-and-insulators-alternating-and-direct-current)
+  - [All 11 pool questions for T5A](#all-11-pool-questions-for-t5a)
+- [T5B — Math for electronics: conversion of electrical units, decibels](#t5b--math-for-electronics-conversion-of-electrical-units-decibels)
+  - [All 13 pool questions for T5B](#all-13-pool-questions-for-t5b)
+- [T5C — Capacitance and inductance terminology and units; Radio frequency definition and units; Impedance definition and units; Calculating power](#t5c--capacitance-and-inductance-terminology-and-units-radio-frequency-definition-and-units-impedance-definition-and-units-calculating-power)
+  - [All 12 pool questions for T5C](#all-12-pool-questions-for-t5c)
+- [T5D — Ohm's Law; Series and parallel circuits](#t5d--ohms-law-series-and-parallel-circuits)
+  - [All 14 pool questions for T5D](#all-14-pool-questions-for-t5d)
+- [Bottom line for T5](#bottom-line-for-t5)
+
 ---
 
 ## T5A — Current and voltage: terminology and units, conductors and insulators, alternating and direct current
@@ -45,16 +57,20 @@ Electrical current is measured in which of the following units?
 - A. Volts
 - B. Watts
 - C. Ohms
-- **D. Amperes**  ←
+- D. Amperes
+-
+- Answer: D
 
 **T5A02**
 
 Electrical power is measured in which of the following units?
 
 - A. Volts
-- **B. Watts**  ←
+- B. Watts
 - C. Watt-hours
 - D. Amperes
+-
+- Answer: B
 
 **T5A03**
 
@@ -63,7 +79,9 @@ What is the term for the flow of electrons in an electric circuit?
 - A. Voltage
 - B. Amperes per second
 - C. Volts per second
-- **D. Current**  ←
+- D. Current
+-
+- Answer: D
 
 **T5A04**
 
@@ -71,44 +89,54 @@ What term describes the number of times per second that an alternating current m
 
 - A. Pulse rate
 - B. Wave number
-- **C. Frequency**  ←
+- C. Frequency
 - D. Wavelength
+-
+- Answer: C
 
 **T5A05**
 
 A difference in which of the following causes electron flow?
 
-- **A. Voltage**  ←
+- A. Voltage
 - B. Ampere-hours
 - C. Capacitance
 - D. Inductance
+-
+- Answer: A
 
 **T5A06**
 
 What is the unit of frequency?
 
-- **A. Hertz**  ←
+- A. Hertz
 - B. Henry
 - C. Farad
 - D. Epicycles per second
+-
+- Answer: A
 
 **T5A07**
 
 Why are metals generally good conductors of electricity?
 
 - A. They have relatively high density
-- **B. They have many free electrons**  ←
+- B. They have many free electrons
 - C. They have many free protons
 - D. They have relatively high Young's modulus values
+-
+- Answer: B
 
 **T5A08**
 
 Which of the following is a good electrical insulator?
 
 - A. Sea water
-- **B. Glass**  ←
+- B. Glass
 - C. Stainless steel
 - D. Graphite
+-
+- Answer: B
 
 **T5A09**
 
@@ -116,8 +144,10 @@ Which of the following describes alternating current?
 
 - A. Current that alternates between a positive direction and zero
 - B. Current that alternates between a negative direction and zero
-- **C. Current that alternates between positive and negative directions**  ←
+- C. Current that alternates between positive and negative directions
 - D. All these answers are correct
+-
+- Answer: C
 
 **T5A10**
 
@@ -125,8 +155,10 @@ Which term describes the rate at which electrical energy is used?
 
 - A. Resistance
 - B. Current
-- **C. Power**  ←
+- C. Power
 - D. Voltage
+-
+- Answer: C
 
 **T5A11**
 
@@ -135,7 +167,9 @@ What type of current flow is opposed by resistance?
 - A. Direct current
 - B. Alternating current
 - C. RF current
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 ---
 
@@ -169,17 +203,21 @@ How many milliamperes is 1.5 amperes?
 
 - A. 0.0000015 milliamperes
 - B. 0.0015 milliamperes
-- **C. 1500 milliamperes**  ←
+- C. 1500 milliamperes
 - D. 1,500,000 milliamperes
+-
+- Answer: C
 
 **T5B02**
 
 Which is equal to 1,500,000 hertz?
 
-- **A. 1500 kHz**  ←
+- A. 1500 kHz
 - B. 1500 MHz
 - C. 15 GHz
 - D. 150 kHz
+-
+- Answer: A
 
 **T5B03**
 
@@ -187,26 +225,32 @@ Which is equal to one kilovolt?
 
 - A. One one-thousandth of a volt
 - B. One hundred volts
-- **C. One thousand volts**  ←
+- C. One thousand volts
 - D. One million volts
+-
+- Answer: C
 
 **T5B04**
 
 Which is equal to one microvolt?
 
-- **A. One one-millionth of a volt**  ←
+- A. One one-millionth of a volt
 - B. One million volts
 - C. One thousand kilovolts
 - D. One one-thousandth of a volt
+-
+- Answer: A
 
 **T5B05**
 
 Which is equal to 500 milliwatts?
 
 - A. 5 watts
-- **B. 0.5 watts**  ←
+- B. 0.5 watts
 - C. 500,000 watts
 - D. 500,000,000 watts
+-
+- Answer: B
 
 **T5B06**
 
@@ -215,7 +259,9 @@ Which is equal to 3000 milliamperes?
 - A. 0.003 amperes
 - B. 0.3 amperes
 - C. 3,000,000 amperes
-- **D. 3 amperes**  ←
+- D. 3 amperes
+-
+- Answer: D
 
 **T5B07**
 
@@ -223,26 +269,32 @@ Which is equal to 3.525 MHz?
 
 - A. 0.003525 kHz
 - B. 35.25 kHz
-- **C. 3525 kHz**  ←
+- C. 3525 kHz
 - D. 3,525,000 kHz
+-
+- Answer: C
 
 **T5B08**
 
 Which is equal to 1,000,000 picofarads?
 
 - A. 0.001 microfarads
-- **B. 1 microfarad**  ←
+- B. 1 microfarad
 - C. 1000 microfarads
 - D. 1,000,000,000 microfarads
+-
+- Answer: B
 
 **T5B09**
 
 Which decibel value most closely represents a power increase from 5 watts to 10 watts?
 
 - A. 2 dB
-- **B. 3 dB**  ←
+- B. 3 dB
 - C. 5 dB
 - D. 10 dB
+-
+- Answer: B
 
 **T5B10**
 
@@ -250,17 +302,21 @@ Which decibel value most closely represents a power decrease from 12 watts to 3 
 
 - A. -1 dB
 - B. -3 dB
-- **C. -6 dB**  ←
+- C. -6 dB
 - D. -9 dB
+-
+- Answer: C
 
 **T5B11**
 
 Which decibel value represents a power increase from 20 watts to 200 watts?
 
-- **A. 10 dB**  ←
+- A. 10 dB
 - B. 12 dB
 - C. 18 dB
 - D. 28 dB
+-
+- Answer: A
 
 **T5B12**
 
@@ -269,7 +325,9 @@ Which is equal to 28400 kHz?
 - A. 28.400 kHz
 - B. 2.800 MHz
 - C. 284.00 MHz
-- **D. 28.400 MHz**  ←
+- D. 28.400 MHz
+-
+- Answer: D
 
 **T5B13**
 
@@ -277,8 +335,10 @@ Which is equal to 2425 MHz?
 
 - A. 0.002425 GHz
 - B. 24.25 GHz
-- **C. 2.425 GHz**  ←
+- C. 2.425 GHz
 - D. 242.5 GHz
+-
+- Answer: C
 
 ---
 
@@ -312,16 +372,20 @@ What describes the ability to store energy in an electric field?
 - A. Inductance
 - B. Resistance
 - C. Frequency
-- **D. Capacitance**  ←
+- D. Capacitance
+-
+- Answer: D
 
 **T5C02**
 
 What is the unit of capacitance?
 
-- **A. Farad**  ←
+- A. Farad
 - B. Ohm
 - C. Volt
 - D. Henry
+-
+- Answer: A
 
 **T5C03**
 
@@ -330,7 +394,9 @@ What describes the ability to store energy in a magnetic field?
 - A. Admittance
 - B. Capacitance
 - C. Resistance
-- **D. Inductance**  ←
+- D. Inductance
+-
+- Answer: D
 
 **T5C04**
 
@@ -338,8 +404,10 @@ What is the unit of inductance?
 
 - A. Coulomb
 - B. Farad
-- **C. Henry**  ←
+- C. Henry
 - D. Ohm
+-
+- Answer: C
 
 **T5C05**
 
@@ -348,16 +416,20 @@ What is the unit of impedance?
 - A. Volt
 - B. Ampere
 - C. Coulomb
-- **D. Ohm**  ←
+- D. Ohm
+-
+- Answer: D
 
 **T5C06**
 
 What is the abbreviation for kilohertz?
 
-- **A. kHz**  ←
+- A. kHz
 - B. khz
 - C. KHz
 - D. KHZ
+-
+- Answer: A
 
 **T5C07**
 
@@ -366,52 +438,64 @@ What is the abbreviation for megahertz?
 - A. mHz
 - B. mHZ
 - C. Mhz
-- **D. MHz**  ←
+- D. MHz
+-
+- Answer: D
 
 **T5C08**
 
 What formula is used to calculate electrical power (P) in a DC circuit?
 
-- **A. P = I x E**  ←
+- A. P = I x E
 - B. P = E / I
 - C. P = I2 x E
 - D. P = I / E
+-
+- Answer: A
 
 **T5C09**
 
 How much power is delivered by a voltage of 13.8 volts DC and a current of 10 amperes?
 
-- **A. 138 watts**  ←
+- A. 138 watts
 - B. 0.7 watts
 - C. 23.8 watts
 - D. 3.8 watts
+-
+- Answer: A
 
 **T5C10**
 
 How much power is delivered by a voltage of 12 volts DC and a current of 2.5 amperes?
 
 - A. 4.8 watts
-- **B. 30 watts**  ←
+- B. 30 watts
 - C. 14.5 watts
 - D. 0.208 watts
+-
+- Answer: B
 
 **T5C11**
 
 How much current is required to deliver 120 watts at a voltage of 12 volts DC?
 
 - A. 0.1 amperes
-- **B. 10 amperes**  ←
+- B. 10 amperes
 - C. 12 amperes
 - D. 132 amperes
+-
+- Answer: B
 
 **T5C12**
 
 What is impedance?
 
-- **A. The opposition to AC current flow**  ←
+- A. The opposition to AC current flow
 - B. The inverse of resistance
 - C. The inverse of reactance
 - D. The power handling capability of a component
+-
+- Answer: A
 
 ---
 
@@ -450,36 +534,44 @@ nodes, so every branch sees the same potential difference.
 What formula is used to calculate current in a circuit?
 
 - A. I = E x R
-- **B. I = E / R**  ←
+- B. I = E / R
 - C. I = E2 x R
 - D. I = E2 / R
+-
+- Answer: B
 
 **T5D02**
 
 What formula is used to calculate voltage in a circuit?
 
-- **A. E = I x R**  ←
+- A. E = I x R
 - B. E = I / R
 - C. E = I2 x R
 - D. E = I2 / R
+-
+- Answer: A
 
 **T5D03**
 
 What formula is used to calculate resistance in a circuit?
 
 - A. R = E x I
-- **B. R = E / I**  ←
+- B. R = E / I
 - C. R = E + I
 - D. R = E - I
+-
+- Answer: B
 
 **T5D04**
 
 What is the resistance of a circuit in which a current of 3 amperes flows when connected to 90 volts?
 
 - A. 3 ohms
-- **B. 30 ohms**  ←
+- B. 30 ohms
 - C. 1/30 ohm
 - D. 270 ohms
+-
+- Answer: B
 
 **T5D05**
 
@@ -487,17 +579,21 @@ What is the resistance of a circuit for which the applied voltage is 12 volts an
 
 - A. 18 ohms
 - B. 0.125 ohms
-- **C. 8 ohms**  ←
+- C. 8 ohms
 - D. 13.5 ohms
+-
+- Answer: C
 
 **T5D06**
 
 What is the resistance of a circuit that draws 4 amperes from a 12-volt source?
 
-- **A. 3 ohms**  ←
+- A. 3 ohms
 - B. 16 ohms
 - C. 48 ohms
 - D. 8 ohms
+-
+- Answer: A
 
 **T5D07**
 
@@ -506,7 +602,9 @@ What is the current in a circuit with an applied voltage of 120 volts and a resi
 - A. 9600 amperes
 - B. 200 amperes
 - C. 0.667 amperes
-- **D. 1.5 amperes**  ←
+- D. 1.5 amperes
+-
+- Answer: D
 
 **T5D08**
 
@@ -514,8 +612,10 @@ What is the current through a 100-ohm resistor connected across 200 volts?
 
 - A. 20,000 amperes
 - B. 0.5 amperes
-- **C. 2 amperes**  ←
+- C. 2 amperes
 - D. 100 amperes
+-
+- Answer: C
 
 **T5D09**
 
@@ -523,26 +623,32 @@ What is the current through a 24-ohm resistor connected across 240 volts?
 
 - A. 2400 amperes
 - B. 0.1 amperes
-- **C. 10 amperes**  ←
+- C. 10 amperes
 - D. 5760 amperes
+-
+- Answer: C
 
 **T5D10**
 
 What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?
 
-- **A. 1 volt**  ←
+- A. 1 volt
 - B. 0.25 volts
 - C. 2.5 volts
 - D. 1.5 volts
+-
+- Answer: A
 
 **T5D11**
 
 What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?
 
 - A. 1 volt
-- **B. 10 volts**  ←
+- B. 10 volts
 - C. 11 volts
 - D. 9 volts
+-
+- Answer: B
 
 **T5D12**
 
@@ -551,25 +657,31 @@ What is the voltage across a 10-ohm resistor if a current of 2 amperes flows thr
 - A. 8 volts
 - B. 0.2 volts
 - C. 12 volts
-- **D. 20 volts**  ←
+- D. 20 volts
+-
+- Answer: D
 
 **T5D13**
 
 In which type of circuit is the current always the same through all components?
 
-- **A. Series**  ←
+- A. Series
 - B. Parallel
 - C. Resonant
 - D. Branch
+-
+- Answer: A
 
 **T5D14**
 
 In which type of circuit is the voltage always the same across all components?
 
 - A. Series
-- **B. Parallel**  ←
+- B. Parallel
 - C. Resonant
 - D. Branch
+-
+- Answer: B
 
 ---
 

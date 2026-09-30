@@ -13,6 +13,21 @@ Every question in the pool is printed below with its correct answer marked and i
 citation. Read the concept notes first, then work the questions; the notes are written to make the
 questions predictable rather than to be memorized on their own.
 
+## Table of Contents
+
+- [T1A — Purpose and permissible use of the Amateur Radio Service; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator; Beacon](#t1a--purpose-and-permissible-use-of-the-amateur-radio-service-operatorprimary-station-license-grant-meanings-of-basic-terms-used-in-fcc-rules-interference-races-rules-phonetics-frequency-coordinator-beacon)
+  - [All 11 pool questions for T1A](#all-11-pool-questions-for-t1a)
+- [T1B — Frequency allocations; Emission modes; Spectrum sharing; Transmissions near band edges; Contacting the International Space Station; Power output](#t1b--frequency-allocations-emission-modes-spectrum-sharing-transmissions-near-band-edges-contacting-the-international-space-station-power-output)
+  - [All 12 pool questions for T1B](#all-12-pool-questions-for-t1b)
+- [T1C — Licensing: classes, sequential and vanity call sign systems, places where the Amateur Radio Service is regulated by the FCC, name and address on FCC license database, term, renewal, grace period, maintaining mailing address; International communications](#t1c--licensing-classes-sequential-and-vanity-call-sign-systems-places-where-the-amateur-radio-service-is-regulated-by-the-fcc-name-and-address-on-fcc-license-database-term-renewal-grace-period-maintaining-mailing-address-international-communications)
+  - [All 11 pool questions for T1C](#all-11-pool-questions-for-t1c)
+- [T1D — Authorized and prohibited transmissions; Sale of equipment](#t1d--authorized-and-prohibited-transmissions-sale-of-equipment)
+  - [All 12 pool questions for T1D](#all-12-pool-questions-for-t1d)
+- [T1E — Control operator: eligibility, designating, privileges, duties, location, required; Control point; Control types: automatic, remote](#t1e--control-operator-eligibility-designating-privileges-duties-location-required-control-point-control-types-automatic-remote)
+  - [All 11 pool questions for T1E](#all-11-pool-questions-for-t1e)
+- [T1F — Station identification; Repeaters; Third party communications; Club stations; FCC inspection](#t1f--station-identification-repeaters-third-party-communications-club-stations-fcc-inspection)
+  - [All 11 pool questions for T1F](#all-11-pool-questions-for-t1f)
+
 ---
 
 ## T1A — Purpose and permissible use of the Amateur Radio Service; Operator/primary station license grant; Meanings of basic terms used in FCC rules; Interference; RACES rules; Phonetics; Frequency Coordinator; Beacon
@@ -55,8 +70,10 @@ Which of the following is part of the Basis and Purpose of the Amateur Radio Ser
 
 - A. Providing personal radio communications for as many citizens as possible
 - B. Providing communications for international contesting
-- **C. Advancing skills in the technical and communication phases of the radio art**  ←
+- C. Advancing skills in the technical and communication phases of the radio art
 - D. All these choices are correct
+-
+- Answer: C
 
 **T1A02** &nbsp;·&nbsp; `[97.1]`
 
@@ -64,26 +81,32 @@ Which agency regulates and enforces the rules for the Amateur Radio Service in t
 
 - A. ARRL
 - B. Homeland Security
-- **C. The FCC**  ←
+- C. The FCC
 - D. All these choices are correct
+-
+- Answer: C
 
 **T1A03** &nbsp;·&nbsp; `[97.119(b)(2)]`
 
 What do the FCC rules state regarding the use of a phonetic alphabet for station identification in the Amateur Radio Service?
 
 - A. It is required when transmitting emergency messages
-- **B. It is encouraged when using phone emissions**  ←
+- B. It is encouraged when using phone emissions
 - C. It is required when in contact with foreign stations
 - D. All these choices are correct
+-
+- Answer: B
 
 **T1A04** &nbsp;·&nbsp; `[97.23]`
 
 How do you receive official notification of your new license and call sign after passing the exam?
 
-- **A. Email from the FCC with a link to download the license grant**  ←
+- A. Email from the FCC with a link to download the license grant
 - B. USPS First-Class Mail from the FCC
 - C. Email from the lead volunteer examiner
 - D. USPS First-Class Mail from the lead volunteer examiner
+-
+- Answer: A
 
 **T1A05** &nbsp;·&nbsp; `[97.7]`
 
@@ -91,8 +114,10 @@ What proves that the FCC has issued an operator/primary license grant?
 
 - A. A printed copy of the certificate of successful completion of examination
 - B. An email notification from the NCVEC granting the license
-- **C. The license appears in the FCC ULS database**  ←
+- C. The license appears in the FCC ULS database
 - D. All these choices are correct
+-
+- Answer: C
 
 **T1A06** &nbsp;·&nbsp; `[97.203(d)]`
 
@@ -101,7 +126,9 @@ On which of the following HF frequencies can automatically controlled amateur pr
 - A. Anywhere in the Technician portion of 10 meters
 - B. Anywhere, if they are registered with the FCC
 - C. In a specific portion of each of the HF Technician bands
-- **D. On ten meters, between 28.200 MHz and 28.300 MHz**  ←
+- D. On ten meters, between 28.200 MHz and 28.300 MHz
+-
+- Answer: D
 
 **T1A07** &nbsp;·&nbsp; `[97.3(a)(41)]`
 
@@ -109,17 +136,21 @@ What is the FCC Part 97 definition of a space station?
 
 - A. Any satellite orbiting Earth
 - B. A manned satellite orbiting Earth
-- **C. An amateur station located more than 50 km above Earth's surface**  ←
+- C. An amateur station located more than 50 km above Earth's surface
 - D. An amateur station using amateur radio satellites for relay of signals
+-
+- Answer: C
 
 **T1A08** &nbsp;·&nbsp; `[97.3(a)(22)]`
 
 Who recommends transmit/receive channels for repeater and auxiliary stations?
 
 - A. A Frequency Spectrum Manager appointed by the FCC
-- **B. A Volunteer Frequency Coordinator recognized by local amateurs**  ←
+- B. A Volunteer Frequency Coordinator recognized by local amateurs
 - C. An FCC Regional Field Office
 - D. The International Telecommunication Union
+-
+- Answer: B
 
 **T1A09** &nbsp;·&nbsp; `[97.3(a)(22)]`
 
@@ -127,8 +158,10 @@ Who selects a Frequency Coordinator?
 
 - A. The FCC Office of Spectrum Management and Coordination Policy
 - B. The local chapter of the Office of National Council of Independent Frequency Coordinators
-- **C. Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations**  ←
+- C. Amateur operators in a local or regional area whose stations are eligible to be repeater or auxiliary stations
 - D. The FCC Regional Field Office
+-
+- Answer: C
 
 **T1A10** &nbsp;·&nbsp; `[97.407(a)]`
 
@@ -136,17 +169,21 @@ Besides an FCC-issued amateur operator license, what is required to be the contr
 
 - A. A written recommendation by the local ARRL Emergency Coordinator
 - B. Membership in the Amateur Radio Emergency Service (ARES)
-- **C. Certification of current enrollment by a civil defense organization**  ←
+- C. Certification of current enrollment by a civil defense organization
 - D. Nothing
+-
+- Answer: C
 
 **T1A11** &nbsp;·&nbsp; `[97.101(d)]`
 
 Which of the following is prohibited?
 
 - A. International communications on VHF bands and higher frequencies
-- **B. Willful or malicious interference**  ←
+- B. Willful or malicious interference
 - C. Third-party traffic using digital modes
 - D. All these choices are correct
+-
+- Answer: B
 
 ---
 
@@ -191,26 +228,32 @@ Which of the following frequency ranges are available for phone operation by Tec
 
 - A. 28.050 MHz to 28.150 MHz
 - B. 28.100 MHz to 28.300 MHz
-- **C. 28.300 MHz to 28.500 MHz**  ←
+- C. 28.300 MHz to 28.500 MHz
 - D. 28.500 MHz to 28.600 MHz
+-
+- Answer: C
 
 **T1B02** &nbsp;·&nbsp; `[97.301, 97.207(c)]`
 
 Which of the following U.S. amateur radio operators are allowed to contact the International Space Station (ISS) on VHF bands?
 
 - A. Only amateurs with a General class or higher license
-- **B. Any amateur with a Technician class or higher license**  ←
+- B. Any amateur with a Technician class or higher license
 - C. Only amateurs with a General class or higher license, and NASA approval
 - D. Any amateurs with a Technician class or higher license, and NASA approval
+-
+- Answer: B
 
 **T1B03** &nbsp;·&nbsp; `[97.301(a)]`
 
 Which frequency is in the 6-meter amateur band?
 
 - A. 49.00 MHz
-- **B. 52.525 MHz**  ←
+- B. 52.525 MHz
 - C. 28.50 MHz
 - D. 222.15 MHz
+-
+- Answer: B
 
 **T1B04** &nbsp;·&nbsp; `[97.301(a)]`
 
@@ -219,7 +262,9 @@ Which amateur band includes 146.52 MHz?
 - A. 6 meters
 - B. 20 meters
 - C. 70 centimeters
-- **D. 2 meters**  ←
+- D. 2 meters
+-
+- Answer: D
 
 **T1B05** &nbsp;·&nbsp; `[97.301, 97.305]`
 
@@ -228,34 +273,42 @@ Which of the following bands include frequencies where Technicians are authorize
 - A. 10 meters
 - B. 6 meters
 - C. 2 meters
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T1B06** &nbsp;·&nbsp; `[97.301(e), 97.305]`
 
 On which HF bands does a Technician class operator have phone privileges?
 
 - A. None
-- **B. 10-meter band only**  ←
+- B. 10-meter band only
 - C. 80-meter, 40-meter, 15-meter, and 10-meter bands
 - D. 30-meter band only
+-
+- Answer: B
 
 **T1B07** &nbsp;·&nbsp; `[97.305(a), (c)]`
 
 Which of the following VHF/UHF band segments are limited to CW only?
 
-- **A. 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz**  ←
+- A. 50.0 MHz to 50.1 MHz and 144.0 MHz to 144.1 MHz
 - B. 219 MHz to 220 MHz and 420.0 MHz to 420.1 MHz
 - C. 902.0 MHz to 902.1 MHz
 - D. All these choices are correct
+-
+- Answer: A
 
 **T1B08** &nbsp;·&nbsp; `[97.303]`
 
 How are US amateurs restricted in segments of bands where the Amateur Radio Service is secondary?
 
-- **A. U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them**  ←
+- A. U.S. amateurs may find non-amateur stations in those segments, and must avoid interfering with them
 - B. U.S. amateurs must give foreign amateur stations priority in those segments
 - C. International communications are not permitted in those segments
 - D. Digital transmissions are not permitted in those segments
+-
+- Answer: A
 
 **T1B09** &nbsp;·&nbsp; `[97.101(a), 97.301(a-e)]`
 
@@ -264,7 +317,9 @@ Why should you not set your transmit frequency to be exactly at the edge of an a
 - A. To allow for calibration error in the transmitter frequency display
 - B. So that modulation sidebands do not extend beyond the band edge
 - C. To allow for transmitter frequency drift
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T1B10** &nbsp;·&nbsp; `[97.305(c)]`
 
@@ -272,17 +327,21 @@ Where may SSB phone be used in amateur bands above 50 MHz?
 
 - A. Only in sub-bands allocated to General class or higher licensees
 - B. Only on repeaters
-- **C. In at least some segment of all these bands**  ←
+- C. In at least some segment of all these bands
 - D. On any band if the power is limited to 25 watts
+-
+- Answer: C
 
 **T1B11** &nbsp;·&nbsp; `[97.313]`
 
 What is the maximum peak envelope power output for Technician class operators in their HF band segments?
 
-- **A. 200 watts**  ←
+- A. 200 watts
 - B. 100 watts
 - C. 50 watts
 - D. 10 watts
+-
+- Answer: A
 
 **T1B12** &nbsp;·&nbsp; `[97.313(b)]`
 
@@ -291,7 +350,9 @@ Except for some specific restrictions, what is the maximum peak envelope power o
 - A. 50 watts
 - B. 100 watts
 - C. 500 watts
-- **D. 1500 watts**  ←
+- D. 1500 watts
+-
+- Answer: D
 
 ---
 
@@ -339,7 +400,9 @@ For which classes of amateur radio licenses does the FCC currently issue new lic
 - A. Novice, Technician, General, Amateur Extra
 - B. Technician, Technician Plus, General, Amateur Extra
 - C. Novice, Technician Plus, General, Advanced
-- **D. Technician, General, Amateur Extra**  ←
+- D. Technician, General, Amateur Extra
+-
+- Answer: D
 
 **T1C02** &nbsp;·&nbsp; `[97.19]`
 
@@ -348,34 +411,42 @@ Who may select a desired call sign under the vanity call sign rules?
 - A. Only a licensed amateur with a General or Amateur Extra Class license
 - B. Only a licensed amateur with an Amateur Extra Class license
 - C. Only a licensed amateur who has been licensed continuously for more than 10 years
-- **D. Any licensed amateur**  ←
+- D. Any licensed amateur
+-
+- Answer: D
 
 **T1C03** &nbsp;·&nbsp; `[97.117]`
 
 What types of international communications are FCC-licensed amateur radio stations permitted to make?
 
-- **A. Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character**  ←
+- A. Communications incidental to the purposes of the Amateur Radio Service and remarks of a personal character
 - B. Communications incidental to conducting business or remarks of a personal nature
 - C. Only communications incidental to contest exchanges; all other communications are prohibited
 - D. Any communications that would be permitted by an international broadcast station
+-
+- Answer: A
 
 **T1C04** &nbsp;·&nbsp; `[97.23]`
 
 What may happen if the FCC is unable to reach you by email?
 
 - A. Fine and suspension of operator license
-- **B. Revocation of the station license or suspension of the operator license**  ←
+- B. Revocation of the station license or suspension of the operator license
 - C. Revocation of access to the license record in the FCC system
 - D. Nothing; there is no such requirement
+-
+- Answer: B
 
 **T1C05** &nbsp;·&nbsp; `[no citation]`
 
 Which of the following is a valid Group D call sign format for Technician class?
 
-- **A. KF1XXX**  ←
+- A. KF1XXX
 - B. KA1X
 - C. W1XX
 - D. All these choices are correct
+-
+- Answer: A
 
 **T1C06** &nbsp;·&nbsp; `[97.5(a)(2), 97.11(a)]`
 
@@ -384,16 +455,20 @@ Which of the following statements is true about using your amateur radio license
 - A. Amateur operation is prohibited in international waters
 - B. You may only operate during maritime emergencies
 - C. You need special FCC authorization for maritime mobile operation
-- **D. You may operate from a US-documented vessel with the master's permission**  ←
+- D. You may operate from a US-documented vessel with the master's permission
+-
+- Answer: D
 
 **T1C07** &nbsp;·&nbsp; `[97.21, 1.949]`
 
 How long before the expiration date may an amateur radio license renewal be requested?
 
 - A. 30 days
-- **B. 90 days**  ←
+- B. 90 days
 - C. 6 months
 - D. 1 year
+-
+- Answer: B
 
 **T1C08** &nbsp;·&nbsp; `[97.25]`
 
@@ -401,17 +476,21 @@ What is the normal term for an FCC-issued amateur radio license?
 
 - A. Five years
 - B. Eight years
-- **C. Ten years**  ←
+- C. Ten years
 - D. Life
+-
+- Answer: C
 
 **T1C09** &nbsp;·&nbsp; `[97.21(a)(b)]`
 
 What is the grace period for renewal if an amateur license expires?
 
-- **A. Two years**  ←
+- A. Two years
 - B. Three years
 - C. Five years
 - D. Ten years
+-
+- Answer: A
 
 **T1C10** &nbsp;·&nbsp; `[97.5a]`
 
@@ -419,8 +498,10 @@ How soon after passing the examination for your first amateur radio license may 
 
 - A. Immediately on receiving your Certificate of Successful Completion of Examination (CSCE)
 - B. As soon as your operator/station license grant appears on the ARRL website
-- **C. As soon as your operator/station license grant appears in the FCC's license database**  ←
+- C. As soon as your operator/station license grant appears in the FCC's license database
 - D. As soon as you receive your license in the mail from the FCC
+-
+- Answer: C
 
 **T1C11** &nbsp;·&nbsp; `[97.21(b)]`
 
@@ -429,7 +510,9 @@ If your license has expired and is still within the allowable grace period, may 
 - A. Yes, for up to two years
 - B. Yes, as soon as you apply for renewal
 - C. Yes, for up to one year
-- **D. No, you must wait until the license has been renewed**  ←
+- D. No, you must wait until the license has been renewed
+-
+- Answer: D
 
 ---
 
@@ -488,19 +571,23 @@ station.
 
 With which countries are FCC-licensed amateur radio stations prohibited from exchanging communications?
 
-- **A. Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications**  ←
+- A. Any country whose administration has notified the International Telecommunication Union (ITU) that it objects to such communications
 - B. Any country whose administration has notified the American Radio Relay League (ARRL) that it objects to such communications
 - C. Any country banned from such communications by the International Amateur Radio Union (IARU)
 - D. Any country banned from making such communications by the American Radio Relay League (ARRL)
+-
+- Answer: A
 
 **T1D02** &nbsp;·&nbsp; `[97.113(b), 97.111(b)]`
 
 Under which of the following circumstances are one-way transmissions by an amateur station prohibited?
 
 - A. Announcements of upcoming ham radio operating events
-- **B. Broadcasting**  ←
+- B. Broadcasting
 - C. International Morse Code Practice
 - D. Telecommand or transmissions of telemetry
+-
+- Answer: B
 
 **T1D03** &nbsp;·&nbsp; `[97.211(b), 97.215(b), 97.113(a)(4)]`
 
@@ -508,17 +595,21 @@ When is it permissible to transmit messages encoded to obscure their meaning?
 
 - A. Only when using a remote station during a contest
 - B. Only when transmitting certain approved digital codes
-- **C. Only when transmitting control commands to space stations or model craft**  ←
+- C. Only when transmitting control commands to space stations or model craft
 - D. Never
+-
+- Answer: C
 
 **T1D04** &nbsp;·&nbsp; `[97.113(a)(4), 97.113(c)]`
 
 Under what conditions is an amateur station authorized to transmit music using a phone emission?
 
-- **A. When incidental to an authorized retransmission of manned spacecraft communications**  ←
+- A. When incidental to an authorized retransmission of manned spacecraft communications
 - B. When the music produces no spurious emissions
 - C. When transmissions are limited to less than three minutes per hour
 - D. When the music is transmitted above 1280 MHz
+-
+- Answer: A
 
 **T1D05** &nbsp;·&nbsp; `[97.113(a)(3)(ii)]`
 
@@ -527,43 +618,53 @@ When may amateur radio operators use their stations to notify other amateurs of 
 - A. Never
 - B. When the equipment is not the personal property of either the station licensee, or the control operator, or their close relatives
 - C. When no profit is made on the sale
-- **D. When selling amateur radio equipment and not on a regular basis**  ←
+- D. When selling amateur radio equipment and not on a regular basis
+-
+- Answer: D
 
 **T1D06** &nbsp;·&nbsp; `[97.113(a)(4)]`
 
 What, if any, are the restrictions concerning transmission of language that may be considered indecent or obscene?
 
 - A. The FCC maintains a list of words that are not permitted to be used on amateur frequencies
-- **B. Any such language is prohibited**  ←
+- B. Any such language is prohibited
 - C. The International Telecommunications Union (ITU) maintains a list of words that are not permitted to be used on amateur frequencies
 - D. There is no such prohibition
+-
+- Answer: B
 
 **T1D07** &nbsp;·&nbsp; `[97.113(d), 97.201(e)]`
 
 Which of the following is an example of an auxiliary station?
 
-- **A. A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter**  ←
+- A. A station sending one-way transmissions between a remote repeater receiver and the main repeater transmitter
 - B. A backup radio for emergency use in case the main station radio fails
 - C. A station used in the Military Auxiliary Radio System for linking government and amateur stations in a digital network
 - D. A second station utilized in multi-operator contest stations
+-
+- Answer: A
 
 **T1D08** &nbsp;·&nbsp; `[97.113(a)(3)(iii)]`
 
 In which of the following circumstances may the control operator of an amateur station receive compensation for operating that station?
 
 - A. When the communication is related to the sale of amateur equipment by the control operator's employer
-- **B. When the communication is a part of classroom instruction at an educational institution**  ←
+- B. When the communication is a part of classroom instruction at an educational institution
 - C. When the communication is made to obtain emergency information for a local broadcast station
 - D. All these choices are correct
+-
+- Answer: B
 
 **T1D09** &nbsp;·&nbsp; `[97.113(5)(b)]`
 
 When may amateur stations transmit information in support of broadcasting, program production, or news gathering, assuming no other means is available?
 
-- **A. When such communications are directly related to the immediate safety of human life or protection of property**  ←
+- A. When such communications are directly related to the immediate safety of human life or protection of property
 - B. When broadcasting communications to or from the space shuttle
 - C. Where non-commercial programming is gathered and supplied exclusively to the National Public Radio network
 - D. Never
+-
+- Answer: A
 
 **T1D10** &nbsp;·&nbsp; `[97.3(a)(10)]`
 
@@ -572,7 +673,9 @@ How does the FCC define broadcasting for the Amateur Radio Service?
 - A. Two-way transmissions by amateur stations
 - B. Any transmission made by the licensed station
 - C. Transmission of messages directed only to amateur operators
-- **D. Transmissions intended for reception by the general public**  ←
+- D. Transmissions intended for reception by the general public
+-
+- Answer: D
 
 **T1D11** &nbsp;·&nbsp; `[97.215]`
 
@@ -581,16 +684,20 @@ When may an amateur station transmit without identifying on the air?
 - A. When the transmissions are of a brief nature to make station adjustments
 - B. When the transmissions are unmodulated
 - C. When the transmitted power level is below 0.1 watt
-- **D. When transmitting signals to control model craft**  ←
+- D. When transmitting signals to control model craft
+-
+- Answer: D
 
 **T1D12** &nbsp;·&nbsp; `[97.119(a)]`
 
 Which of the following is required when making on-the-air test transmissions?
 
-- **A. Identify the transmitting station**  ←
+- A. Identify the transmitting station
 - B. Conduct tests only between 10 p.m. and 6 a.m. local time
 - C. Notify the FCC of the transmissions
 - D. All these choices are correct
+-
+- Answer: A
 
 ---
 
@@ -645,7 +752,9 @@ When may an amateur station transmit without a control operator?
 - A. When using automatic control, such as in the case of a repeater
 - B. When the station licensee is away and another licensed amateur is using the station
 - C. When the transmitting station is an auxiliary station
-- **D. Never**  ←
+- D. Never
+-
+- Answer: D
 
 **T1E02** &nbsp;·&nbsp; `[97.301, 97.207(c)]`
 
@@ -654,16 +763,20 @@ Who may be the control operator of a station communicating through an amateur sa
 - A. Only an Amateur Extra Class operator
 - B. A General class or higher licensee with a satellite operator certification
 - C. Only an Amateur Extra Class operator who is also an AMSAT member
-- **D. Any amateur allowed to transmit on the satellite uplink frequency**  ←
+- D. Any amateur allowed to transmit on the satellite uplink frequency
+-
+- Answer: D
 
 **T1E03** &nbsp;·&nbsp; `[97.103(b)]`
 
 Who must designate the station control operator?
 
-- **A. The station licensee**  ←
+- A. The station licensee
 - B. The FCC
 - C. The frequency coordinator
 - D. Any licensed operator
+-
+- Answer: A
 
 **T1E04** &nbsp;·&nbsp; `[97.103(b)]`
 
@@ -672,7 +785,9 @@ What determines the transmitting frequency privileges of an amateur station?
 - A. The frequency authorized by the frequency coordinator
 - B. The frequencies printed on the license grant
 - C. The highest class of operator license held by anyone on the premises
-- **D. The class of operator license held by the control operator**  ←
+- D. The class of operator license held by the control operator
+-
+- Answer: D
 
 **T1E05** &nbsp;·&nbsp; `[97.3(a)(14)]`
 
@@ -680,17 +795,21 @@ What is an amateur station's control point?
 
 - A. The location of the station's transmitting antenna
 - B. The location of the station's transmitting apparatus
-- **C. The location at which the control operator function is performed**  ←
+- C. The location at which the control operator function is performed
 - D. The mailing address of the station licensee
+-
+- Answer: C
 
 **T1E06** &nbsp;·&nbsp; `[97.301]`
 
 When, other than during an emergency, may a Technician class licensee be the control operator of a station operating in an Amateur Extra Class band segment?
 
-- **A. At no time**  ←
+- A. At no time
 - B. When designated as the control operator by an Amateur Extra Class licensee
 - C. As part of a multi-operator contest team
 - D. When using a club station whose trustee holds an Amateur Extra Class license
+-
+- Answer: A
 
 **T1E07** &nbsp;·&nbsp; `[97.103(a)]`
 
@@ -699,16 +818,20 @@ When the control operator is not the station licensee, who is responsible for th
 - A. All licensed amateurs who are present at the operation
 - B. Only the station licensee
 - C. Only the control operator
-- **D. The control operator and the station licensee**  ←
+- D. The control operator and the station licensee
+-
+- Answer: D
 
 **T1E08** &nbsp;·&nbsp; `[97.3(a)(6), 97.205(d)]`
 
 Which of the following is an example of automatic control?
 
-- **A. Repeater operation**  ←
+- A. Repeater operation
 - B. Controlling a station over the internet
 - C. Using a computer or other device to send CW automatically
 - D. Using a computer or other device to identify automatically
+-
+- Answer: A
 
 **T1E09** &nbsp;·&nbsp; `[97.109(c)]`
 
@@ -717,16 +840,20 @@ Which amateur stations may be remotely controlled?
 - A. Only repeater stations
 - B. Only automatically controlled stations
 - C. Only digital stations
-- **D. Any station**  ←
+- D. Any station
+-
+- Answer: D
 
 **T1E10** &nbsp;·&nbsp; `[97.3(a)(39)]`
 
 Which of the following is an example of remote control as defined in Part 97?
 
 - A. A software defined radio (SDR)
-- **B. Operating the station over the internet**  ←
+- B. Operating the station over the internet
 - C. Controlling a model aircraft, boat, or car by amateur radio
 - D. Earth-Moon-Earth (EME) communication
+-
+- Answer: B
 
 **T1E11** &nbsp;·&nbsp; `[97.3(a)(13)]`
 
@@ -735,7 +862,9 @@ What is a control operator as defined in Part 97?
 - A. The person speaking or otherwise communicating messages over an amateur station
 - B. The person who is the licensee of an amateur station
 - C. An amateur operator identified in the FCC database as responsible for transmissions and FCC rules compliance at a station license location
-- **D. An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station**  ←
+- D. An amateur operator designated by the licensee of a station to be responsible for transmissions and FCC rules compliance at that station
+-
+- Answer: D
 
 ---
 
@@ -790,9 +919,11 @@ club be registered with the ARRL.
 When must the station licensee make the station and the station records available for inspection?
 
 - A. At any time ten days after notification by the FCC of such an inspection
-- **B. At any time upon request by an FCC representative**  ←
+- B. At any time upon request by an FCC representative
 - C. At any time after a written notification by the FCC of such inspection
 - D. Only when presented with a valid warrant by an FCC official or government agent
+-
+- Answer: B
 
 **T1F02** &nbsp;·&nbsp; `[97.119(a)]`
 
@@ -800,8 +931,10 @@ How often must you identify with your FCC-assigned call sign when using tactical
 
 - A. Never, the tactical call is sufficient
 - B. Once every hour
-- **C. At least every 10 minutes during and at the end of a communication**  ←
+- C. At least every 10 minutes during and at the end of a communication
 - D. At the end of every transmission
+-
+- Answer: C
 
 **T1F03** &nbsp;·&nbsp; `[97.119(a)]`
 
@@ -810,7 +943,9 @@ When are you required to transmit your assigned call sign?
 - A. At the beginning of each contact, and every 10 minutes thereafter
 - B. At least once during each transmission
 - C. At least every 15 minutes during and at the end of a communication
-- **D. At least every 10 minutes during and at the end of a communication**  ←
+- D. At least every 10 minutes during and at the end of a communication
+-
+- Answer: D
 
 **T1F04** &nbsp;·&nbsp; `[97.119(b)(2)]`
 
@@ -818,17 +953,21 @@ What language must you use for identification when using a phone emission?
 
 - A. Any language recognized by the United Nations
 - B. Any language recognized by the ITU
-- **C. English**  ←
+- C. English
 - D. English, French, or Spanish
+-
+- Answer: C
 
 **T1F05** &nbsp;·&nbsp; `[97.119(b)(2)]`
 
 What method of call sign identification is required for a station transmitting phone signals?
 
 - A. Send the call sign followed by the indicator RPT
-- **B. Send the call sign using a CW or phone emission**  ←
+- B. Send the call sign using a CW or phone emission
 - C. Send the call sign followed by the indicator R
 - D. Send the call sign using only a phone emission
+-
+- Answer: B
 
 **T1F06** &nbsp;·&nbsp; `[97.119(c)]`
 
@@ -837,25 +976,31 @@ Which of the following self-assigned indicators are acceptable when using a phon
 - A. KL7CC stroke W3
 - B. KL7CC slant W3
 - C. KL7CC slash W3
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **T1F07** &nbsp;·&nbsp; `[97.115(a)(2)]`
 
 Which of the following restrictions apply when a non-licensed person speaks to a foreign amateur radio station via a station under the control of an FCC-licensed amateur radio operator?
 
 - A. The person must be a U.S. citizen
-- **B. The foreign station must be in a country with which the U.S. has a third-party agreement**  ←
+- B. The foreign station must be in a country with which the U.S. has a third-party agreement
 - C. The licensed control operator must do the station identification
 - D. All these choices are correct
+-
+- Answer: B
 
 **T1F08** &nbsp;·&nbsp; `[97.3(a)(47)]`
 
 What is the definition of third-party communications?
 
-- **A. A message from a control operator to another amateur station control operator on behalf of another person**  ←
+- A. A message from a control operator to another amateur station control operator on behalf of another person
 - B. Amateur radio communications where three stations are in communications with one another
 - C. Operation when the transmitting equipment is licensed to a person other than the control operator
 - D. Temporary authorization for an unlicensed person to transmit on the amateur bands for technical experiments
+-
+- Answer: A
 
 **T1F09** &nbsp;·&nbsp; `[97.3(a)(40)]`
 
@@ -863,23 +1008,29 @@ What type of amateur station simultaneously retransmits the signal of another am
 
 - A. Beacon station
 - B. Remote control station
-- **C. Repeater station**  ←
+- C. Repeater station
 - D. Message forwarding station
+-
+- Answer: C
 
 **T1F10** &nbsp;·&nbsp; `[97.205(g)]`
 
 Who is accountable if a repeater inadvertently retransmits communications that violate the FCC rules?
 
-- **A. The control operator of the originating station**  ←
+- A. The control operator of the originating station
 - B. The control operator of the repeater
 - C. The owner of the repeater
 - D. Both the originating station and the repeater owner
+-
+- Answer: A
 
 **T1F11** &nbsp;·&nbsp; `[97.5(b)(2)]`
 
 Which of the following is a requirement for the issuance of a club station license grant?
 
 - A. The trustee must have an Amateur Extra Class operator license grant
-- **B. The club must have at least four members**  ←
+- B. The club must have at least four members
 - C. The club must be registered with the American Radio Relay League (ARRL)
 - D. All these choices are correct
+-
+- Answer: B
