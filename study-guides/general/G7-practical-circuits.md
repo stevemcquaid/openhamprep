@@ -46,6 +46,8 @@ flat gate bar instead of an emitter arrow; a **Zener diode** has a bent, flag-li
 **solid core transformer** shows solid lines between the two coils; a **tapped inductor** has an
 extra lead off the middle of the winding. The figure is shown with each question below; practice reading it before exam day.
 
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
+
 #### All 13 pool questions for G7A
 
 **G7A01**
@@ -140,7 +142,7 @@ Which of the following is characteristic of a switchmode power supply as compare
 
 Which symbol in figure G7-1 represents a field effect transistor?
 
-![Figure G7-1](figures/g7-1.png)
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
 
 - A. Symbol 2
 - B. Symbol 5
@@ -153,7 +155,7 @@ Which symbol in figure G7-1 represents a field effect transistor?
 
 Which symbol in figure G7-1 represents a Zener diode?
 
-![Figure G7-1](figures/g7-1.png)
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
 
 - A. Symbol 4
 - B. Symbol 1
@@ -166,7 +168,7 @@ Which symbol in figure G7-1 represents a Zener diode?
 
 Which symbol in figure G7-1 represents an NPN junction transistor?
 
-![Figure G7-1](figures/g7-1.png)
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
 
 - A. Symbol 1
 - B. Symbol 2
@@ -179,7 +181,7 @@ Which symbol in figure G7-1 represents an NPN junction transistor?
 
 Which symbol in Figure G7-1 represents a solid core transformer?
 
-![Figure G7-1](figures/g7-1.png)
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
 
 - A. Symbol 4
 - B. Symbol 7
@@ -192,7 +194,7 @@ Which symbol in Figure G7-1 represents a solid core transformer?
 
 Which symbol in Figure G7-1 represents a tapped inductor?
 
-![Figure G7-1](figures/g7-1.png)
+<p align="center"><img src="figures/g7-1.png" alt="Figure G7-1" width="600"></p>
 
 - A. Symbol 7
 - B. Symbol 11

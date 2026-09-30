@@ -217,6 +217,8 @@ impedance, which is why it is used as a buffer.
 bias** on the base. **R3, in the emitter leg, provides self bias** (emitter degeneration) rather
 than acting as a load or feedback element on its own.
 
+<p align="center"><img src="figures/e7-1.png" alt="Figure E7-1" width="560"></p>
+
 #### All 12 pool questions for E7B
 
 **E7B01**
@@ -322,7 +324,7 @@ What is characteristic of an emitter follower (or common collector) amplifier?
 
 In Figure E7-1, what is the purpose of R1 and R2?
 
-![Figure E7-1](figures/e7-1.png)
+<p align="center"><img src="figures/e7-1.png" alt="Figure E7-1" width="560"></p>
 
 - A. Load resistors
 - B. Voltage divider bias
@@ -335,7 +337,7 @@ In Figure E7-1, what is the purpose of R1 and R2?
 
 In Figure E7-1, what is the purpose of R3?
 
-![Figure E7-1](figures/e7-1.png)
+<p align="center"><img src="figures/e7-1.png" alt="Figure E7-1" width="560"></p>
 
 - A. Fixed bias
 - B. Emitter bypass
@@ -348,7 +350,7 @@ In Figure E7-1, what is the purpose of R3?
 
 What type of amplifier circuit is shown in Figure E7-1?
 
-![Figure E7-1](figures/e7-1.png)
+<p align="center"><img src="figures/e7-1.png" alt="Figure E7-1" width="560"></p>
 
 - A. Common base
 - B. Common collector
@@ -537,6 +539,8 @@ constant** — the pass transistor. **C2 bypasses rectifier output ripple around
 off the Zener reference so the regulated output stays clean. The whole circuit is a **linear
 voltage regulator**.
 
+<p align="center"><img src="figures/e7-2.png" alt="Figure E7-2" width="560"></p>
+
 **Regulator specs, precisely worded.** **Dropout voltage is the minimum input-to-output voltage
 required to maintain regulation** — how close the input can sag to the output before regulation is
 lost. **Power dissipated by a series linear regulator equals the voltage difference from input to
@@ -616,7 +620,7 @@ Which of the following types of linear voltage regulator operates by loading the
 
 What is the purpose of Q1 in the circuit shown in Figure E7-2?
 
-![Figure E7-2](figures/e7-2.png)
+<p align="center"><img src="figures/e7-2.png" alt="Figure E7-2" width="560"></p>
 
 - A. It provides negative feedback to improve regulation
 - B. It provides a constant load for the voltage source
@@ -629,7 +633,7 @@ What is the purpose of Q1 in the circuit shown in Figure E7-2?
 
 What is the purpose of C2 in the circuit shown in Figure E7-2?
 
-![Figure E7-2](figures/e7-2.png)
+<p align="center"><img src="figures/e7-2.png" alt="Figure E7-2" width="560"></p>
 
 - A. It bypasses rectifier output ripple around D1
 - B. It is a brute force filter for the output
@@ -642,7 +646,7 @@ What is the purpose of C2 in the circuit shown in Figure E7-2?
 
 What type of circuit is shown in Figure E7-2?
 
-![Figure E7-2](figures/e7-2.png)
+<p align="center"><img src="figures/e7-2.png" alt="Figure E7-2" width="560"></p>
 
 - A. Switching voltage regulator
 - B. Common emitter amplifier
@@ -1107,6 +1111,8 @@ devices.
 **Gain arithmetic — this is the one place E7 asks you to compute.** For the inverting amplifier of
 Figure E7-3, gain magnitude = RF / R1:
 
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
+
 | R1 | RF | Gain (RF ÷ R1) |
 |---|---|---|
 | 10 Ω | 470 Ω | **47** |
@@ -1135,7 +1141,7 @@ What is the typical output impedance of an op-amp?
 
 What is the frequency response of the circuit in E7-3 if a capacitor is added across the feedback resistor?
 
-![Figure E7-3](figures/e7-3.png)
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
 - A. High-pass filter
 - B. Low-pass filter
@@ -1192,7 +1198,7 @@ What is the gain-bandwidth of an operational amplifier?
 
 What voltage gain can be expected from the circuit in Figure E7-3 when R1 is 10 ohms and RF is 470 ohms?
 
-![Figure E7-3](figures/e7-3.png)
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
 - A. 0.21
 - B. 4700
@@ -1216,7 +1222,7 @@ How does the gain of an ideal operational amplifier vary with frequency?
 
 What will be the output voltage of the circuit shown in Figure E7-3 if R1 is 1,000 ohms, RF is 10,000 ohms, and 0.23 volts DC is applied to the input?
 
-![Figure E7-3](figures/e7-3.png)
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
 - A. 0.23 volts
 - B. 2.3 volts
@@ -1229,7 +1235,7 @@ What will be the output voltage of the circuit shown in Figure E7-3 if R1 is 1,0
 
 What absolute voltage gain can be expected from the circuit in Figure E7-3 when R1 is 1,800 ohms and RF is 68 kilohms?
 
-![Figure E7-3](figures/e7-3.png)
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
 - A. 1
 - B. 0.03
@@ -1242,7 +1248,7 @@ What absolute voltage gain can be expected from the circuit in Figure E7-3 when 
 
 What absolute voltage gain can be expected from the circuit in Figure E7-3 when R1 is 3,300 ohms and RF is 47 kilohms?
 
-![Figure E7-3](figures/e7-3.png)
+<p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
 - A. 28
 - B. 14

@@ -144,7 +144,7 @@ What is the function of an SPDT switch?
 
 What type of switch is represented by component 3 in figure T-2?
 
-![Figure T-2](figures/t-2.png)
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
 
 - A. Single-pole single-throw
 - B. Single-pole double-throw
@@ -349,6 +349,12 @@ for a resistor, battery, lamp, ground, transistor, capacitor, regulator IC, LED,
 transformer, variable inductor, and antenna. The text below reproduces each question exactly as
 written, with the figure shown above its answer choices.
 
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
+
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
+
+<p align="center"><img src="figures/t-3.png" alt="Figure T-3" width="600"></p>
+
 #### All 12 pool questions for T6C
 
 **T6C01**
@@ -366,7 +372,7 @@ What is an electrical diagram using standard component symbols called?
 
 What is component 1 in figure T-1?
 
-![Figure T-1](figures/t-1.png)
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
 
 - A. Resistor
 - B. Transistor
@@ -379,7 +385,7 @@ What is component 1 in figure T-1?
 
 What is component 2 in figure T-1?
 
-![Figure T-1](figures/t-1.png)
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
 
 - A. Resistor
 - B. Transistor
@@ -392,7 +398,7 @@ What is component 2 in figure T-1?
 
 What is component 3 in figure T-1?
 
-![Figure T-1](figures/t-1.png)
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
 
 - A. Resistor
 - B. Transistor
@@ -405,7 +411,7 @@ What is component 3 in figure T-1?
 
 What is component 4 in figure T-1?
 
-![Figure T-1](figures/t-1.png)
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
 
 - A. Resistor
 - B. Transistor
@@ -418,7 +424,7 @@ What is component 4 in figure T-1?
 
 What is component 6 in figure T-2?
 
-![Figure T-2](figures/t-2.png)
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
 
 - A. Resistor
 - B. Capacitor
@@ -431,7 +437,7 @@ What is component 6 in figure T-2?
 
 What is component 8 in figure T-2?
 
-![Figure T-2](figures/t-2.png)
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
 
 - A. Resistor
 - B. Inductor
@@ -444,7 +450,7 @@ What is component 8 in figure T-2?
 
 What is component 9 in figure T-2?
 
-![Figure T-2](figures/t-2.png)
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
 
 - A. Variable capacitor
 - B. Variable inductor
@@ -457,7 +463,7 @@ What is component 9 in figure T-2?
 
 What is component 4 in figure T-2?
 
-![Figure T-2](figures/t-2.png)
+<p align="center"><img src="figures/t-2.png" alt="Figure T-2" width="600"></p>
 
 - A. Variable inductor
 - B. Double-pole switch
@@ -470,7 +476,7 @@ What is component 4 in figure T-2?
 
 What is component 3 in figure T-3?
 
-![Figure T-3](figures/t-3.png)
+<p align="center"><img src="figures/t-3.png" alt="Figure T-3" width="600"></p>
 
 - A. Connector
 - B. Meter
@@ -483,7 +489,7 @@ What is component 3 in figure T-3?
 
 What is component 4 in figure T-3?
 
-![Figure T-3](figures/t-3.png)
+<p align="center"><img src="figures/t-3.png" alt="Figure T-3" width="600"></p>
 
 - A. Antenna
 - B. Transmitter
@@ -629,7 +635,7 @@ What is the name of a device that combines several semiconductors and other comp
 
 What is the function of component 2 in figure T-1?
 
-![Figure T-1](figures/t-1.png)
+<p align="center"><img src="figures/t-1.png" alt="Figure T-1" width="600"></p>
 
 - A. Give off light when current flows through it
 - B. Supply electrical energy

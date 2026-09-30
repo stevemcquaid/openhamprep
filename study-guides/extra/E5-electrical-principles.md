@@ -411,6 +411,8 @@ that (R, X) pair is the point you're looking for. The pool's stated answers are 
 resistor with a 38 pF capacitor at 14 MHz), **Point 3** (300 Ω resistor with an 18 µH inductor at
 3.505 MHz), and **Point 1** (300 Ω resistor with a 19 pF capacitor at 21.200 MHz).
 
+<p align="center"><img src="figures/e5-1.png" alt="Figure E5-1" width="480"></p>
+
 #### All 12 pool questions for E5C
 
 **E5C01**
@@ -516,7 +518,7 @@ When using rectangular coordinates to graph the impedance of a circuit, what do 
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 400-ohm resistor and a 38-picofarad capacitor at 14 MHz?
 
-![Figure E5-1](figures/e5-1.png)
+<p align="center"><img src="figures/e5-1.png" alt="Figure E5-1" width="480"></p>
 
 - A. Point 2
 - B. Point 4
@@ -529,7 +531,7 @@ Which point on Figure E5-1 best represents the impedance of a series circuit con
 
 Which point in Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and an 18-microhenry inductor at 3.505 MHz?
 
-![Figure E5-1](figures/e5-1.png)
+<p align="center"><img src="figures/e5-1.png" alt="Figure E5-1" width="480"></p>
 
 - A. Point 1
 - B. Point 3
@@ -542,7 +544,7 @@ Which point in Figure E5-1 best represents the impedance of a series circuit con
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and a 19-picofarad capacitor at 21.200 MHz?
 
-![Figure E5-1](figures/e5-1.png)
+<p align="center"><img src="figures/e5-1.png" alt="Figure E5-1" width="480"></p>
 
 - A. Point 1
 - B. Point 3
