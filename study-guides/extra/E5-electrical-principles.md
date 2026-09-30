@@ -14,6 +14,18 @@ memorizing the answer letter. E5C's three figure-based questions (E5C10–E5C12)
 diagram this guide cannot reproduce; know the underlying R/X-plane geometry and you can still answer
 them by calculation.
 
+## Table of Contents
+
+- [E5A — Resonance and Q: characteristics of resonant circuits; series and parallel resonance; definitions and effects of Q; half-power bandwidth](#e5a--resonance-and-q-characteristics-of-resonant-circuits-series-and-parallel-resonance-definitions-and-effects-of-q-half-power-bandwidth)
+  - [All 13 pool questions for E5A](#all-13-pool-questions-for-e5a)
+- [E5B — Time constants and phase relationships: RL and RC time constants; phase angle in reactive circuits and components; admittance and susceptance](#e5b--time-constants-and-phase-relationships-rl-and-rc-time-constants-phase-angle-in-reactive-circuits-and-components-admittance-and-susceptance)
+  - [All 12 pool questions for E5B](#all-12-pool-questions-for-e5b)
+- [E5C — Coordinate systems and phasors in electronics: rectangular coordinates; polar coordinates; phasors; logarithmic axes](#e5c--coordinate-systems-and-phasors-in-electronics-rectangular-coordinates-polar-coordinates-phasors-logarithmic-axes)
+  - [All 12 pool questions for E5C](#all-12-pool-questions-for-e5c)
+- [E5D — RF effects in components and circuits: skin effect; real and reactive power; electrical length of conductors](#e5d--rf-effects-in-components-and-circuits-skin-effect-real-and-reactive-power-electrical-length-of-conductors)
+  - [All 12 pool questions for E5D](#all-12-pool-questions-for-e5d)
+- [Bottom line for E5](#bottom-line-for-e5)
+
 ---
 
 ## E5A — Resonance and Q: characteristics of resonant circuits; series and parallel resonance; definitions and effects of Q; half-power bandwidth
@@ -58,10 +70,12 @@ resonant-frequency formula; it only matters for computing Q afterward.
 
 What can cause the voltage across reactances in a series RLC circuit to be higher than the voltage applied to the entire circuit?
 
-- **A. Resonance**  ←
+- A. Resonance
 - B. Capacitance
 - C. Low quality factor (Q)
 - D. Resistance
+-
+- Answer: A
 
 **E5A02**
 
@@ -69,8 +83,10 @@ What is the resonant frequency of an RLC circuit if R is 22 ohms, L is 50 microh
 
 - A. 44.72 MHz
 - B. 22.36 MHz
-- **C. 3.56 MHz**  ←
+- C. 3.56 MHz
 - D. 1.78 MHz
+-
+- Answer: C
 
 **E5A03**
 
@@ -79,43 +95,53 @@ What is the magnitude of the impedance of a series RLC circuit at resonance?
 - A. High, compared to the circuit resistance
 - B. Approximately equal to capacitive reactance
 - C. Approximately equal to inductive reactance
-- **D. Approximately equal to circuit resistance**  ←
+- D. Approximately equal to circuit resistance
+-
+- Answer: D
 
 **E5A04**
 
 What is the magnitude of the impedance of a parallel RLC circuit at resonance?
 
-- **A. Approximately equal to circuit resistance**  ←
+- A. Approximately equal to circuit resistance
 - B. Approximately equal to inductive reactance
 - C. Low compared to the circuit resistance
 - D. High compared to the circuit resistance
+-
+- Answer: A
 
 **E5A05**
 
 What is the result of increasing the Q of an impedance-matching circuit?
 
-- **A. Matching bandwidth is decreased**  ←
+- A. Matching bandwidth is decreased
 - B. Matching bandwidth is increased
 - C. Losses increase
 - D. Harmonics increase
+-
+- Answer: A
 
 **E5A06**
 
 What is the magnitude of the circulating current within the components of a parallel LC circuit at resonance?
 
 - A. It is at a minimum
-- **B. It is at a maximum**  ←
+- B. It is at a maximum
 - C. It equals 1 divided by the quantity 2 times pi, times the square root of (inductance L multiplied by capacitance C)
 - D. It equals 2 times pi, times the square root of (inductance L multiplied by capacitance C)
+-
+- Answer: B
 
 **E5A07**
 
 What is the magnitude of the current at the input of a parallel RLC circuit at resonance?
 
-- **A. Minimum**  ←
+- A. Minimum
 - B. Maximum
 - C. R/L
 - D. L/R
+-
+- Answer: A
 
 **E5A08**
 
@@ -123,8 +149,10 @@ What is the phase relationship between the current through and the voltage acros
 
 - A. The voltage leads the current by 90 degrees
 - B. The current leads the voltage by 90 degrees
-- **C. The voltage and current are in phase**  ←
+- C. The voltage and current are in phase
 - D. The voltage and current are 180 degrees out of phase
+-
+- Answer: C
 
 **E5A09**
 
@@ -132,17 +160,21 @@ How is the Q of an RLC parallel resonant circuit calculated?
 
 - A. Reactance of either the inductance or capacitance divided by the resistance
 - B. Reactance of either the inductance or capacitance multiplied by the resistance
-- **C. Resistance divided by the reactance of either the inductance or capacitance**  ←
+- C. Resistance divided by the reactance of either the inductance or capacitance
 - D. Reactance of the inductance multiplied by the reactance of the capacitance
+-
+- Answer: C
 
 **E5A10**
 
 What is the resonant frequency of an RLC circuit if R is 33 ohms, L is 50 microhenries, and C is 10 picofarads?
 
-- **A. 7.12 MHz**  ←
+- A. 7.12 MHz
 - B. 23.5 kHz
 - C. 7.12 kHz
 - D. 23.5 MHz
+-
+- Answer: A
 
 **E5A11**
 
@@ -150,8 +182,10 @@ What is the half-power bandwidth of a resonant circuit that has a resonant frequ
 
 - A. 157.8 Hz
 - B. 315.6 Hz
-- **C. 47.3 kHz**  ←
+- C. 47.3 kHz
 - D. 23.67 kHz
+-
+- Answer: C
 
 **E5A12**
 
@@ -159,8 +193,10 @@ What is the half-power bandwidth of a resonant circuit that has a resonant frequ
 
 - A. 436.6 kHz
 - B. 218.3 kHz
-- **C. 31.4 kHz**  ←
+- C. 31.4 kHz
 - D. 15.7 kHz
+-
+- Answer: C
 
 **E5A13**
 
@@ -168,8 +204,10 @@ What is an effect of increasing Q in a series resonant circuit?
 
 - A. Fewer components are needed for the same performance
 - B. Parasitic effects are minimized
-- **C. Internal voltages increase**  ←
+- C. Internal voltages increase
 - D. Phase shift can become uncontrolled
+-
+- Answer: C
 
 ---
 
@@ -214,9 +252,11 @@ top. Three worked examples appear verbatim in the pool:
 What is the term for the time required for the capacitor in an RC circuit to be charged to 63.2% of the applied voltage or to discharge to 36.8% of its initial voltage?
 
 - A. An exponential rate of one
-- **B. One time constant**  ←
+- B. One time constant
 - C. One exponential period
 - D. A time factor of one
+-
+- Answer: B
 
 **E5B02**
 
@@ -225,16 +265,20 @@ What letter is commonly used to represent susceptance?
 - A. G
 - B. X
 - C. Y
-- **D. B**  ←
+- D. B
+-
+- Answer: D
 
 **E5B03**
 
 How is impedance in polar form converted to an equivalent admittance?
 
 - A. Take the reciprocal of the angle and change the sign of the magnitude
-- **B. Take the reciprocal of the magnitude and change the sign of the angle**  ←
+- B. Take the reciprocal of the magnitude and change the sign of the angle
 - C. Take the square root of the magnitude and add 180 degrees to the angle
 - D. Square the magnitude and subtract 90 degrees from the angle
+-
+- Answer: B
 
 **E5B04**
 
@@ -243,7 +287,9 @@ What is the time constant of a circuit having two 220-microfarad capacitors and 
 - A. 55 seconds
 - B. 110 seconds
 - C. 440 seconds
-- **D. 220 seconds**  ←
+- D. 220 seconds
+-
+- Answer: D
 
 **E5B05**
 
@@ -252,7 +298,9 @@ What is the effect on the magnitude of pure reactance when it is converted to su
 - A. It is unchanged
 - B. The sign is reversed
 - C. It is shifted by 90 degrees
-- **D. It is replaced by its reciprocal**  ←
+- D. It is replaced by its reciprocal
+-
+- Answer: D
 
 **E5B06**
 
@@ -260,8 +308,10 @@ What is susceptance?
 
 - A. The magnetic impedance of a circuit
 - B. The ratio of magnetic field to electric field
-- **C. The imaginary part of admittance**  ←
+- C. The imaginary part of admittance
 - D. A measure of the efficiency of a transformer
+-
+- Answer: C
 
 **E5B07**
 
@@ -269,17 +319,21 @@ What is the phase angle between the voltage across and the current through a ser
 
 - A. 68.2 degrees with the voltage leading the current
 - B. 14.0 degrees with the voltage leading the current
-- **C. 14.0 degrees with the voltage lagging the current**  ←
+- C. 14.0 degrees with the voltage lagging the current
 - D. 68.2 degrees with the voltage lagging the current
+-
+- Answer: C
 
 **E5B08**
 
 What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 300 ohms, R is 100 ohms, and XL is 100 ohms?
 
-- **A. 63 degrees with the voltage lagging the current**  ←
+- A. 63 degrees with the voltage lagging the current
 - B. 63 degrees with the voltage leading the current
 - C. 27 degrees with the voltage leading the current
 - D. 27 degrees with the voltage lagging the current
+-
+- Answer: A
 
 **E5B09**
 
@@ -288,34 +342,42 @@ What is the relationship between the AC current through a capacitor and the volt
 - A. Voltage and current are in phase
 - B. Voltage and current are 180 degrees out of phase
 - C. Voltage leads current by 90 degrees
-- **D. Current leads voltage by 90 degrees**  ←
+- D. Current leads voltage by 90 degrees
+-
+- Answer: D
 
 **E5B10**
 
 What is the relationship between the AC current through an inductor and the voltage across an inductor?
 
-- **A. Voltage leads current by 90 degrees**  ←
+- A. Voltage leads current by 90 degrees
 - B. Current leads voltage by 90 degrees
 - C. Voltage and current are 180 degrees out of phase
 - D. Voltage and current are in phase
+-
+- Answer: A
 
 **E5B11**
 
 What is the phase angle between the voltage across and the current through a series RLC circuit if XC is 25 ohms, R is 100 ohms, and XL is 75 ohms?
 
 - A. 27 degrees with the voltage lagging the current
-- **B. 27 degrees with the voltage leading the current**  ←
+- B. 27 degrees with the voltage leading the current
 - C. 63 degrees with the voltage lagging the current
 - D. 63 degrees with the voltage leading the current
+-
+- Answer: B
 
 **E5B12**
 
 What is admittance?
 
-- **A. The inverse of impedance**  ←
+- A. The inverse of impedance
 - B. The term for the gain of a field effect transistor
 - C. The inverse of reactance
 - D. The term for the on-impedance of a field effect transistor
+-
+- Answer: A
 
 ---
 
@@ -355,10 +417,12 @@ resistor with a 38 pF capacitor at 14 MHz), **Point 3** (300 Ω resistor with an
 
 Which of the following represents pure capacitive reactance of 100 ohms in rectangular notation?
 
-- **A. 0 - j100**  ←
+- A. 0 - j100
 - B. 0 + j100
 - C. 100 - j0
 - D. 100 + j0
+-
+- Answer: A
 
 **E5C02**
 
@@ -366,8 +430,10 @@ How are impedances described in polar coordinates?
 
 - A. By X and R values
 - B. By real and imaginary parts
-- **C. By magnitude and phase angle**  ←
+- C. By magnitude and phase angle
 - D. By Y and G values
+-
+- Answer: C
 
 **E5C03**
 
@@ -375,8 +441,10 @@ Which of the following represents a pure inductive reactance in polar coordinate
 
 - A. A positive 45 degree phase angle
 - B. A negative 45 degree phase angle
-- **C. A positive 90 degree phase angle**  ←
+- C. A positive 90 degree phase angle
 - D. A negative 90 degree phase angle
+-
+- Answer: C
 
 **E5C04**
 
@@ -385,7 +453,9 @@ What type of Y-axis scale is most often used for graphs of circuit frequency res
 - A. Linear
 - B. Scatter
 - C. Random
-- **D. Logarithmic**  ←
+- D. Logarithmic
+-
+- Answer: D
 
 **E5C05**
 
@@ -393,17 +463,21 @@ What kind of diagram is used to show the phase relationship between impedances a
 
 - A. Venn diagram
 - B. Near field diagram
-- **C. Phasor diagram**  ←
+- C. Phasor diagram
 - D. Far field diagram
+-
+- Answer: C
 
 **E5C06**
 
 What does the impedance 50 - j25 ohms represent?
 
 - A. 50 ohms resistance in series with 25 ohms inductive reactance
-- **B. 50 ohms resistance in series with 25 ohms capacitive reactance**  ←
+- B. 50 ohms resistance in series with 25 ohms capacitive reactance
 - C. 25 ohms resistance in series with 50 ohms inductive reactance
 - D. 25 ohms resistance in series with 50 ohms capacitive reactance
+-
+- Answer: B
 
 **E5C07**
 
@@ -412,7 +486,9 @@ Where is the impedance of a pure resistance plotted on rectangular coordinates?
 - A. On the vertical axis
 - B. On a line through the origin, slanted at 45 degrees
 - C. On a horizontal line, offset vertically above the horizontal axis
-- **D. On the horizontal axis**  ←
+- D. On the horizontal axis
+-
+- Answer: D
 
 **E5C08**
 
@@ -421,43 +497,53 @@ What coordinate system is often used to display the phase angle of a circuit con
 - A. Maidenhead grid
 - B. Faraday grid
 - C. Elliptical coordinates
-- **D. Polar coordinates**  ←
+- D. Polar coordinates
+-
+- Answer: D
 
 **E5C09**
 
 When using rectangular coordinates to graph the impedance of a circuit, what do the axes represent?
 
-- **A. The X axis represents the resistive component, and the Y axis represents the reactive component**  ←
+- A. The X axis represents the resistive component, and the Y axis represents the reactive component
 - B. The X axis represents the reactive component, and the Y axis represents the resistive component
 - C. The X axis represents the phase angle, and the Y axis represents the magnitude
 - D. The X axis represents the magnitude, and the Y axis represents the phase angle
+-
+- Answer: A
 
 **E5C10**
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 400-ohm resistor and a 38-picofarad capacitor at 14 MHz?
 
 - A. Point 2
-- **B. Point 4**  ←
+- B. Point 4
 - C. Point 5
 - D. Point 6
+-
+- Answer: B
 
 **E5C11**
 
 Which point in Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and an 18-microhenry inductor at 3.505 MHz?
 
 - A. Point 1
-- **B. Point 3**  ←
+- B. Point 3
 - C. Point 7
 - D. Point 8
+-
+- Answer: B
 
 **E5C12**
 
 Which point on Figure E5-1 best represents the impedance of a series circuit consisting of a 300-ohm resistor and a 19-picofarad capacitor at 21.200 MHz?
 
-- **A. Point 1**  ←
+- A. Point 1
 - B. Point 3
 - C. Point 7
 - D. Point 8
+-
+- Answer: A
 
 ---
 
@@ -504,19 +590,23 @@ circuit every half-cycle (E5D09).
 
 What is the result of conductor skin effect?
 
-- **A. Resistance increases as frequency increases because RF current flows closer to the surface**  ←
+- A. Resistance increases as frequency increases because RF current flows closer to the surface
 - B. Resistance decreases as frequency increases because electron mobility increases
 - C. Resistance increases as temperature increases because of the change in thermal coefficient
 - D. Resistance decreases as temperature increases because of the change in thermal coefficient
+-
+- Answer: A
 
 **E5D02**
 
 Why is it important to keep lead lengths short for components used in circuits for VHF and above?
 
 - A. To increase the thermal time constant
-- **B. To minimize inductive reactance**  ←
+- B. To minimize inductive reactance
 - C. To maintain component lifetime
 - D. All these choices are correct
+-
+- Answer: B
 
 **E5D03**
 
@@ -524,17 +614,21 @@ What is the phase relationship between current and voltage for reactive power?
 
 - A. They are out of phase
 - B. They are in phase
-- **C. They are 90 degrees out of phase**  ←
+- C. They are 90 degrees out of phase
 - D. They are 45 degrees out of phase
+-
+- Answer: C
 
 **E5D04**
 
 Why are short connections used at microwave frequencies?
 
 - A. To increase neutralizing resistance
-- **B. To reduce phase shift along the connection**  ←
+- B. To reduce phase shift along the connection
 - C. To increase compensating capacitance
 - D. To reduce noise figure
+-
+- Answer: B
 
 **E5D05**
 
@@ -542,8 +636,10 @@ What parasitic characteristic causes electrolytic capacitors to be unsuitable fo
 
 - A. Skin effect
 - B. Shunt capacitance
-- **C. Inductance**  ←
+- C. Inductance
 - D. Dielectric leakage
+-
+- Answer: C
 
 **E5D06**
 
@@ -552,16 +648,20 @@ What parasitic characteristic creates an inductor’s self-resonance?
 - A. Skin effect
 - B. Dielectric loss
 - C. Coupling
-- **D. Inter-turn capacitance**  ←
+- D. Inter-turn capacitance
+-
+- Answer: D
 
 **E5D07**
 
 What combines to create the self-resonance of a component?
 
 - A. The component’s resistance and reactance
-- **B. The component’s nominal and parasitic reactance**  ←
+- B. The component’s nominal and parasitic reactance
 - C. The component’s inductance and capacitance
 - D. The component’s electrical length and impedance
+-
+- Answer: B
 
 **E5D08**
 
@@ -570,16 +670,20 @@ What is the primary cause of loss in film capacitors at RF?
 - A. Inductance
 - B. Dielectric loss
 - C. Self-discharge
-- **D. Skin effect**  ←
+- D. Skin effect
+-
+- Answer: D
 
 **E5D09**
 
 What happens to reactive power in ideal inductors and capacitors?
 
 - A. It is dissipated as heat in the circuit
-- **B. Energy is stored in magnetic or electric fields, but power is not dissipated**  ←
+- B. Energy is stored in magnetic or electric fields, but power is not dissipated
 - C. It is canceled by Coulomb forces in the capacitor and inductor
 - D. It is dissipated in the formation of inductive and capacitive fields
+-
+- Answer: B
 
 **E5D10**
 
@@ -588,16 +692,20 @@ As a conductor’s diameter increases, what is the effect on its electrical leng
 - A. Thickness has no effect on electrical length
 - B. It varies randomly
 - C. It decreases
-- **D. It increases**  ←
+- D. It increases
+-
+- Answer: D
 
 **E5D11**
 
 How much real power is consumed in a circuit consisting of a 100-ohm resistor in series with a 100-ohm inductive reactance drawing 1 ampere?
 
 - A. 70.7 watts
-- **B. 100 watts**  ←
+- B. 100 watts
 - C. 141.4 watts
 - D. 200 watts
+-
+- Answer: B
 
 **E5D12**
 
@@ -606,7 +714,9 @@ What is reactive power?
 - A. Power consumed in circuit Q
 - B. Power consumed by an inductor’s wire resistance
 - C. The power consumed in inductors and capacitors
-- **D. Wattless, nonproductive power**  ←
+- D. Wattless, nonproductive power
+-
+- Answer: D
 
 ---
 

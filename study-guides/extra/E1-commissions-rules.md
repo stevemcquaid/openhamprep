@@ -13,6 +13,21 @@ than any group in the General pool. Much of it is still pure memorization (power
 edges, timeframes), but a real slice requires reasoning through where a signal's sidebands actually
 fall relative to a band edge — work through those carefully rather than just memorizing numbers.
 
+## Table of Contents
+
+- [E1A — Frequency privileges; signal frequency range; automatic message forwarding; stations aboard ships or aircraft; power restriction on 630- and 2200-meter bands](#e1a--frequency-privileges-signal-frequency-range-automatic-message-forwarding-stations-aboard-ships-or-aircraft-power-restriction-on-630--and-2200-meter-bands)
+  - [All 11 pool questions for E1A](#all-11-pool-questions-for-e1a)
+- [E1B — Station restrictions and special operations: restrictions on station location; general operating restrictions; spurious emissions; antenna structure restrictions; RACES operations](#e1b--station-restrictions-and-special-operations-restrictions-on-station-location-general-operating-restrictions-spurious-emissions-antenna-structure-restrictions-races-operations)
+  - [All 11 pool questions for E1B](#all-11-pool-questions-for-e1b)
+- [E1C — Automatic and remote control; band-specific regulations; operating in and communicating with foreign countries; spurious emission standards; HF modulation index limit; band-specific rules](#e1c--automatic-and-remote-control-band-specific-regulations-operating-in-and-communicating-with-foreign-countries-spurious-emission-standards-hf-modulation-index-limit-band-specific-rules)
+  - [All 12 pool questions for E1C](#all-12-pool-questions-for-e1c)
+- [E1D — Amateur Space and Earth stations; telemetry and telecommand rules; identification of balloon transmissions; one-way communications](#e1d--amateur-space-and-earth-stations-telemetry-and-telecommand-rules-identification-of-balloon-transmissions-one-way-communications)
+  - [All 12 pool questions for E1D](#all-12-pool-questions-for-e1d)
+- [E1E — Volunteer examiner program: definitions; qualifications; preparation and administration of exams; reimbursement; accreditation; question pools; documentation requirements](#e1e--volunteer-examiner-program-definitions-qualifications-preparation-and-administration-of-exams-reimbursement-accreditation-question-pools-documentation-requirements)
+  - [All 11 pool questions for E1E](#all-11-pool-questions-for-e1e)
+- [E1F — Miscellaneous rules: external RF power amplifiers; prohibited communications; spread spectrum; auxiliary stations; Canadian amateurs operating in the US; special temporary authority](#e1f--miscellaneous-rules-external-rf-power-amplifiers-prohibited-communications-spread-spectrum-auxiliary-stations-canadian-amateurs-operating-in-the-us-special-temporary-authority)
+  - [All 11 pool questions for E1F](#all-11-pool-questions-for-e1f)
+
 ---
 
 ## E1A — Frequency privileges; signal frequency range; automatic message forwarding; stations aboard ships or aircraft; power restriction on 630- and 2200-meter bands
@@ -49,7 +64,9 @@ Why is it not legal to transmit a 3 kHz bandwidth USB signal with a carrier freq
 - A. USB is not used on 20-meter phone
 - B. The lower 1 kHz of the signal is outside the 20-meter band
 - C. 14.348 MHz is outside the 20-meter band
-- **D. The upper 1 kHz of the signal is outside the 20-meter band**  ←
+- D. The upper 1 kHz of the signal is outside the 20-meter band
+-
+- Answer: D
 
 **E1A02** &nbsp;·&nbsp; `[97.301, 97.305]`
 
@@ -58,7 +75,9 @@ When using a transceiver that displays the carrier frequency of phone signals, w
 - A. The exact lower band edge
 - B. 300 Hz above the lower band edge
 - C. 1 kHz above the lower band edge
-- **D. 3 kHz above the lower band edge**  ←
+- D. 3 kHz above the lower band edge
+-
+- Answer: D
 
 **E1A03** &nbsp;·&nbsp; `[97.305, 97.307(b)]`
 
@@ -66,8 +85,10 @@ What is the highest legal carrier frequency on the 20-meter band for transmittin
 
 - A. 14.0708 MHz
 - B. 14.1002 MHz
-- **C. 14.1472 MHz**  ←
+- C. 14.1472 MHz
 - D. 14.3490 MHz
+-
+- Answer: C
 
 **E1A04** &nbsp;·&nbsp; `[97.301, 97.305]`
 
@@ -75,8 +96,10 @@ May an Extra class operator answer the CQ of a station on 3.601 MHz LSB phone?
 
 - A. Yes, the entire signal will be inside the SSB allocation for Extra class operators
 - B. Yes, the displayed frequency is within the 75-meter phone band segment
-- **C. No, the sideband components will extend beyond the edge of the phone band segment**  ←
+- C. No, the sideband components will extend beyond the edge of the phone band segment
 - D. No, US stations are not permitted to use phone emissions below 3.610 MHz
+-
+- Answer: C
 
 **E1A05** &nbsp;·&nbsp; `[97.5]`
 
@@ -84,17 +107,21 @@ Who must be in physical control of the station apparatus of an amateur station a
 
 - A. Only a person with an FCC Marine Radio license grant
 - B. Only a person named in an amateur station license grant
-- **C. Any person holding an FCC issued amateur license or who is authorized for alien reciprocal operation**  ←
+- C. Any person holding an FCC issued amateur license or who is authorized for alien reciprocal operation
 - D. Any person named in an amateur station license grant or a person holding an unrestricted Radiotelephone Operator Permit
+-
+- Answer: C
 
 **E1A06** &nbsp;·&nbsp; `[97.303(h)(1)]`
 
 What is the required transmit frequency of a CW signal for channelized 60 meter operation?
 
 - A. At the lowest frequency of the channel
-- **B. At the center frequency of the channel**  ←
+- B. At the center frequency of the channel
 - C. At the highest frequency of the channel
 - D. On any frequency where the signal’s sidebands are within the channel
+-
+- Answer: B
 
 **E1A07** &nbsp;·&nbsp; `[97.313(k)]`
 
@@ -102,17 +129,21 @@ What is the maximum power permitted on the 2200-meter band?
 
 - A. 50 watts PEP (peak envelope power)
 - B. 100 watts PEP (peak envelope power)
-- **C. 1 watt EIRP (equivalent isotropic radiated power)**  ←
+- C. 1 watt EIRP (equivalent isotropic radiated power)
 - D. 5 watts EIRP (equivalent isotropic radiated power)
+-
+- Answer: C
 
 **E1A08** &nbsp;·&nbsp; `[97.219]`
 
 If a station in a message forwarding system inadvertently forwards a message that is in violation of FCC rules, who is primarily accountable for the rules violation?
 
 - A. The control operator of the packet bulletin board station
-- **B. The control operator of the originating station**  ←
+- B. The control operator of the originating station
 - C. The control operators of all the stations in the system
 - D. The control operators of all the stations in the system not authenticating the source from which they accept communications
+-
+- Answer: B
 
 **E1A09** &nbsp;·&nbsp; `[97.313(l)]`
 
@@ -121,25 +152,31 @@ Except in some parts of Alaska, what is the maximum power permitted on the 630-m
 - A. 50 watts PEP (peak envelope power)
 - B. 100 watts PEP (peak envelope power)
 - C. 1 watt EIRP (equivalent isotropic radiated power)
-- **D. 5 watts EIRP (equivalent isotropic radiated power)**  ←
+- D. 5 watts EIRP (equivalent isotropic radiated power)
+-
+- Answer: D
 
 **E1A10** &nbsp;·&nbsp; `[97.11]`
 
 If an amateur station is installed aboard a ship or aircraft, what condition must be met before the station is operated?
 
-- **A. Its operation must be approved by the master of the ship or the pilot in command of the aircraft**  ←
+- A. Its operation must be approved by the master of the ship or the pilot in command of the aircraft
 - B. The amateur station operator must agree not to transmit when the main radio of the ship or aircraft is in use
 - C. The amateur station must have a power supply that is completely independent of the main ship or aircraft power supply
 - D. The amateur station must operate only in specific segments of the amateur service HF and VHF bands
+-
+- Answer: A
 
 **E1A11** &nbsp;·&nbsp; `[97.5]`
 
 What licensing is required when operating an amateur station aboard a US-registered vessel in international waters?
 
 - A. Any amateur license with an FCC Marine or Aircraft endorsement
-- **B. Any FCC-issued amateur license**  ←
+- B. Any FCC-issued amateur license
 - C. Only General class or higher amateur licenses
 - D. An unrestricted Radiotelephone Operator Permit
+-
+- Answer: B
 
 ---
 
@@ -184,25 +221,31 @@ Which of the following constitutes a spurious emission?
 - A. An amateur station transmission made without the proper call sign identification
 - B. A signal transmitted to prevent its detection by any station other than the intended recipient
 - C. Any transmitted signal that unintentionally interferes with another licensed radio station and whose levels exceed 40 dB below the fundamental power level
-- **D. An emission outside the signal’s necessary bandwidth that can be reduced or eliminated without affecting the information transmitted**  ←
+- D. An emission outside the signal’s necessary bandwidth that can be reduced or eliminated without affecting the information transmitted
+-
+- Answer: D
 
 **E1B02** &nbsp;·&nbsp; `[97.307(f)(2)]`
 
 Which of the following is an acceptable bandwidth for digital voice or slow-scan TV transmissions made on the HF amateur bands?
 
-- **A. 3 kHz**  ←
+- A. 3 kHz
 - B. 10 kHz
 - C. 15 kHz
 - D. 20 kHz
+-
+- Answer: A
 
 **E1B03** &nbsp;·&nbsp; `[97.13]`
 
 Within what distance must an amateur station protect an FCC monitoring facility from harmful interference?
 
-- **A. 1 mile**  ←
+- A. 1 mile
 - B. 3 miles
 - C. 10 miles
 - D. 30 miles
+-
+- Answer: A
 
 **E1B04** &nbsp;·&nbsp; `[97.303(b)]`
 
@@ -210,8 +253,10 @@ What must the control operator of a repeater operating in the 70-centimeter band
 
 - A. Reduce the repeater antenna HAAT (Height Above Average Terrain)
 - B. File an FAA NOTAM (Notice to Air Missions) with the repeater system's ERP, call sign, and six-character grid locator
-- **C. Cease operation or make changes to the repeater that mitigate the interference**  ←
+- C. Cease operation or make changes to the repeater that mitigate the interference
 - D. All these choices are correct
+-
+- Answer: C
 
 **E1B05** &nbsp;·&nbsp; `[97.3]`
 
@@ -219,17 +264,21 @@ What is the National Radio Quiet Zone?
 
 - A. An area surrounding the FCC monitoring station in Laurel, Maryland
 - B. An area in New Mexico surrounding the White Sands Test Area
-- **C. An area surrounding the National Radio Astronomy Observatory**  ←
+- C. An area surrounding the National Radio Astronomy Observatory
 - D. An area in Florida surrounding Cape Canaveral
+-
+- Answer: C
 
 **E1B06** &nbsp;·&nbsp; `[97.15]`
 
 Which of the following additional rules apply if you are erecting an amateur station antenna structure at a site at or near a public use airport?
 
-- **A. You may have to notify the Federal Aviation Administration and register it with the FCC as required by Part 17 of the FCC rules**  ←
+- A. You may have to notify the Federal Aviation Administration and register it with the FCC as required by Part 17 of the FCC rules
 - B. You may have to enter the height above ground in meters, and the latitude and longitude in degrees, minutes, and seconds on the FAA website
 - C. You must file an Environmental Impact Statement with the EPA before construction begins
 - D. You must obtain a construction permit from the airport zoning authority per Part 119 of the FAA regulations
+-
+- Answer: A
 
 **E1B07** &nbsp;·&nbsp; `[97.15]`
 
@@ -237,8 +286,10 @@ To what type of regulations does PRB-1 apply?
 
 - A. Homeowners associations
 - B. FAA tower height limits
-- **C. State and local zoning**  ←
+- C. State and local zoning
 - D. Use of wireless devices in vehicles
+-
+- Answer: C
 
 **E1B08** &nbsp;·&nbsp; `[97.121]`
 
@@ -247,7 +298,9 @@ What limitations may the FCC place on an amateur station if its signal causes in
 - A. The amateur station must cease operation
 - B. The amateur station must cease operation on all frequencies below 30 MHz
 - C. The amateur station must cease operation on all frequencies above 30 MHz
-- **D. The amateur station must avoid transmitting during certain hours on frequencies that cause the interference**  ←
+- D. The amateur station must avoid transmitting during certain hours on frequencies that cause the interference
+-
+- Answer: D
 
 **E1B09** &nbsp;·&nbsp; `[97.407]`
 
@@ -255,26 +308,32 @@ Which amateur stations may be operated under RACES rules?
 
 - A. Only those club stations licensed to Amateur Extra class operators
 - B. Any FCC-licensed amateur station except a Technician class
-- **C. Any FCC-licensed amateur station certified by the responsible civil defense organization for the area served**  ←
+- C. Any FCC-licensed amateur station certified by the responsible civil defense organization for the area served
 - D. Only stations meeting the FCC Part 97 technical standards for operation during an emergency
+-
+- Answer: C
 
 **E1B10** &nbsp;·&nbsp; `[97.407]`
 
 What frequencies are authorized to an amateur station operating under RACES rules?
 
-- **A. All amateur service frequencies authorized to the control operator**  ←
+- A. All amateur service frequencies authorized to the control operator
 - B. Specific segments in the amateur service MF, HF, VHF, and UHF bands
 - C. Specific local government channels
 - D. All these choices are correct
+-
+- Answer: A
 
 **E1B11** &nbsp;·&nbsp; `[97.15]`
 
 What does PRB-1 require of state and local regulations affecting amateur radio antenna size and structures?
 
 - A. No limitations may be placed on antenna size or placement
-- **B. Reasonable accommodations of amateur radio must be made**  ←
+- B. Reasonable accommodations of amateur radio must be made
 - C. Such structures must be permitted when use for emergency communications can be demonstrated
 - D. Such structures must be permitted if certified by a registered professional engineer
+-
+- Answer: B
 
 ---
 
@@ -320,7 +379,9 @@ What is the maximum bandwidth for a data emission on 60 meters?
 - A. 60 Hz
 - B. 170 Hz
 - C. 1.5 kHz
-- **D. 2.8 kHz**  ←
+- D. 2.8 kHz
+-
+- Answer: D
 
 **E1C02** &nbsp;·&nbsp; `[97.117]`
 
@@ -328,35 +389,43 @@ Which of the following apply to communications transmitted to amateur stations i
 
 - A. Third party traffic must be limited to that intended for the exclusive use of government and non-Government Organization (NGOs) involved in emergency relief activities
 - B. All transmissions must be in English
-- **C. Communications must be limited to those incidental to the purpose of the amateur service and remarks of a personal nature**  ←
+- C. Communications must be limited to those incidental to the purpose of the amateur service and remarks of a personal nature
 - D. All these choices are correct
+-
+- Answer: C
 
 **E1C03** &nbsp;·&nbsp; `[97.303(g)]`
 
 How long must an operator wait after filing a notification with the Utilities Technology Council (UTC) before operating on the 2200-meter or 630-meter band?
 
 - A. Operators must not operate until approval is received
-- **B. Operators may operate after 30 days, providing they have not been told that their station is within 1 kilometer of PLC systems using those frequencies**  ←
+- B. Operators may operate after 30 days, providing they have not been told that their station is within 1 kilometer of PLC systems using those frequencies
 - C. Operators may not operate until a test signal has been transmitted in coordination with the local power company
 - D. Operations may commence immediately, and may continue unless interference is reported by the UTC
+-
+- Answer: B
 
 **E1C04**
 
 What is an IARP?
 
-- **A. A permit that allows US amateurs to operate in certain countries of the Americas**  ←
+- A. A permit that allows US amateurs to operate in certain countries of the Americas
 - B. The internal amateur radio practices policy of the FCC
 - C. An indication of increased antenna reflected power
 - D. A forecast of intermittent aurora radio propagation
+-
+- Answer: A
 
 **E1C05** &nbsp;·&nbsp; `[97.221(c)(1), 97.115(c)]`
 
 Under what situation may a station transmit third party communications while being automatically controlled?
 
 - A. Never
-- **B. Only when transmitting RTTY or data emissions**  ←
+- B. Only when transmitting RTTY or data emissions
 - C. Only when transmitting SSB or CW
 - D. On any mode approved by the National Telecommunication and Information Administration
+-
+- Answer: B
 
 **E1C06**
 
@@ -364,8 +433,10 @@ Which of the following is required in order to operate in accordance with CEPT r
 
 - A. You must identify in the official language of the country in which you are operating
 - B. The US embassy must approve of your operation
-- **C. You must have a copy of FCC Public Notice DA 16-1048**  ←
+- C. You must have a copy of FCC Public Notice DA 16-1048
 - D. You must append "/CEPT" to your call sign
+-
+- Answer: C
 
 **E1C07** &nbsp;·&nbsp; `[97.303(g)]`
 
@@ -374,43 +445,53 @@ What notifications must be given before transmitting on the 630- or 2200-meter b
 - A. A special endorsement must be requested from the FCC
 - B. An environmental impact statement must be filed with the Department of the Interior
 - C. Operators must inform the FAA of their intent to operate, giving their call sign and distance to the nearest runway
-- **D. Operators must inform the Utilities Technology Council (UTC) of their call sign and coordinates of the station**  ←
+- D. Operators must inform the Utilities Technology Council (UTC) of their call sign and coordinates of the station
+-
+- Answer: D
 
 **E1C08** &nbsp;·&nbsp; `[97.213]`
 
 What is the maximum permissible duration of a remotely controlled station’s transmissions if its control link malfunctions?
 
 - A. 30 seconds
-- **B. 3 minutes**  ←
+- B. 3 minutes
 - C. 5 minutes
 - D. 10 minutes
+-
+- Answer: B
 
 **E1C09** &nbsp;·&nbsp; `[97.307]`
 
 What is the highest modulation index permitted at the highest modulation frequency for angle modulation below 29.0 MHz?
 
 - A. 0.5
-- **B. 1.0**  ←
+- B. 1.0
 - C. 2.0
 - D. 3.0
+-
+- Answer: B
 
 **E1C10** &nbsp;·&nbsp; `[97.307]`
 
 What is the maximum mean power level for a spurious emission below 30 MHz with respect to the fundamental emission?
 
-- **A. - 43 dB**  ←
+- A. - 43 dB
 - B. - 53 dB
 - C. - 63 dB
 - D. - 73 dB
+-
+- Answer: A
 
 **E1C11** &nbsp;·&nbsp; `[97.5]`
 
 Which of the following operating arrangements allows an FCC-licensed US citizen to operate in many European countries, and amateurs from many European countries to operate in the US?
 
-- **A. CEPT**  ←
+- A. CEPT
 - B. IARP
 - C. ITU reciprocal license
 - D. All these choices are correct
+-
+- Answer: A
 
 **E1C12** &nbsp;·&nbsp; `[97.305(c)]`
 
@@ -419,7 +500,9 @@ In what portion of the 630-meter band are phone emissions permitted?
 - A. None
 - B. Only the top 3 kHz
 - C. Only the bottom 3 kHz
-- **D. The entire band**  ←
+- D. The entire band
+-
+- Answer: D
 
 ---
 
@@ -463,37 +546,45 @@ telecommand station** — not from repeaters or message-forwarding stations.
 
 What is the definition of telemetry?
 
-- **A. One-way transmission of measurements at a distance from the measuring instrument**  ←
+- A. One-way transmission of measurements at a distance from the measuring instrument
 - B. Two-way transmissions in excess of 1000 feet
 - C. Two-way transmissions of data
 - D. One-way transmission that initiates, modifies, or terminates the functions of a device at a distance
+-
+- Answer: A
 
 **E1D02** &nbsp;·&nbsp; `[97.211(b)]`
 
 Which of the following may transmit encrypted messages?
 
 - A. Telecommand signals to terrestrial repeaters
-- **B. Telecommand signals from a space telecommand station**  ←
+- B. Telecommand signals from a space telecommand station
 - C. Auxiliary relay links carrying repeater audio
 - D. Mesh network backbone nodes
+-
+- Answer: B
 
 **E1D03** &nbsp;·&nbsp; `[97.3(a)(45)]`
 
 What is a space telecommand station?
 
 - A. An amateur station located on the surface of the Earth for communication with other Earth stations by means of Earth satellites
-- **B. An amateur station that transmits communications to initiate, modify, or terminate functions of a space station**  ←
+- B. An amateur station that transmits communications to initiate, modify, or terminate functions of a space station
 - C. An amateur station located in a satellite or a balloon more than 50 kilometers above the surface of the Earth
 - D. An amateur station that receives telemetry from a satellite or balloon more than 50 kilometers above the surface of the Earth
+-
+- Answer: B
 
 **E1D04** &nbsp;·&nbsp; `[97.119(a)]`
 
 Which of the following is required in the identification transmissions from a balloon-borne telemetry station?
 
-- **A. Call sign**  ←
+- A. Call sign
 - B. The output power of the balloon transmitter
 - C. The station's six-character Maidenhead grid locator
 - D. All these choices are correct
+-
+- Answer: A
 
 **E1D05** &nbsp;·&nbsp; `[97.213(d)]`
 
@@ -502,25 +593,31 @@ What must be posted at the location of a station being operated by telecommand o
 - A. A photocopy of the station license
 - B. A label with the name, address, and telephone number of the station licensee
 - C. A label with the name, address, and telephone number of the control operator
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **E1D06** &nbsp;·&nbsp; `[97.215(c)]`
 
 What is the maximum permitted transmitter output power when operating a model craft by telecommand?
 
-- **A. 1 watt**  ←
+- A. 1 watt
 - B. 2 watts
 - C. 5 watts
 - D. 100 watts
+-
+- Answer: A
 
 **E1D07** &nbsp;·&nbsp; `[97.207]`
 
 Which of the following HF amateur bands include allocations for space stations?
 
-- **A. 40 meters, 20 meters, 15 meters, and 10 meters**  ←
+- A. 40 meters, 20 meters, 15 meters, and 10 meters
 - B. 30 meters, 17 meters, and 10 meters
 - C. Only 10 meters
 - D. Satellite operation is permitted on all HF bands
+-
+- Answer: A
 
 **E1D08** &nbsp;·&nbsp; `[97.207]`
 
@@ -529,25 +626,31 @@ Which VHF amateur bands have frequencies authorized for space stations?
 - A. 6 meters and 2 meters
 - B. 6 meters, 2 meters, and 1.25 meters
 - C. 2 meters and 1.25 meters
-- **D. 2 meters**  ←
+- D. 2 meters
+-
+- Answer: D
 
 **E1D09** &nbsp;·&nbsp; `[97.207]`
 
 Which UHF amateur bands have frequencies authorized for space stations?
 
 - A. 70 centimeters only
-- **B. 70 centimeters and 13 centimeters**  ←
+- B. 70 centimeters and 13 centimeters
 - C. 70 centimeters and 33 centimeters
 - D. 33 centimeters and 13 centimeters
+-
+- Answer: B
 
 **E1D10** &nbsp;·&nbsp; `[97.211]`
 
 Which amateur stations are eligible to be telecommand stations of space stations, subject to the privileges of the class of operator license held by the control operator of the station?
 
 - A. Any amateur station approved by AMSAT
-- **B. Any amateur station so designated by the space station licensee**  ←
+- B. Any amateur station so designated by the space station licensee
 - C. Any amateur station so designated by the ITU
 - D. All these choices are correct
+-
+- Answer: B
 
 **E1D11** &nbsp;·&nbsp; `[97.209]`
 
@@ -556,16 +659,20 @@ Which amateur stations are eligible to operate as Earth stations?
 - A. Any amateur licensee who has successfully completed the AMSAT space communications course
 - B. Only those of General, Advanced or Amateur Extra class operators
 - C. Only those of Amateur Extra class operators
-- **D. Any amateur station, subject to the privileges of the class of operator license held by the control operator**  ←
+- D. Any amateur station, subject to the privileges of the class of operator license held by the control operator
+-
+- Answer: D
 
 **E1D12** &nbsp;·&nbsp; `[97.207(e), 97.203(g)]`
 
 Which of the following amateur stations may transmit one-way communications?
 
-- **A. A space station, beacon station, or telecommand station**  ←
+- A. A space station, beacon station, or telecommand station
 - B. A local repeater or linked repeater station
 - C. A message forwarding station or automatically controlled digital station
 - D. All these choices are correct
+-
+- Answer: A
 
 ---
 
@@ -605,10 +712,12 @@ grant** together.
 
 For which types of out-of-pocket expenses do the Part 97 rules state that VEs and VECs may be reimbursed?
 
-- **A. Preparing, processing, administering, and coordinating an examination for an amateur radio operator license**  ←
+- A. Preparing, processing, administering, and coordinating an examination for an amateur radio operator license
 - B. Teaching an amateur operator license examination preparation course
 - C. No expenses are authorized for reimbursement
 - D. Providing amateur operator license examination preparation training materials
+-
+- Answer: A
 
 **E1E02** &nbsp;·&nbsp; `[97.523]`
 
@@ -616,8 +725,10 @@ Who is tasked by Part 97 with maintaining the pools of questions for all US amat
 
 - A. The VEs
 - B. The FCC
-- **C. The VECs**  ←
+- C. The VECs
 - D. The ARRL
+-
+- Answer: C
 
 **E1E03** &nbsp;·&nbsp; `[97.521]`
 
@@ -625,8 +736,10 @@ What is a Volunteer Examiner Coordinator?
 
 - A. A person who has volunteered to administer amateur operator license examinations
 - B. An organization paid by the volunteer examiner team to publicize and schedule examinations
-- **C. An organization that has entered into an agreement with the FCC to coordinate, prepare, and administer amateur operator license examinations**  ←
+- C. An organization that has entered into an agreement with the FCC to coordinate, prepare, and administer amateur operator license examinations
 - D. The person who has entered into an agreement with the FCC to be the VE session manager
+-
+- Answer: C
 
 **E1E04** &nbsp;·&nbsp; `[97.509, 97.525]`
 
@@ -635,16 +748,20 @@ What is required to be accredited as a Volunteer Examiner?
 - A. Each General, Advanced and Amateur Extra class operator is automatically accredited as a VE when the license is granted
 - B. The amateur operator applying must pass a VE examination administered by the FCC Enforcement Bureau
 - C. The prospective VE must obtain accreditation from the FCC
-- **D. A VEC must confirm that the VE applicant meets FCC requirements to serve as an examiner**  ←
+- D. A VEC must confirm that the VE applicant meets FCC requirements to serve as an examiner
+-
+- Answer: D
 
 **E1E05** &nbsp;·&nbsp; `[97.509(j)]`
 
 What must the VE team do with the application form if the examinee does not pass the exam?
 
 - A. Maintain the application form with the VEC’s records
-- **B. Return the application document to the examinee**  ←
+- B. Return the application document to the examinee
 - C. Send the application form to the FCC and inform the FCC of the grade
 - D. Destroy the application form
+-
+- Answer: B
 
 **E1E06** &nbsp;·&nbsp; `[97.509]`
 
@@ -652,17 +769,21 @@ Who is responsible for the proper conduct and necessary supervision during an am
 
 - A. The VEC coordinating the session
 - B. The designated monitoring VE
-- **C. Each administering VE**  ←
+- C. Each administering VE
 - D. Only the VE session manager
+-
+- Answer: C
 
 **E1E07** &nbsp;·&nbsp; `[97.509, 97.511]`
 
 What should a VE do if a candidate fails to comply with the examiner’s instructions during an amateur operator license examination?
 
 - A. Warn the candidate that continued failure to comply will result in termination of the examination
-- **B. Immediately terminate the candidate’s examination**  ←
+- B. Immediately terminate the candidate’s examination
 - C. Allow the candidate to complete the examination, but invalidate the results
 - D. Immediately terminate everyone’s examination and close the session
+-
+- Answer: B
 
 **E1E08** &nbsp;·&nbsp; `[97.509]`
 
@@ -670,17 +791,21 @@ To which of the following examinees may a VE not administer an examination?
 
 - A. Employees of the VE
 - B. Friends of the VE
-- **C. Relatives of the VE as listed in the FCC rules**  ←
+- C. Relatives of the VE as listed in the FCC rules
 - D. All these choices are correct
+-
+- Answer: C
 
 **E1E09** &nbsp;·&nbsp; `[97.509]`
 
 What may be the penalty for a VE who fraudulently administers or certifies an examination?
 
-- **A. Revocation of the VE’s amateur station license grant and the suspension of the VE’s amateur operator license grant**  ←
+- A. Revocation of the VE’s amateur station license grant and the suspension of the VE’s amateur operator license grant
 - B. A fine of up to $1,000 per occurrence
 - C. A sentence of up to one year in prison
 - D. All these choices are correct
+-
+- Answer: A
 
 **E1E10** &nbsp;·&nbsp; `[97.509(m)]`
 
@@ -688,17 +813,21 @@ What must the administering VEs do after the administration of a successful exam
 
 - A. They must collect and send the documents directly to the FCC
 - B. They must collect and submit the documents to the coordinating VEC for grading
-- **C. They must submit the application document to the coordinating VEC according to the coordinating VEC instructions**  ←
+- C. They must submit the application document to the coordinating VEC according to the coordinating VEC instructions
 - D. They must return the documents to the applicant for submission to the FCC according to the FCC instructions
+-
+- Answer: C
 
 **E1E11** &nbsp;·&nbsp; `[97.509(i)]`
 
 What must the VE team do if an examinee scores a passing grade on all examination elements needed for an upgrade or new license?
 
 - A. Photocopy all examination documents and forward them to the FCC for processing
-- **B. Three VEs must certify that the examinee is qualified for the license grant and that they have complied with the administering VE requirements**  ←
+- B. Three VEs must certify that the examinee is qualified for the license grant and that they have complied with the administering VE requirements
 - C. Issue the examinee the new or upgrade license
 - D. All these choices are correct
+-
+- Answer: B
 
 ---
 
@@ -744,9 +873,11 @@ power**.
 On what frequencies are spread spectrum transmissions permitted?
 
 - A. Only on amateur frequencies above 50 MHz
-- **B. Only on amateur frequencies above 222 MHz**  ←
+- B. Only on amateur frequencies above 222 MHz
 - C. Only on amateur frequencies above 420 MHz
 - D. Only on amateur frequencies above 144 MHz
+-
+- Answer: B
 
 **E1F02** &nbsp;·&nbsp; `[97.107]`
 
@@ -754,8 +885,10 @@ What privileges are authorized in the US to persons holding an amateur service l
 
 - A. None, they must obtain a US license
 - B. Full privileges of the General class license on the 80-, 40-, 20-, 15-, and 10-meter bands
-- **C. The operating terms and conditions of the Canadian amateur service license, not to exceed US Amateur Extra class license privileges**  ←
+- C. The operating terms and conditions of the Canadian amateur service license, not to exceed US Amateur Extra class license privileges
 - D. Full privileges, up to and including those of the Amateur Extra class license, on the 80-, 40-, 20-, 15-, and 10-meter bands
+-
+- Answer: C
 
 **E1F03** &nbsp;·&nbsp; `[97.315]`
 
@@ -764,16 +897,20 @@ Under what circumstances may a dealer sell an external RF power amplifier capabl
 - A. Gain is less than 23 dB when driven by power of 10 watts or less
 - B. The equipment dealer assembled it from a kit
 - C. It was manufactured and certificated in a country which has a reciprocal certification agreement with the FCC
-- **D. The amplifier is constructed or modified by an amateur radio operator for use at an amateur station**  ←
+- D. The amplifier is constructed or modified by an amateur radio operator for use at an amateur station
+-
+- Answer: D
 
 **E1F04** &nbsp;·&nbsp; `[97.3]`
 
 Which of the following geographic descriptions approximately describes "Line A"?
 
-- **A. A line roughly parallel to and south of the border between the US and Canada**  ←
+- A. A line roughly parallel to and south of the border between the US and Canada
 - B. A line roughly parallel to and west of the US Atlantic coastline
 - C. A line roughly parallel to and north of the border between the US and Mexico
 - D. A line roughly parallel to and east of the US Pacific coastline
+-
+- Answer: A
 
 **E1F05** &nbsp;·&nbsp; `[97.303]`
 
@@ -782,16 +919,20 @@ Amateur stations may not transmit in which of the following frequency segments i
 - A. 440 MHz - 450 MHz
 - B. 53 MHz - 54 MHz
 - C. 222 MHz - 223 MHz
-- **D. 420 MHz - 430 MHz**  ←
+- D. 420 MHz - 430 MHz
+-
+- Answer: D
 
 **E1F06** &nbsp;·&nbsp; `[1.931]`
 
 Under what circumstances might the FCC issue a Special Temporary Authority (STA) to an amateur station?
 
-- **A. To provide for experimental amateur communications**  ←
+- A. To provide for experimental amateur communications
 - B. To allow use of a special event call sign
 - C. To allow a VE group with less than three VEs to administer examinations in a remote, sparsely populated area
 - D. To allow a licensee who has passed an upgrade exam to operate with upgraded privileges while waiting for posting on the FCC database
+-
+- Answer: A
 
 **E1F07** &nbsp;·&nbsp; `[97.113]`
 
@@ -800,16 +941,20 @@ When may an amateur station send a message to a business?
 - A. When the pecuniary interest of the amateur or his or her employer is less than $25
 - B. When the pecuniary interest of the amateur or his or her employer is less than $50
 - C. At no time
-- **D. When neither the amateur nor their employer has a pecuniary interest in the communications**  ←
+- D. When neither the amateur nor their employer has a pecuniary interest in the communications
+-
+- Answer: D
 
 **E1F08** &nbsp;·&nbsp; `[97.113(c)]`
 
 Which of the following types of amateur station communications are prohibited?
 
-- **A. Communications transmitted for hire or material compensation, except as otherwise provided in the rules**  ←
+- A. Communications transmitted for hire or material compensation, except as otherwise provided in the rules
 - B. Communications that have political content, except as allowed by the Fairness Doctrine
 - C. Communications that have religious content
 - D. Communications in a language other than English
+-
+- Answer: A
 
 **E1F09** &nbsp;·&nbsp; `[FCC Part 97.113(a)(4)]`
 
@@ -817,17 +962,21 @@ Which of the following cannot be transmitted over an amateur radio mesh network?
 
 - A. Third party traffic
 - B. Email
-- **C. Messages encoded to obscure their meaning**  ←
+- C. Messages encoded to obscure their meaning
 - D. All these choices are correct
+-
+- Answer: C
 
 **E1F10** &nbsp;·&nbsp; `[97.201]`
 
 Who may be the control operator of an auxiliary station?
 
 - A. Any licensed amateur operator
-- **B. Only Technician, General, Advanced, or Amateur Extra class operators**  ←
+- B. Only Technician, General, Advanced, or Amateur Extra class operators
 - C. Only General, Advanced, or Amateur Extra class operators
 - D. Only Amateur Extra class operators
+-
+- Answer: B
 
 **E1F11** &nbsp;·&nbsp; `[97.317]`
 
@@ -836,4 +985,6 @@ Which of the following best describes one of the standards that must be met by a
 - A. It must produce full legal output when driven by not more than 5 watts of mean RF input power
 - B. It must have received an Underwriters Laboratory certification for electrical safety as well as having met IEEE standard 14.101(B)
 - C. It must exhibit a gain of less than 23 dB when driven by 10 watts or less
-- **D. It must satisfy the FCC’s spurious emission standards when operated at the lesser of 1500 watts or its full output power**  ←
+- D. It must satisfy the FCC’s spurious emission standards when operated at the lesser of 1500 watts or its full output power
+-
+- Answer: D
