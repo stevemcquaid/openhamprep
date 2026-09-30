@@ -69,6 +69,7 @@ What is the primary function of an external earth connection or ground rod?
 - B. Lightning charge dissipation
 - C. Reduce RF current flow between pieces of equipment
 - D. Protect breaker panel from power surges
+-
 - Answer: B
 
 **E0A02**
@@ -79,6 +80,7 @@ When evaluating RF exposure levels from your station at a neighbor’s home, wha
 - B. Ensure signals from your station are less than the uncontrolled maximum permissible exposure (MPE) limits
 - C. Ensure signals from your station are less than the controlled maximum permissible emission (MPE) limits
 - D. Ensure signals from your station are less than the uncontrolled maximum permissible emission (MPE) limits
+-
 - Answer: B
 
 **E0A03**
@@ -89,6 +91,7 @@ Over what range of frequencies are the FCC human body RF exposure limits most re
 - B. 3 - 30 MHz
 - C. 30 - 300 MHz
 - D. 300 - 3000 MHz
+-
 - Answer: C
 
 **E0A04**
@@ -99,6 +102,7 @@ When evaluating a site with multiple transmitters operating at the same time, th
 - B. Each transmitter operating with a duty cycle greater than 25 percent
 - C. Each transmitter that produces 5 percent or more of its MPE limit in areas where the total MPE limit is exceeded
 - D. Each transmitter operating with a duty cycle greater than 50 percent
+-
 - Answer: C
 
 **E0A05**
@@ -109,6 +113,7 @@ What hazard is created by operating at microwave frequencies?
 - B. The high gain antennas commonly used can result in high exposure levels
 - C. Microwaves are in the frequency range where wave velocity is higher
 - D. The extremely high frequency energy can damage the joints of antenna structures
+-
 - Answer: B
 
 **E0A06**
@@ -119,6 +124,7 @@ Why are there separate electric (E) and magnetic (H) MPE limits at frequencies b
 - B. Ground reflections and scattering cause the field strength to vary with location
 - C. E field and H field radiation intensity peaks can occur at different locations
 - D. All these choices are correct
+-
 - Answer: D
 
 **E0A07**
@@ -129,6 +135,7 @@ What is meant by “100% tie-off” regarding tower safety?
 - B. At least one lanyard attached to the tower at all times
 - C. All tools secured to the climber’s harness
 - D. All circuit breakers feeding power to the tower must be tied closed with tape, cable, or ties
+-
 - Answer: B
 
 **E0A08**
@@ -139,6 +146,7 @@ What does SAR measure?
 - B. Signal amplification rating
 - C. The rate at which RF energy is absorbed by the body
 - D. The rate of RF energy reflected from stationary terrain
+-
 - Answer: C
 
 **E0A09**
@@ -149,6 +157,7 @@ Which of the following types of equipment are exempt from RF exposure evaluation
 - B. Antennas that radiate only in the near field
 - C. Hand-held transceivers sold before May 3, 2021
 - D. Dish antennas less than one meter in diameter
+-
 - Answer: C
 
 **E0A10**
@@ -159,6 +168,7 @@ When must an RF exposure evaluation be performed on an amateur station operating
 - B. When the ERP of the station is less than 10 watts
 - C. When the station’s operating mode is CW
 - D. When the output power from the transmitter is less than 100 watts
+-
 - Answer: A
 
 **E0A11**
@@ -169,6 +179,7 @@ To what should lanyards be attached while climbing?
 - B. Guy brackets
 - C. Tower rungs
 - D. Tower legs
+-
 - Answer: D
 
 **E0A12**
@@ -179,4 +190,5 @@ Where should a shock-absorbing lanyard be attached to a tower when working above
 - B. To the belt of the fall-arrest harness
 - C. Even with the climber's waist
 - D. To the next lowest set of guys
+-
 - Answer: A
