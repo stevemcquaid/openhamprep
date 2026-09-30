@@ -9,6 +9,20 @@ Every question in the pool is printed below with its correct answer marked and i
 Read the concept notes first, then work the questions; the notes are written to make the
 questions predictable rather than to be memorized on their own.
 
+## Table of Contents
+
+- [G1A — General class frequency privileges; primary and secondary allocations](#g1a--general-class-frequency-privileges-primary-and-secondary-allocations)
+  - [All 10 pool questions for G1A](#all-10-pool-questions-for-g1a)
+- [G1B — Antenna structures; good amateur practice; beacons; prohibited transmissions](#g1b--antenna-structures-good-amateur-practice-beacons-prohibited-transmissions)
+  - [All 11 pool questions for G1B](#all-11-pool-questions-for-g1b)
+- [G1C — Transmitter power regulations; data emission standards; 60-meter operation](#g1c--transmitter-power-regulations-data-emission-standards-60-meter-operation)
+  - [All 8 pool questions for G1C](#all-8-pool-questions-for-g1c)
+- [G1D — Volunteer Examiners and VECs; temporary identification; element credit; remote operation](#g1d--volunteer-examiners-and-vecs-temporary-identification-element-credit-remote-operation)
+  - [All 12 pool questions for G1D](#all-12-pool-questions-for-g1d)
+- [G1E — Control categories; repeaters; third-party rules; ITU regions; automatic control](#g1e--control-categories-repeaters-third-party-rules-itu-regions-automatic-control)
+  - [All 11 pool questions for G1E](#all-11-pool-questions-for-g1e)
+- [Bottom line for G1](#bottom-line-for-g1)
+
 ---
 
 ## G1A — General class frequency privileges; primary and secondary allocations
@@ -38,35 +52,43 @@ On which HF and/or MF amateur bands are there portions where General class licen
 
 - A. 60 meters, 30 meters, 17 meters, and 12 meters
 - B. 160 meters, 60 meters, 15 meters, and 12 meters
-- **C. 80 meters, 40 meters, 20 meters, and 15 meters**  ←
+- C. 80 meters, 40 meters, 20 meters, and 15 meters
 - D. 80 meters, 20 meters, 15 meters, and 10 meters
+-
+- Answer: C
 
 **G1A02** &nbsp;·&nbsp; `[97.305]`
 
 On which of the following bands is phone operation prohibited?
 
 - A. 160 meters
-- **B. 30 meters**  ←
+- B. 30 meters
 - C. 17 meters
 - D. 12 meters
+-
+- Answer: B
 
 **G1A03** &nbsp;·&nbsp; `[97.305]`
 
 On which of the following bands is image transmission prohibited?
 
 - A. 160 meters
-- **B. 30 meters**  ←
+- B. 30 meters
 - C. 20 meters
 - D. 12 meters
+-
+- Answer: B
 
 **G1A05** &nbsp;·&nbsp; `[97.301(d)]`
 
 On which of the following frequencies are General class licensees prohibited from operating as control operator?
 
-- **A. 7.125 MHz to 7.175 MHz**  ←
+- A. 7.125 MHz to 7.175 MHz
 - B. 28.000 MHz to 28.025 MHz
 - C. 21.275 MHz to 21.300 MHz
 - D. All these choices are correct
+-
+- Answer: A
 
 **G1A06** &nbsp;·&nbsp; `[97.303]`
 
@@ -74,8 +96,10 @@ Which of the following applies when the FCC rules designate the amateur service 
 
 - A. Amateur stations must record the call sign of the primary service station before operating on a frequency assigned to that station
 - B. Amateur stations may use the band only during emergencies
-- **C. Amateur stations must not cause harmful interference to primary users and must accept interference from primary users**  ←
+- C. Amateur stations must not cause harmful interference to primary users and must accept interference from primary users
 - D. Amateur stations may only operate during specific hours of the day, while primary users are permitted 24-hour use of the band
+-
+- Answer: C
 
 **G1A07** &nbsp;·&nbsp; `[97.305(a)]`
 
@@ -84,16 +108,20 @@ On which amateur frequencies in the 10-meter band may stations with a General cl
 - A. 28.000 MHz to 28.025 MHz only
 - B. 28.000 MHz to 28.300 MHz only
 - C. 28.025 MHz to 28.300 MHz only
-- **D. The entire band**  ←
+- D. The entire band
+-
+- Answer: D
 
 **G1A08** &nbsp;·&nbsp; `[97.301(b)]`
 
 Which HF bands have segments exclusively allocated to Amateur Extra licensees?
 
 - A. All HF bands
-- **B. 80 meters, 40 meters, 20 meters, and 15 meters**  ←
+- B. 80 meters, 40 meters, 20 meters, and 15 meters
 - C. All HF bands except 160 meters and 10 meters
 - D. 60 meters, 30 meters, 17 meters, and 12 meters
+-
+- Answer: B
 
 **G1A09** &nbsp;·&nbsp; `[97.301(d)]`
 
@@ -101,8 +129,10 @@ Which of the following frequencies is within the General class portion of the 15
 
 - A. 14250 kHz
 - B. 18155 kHz
-- **C. 21300 kHz**  ←
+- C. 21300 kHz
 - D. 24900 kHz
+-
+- Answer: C
 
 **G1A10** &nbsp;·&nbsp; `[97.205(b)]`
 
@@ -111,16 +141,20 @@ What portion of the 10-meter band is available for repeater use?
 - A. The entire band
 - B. The portion between 28.1 MHz and 28.2 MHz
 - C. The portion between 28.3 MHz and 28.5 MHz
-- **D. The portion above 29.5 MHz**  ←
+- D. The portion above 29.5 MHz
+-
+- Answer: D
 
 **G1A11** &nbsp;·&nbsp; `[97.301]`
 
 When General class licensees are not permitted to use the entire voice portion of a band, which portion of the voice segment is available to them?
 
 - A. The lower frequency portion
-- **B. The upper frequency portion**  ←
+- B. The upper frequency portion
 - C. The lower frequency portion on frequencies below 7.3 MHz, and the upper portion on frequencies above 14.150 MHz
 - D. The upper frequency portion on frequencies below 7.3 MHz, and the lower portion on frequencies above 14.150 MHz
+-
+- Answer: B
 
 ---
 
@@ -154,26 +188,32 @@ What is the maximum height above ground for an antenna structure not near a publ
 
 - A. 50 feet
 - B. 100 feet
-- **C. 200 feet**  ←
+- C. 200 feet
 - D. 250 feet
+-
+- Answer: C
 
 **G1B02** &nbsp;·&nbsp; `[97.203(b)]`
 
 With which of the following conditions must beacon stations comply?
 
-- **A. No more than one beacon station may transmit in the same band from the same station location**  ←
+- A. No more than one beacon station may transmit in the same band from the same station location
 - B. The frequency must be coordinated with the National Beacon Organization
 - C. The frequency must be posted on the internet or published in a national periodical
 - D. All these choices are correct
+-
+- Answer: A
 
 **G1B03** &nbsp;·&nbsp; `[97.3(a)(9)]`
 
 Which of the following is a purpose of a beacon station as identified in the FCC rules?
 
-- **A. Observation of propagation and reception**  ←
+- A. Observation of propagation and reception
 - B. Automatic identification of repeaters
 - C. Transmission of bulletins of general interest to amateur radio licensees
 - D. All these choices are correct
+-
+- Answer: A
 
 **G1B04** &nbsp;·&nbsp; `[97.113(c)]`
 
@@ -181,17 +221,21 @@ Which of the following transmissions is permitted for all amateur stations?
 
 - A. Unidentified transmissions of less than 10 seconds duration for test purposes only
 - B. Automatic retransmission of other amateur signals by any amateur station
-- **C. Occasional retransmission of weather and propagation forecast information from US government stations**  ←
+- C. Occasional retransmission of weather and propagation forecast information from US government stations
 - D. Encrypted messages, if not intended to facilitate a criminal act
+-
+- Answer: C
 
 **G1B05** &nbsp;·&nbsp; `[97.111((5)(b)]`
 
 Which of the following one-way transmissions are permitted?
 
 - A. Unidentified test transmissions of less than 10 seconds in duration
-- **B. Transmissions to assist with learning the International Morse code**  ←
+- B. Transmissions to assist with learning the International Morse code
 - C. Regular transmissions offering equipment for sale, if intended for amateur radio use
 - D. All these choices are correct
+-
+- Answer: B
 
 **G1B06** &nbsp;·&nbsp; `[97.15(b), PRB-1, 101 FCC 2d 952 (1985)]`
 
@@ -200,25 +244,31 @@ Under what conditions are state and local governments permitted to regulate amat
 - A. Under no circumstances, FCC rules take priority
 - B. At any time and to any extent necessary to accomplish a legitimate purpose of the state or local entity, provided that proper filings are made with the FCC
 - C. Only when such structures exceed 50 feet in height and are clearly visible 1,000 feet from the structure
-- **D. Amateur Service communications must be reasonably accommodated, and regulations must constitute the minimum practical to accommodate a legitimate purpose of the state or local entity**  ←
+- D. Amateur Service communications must be reasonably accommodated, and regulations must constitute the minimum practical to accommodate a legitimate purpose of the state or local entity
+-
+- Answer: D
 
 **G1B07** &nbsp;·&nbsp; `[97.113(a)(4)]`
 
 What are the restrictions on the use of abbreviations or procedural signals in the amateur service?
 
 - A. Only “Q” signals are permitted
-- **B. They may be used if they do not obscure the meaning of a message**  ←
+- B. They may be used if they do not obscure the meaning of a message
 - C. They are not permitted
 - D. They are limited to those expressly listed in Part 97 of the FCC rules
+-
+- Answer: B
 
 **G1B08** &nbsp;·&nbsp; `[97.111(a)(1)]`
 
 When is it permissible to communicate with amateur stations in countries outside the areas administered by the Federal Communications Commission?
 
 - A. Only when the foreign country has a formal third-party agreement filed with the FCC
-- **B. When the contact is with amateurs in any country except those whose administrations have notified the ITU that they object to such communications**  ←
+- B. When the contact is with amateurs in any country except those whose administrations have notified the ITU that they object to such communications
 - C. Only when the contact is with amateurs licensed by a country which is a member of the United Nations, or by a territory possessed by such a country
 - D. Only when the contact is with amateurs licensed by a country which is a member of the International Amateur Radio Union, or by a territory possessed by such a country
+-
+- Answer: B
 
 **G1B09** &nbsp;·&nbsp; `[97.203(d)]`
 
@@ -227,7 +277,9 @@ On what HF frequencies are automatically controlled beacons permitted?
 - A. On any frequency if power is less than 1 watt
 - B. On any frequency if transmissions are in Morse code
 - C. 21.08 MHz to 21.09 MHz
-- **D. 28.20 MHz to 28.30 MHz**  ←
+- D. 28.20 MHz to 28.30 MHz
+-
+- Answer: D
 
 **G1B10** &nbsp;·&nbsp; `[97.203(c)]`
 
@@ -235,17 +287,21 @@ What is the power limit for beacon stations?
 
 - A. 10 watts PEP output
 - B. 20 watts PEP output
-- **C. 100 watts PEP output**  ←
+- C. 100 watts PEP output
 - D. 200 watts PEP output
+-
+- Answer: C
 
 **G1B11** &nbsp;·&nbsp; `[97.101(a)]`
 
 Who or what determines “good engineering and good amateur practice,” as applied to the operation of an amateur station in all respects not covered by the Part 97 rules?
 
-- **A. The FCC**  ←
+- A. The FCC
 - B. The control operator
 - C. The IEEE
 - D. The ITU
+-
+- Answer: A
 
 ---
 
@@ -280,10 +336,12 @@ group were withdrawn. They still appear in older study guides.*
 
 What is the maximum transmitter power an amateur station may use on 10.140 MHz?
 
-- **A. 200 watts PEP output**  ←
+- A. 200 watts PEP output
 - B. 1000 watts PEP output
 - C. 1500 watts PEP output
 - D. 2000 watts PEP output
+-
+- Answer: A
 
 **G1C02** &nbsp;·&nbsp; `[97.313]`
 
@@ -291,26 +349,32 @@ What is the maximum transmitter power an amateur station may use on the 12-meter
 
 - A. 50 watts PEP output
 - B. 200 watts PEP output
-- **C. 1500 watts PEP output**  ←
+- C. 1500 watts PEP output
 - D. An effective radiated power equivalent to 100 watts from a half-wave dipole
+-
+- Answer: C
 
 **G1C03** &nbsp;·&nbsp; `[97.303(h)(1)]`
 
 What is the maximum bandwidth permitted by FCC rules for amateur radio stations transmitting on USB frequencies in the 60-meter band?
 
-- **A. 2.8 kHz**  ←
+- A. 2.8 kHz
 - B. 5.6 kHz
 - C. 1.8 kHz
 - D. 3 kHz
+-
+- Answer: A
 
 **G1C04** &nbsp;·&nbsp; `[97.303(i)]`
 
 Which of the following is required by the FCC rules when operating in the 60-meter band?
 
-- **A. If you are using an antenna other than a dipole, you must keep a record of the gain of your antenna**  ←
+- A. If you are using an antenna other than a dipole, you must keep a record of the gain of your antenna
 - B. You must keep a record of the date, time, frequency, power level, and stations worked
 - C. You must keep a record of all third-party traffic
 - D. You must keep a record of the manufacturer of your equipment and the antenna used
+-
+- Answer: A
 
 **G1C05** &nbsp;·&nbsp; `[97.313]`
 
@@ -318,8 +382,10 @@ What is the limit for transmitter power on the 28 MHz band for a General Class c
 
 - A. 100 watts PEP output
 - B. 1000 watts PEP output
-- **C. 1500 watts PEP output**  ←
+- C. 1500 watts PEP output
 - D. 2000 watts PEP output
+-
+- Answer: C
 
 **G1C06** &nbsp;·&nbsp; `[97.313]`
 
@@ -328,7 +394,9 @@ What is the limit for transmitter power on the 1.8 MHz band?
 - A. 200 watts PEP output
 - B. 1000 watts PEP output
 - C. 1200 watts PEP output
-- **D. 1500 watts PEP output**  ←
+- D. 1500 watts PEP output
+-
+- Answer: D
 
 **G1C07** &nbsp;·&nbsp; `[97.309(a)(4)]`
 
@@ -336,8 +404,10 @@ What must be done before using a new digital protocol on the air?
 
 - A. Type-certify equipment to FCC standards
 - B. Obtain an experimental license from the FCC
-- **C. Publicly document the technical characteristics of the protocol**  ←
+- C. Publicly document the technical characteristics of the protocol
 - D. Submit a rule-making proposal to the FCC describing the codes and methods of the technique
+-
+- Answer: C
 
 **G1C11** &nbsp;·&nbsp; `[97.313]`
 
@@ -346,7 +416,9 @@ What measurement is specified by FCC rules that regulate maximum power?
 - A. RMS output from the transmitter
 - B. RMS input to the antenna
 - C. PEP input to the antenna
-- **D. PEP output from the transmitter**  ←
+- D. PEP output from the transmitter
+-
+- Answer: D
 
 ---
 
@@ -380,10 +452,12 @@ that country's** regulations — the FCC does not reach across the border.
 
 Who may receive partial credit for the elements represented by an expired amateur radio license?
 
-- **A. Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC**  ←
+- A. Any person who can demonstrate that they once held an FCC-issued General, Advanced, or Amateur Extra class license that was not revoked by the FCC
 - B. Anyone who held an FCC-issued amateur radio license that expired not less than 5 and not more than 15 years ago
 - C. Any person who previously held an amateur license issued by another country, but only if that country has a current reciprocal licensing agreement with the FCC
 - D. Only persons who once held an FCC issued Novice, Technician, or Technician Plus license
+-
+- Answer: A
 
 **G1D02** &nbsp;·&nbsp; `[97.509(b)(3)(i)]`
 
@@ -391,8 +465,10 @@ What license examinations may you administer as an accredited Volunteer Examiner
 
 - A. General and Technician
 - B. None, only Amateur Extra class licensees may be accredited
-- **C. Technician only**  ←
+- C. Technician only
 - D. Amateur Extra, General, and Technician
+-
+- Answer: C
 
 **G1D03** &nbsp;·&nbsp; `[97.9(b)]`
 
@@ -400,35 +476,43 @@ On which of the following band segments may you operate if you are a Technician 
 
 - A. Only the Technician band segments until your upgrade is posted in the FCC database
 - B. Only on the Technician band segments until you have a receipt for the FCC application fee payment
-- **C. On any General or Technician class band segment**  ←
+- C. On any General or Technician class band segment
 - D. On any General or Technician class band segment except 30 meters and 60 meters
+-
+- Answer: C
 
 **G1D04** &nbsp;·&nbsp; `[97.509(3)(i)(c)]`
 
 Who must observe the administration of a Technician class license examination?
 
-- **A. At least three Volunteer Examiners of General class or higher**  ←
+- A. At least three Volunteer Examiners of General class or higher
 - B. At least two Volunteer Examiners of General class or higher
 - C. At least two Volunteer Examiners of Technician class or higher
 - D. At least three Volunteer Examiners of Technician class
+-
+- Answer: A
 
 **G1D05** &nbsp;·&nbsp; `[97.7]`
 
 When operating a US station by remote control from outside the country, what license is required of the control operator?
 
-- **A. A US operator/primary station license**  ←
+- A. A US operator/primary station license
 - B. Only an appropriate US operator/primary license and a special remote station permit from the FCC
 - C. Only a license from the foreign country, as long as the call sign includes identification of portable operation in the US
 - D. A license from the foreign country and a special remote station permit from the FCC
+-
+- Answer: A
 
 **G1D06** &nbsp;·&nbsp; `[97.119(f)(2)]`
 
 Until an upgrade to General class is shown in the FCC database, when must a Technician licensee identify with “AG” after their call sign?
 
-- **A. Whenever they operate using General class frequency privileges**  ←
+- A. Whenever they operate using General class frequency privileges
 - B. Whenever they operate on any amateur frequency
 - C. Whenever they operate using Technician frequency privileges
 - D. A special identifier is not required if their General class license application has been filed with the FCC
+-
+- Answer: A
 
 **G1D07** &nbsp;·&nbsp; `[97.509(b)(1)]`
 
@@ -436,17 +520,21 @@ Volunteer Examiners are accredited by what organization?
 
 - A. The Federal Communications Commission
 - B. The Universal Licensing System
-- **C. A Volunteer Examiner Coordinator**  ←
+- C. A Volunteer Examiner Coordinator
 - D. The Wireless Telecommunications Bureau
+-
+- Answer: C
 
 **G1D08** &nbsp;·&nbsp; `[97.509(b)(3)]`
 
 Which of the following criteria must be met for a non-US citizen to be an accredited Volunteer Examiner?
 
 - A. The person must be a resident of the US for a minimum of 5 years
-- **B. The person must hold an FCC granted amateur radio license of General class or above**  ←
+- B. The person must hold an FCC granted amateur radio license of General class or above
 - C. The person’s home citizenship must be in ITU region 2
 - D. None of these choices is correct; a non-US citizen cannot be a Volunteer Examiner
+-
+- Answer: B
 
 **G1D09** &nbsp;·&nbsp; `[97.9(b)]`
 
@@ -454,17 +542,21 @@ How long is a Certificate of Successful Completion of Examination (CSCE) valid f
 
 - A. 30 days
 - B. 180 days
-- **C. 365 days**  ←
+- C. 365 days
 - D. For as long as your current license is valid
+-
+- Answer: C
 
 **G1D10** &nbsp;·&nbsp; `[97.509(b)(2)]`
 
 What is the minimum age that one must be to qualify as an accredited Volunteer Examiner?
 
 - A. 16 years
-- **B. 18 years**  ←
+- B. 18 years
 - C. 21 years
 - D. There is no age limit
+-
+- Answer: B
 
 **G1D11** &nbsp;·&nbsp; `[97.505]`
 
@@ -473,7 +565,9 @@ What action is required to obtain a new General class license after a previously
 - A. They must have a letter from the FCC showing they once held an amateur or commercial license
 - B. There are no requirements other than being able to show a copy of the expired license
 - C. Contact the FCC to have the license reinstated
-- **D. The applicant must show proof of the appropriate expired license grant and pass the current Element 2 exam**  ←
+- D. The applicant must show proof of the appropriate expired license grant and pass the current Element 2 exam
+-
+- Answer: D
 
 **G1D12** &nbsp;·&nbsp; `[97.507]`
 
@@ -481,8 +575,10 @@ When operating a station in South America by remote control over the internet fr
 
 - A. Those of both the remote station’s country and the FCC
 - B. Those of the remote station’s country and the FCC’s third-party regulations
-- **C. Only those of the remote station’s country**  ←
+- C. Only those of the remote station’s country
 - D. Only those of the FCC
+-
+- Answer: C
 
 ---
 
@@ -514,10 +610,12 @@ Beacon Project. You do not need to memorize all five; recognize the pattern and 
 
 Which of the following would disqualify a third party from participating in sending a message via an amateur station?
 
-- **A. The third party’s amateur license has been revoked and not reinstated**  ←
+- A. The third party’s amateur license has been revoked and not reinstated
 - B. The third party is not a US citizen
 - C. The third party is speaking in a language other than English
 - D. All these choices are correct
+-
+- Answer: A
 
 **G1E02** &nbsp;·&nbsp; `[97.205(b)]`
 
@@ -526,16 +624,20 @@ When may a 10-meter repeater retransmit the 2-meter signal from a station that h
 - A. Under no circumstances
 - B. Only if the station on 10-meters is operating under a Special Temporary Authorization allowing such retransmission
 - C. Only during an FCC-declared general state of communications emergency
-- **D. Only if the 10-meter repeater control operator holds at least a General class license**  ←
+- D. Only if the 10-meter repeater control operator holds at least a General class license
+-
+- Answer: D
 
 **G1E03** &nbsp;·&nbsp; `[97.221]`
 
 What is required to conduct communications with a digital station operating under automatic control outside the automatic control band segments?
 
-- **A. The station initiating the contact must be under local or remote control**  ←
+- A. The station initiating the contact must be under local or remote control
 - B. The interrogating transmission must be made by another automatically controlled station
 - C. No third-party traffic may be transmitted
 - D. The control operator of the interrogating station must hold an Amateur Extra class license
+-
+- Answer: A
 
 **G1E04** &nbsp;·&nbsp; `[97.13(b), 97.303, 97.311(b)]`
 
@@ -544,7 +646,9 @@ Which of the following conditions require a licensed amateur radio operator to t
 - A. When operating within one mile of an FCC Monitoring Station
 - B. When using a band where the Amateur Service is secondary
 - C. When a station is transmitting spread spectrum emissions
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G1E05** &nbsp;·&nbsp; `[97.115(a)(2), 97.117]`
 
@@ -552,8 +656,10 @@ What are the restrictions on messages sent to a third party in a country with wh
 
 - A. They must relate to emergencies or disaster relief
 - B. They must be for other licensed amateurs
-- **C. They must relate to amateur radio, or remarks of a personal character, or messages relating to emergencies or disaster relief**  ←
+- C. They must relate to amateur radio, or remarks of a personal character, or messages relating to emergencies or disaster relief
 - D. The message must be limited to no longer than 1 minute in duration and the name of the third party must be recorded in the station log
+-
+- Answer: C
 
 **G1E06** &nbsp;·&nbsp; `[97.301, ITU Radio Regulations]`
 
@@ -561,8 +667,10 @@ The frequency allocations of which ITU region apply to radio amateurs operating 
 
 - A. Region 4
 - B. Region 3
-- **C. Region 2**  ←
+- C. Region 2
 - D. Region 1
+-
+- Answer: C
 
 **G1E07** &nbsp;·&nbsp; `[97.111]`
 
@@ -571,25 +679,31 @@ In what part of the 2.4 GHz band may an amateur station communicate with non-lic
 - A. Anywhere in the band
 - B. Channels 1 through 4
 - C. Channels 42 through 45
-- **D. No part**  ←
+- D. No part
+-
+- Answer: D
 
 **G1E08** &nbsp;·&nbsp; `[97.313(j)]`
 
 What is the maximum PEP output allowed for spread spectrum transmissions?
 
 - A. 100 milliwatts
-- **B. 10 watts**  ←
+- B. 10 watts
 - C. 100 watts
 - D. 1500 watts
+-
+- Answer: B
 
 **G1E10** &nbsp;·&nbsp; `[97.101]`
 
 Why should an amateur operator normally avoid transmitting on 14.100, 18.110, 21.150, 24.930 and 28.200 MHz?
 
-- **A. A system of propagation beacon stations operates on those frequencies**  ←
+- A. A system of propagation beacon stations operates on those frequencies
 - B. A system of automatic digital stations operates on those frequencies
 - C. These frequencies are set aside for emergency operations
 - D. These frequencies are set aside for bulletins from the FCC
+-
+- Answer: A
 
 **G1E11** &nbsp;·&nbsp; `[97.221, 97.305]`
 
@@ -598,16 +712,20 @@ On what bands may automatically controlled stations transmitting RTTY or data em
 - A. On any band segment where digital operation is permitted
 - B. Anywhere in the non-phone segments of the 10-meter or shorter wavelength bands
 - C. Only in the non-phone Extra Class segments of the bands
-- **D. Anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands**  ←
+- D. Anywhere in the 6-meter or shorter wavelength bands, and in limited segments of some of the HF bands
+-
+- Answer: D
 
 **G1E12** &nbsp;·&nbsp; `[97.115]`
 
 When may third-party messages be transmitted via remote control?
 
-- **A. Under any circumstances in which third party messages are permitted by FCC rules**  ←
+- A. Under any circumstances in which third party messages are permitted by FCC rules
 - B. Under no circumstances except for emergencies
 - C. Only when the message is intended for licensed radio amateurs
 - D. Only when the message is intended for third parties in areas where licensing is controlled by the FCC
+-
+- Answer: A
 
 ---
 

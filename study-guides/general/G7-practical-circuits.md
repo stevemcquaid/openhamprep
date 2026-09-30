@@ -6,6 +6,16 @@ Power supplies, amplifiers, digital building blocks, and how a radio is put toge
 the only figure-based questions on the General exam: five questions reference **Figure G7-1**, a
 sheet of schematic symbols that you will be given during the test.
 
+## Table of Contents
+
+- [G7A — Power supplies; schematic symbols](#g7a--power-supplies-schematic-symbols)
+  - [All 13 pool questions for G7A](#all-13-pool-questions-for-g7a)
+- [G7B — Digital circuits; amplifiers and oscillators](#g7b--digital-circuits-amplifiers-and-oscillators)
+  - [All 11 pool questions for G7B](#all-11-pool-questions-for-g7b)
+- [G7C — Transceiver design; filters; oscillators; digital signal processing](#g7c--transceiver-design-filters-oscillators-digital-signal-processing)
+  - [All 14 pool questions for G7C](#all-14-pool-questions-for-g7c)
+- [Bottom line for G7](#bottom-line-for-g7)
+
 ---
 
 ## G7A — Power supplies; schematic symbols
@@ -43,9 +53,11 @@ extra lead off the middle of the winding. Practice on the real figure before exa
 What is the function of a power supply bleeder resistor?
 
 - A. It acts as a fuse for excess voltage
-- **B. It discharges the filter capacitors when power is removed**  ←
+- B. It discharges the filter capacitors when power is removed
 - C. It removes shock hazards from the induction coils
 - D. It eliminates ground loop current
+-
+- Answer: B
 
 **G7A02**
 
@@ -53,35 +65,43 @@ Which of the following components are used in a power supply filter network?
 
 - A. Diodes
 - B. Transformers and transducers
-- **C. Capacitors and inductors**  ←
+- C. Capacitors and inductors
 - D. All these choices are correct
+-
+- Answer: C
 
 **G7A03**
 
 Which type of rectifier circuit uses two diodes and a center-tapped transformer?
 
-- **A. Full-wave**  ←
+- A. Full-wave
 - B. Full-wave bridge
 - C. Half-wave
 - D. Synchronous
+-
+- Answer: A
 
 **G7A04**
 
 What is characteristic of a half-wave rectifier in a power supply?
 
-- **A. Only one diode is required**  ←
+- A. Only one diode is required
 - B. The ripple frequency is twice that of a full-wave rectifier
 - C. More current can be drawn from the half-wave rectifier
 - D. The output voltage is two times the peak input voltage
+-
+- Answer: A
 
 **G7A05**
 
 What portion of the AC cycle is converted to DC by a half-wave rectifier?
 
 - A. 90 degrees
-- **B. 180 degrees**  ←
+- B. 180 degrees
 - C. 270 degrees
 - D. 360 degrees
+-
+- Answer: B
 
 **G7A06**
 
@@ -90,16 +110,20 @@ What portion of the AC cycle is converted to DC by a full-wave rectifier?
 - A. 90 degrees
 - B. 180 degrees
 - C. 270 degrees
-- **D. 360 degrees**  ←
+- D. 360 degrees
+-
+- Answer: D
 
 **G7A07**
 
 What is the output waveform of an unfiltered full-wave rectifier connected to a resistive load?
 
-- **A. A series of DC pulses at twice the frequency of the AC input**  ←
+- A. A series of DC pulses at twice the frequency of the AC input
 - B. A series of DC pulses at the same frequency as the AC input
 - C. A sine wave at half the frequency of the AC input
 - D. A steady DC voltage
+-
+- Answer: A
 
 **G7A08**
 
@@ -107,8 +131,10 @@ Which of the following is characteristic of a switchmode power supply as compare
 
 - A. Faster switching time makes higher output voltage possible
 - B. Fewer circuit components are required
-- **C. High-frequency operation allows the use of smaller components**  ←
+- C. High-frequency operation allows the use of smaller components
 - D. Inherently more stable
+-
+- Answer: C
 
 **G7A09** &nbsp;·&nbsp; *refer to Figure G7-1*
 
@@ -116,8 +142,10 @@ Which symbol in figure G7-1 represents a field effect transistor?
 
 - A. Symbol 2
 - B. Symbol 5
-- **C. Symbol 1**  ←
+- C. Symbol 1
 - D. Symbol 4
+-
+- Answer: C
 
 **G7A10** &nbsp;·&nbsp; *refer to Figure G7-1*
 
@@ -126,16 +154,20 @@ Which symbol in figure G7-1 represents a Zener diode?
 - A. Symbol 4
 - B. Symbol 1
 - C. Symbol 11
-- **D. Symbol 5**  ←
+- D. Symbol 5
+-
+- Answer: D
 
 **G7A11** &nbsp;·&nbsp; *refer to Figure G7-1*
 
 Which symbol in figure G7-1 represents an NPN junction transistor?
 
 - A. Symbol 1
-- **B. Symbol 2**  ←
+- B. Symbol 2
 - C. Symbol 7
 - D. Symbol 11
+-
+- Answer: B
 
 **G7A12** &nbsp;·&nbsp; *refer to Figure G7-1*
 
@@ -143,17 +175,21 @@ Which symbol in Figure G7-1 represents a solid core transformer?
 
 - A. Symbol 4
 - B. Symbol 7
-- **C. Symbol 6**  ←
+- C. Symbol 6
 - D. Symbol 1
+-
+- Answer: C
 
 **G7A13** &nbsp;·&nbsp; *refer to Figure G7-1*
 
 Which symbol in Figure G7-1 represents a tapped inductor?
 
-- **A. Symbol 7**  ←
+- A. Symbol 7
 - B. Symbol 11
 - C. Symbol 6
 - D. Symbol 1
+-
+- Answer: A
 
 ---
 
@@ -193,9 +229,11 @@ capacitance**.
 What is the purpose of neutralizing an amplifier?
 
 - A. To limit the modulation index
-- **B. To eliminate self-oscillations**  ←
+- B. To eliminate self-oscillations
 - C. To cut off the final amplifier during standby periods
 - D. To keep the carrier on frequency
+-
+- Answer: B
 
 **G7B02**
 
@@ -204,25 +242,31 @@ Which of these classes of amplifiers has the highest efficiency?
 - A. Class A
 - B. Class B
 - C. Class AB
-- **D. Class C**  ←
+- D. Class C
+-
+- Answer: D
 
 **G7B03**
 
 Which of the following describes the function of a two-input AND gate?
 
 - A. Output is high when either or both inputs are low
-- **B. Output is high only when both inputs are high**  ←
+- B. Output is high only when both inputs are high
 - C. Output is low when either or both inputs are high
 - D. Output is low only when both inputs are high
+-
+- Answer: B
 
 **G7B04**
 
 In a Class A amplifier, what percentage of the time does the amplifying device conduct?
 
-- **A. 100%**  ←
+- A. 100%
 - B. More than 50% but less than 100%
 - C. 50%
 - D. Less than 50%
+-
+- Answer: A
 
 **G7B05**
 
@@ -230,17 +274,21 @@ How many states does a 3-bit binary counter have?
 
 - A. 3
 - B. 6
-- **C. 8**  ←
+- C. 8
 - D. 16
+-
+- Answer: C
 
 **G7B06**
 
 What is a shift register?
 
-- **A. A clocked array of circuits that passes data in steps along the array**  ←
+- A. A clocked array of circuits that passes data in steps along the array
 - B. An array of operational amplifiers used for tri-state arithmetic operations
 - C. A digital mixer
 - D. An analog mixer
+-
+- Answer: A
 
 **G7B07**
 
@@ -249,16 +297,20 @@ Which of the following are basic components of a sine wave oscillator?
 - A. An amplifier and a divider
 - B. A frequency multiplier and a mixer
 - C. A circulator and a filter operating in a feed-forward loop
-- **D. A filter and an amplifier operating in a feedback loop**  ←
+- D. A filter and an amplifier operating in a feedback loop
+-
+- Answer: D
 
 **G7B08**
 
 How is the efficiency of an RF power amplifier determined?
 
 - A. Divide the DC input power by the DC output power
-- **B. Divide the RF output power by the DC input power**  ←
+- B. Divide the RF output power by the DC input power
 - C. Multiply the RF input power by the reciprocal of the RF output power
 - D. Add the RF input power to the DC output power
+-
+- Answer: B
 
 **G7B09**
 
@@ -266,26 +318,32 @@ What determines the frequency of an LC oscillator?
 
 - A. The number of stages in the counter
 - B. The number of stages in the divider
-- **C. The inductance and capacitance in the tank circuit**  ←
+- C. The inductance and capacitance in the tank circuit
 - D. The time delay of the lag circuit
+-
+- Answer: C
 
 **G7B10**
 
 Which of the following describes a linear amplifier?
 
 - A. Any RF power amplifier used in conjunction with an amateur transceiver
-- **B. An amplifier in which the output preserves the input waveform**  ←
+- B. An amplifier in which the output preserves the input waveform
 - C. A Class C high efficiency amplifier
 - D. An amplifier used as a frequency multiplier
+-
+- Answer: B
 
 **G7B11**
 
 For which of the following modes is a Class C power stage appropriate for amplifying a modulated signal?
 
 - A. SSB
-- **B. FM**  ←
+- B. FM
 - C. AM
 - D. All these choices are correct
+-
+- Answer: B
 
 ---
 
@@ -326,9 +384,11 @@ sensitivity.
 What circuit is used to select one of the sidebands from a balanced modulator?
 
 - A. Carrier oscillator
-- **B. Filter**  ←
+- B. Filter
 - C. IF amplifier
 - D. RF amplifier
+-
+- Answer: B
 
 **G7C02**
 
@@ -337,16 +397,20 @@ What output is produced by a balanced modulator?
 - A. Frequency modulated RF
 - B. Audio with equalized frequency response
 - C. Audio extracted from the modulation signal
-- **D. Double-sideband modulated RF**  ←
+- D. Double-sideband modulated RF
+-
+- Answer: D
 
 **G7C03**
 
 What is one reason to use an impedance matching transformer at a transmitter output?
 
 - A. To minimize transmitter power output
-- **B. To present the desired impedance to the transmitter and feed line**  ←
+- B. To present the desired impedance to the transmitter and feed line
 - C. To reduce power supply ripple
 - D. To minimize radiation resistance
+-
+- Answer: B
 
 **G7C04**
 
@@ -355,7 +419,9 @@ How is a product detector used?
 - A. Used in test gear to detect spurious mixing products
 - B. Used in a transmitter to perform frequency multiplication
 - C. Used in an FM receiver to filter out unwanted sidebands
-- **D. Used in a single sideband receiver to extract the modulated signal**  ←
+- D. Used in a single sideband receiver to extract the modulated signal
+-
+- Answer: D
 
 **G7C05**
 
@@ -364,25 +430,31 @@ Which of the following is characteristic of a direct digital synthesizer (DDS)?
 - A. Extremely narrow tuning range
 - B. Relatively high-power output
 - C. Pure sine wave output
-- **D. Variable output frequency with the stability of a crystal oscillator**  ←
+- D. Variable output frequency with the stability of a crystal oscillator
+-
+- Answer: D
 
 **G7C06**
 
 Which of the following is an advantage of a digital signal processing (DSP) filter compared to an analog filter?
 
-- **A. A wide range of filter bandwidths and shapes can be created**  ←
+- A. A wide range of filter bandwidths and shapes can be created
 - B. Fewer digital components are required
 - C. Mixing products are greatly reduced
 - D. The DSP filter is much more effective at VHF frequencies
+-
+- Answer: A
 
 **G7C07**
 
 What term specifies a filter’s attenuation inside its passband?
 
-- **A. Insertion loss**  ←
+- A. Insertion loss
 - B. Return loss
 - C. Q
 - D. Ultimate rejection
+-
+- Answer: A
 
 **G7C08**
 
@@ -391,25 +463,31 @@ Which parameter affects receiver sensitivity?
 - A. Input amplifier gain
 - B. Demodulator stage bandwidth
 - C. Input amplifier noise figure
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G7C09**
 
 What is the phase difference between the I and Q RF signals that software-defined radio (SDR) equipment uses for modulation and demodulation?
 
 - A. Zero
-- **B. 90 degrees**  ←
+- B. 90 degrees
 - C. 180 degrees
 - D. 45 degrees
+-
+- Answer: B
 
 **G7C10**
 
 What is an advantage of using I-Q modulation with software-defined radios (SDRs)?
 
 - A. The need for high resolution analog-to-digital converters is eliminated
-- **B. All types of modulation can be created with appropriate processing**  ←
+- B. All types of modulation can be created with appropriate processing
 - C. Minimum detectible signal level is reduced
 - D. Automatic conversion of the signal from digital to analog
+-
+- Answer: B
 
 **G7C11**
 
@@ -418,7 +496,9 @@ Which of these functions is performed by software in a software-defined radio (S
 - A. Filtering
 - B. Detection
 - C. Modulation
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G7C12**
 
@@ -426,8 +506,10 @@ What is the frequency above which a low-pass filter’s output power is less tha
 
 - A. Notch frequency
 - B. Neper frequency
-- **C. Cutoff frequency**  ←
+- C. Cutoff frequency
 - D. Rolloff frequency
+-
+- Answer: C
 
 **G7C13**
 
@@ -436,16 +518,20 @@ What term specifies a filter’s maximum ability to reject signals outside its p
 - A. Notch depth
 - B. Rolloff
 - C. Insertion loss
-- **D. Ultimate rejection**  ←
+- D. Ultimate rejection
+-
+- Answer: D
 
 **G7C14**
 
 The bandwidth of a band-pass filter is measured between what two frequencies?
 
-- **A. Upper and lower half-power**  ←
+- A. Upper and lower half-power
 - B. Cutoff and rolloff
 - C. Pole and zero
 - D. Image and harmonic
+-
+- Answer: A
 
 ---
 

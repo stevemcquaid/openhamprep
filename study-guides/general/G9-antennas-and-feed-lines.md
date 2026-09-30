@@ -5,6 +5,18 @@
 The second-heaviest subelement after the 5-question ones, and the most practically useful material
 in the entire pool. Three formulas plus a catalogue of antenna behavior.
 
+## Table of Contents
+
+- [G9A — Feed lines: characteristic impedance, attenuation, SWR, feed point matching](#g9a--feed-lines-characteristic-impedance-attenuation-swr-feed-point-matching)
+  - [All 11 pool questions for G9A](#all-11-pool-questions-for-g9a)
+- [G9B — Basic dipole and monopole antennas](#g9b--basic-dipole-and-monopole-antennas)
+  - [All 12 pool questions for G9B](#all-12-pool-questions-for-g9b)
+- [G9C — Directional antennas](#g9c--directional-antennas)
+  - [All 11 pool questions for G9C](#all-11-pool-questions-for-g9c)
+- [G9D — Specialized antenna types and applications](#g9d--specialized-antenna-types-and-applications)
+  - [All 12 pool questions for G9D](#all-12-pool-questions-for-g9d)
+- [Bottom line for G9](#bottom-line-for-g9)
+
 ---
 
 ## G9A — Feed lines: characteristic impedance, attenuation, SWR, feed point matching
@@ -40,19 +52,23 @@ loss are still out there. This is why hams say an antenna tuner does not tune yo
 
 Which of the following factors determine the characteristic impedance of a parallel conductor feed line?
 
-- **A. The distance between the centers of the conductors and the radius of the conductors**  ←
+- A. The distance between the centers of the conductors and the radius of the conductors
 - B. The distance between the centers of the conductors and the length of the line
 - C. The radius of the conductors and the frequency of the signal
 - D. The frequency of the signal and the length of the line
+-
+- Answer: A
 
 **G9A02**
 
 What is the relationship between high standing wave ratio (SWR) and transmission line loss?
 
 - A. There is no relationship between transmission line loss and SWR
-- **B. High SWR increases loss in a lossy transmission line**  ←
+- B. High SWR increases loss in a lossy transmission line
 - C. High SWR makes it difficult to measure transmission line loss
 - D. High SWR reduces the relative effect of transmission line loss
+-
+- Answer: B
 
 **G9A03**
 
@@ -61,7 +77,9 @@ What is the nominal characteristic impedance of “window line” transmission l
 - A. 50 ohms
 - B. 75 ohms
 - C. 100 ohms
-- **D. 450 ohms**  ←
+- D. 450 ohms
+-
+- Answer: D
 
 **G9A04**
 
@@ -69,17 +87,21 @@ What causes reflected power at an antenna’s feed point?
 
 - A. Operating an antenna at its resonant frequency
 - B. Using more transmitter power than the antenna can handle
-- **C. A difference between feed line impedance and antenna feed point impedance**  ←
+- C. A difference between feed line impedance and antenna feed point impedance
 - D. Feeding the antenna with unbalanced feed line
+-
+- Answer: C
 
 **G9A05**
 
 How does the attenuation of coaxial cable change with increasing frequency?
 
 - A. Attenuation is independent of frequency
-- **B. Attenuation increases**  ←
+- B. Attenuation increases
 - C. Attenuation decreases
 - D. Attenuation follows Marconi’s Law of Attenuation
+-
+- Answer: B
 
 **G9A06**
 
@@ -88,7 +110,9 @@ In what units is RF feed line loss usually expressed?
 - A. Ohms per 1,000 feet
 - B. Decibels per 1,000 feet
 - C. Ohms per 100 feet
-- **D. Decibels per 100 feet**  ←
+- D. Decibels per 100 feet
+-
+- Answer: D
 
 **G9A07**
 
@@ -97,25 +121,31 @@ What must be done to prevent standing waves on a feed line connected to an anten
 - A. The antenna feed point must be at DC ground potential
 - B. The feed line must be an odd number of electrical quarter wavelengths long
 - C. The feed line must be an even number of physical half wavelengths long
-- **D. The antenna feed point impedance must be matched to the characteristic impedance of the feed line**  ←
+- D. The antenna feed point impedance must be matched to the characteristic impedance of the feed line
+-
+- Answer: D
 
 **G9A08**
 
 If the SWR on an antenna feed line is 5:1, and a matching network at the transmitter end of the feed line is adjusted to present a 1:1 SWR to the transmitter, what is the resulting SWR on the feed line?
 
 - A. 1:1
-- **B. 5:1**  ←
+- B. 5:1
 - C. Between 1:1 and 5:1 depending on the characteristic impedance of the line
 - D. Between 1:1 and 5:1 depending on the reflected power at the transmitter
+-
+- Answer: B
 
 **G9A09**
 
 What standing wave ratio results from connecting a 50-ohm feed line to a 200-ohm resistive load?
 
-- **A. 4:1**  ←
+- A. 4:1
 - B. 1:4
 - C. 2:1
 - D. 1:2
+-
+- Answer: A
 
 **G9A10**
 
@@ -124,16 +154,20 @@ What standing wave ratio results from connecting a 50-ohm feed line to a 10-ohm 
 - A. 2:1
 - B. 1:2
 - C. 1:5
-- **D. 5:1**  ←
+- D. 5:1
+-
+- Answer: D
 
 **G9A11**
 
 What is the effect of transmission line loss on SWR measured at the input to the line?
 
-- **A. Higher loss reduces SWR measured at the input to the line**  ←
+- A. Higher loss reduces SWR measured at the input to the line
 - B. Higher loss increases SWR measured at the input to the line
 - C. Higher loss increases the accuracy of SWR measured at the input to the line
 - D. Transmission line loss does not affect the SWR measurement
+-
+- Answer: A
 
 ---
 
@@ -178,18 +212,22 @@ classic source of RF burns and hot microphones.
 What is a characteristic of a random-wire HF antenna connected directly to the transmitter?
 
 - A. It must be longer than 1 wavelength
-- **B. Station equipment may carry significant RF current**  ←
+- B. Station equipment may carry significant RF current
 - C. It produces only vertically polarized radiation
 - D. It is more effective on the lower HF bands than on the higher bands
+-
+- Answer: B
 
 **G9B02**
 
 Which of the following is a common way to adjust the feed point impedance of an elevated quarter-wave ground-plane vertical antenna to be approximately 50 ohms?
 
 - A. Slope the radials upward
-- **B. Slope the radials downward**  ←
+- B. Slope the radials downward
 - C. Lengthen the radials beyond one wavelength
 - D. Coil the radials
+-
+- Answer: B
 
 **G9B03**
 
@@ -198,16 +236,20 @@ Which of the following best describes the radiation pattern of a quarter-wave gr
 - A. Bi-directional in azimuth
 - B. Isotropic
 - C. Hemispherical
-- **D. Omnidirectional in azimuth**  ←
+- D. Omnidirectional in azimuth
+-
+- Answer: D
 
 **G9B04**
 
 What is the radiation pattern of a dipole antenna in free space in a plane containing the conductor?
 
-- **A. It is a figure-eight at right angles to the antenna**  ←
+- A. It is a figure-eight at right angles to the antenna
 - B. It is a figure-eight off both ends of the antenna
 - C. It is a circle (equal radiation in all directions)
 - D. It has a pair of lobes on one side of the antenna and a single lobe on the other side
+-
+- Answer: A
 
 **G9B05**
 
@@ -215,8 +257,10 @@ How does antenna height affect the azimuthal radiation pattern of a horizontal d
 
 - A. If the antenna is too high, the pattern becomes unpredictable
 - B. Antenna height has no effect on the pattern
-- **C. If the antenna is less than 1/2 wavelength high, the azimuthal pattern is almost omnidirectional**  ←
+- C. If the antenna is less than 1/2 wavelength high, the azimuthal pattern is almost omnidirectional
 - D. If the antenna is less than 1/2 wavelength high, radiation off the ends of the wire is eliminated
+-
+- Answer: C
 
 **G9B06**
 
@@ -224,35 +268,43 @@ Where should the radial wires of a ground-mounted vertical antenna system be pla
 
 - A. As high as possible above the ground
 - B. Parallel to the antenna element
-- **C. On the surface or buried a few inches below the ground**  ←
+- C. On the surface or buried a few inches below the ground
 - D. At the center of the antenna
+-
+- Answer: C
 
 **G9B07**
 
 How does the feed point impedance of a horizontal 1/2 wave dipole antenna change as the antenna height is reduced to 1/10 wavelength above ground?
 
 - A. It steadily increases
-- **B. It steadily decreases**  ←
+- B. It steadily decreases
 - C. It peaks at about 1/8 wavelength above ground
 - D. It is unaffected by the height above ground
+-
+- Answer: B
 
 **G9B08**
 
 How does the feed point impedance of a 1/2 wave dipole change as the feed point is moved from the center toward the ends?
 
-- **A. It steadily increases**  ←
+- A. It steadily increases
 - B. It steadily decreases
 - C. It peaks at about 1/8 wavelength from the end
 - D. It is unaffected by the location of the feed point
+-
+- Answer: A
 
 **G9B09**
 
 Which of the following is an advantage of using a horizontally polarized as compared to a vertically polarized HF antenna?
 
-- **A. Lower ground losses**  ←
+- A. Lower ground losses
 - B. Lower feed point impedance
 - C. Shorter radials
 - D. Lower radiation resistance
+-
+- Answer: A
 
 **G9B10**
 
@@ -261,7 +313,9 @@ What is the approximate length for a 1/2 wave dipole antenna cut for 14.250 MHz?
 - A. 8 feet
 - B. 16 feet
 - C. 24 feet
-- **D. 33 feet**  ←
+- D. 33 feet
+-
+- Answer: D
 
 **G9B11**
 
@@ -269,17 +323,21 @@ What is the approximate length for a 1/2 wave dipole antenna cut for 3.550 MHz?
 
 - A. 42 feet
 - B. 84 feet
-- **C. 132 feet**  ←
+- C. 132 feet
 - D. 263 feet
+-
+- Answer: C
 
 **G9B12**
 
 What is the approximate length for a 1/4 wave monopole antenna cut for 28.5 MHz?
 
-- **A. 8 feet**  ←
+- A. 8 feet
 - B. 11 feet
 - C. 16 feet
 - D. 21 feet
+-
+- Answer: A
 
 ---
 
@@ -312,46 +370,56 @@ insulated from the boom**, which makes construction much simpler.
 
 Which of the following would increase the bandwidth of a Yagi antenna?
 
-- **A. Larger-diameter elements**  ←
+- A. Larger-diameter elements
 - B. Closer element spacing
 - C. Loading coils in series with the element
 - D. Tapered-diameter elements
+-
+- Answer: A
 
 **G9C02**
 
 What is the approximate length of the driven element of a Yagi antenna?
 
 - A. 1/4 wavelength
-- **B. 1/2 wavelength**  ←
+- B. 1/2 wavelength
 - C. 3/4 wavelength
 - D. 1 wavelength
+-
+- Answer: B
 
 **G9C03**
 
 How do the lengths of a three-element Yagi reflector and director compare to that of the driven element?
 
-- **A. The reflector is longer, and the director is shorter**  ←
+- A. The reflector is longer, and the director is shorter
 - B. The reflector is shorter, and the director is longer
 - C. They are all the same length
 - D. Relative length depends on the frequency of operation
+-
+- Answer: A
 
 **G9C04**
 
 How does antenna gain in dBi compare to gain stated in dBd for the same antenna?
 
 - A. Gain in dBi is 2.15 dB lower
-- **B. Gain in dBi is 2.15 dB higher**  ←
+- B. Gain in dBi is 2.15 dB higher
 - C. Gain in dBd is 1.25 dBd lower
 - D. Gain in dBd is 1.25 dBd higher
+-
+- Answer: B
 
 **G9C05**
 
 What is the primary effect of increasing boom length and adding directors to a Yagi antenna?
 
-- **A. Gain increases**  ←
+- A. Gain increases
 - B. Beamwidth increases
 - C. Front-to-back ratio decreases
 - D. Resonant frequency is lower
+-
+- Answer: A
 
 **G9C07**
 
@@ -359,8 +427,10 @@ What does “front-to-back ratio” mean in reference to a Yagi antenna?
 
 - A. The number of directors versus the number of reflectors
 - B. The relative position of the driven element with respect to the reflectors and directors
-- **C. The power radiated in the major lobe compared to that in the opposite direction**  ←
+- C. The power radiated in the major lobe compared to that in the opposite direction
 - D. The ratio of forward gain to dipole gain
+-
+- Answer: C
 
 **G9C08**
 
@@ -369,16 +439,20 @@ What is meant by the “main lobe” of a directive antenna?
 - A. The magnitude of the maximum vertical angle of radiation
 - B. The point of maximum current in a radiating antenna element
 - C. The maximum voltage standing wave point on a radiating element
-- **D. The direction of maximum radiated field strength from the antenna**  ←
+- D. The direction of maximum radiated field strength from the antenna
+-
+- Answer: D
 
 **G9C09**
 
 In free space, how does the gain of two three-element, horizontally polarized Yagi antennas spaced vertically 1/2 wavelength apart typically compare to the gain of a single three-element Yagi?
 
 - A. Approximately 1.5 dB higher
-- **B. Approximately 3 dB higher**  ←
+- B. Approximately 3 dB higher
 - C. Approximately 6 dB higher
 - D. Approximately 9 dB higher
+-
+- Answer: B
 
 **G9C10**
 
@@ -387,25 +461,31 @@ Which of the following can be adjusted to optimize forward gain, front-to-back r
 - A. The physical length of the boom
 - B. The number of elements on the boom
 - C. The spacing of each element along the boom
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G9C11**
 
 What is a beta or hairpin match?
 
-- **A. A shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching**  ←
+- A. A shorted transmission line stub placed at the feed point of a Yagi antenna to provide impedance matching
 - B. A 1/4 wavelength section of 75-ohm coax in series with the feed point of a Yagi to provide impedance matching
 - C. A series capacitor selected to cancel the inductive reactance of a folded dipole antenna
 - D. A section of 300-ohm twin-lead transmission line used to match a folded dipole antenna
+-
+- Answer: A
 
 **G9C12**
 
 Which of the following is a characteristic of using a gamma match with a Yagi antenna?
 
-- **A. It does not require the driven element to be insulated from the boom**  ←
+- A. It does not require the driven element to be insulated from the boom
 - B. It does not require any inductors or capacitors
 - C. It is useful for matching multiband antennas
 - D. All these choices are correct
+-
+- Answer: A
 
 ---
 
@@ -443,10 +523,12 @@ stopping the car. A **"halo"** radiates **omnidirectionally in the plane of the 
 
 Which of the following antenna types will be most effective as a near vertical incidence skywave (NVIS) antenna for short-skip communications on 40 meters during the day?
 
-- **A. A horizontal dipole placed between 1/10 and 1/4 wavelength above the ground**  ←
+- A. A horizontal dipole placed between 1/10 and 1/4 wavelength above the ground
 - B. A vertical antenna placed between 1/4 and 1/2 wavelength above the ground
 - C. A horizontal dipole placed at approximately 1/2 wavelength above the ground
 - D. A vertical dipole placed at approximately 1/2 wavelength above the ground
+-
+- Answer: A
 
 **G9D02**
 
@@ -455,7 +537,9 @@ What is the feed point impedance of an end-fed half-wave antenna?
 - A. Very low
 - B. Approximately 50 ohms
 - C. Approximately 300 ohms
-- **D. Very high**  ←
+- D. Very high
+-
+- Answer: D
 
 **G9D03**
 
@@ -463,17 +547,21 @@ In which direction is the maximum radiation from a VHF/UHF “halo” antenna?
 
 - A. Broadside to the plane of the halo
 - B. Opposite the feed point
-- **C. Omnidirectional in the plane of the halo**  ←
+- C. Omnidirectional in the plane of the halo
 - D. On the same side as the feed point
+-
+- Answer: C
 
 **G9D04**
 
 What is the primary function of antenna traps?
 
-- **A. To enable multiband operation**  ←
+- A. To enable multiband operation
 - B. To notch spurious frequencies
 - C. To provide balanced feed point impedance
 - D. To prevent out-of-band operation
+-
+- Answer: A
 
 **G9D05**
 
@@ -482,52 +570,64 @@ What is an advantage of vertically stacking horizontally polarized Yagi antennas
 - A. It allows quick selection of vertical or horizontal polarization
 - B. It allows simultaneous vertical and horizontal polarization
 - C. It narrows the main lobe in azimuth
-- **D. It narrows the main lobe in elevation**  ←
+- D. It narrows the main lobe in elevation
+-
+- Answer: D
 
 **G9D06**
 
 Which of the following is an advantage of a log-periodic antenna?
 
-- **A. Wide bandwidth**  ←
+- A. Wide bandwidth
 - B. Higher gain per element than a Yagi antenna
 - C. Harmonic suppression
 - D. Polarization diversity
+-
+- Answer: A
 
 **G9D07**
 
 Which of the following describes a log-periodic antenna?
 
-- **A. Element length and spacing vary logarithmically along the boom**  ←
+- A. Element length and spacing vary logarithmically along the boom
 - B. Impedance varies periodically as a function of frequency
 - C. Gain varies logarithmically as a function of frequency
 - D. SWR varies periodically as a function of boom length
+-
+- Answer: A
 
 **G9D08**
 
 How does a “screwdriver” mobile antenna adjust its feed point impedance?
 
 - A. By varying its body capacitance
-- **B. By varying the base loading inductance**  ←
+- B. By varying the base loading inductance
 - C. By extending and retracting the whip
 - D. By deploying a capacitance hat
+-
+- Answer: B
 
 **G9D09**
 
 What is the primary use of a Beverage antenna?
 
-- **A. Directional receiving for MF and low HF bands**  ←
+- A. Directional receiving for MF and low HF bands
 - B. Directional transmitting for low HF bands
 - C. Portable direction finding at higher HF frequencies
 - D. Portable direction finding at lower HF frequencies
+-
+- Answer: A
 
 **G9D10**
 
 In which direction or directions does an electrically small loop (less than 1/10 wavelength in circumference) have nulls in its radiation pattern?
 
 - A. In the plane of the loop
-- **B. Broadside to the loop**  ←
+- B. Broadside to the loop
 - C. Broadside and in the plane of the loop
 - D. Electrically small loops are omnidirectional
+-
+- Answer: B
 
 **G9D11**
 
@@ -536,16 +636,20 @@ Which of the following is a disadvantage of multiband antennas?
 - A. They present low impedance on all design frequencies
 - B. They must be used with an antenna tuner
 - C. They must be fed with open wire line
-- **D. They have poor harmonic rejection**  ←
+- D. They have poor harmonic rejection
+-
+- Answer: D
 
 **G9D12**
 
 What is the common name of a dipole with a single central support?
 
-- **A. Inverted V**  ←
+- A. Inverted V
 - B. Inverted L
 - C. Sloper
 - D. Lazy H
+-
+- Answer: A
 
 ---
 

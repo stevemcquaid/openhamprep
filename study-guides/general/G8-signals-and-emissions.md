@@ -8,6 +8,16 @@ digital-mode vocabulary list.
 **Errata note:** G8C01 was withdrawn from the pool on November 8, 2024 and will not appear on your
 exam. It is excluded below, but many practice apps still include it.
 
+## Table of Contents
+
+- [G8A — Carriers and modulation; modulation envelope; overmodulation; link budgets](#g8a--carriers-and-modulation-modulation-envelope-overmodulation-link-budgets)
+  - [All 14 pool questions for G8A](#all-14-pool-questions-for-g8a)
+- [G8B — Frequency changing; bandwidths of various modes; deviation; intermodulation](#g8b--frequency-changing-bandwidths-of-various-modes-deviation-intermodulation)
+  - [All 13 pool questions for G8B](#all-13-pool-questions-for-g8b)
+- [G8C — Digital emission modes](#g8c--digital-emission-modes)
+  - [All 15 pool questions for G8C](#all-15-pool-questions-for-g8c)
+- [Bottom line for G8](#bottom-line-for-g8)
+
 ---
 
 ## G8A — Carriers and modulation; modulation envelope; overmodulation; link budgets
@@ -47,18 +57,22 @@ margin is what is left over.
 How is direct binary FSK modulation generated?
 
 - A. By keying an FM transmitter with a sub-audible tone
-- **B. By changing an oscillator’s frequency directly with a digital control signal**  ←
+- B. By changing an oscillator’s frequency directly with a digital control signal
 - C. By using a transceiver’s computer data interface protocol to change frequencies
 - D. By reconfiguring the CW keying input to act as a tone generator
+-
+- Answer: B
 
 **G8A02**
 
 What is the name of the process that changes the phase angle of an RF signal to convey information?
 
 - A. Phase convolution
-- **B. Phase modulation**  ←
+- B. Phase modulation
 - C. Phase transformation
 - D. Phase inversion
+-
+- Answer: B
 
 **G8A03**
 
@@ -67,16 +81,20 @@ What is the name of the process that changes the instantaneous frequency of an R
 - A. Frequency convolution
 - B. Frequency transformation
 - C. Frequency conversion
-- **D. Frequency modulation**  ←
+- D. Frequency modulation
+-
+- Answer: D
 
 **G8A04**
 
 What emission is produced by a reactance modulator connected to a transmitter RF amplifier stage?
 
 - A. Multiplex modulation
-- **B. Phase modulation**  ←
+- B. Phase modulation
 - C. Amplitude modulation
 - D. Pulse modulation
+-
+- Answer: B
 
 **G8A05**
 
@@ -85,7 +103,9 @@ What type of modulation varies the instantaneous power level of the RF signal?
 - A. Power modulation
 - B. Phase modulation
 - C. Frequency modulation
-- **D. Amplitude modulation**  ←
+- D. Amplitude modulation
+-
+- Answer: D
 
 **G8A06**
 
@@ -94,16 +114,20 @@ Which of the following is characteristic of QPSK31?
 - A. It is sideband sensitive
 - B. Its encoding provides error correction
 - C. Its bandwidth is approximately the same as BPSK31
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G8A07**
 
 Which of the following phone emissions uses the narrowest bandwidth?
 
-- **A. Single sideband**  ←
+- A. Single sideband
 - B. Vestigial sideband
 - C. Phase modulation
 - D. Frequency modulation
+-
+- Answer: A
 
 **G8A08**
 
@@ -112,16 +136,20 @@ Which of the following is an effect of overmodulation?
 - A. Insufficient audio
 - B. Insufficient bandwidth
 - C. Frequency drift
-- **D. Excessive bandwidth**  ←
+- D. Excessive bandwidth
+-
+- Answer: D
 
 **G8A09**
 
 What type of modulation is used by FT8?
 
-- **A. 8-tone frequency shift keying**  ←
+- A. 8-tone frequency shift keying
 - B. Vestigial sideband
 - C. Amplitude compressed AM
 - D. 8-bit direct sequence spread spectrum
+-
+- Answer: A
 
 **G8A10**
 
@@ -129,17 +157,21 @@ What is meant by the term “flat-topping,” when referring to an amplitude-mod
 
 - A. Signal distortion caused by insufficient collector current
 - B. The transmitter’s automatic level control (ALC) is properly adjusted
-- **C. Signal distortion caused by excessive drive or speech levels**  ←
+- C. Signal distortion caused by excessive drive or speech levels
 - D. The transmitter’s carrier is properly suppressed
+-
+- Answer: C
 
 **G8A11**
 
 What is the modulation envelope of an AM signal?
 
-- **A. The waveform created by connecting the peak values of the modulated signal**  ←
+- A. The waveform created by connecting the peak values of the modulated signal
 - B. The carrier frequency that contains the signal
 - C. Spurious signals that envelop nearby frequencies
 - D. The bandwidth of the modulated signal
+-
+- Answer: A
 
 **G8A12**
 
@@ -148,7 +180,9 @@ What is QPSK modulation?
 - A. Modulation using quasi-parallel to serial conversion to reduce bandwidth
 - B. Modulation using quadra-pole sideband keying to generate spread spectrum signals
 - C. Modulation using Fast Fourier Transforms to generate frequencies at the first, second, third, and fourth harmonics of the carrier frequency to improve noise immunity
-- **D. Modulation in which digital data is transmitted using 0-, 90-, 180- and 270-degrees phase shift to represent pairs of bits**  ←
+- D. Modulation in which digital data is transmitted using 0-, 90-, 180- and 270-degrees phase shift to represent pairs of bits
+-
+- Answer: D
 
 **G8A13**
 
@@ -156,17 +190,21 @@ What is a link budget?
 
 - A. The financial costs associated with operating a radio link
 - B. The sum of antenna gains minus system losses
-- **C. The sum of transmit power and antenna gains minus system losses as seen at the receiver**  ←
+- C. The sum of transmit power and antenna gains minus system losses as seen at the receiver
 - D. The difference between transmit power and receiver sensitivity
+-
+- Answer: C
 
 **G8A14**
 
 What is link margin?
 
 - A. The opposite of fade margin
-- **B. The difference between received power level and minimum required signal level at the input to the receiver**  ←
+- B. The difference between received power level and minimum required signal level at the input to the receiver
 - C. Transmit power minus receiver sensitivity
 - D. Receiver sensitivity plus 3 dB
+-
+- Answer: B
 
 ---
 
@@ -204,27 +242,33 @@ That is why you reduce power on FT8 and RTTY.
 Which mixer input is varied or tuned to convert signals of different frequencies to an intermediate frequency (IF)?
 
 - A. Image frequency
-- **B. Local oscillator**  ←
+- B. Local oscillator
 - C. RF input
 - D. Beat frequency oscillator
+-
+- Answer: B
 
 **G8B02**
 
 What is the term for interference from a signal at twice the IF frequency from the desired signal?
 
 - A. Quadrature response
-- **B. Image response**  ←
+- B. Image response
 - C. Mixer interference
 - D. Intermediate interference
+-
+- Answer: B
 
 **G8B03**
 
 What is another term for the mixing of two RF signals?
 
-- **A. Heterodyning**  ←
+- A. Heterodyning
 - B. Synthesizing
 - C. Frequency inversion
 - D. Phase inversion
+-
+- Answer: A
 
 **G8B04**
 
@@ -233,7 +277,9 @@ What is the stage in a VHF FM transmitter that generates a harmonic of a lower f
 - A. Mixer
 - B. Reactance modulator
 - C. Balanced converter
-- **D. Multiplier**  ←
+- D. Multiplier
+-
+- Answer: D
 
 **G8B05**
 
@@ -241,8 +287,10 @@ Which intermodulation products are closest to the original signal frequencies?
 
 - A. Second harmonics
 - B. Even-order
-- **C. Odd-order**  ←
+- C. Odd-order
 - D. Intercept point
+-
+- Answer: C
 
 **G8B06**
 
@@ -251,25 +299,31 @@ What is the total bandwidth of an FM phone transmission having 5 kHz deviation a
 - A. 3 kHz
 - B. 5 kHz
 - C. 8 kHz
-- **D. 16 kHz**  ←
+- D. 16 kHz
+-
+- Answer: D
 
 **G8B07**
 
 What is the frequency deviation for a 12.21 MHz reactance modulated oscillator in a 5 kHz deviation, 146.52 MHz FM phone transmitter?
 
 - A. 101.75 Hz
-- **B. 416.7 Hz**  ←
+- B. 416.7 Hz
 - C. 5 kHz
 - D. 60 kHz
+-
+- Answer: B
 
 **G8B08**
 
 Why is it important to know the duty cycle of the mode you are using when transmitting?
 
 - A. To aid in tuning your transmitter
-- **B. Some modes have high duty cycles that could exceed the transmitter’s average power rating**  ←
+- B. Some modes have high duty cycles that could exceed the transmitter’s average power rating
 - C. To allow time for the other station to break in during a transmission
 - D. To prevent overmodulation
+-
+- Answer: B
 
 **G8B09**
 
@@ -278,16 +332,20 @@ Why is it good to match receiver bandwidth to the bandwidth of the operating mod
 - A. It is required by FCC rules
 - B. It minimizes power consumption in the receiver
 - C. It improves impedance matching of the antenna
-- **D. It results in the best signal-to-noise ratio**  ←
+- D. It results in the best signal-to-noise ratio
+-
+- Answer: D
 
 **G8B10**
 
 What is the relationship between transmitted symbol rate and bandwidth?
 
 - A. Symbol rate and bandwidth are not related
-- **B. Higher symbol rates require wider bandwidth**  ←
+- B. Higher symbol rates require wider bandwidth
 - C. Lower symbol rates require wider bandwidth
 - D. Bandwidth is half the symbol rate
+-
+- Answer: B
 
 **G8B11**
 
@@ -295,17 +353,21 @@ What combination of a mixer’s Local Oscillator (LO) and RF input frequencies i
 
 - A. The ratio
 - B. The average
-- **C. The sum and difference**  ←
+- C. The sum and difference
 - D. The arithmetic product
+-
+- Answer: C
 
 **G8B12**
 
 What process combines two signals in a non-linear circuit to produce unwanted spurious outputs?
 
-- **A. Intermodulation**  ←
+- A. Intermodulation
 - B. Heterodyning
 - C. Detection
 - D. Rolloff
+-
+- Answer: A
 
 **G8B13**
 
@@ -313,8 +375,10 @@ Which of the following is an odd-order intermodulation product of frequencies F1
 
 - A. 5F1-3F2
 - B. 3F1-F2
-- **C. 2F1-F2**  ←
+- C. 2F1-F2
 - D. All these choices are correct
+-
+- Answer: C
 
 ---
 
@@ -349,10 +413,12 @@ perfectly decodable.
 
 Which digital mode is used as a low-power beacon for assessing HF propagation?
 
-- **A. WSPR**  ←
+- A. WSPR
 - B. MFSK16
 - C. PSK31
 - D. SSB-SC
+-
+- Answer: A
 
 **G8C03**
 
@@ -360,8 +426,10 @@ What part of a packet radio frame contains the routing and handling information?
 
 - A. Directory
 - B. Preamble
-- **C. Header**  ←
+- C. Header
 - D. Trailer
+-
+- Answer: C
 
 **G8C04**
 
@@ -369,53 +437,65 @@ Which of the following describes Baudot code?
 
 - A. A 7-bit code with start, stop, and parity bits
 - B. A code using error detection and correction
-- **C. A 5-bit code with additional start and stop bits**  ←
+- C. A 5-bit code with additional start and stop bits
 - D. A code using SELCAL and LISTEN
+-
+- Answer: C
 
 **G8C05**
 
 In an ARQ mode, what is meant by a NAK response to a transmitted packet?
 
-- **A. Request retransmission of the packet**  ←
+- A. Request retransmission of the packet
 - B. Packet was received without error
 - C. Receiving station connected and ready for transmissions
 - D. Entire file received correctly
+-
+- Answer: A
 
 **G8C06**
 
 What action results from a failure to exchange information due to excessive transmission attempts when using an ARQ mode?
 
 - A. The checksum overflows
-- **B. The connection is dropped**  ←
+- B. The connection is dropped
 - C. Packets will be routed incorrectly
 - D. Encoding reverts to the default character set
+-
+- Answer: B
 
 **G8C07**
 
 Which of the following narrow-band digital modes can receive signals with very low signal-to-noise ratios?
 
 - A. MSK144
-- **B. FT8**  ←
+- B. FT8
 - C. AMTOR
 - D. MFSK32
+-
+- Answer: B
 
 **G8C08**
 
 Which of the following statements is true about PSK31?
 
 - A. Upper case letters are sent with more power
-- **B. Upper case letters use longer Varicode bit sequences and thus slow down transmission**  ←
+- B. Upper case letters use longer Varicode bit sequences and thus slow down transmission
 - C. Error correction is used to ensure accurate message reception
 - D. Higher power is needed as compared to RTTY for similar error rates
+-
+- Answer: B
 
 **G8C09**
 
 Which is true of mesh network microwave nodes?
 
 - A. Having more nodes increases signal strengths
-- **B. If one node fails, a packet may still reach its target station via an alternate node**  ←
+- B. If one node fails, a packet may still reach its target station via an alternate node
 - C. Links between two nodes in a network may have different frequencies and bandwidths
 - D. More nodes reduce overall microwave out of band interference
+-
+- Answer: B
 
 **G8C10**
 
@@ -423,8 +503,10 @@ How does forward error correction (FEC) allow the receiver to correct data error
 
 - A. By controlling transmitter output power for optimum signal strength
 - B. By using the Varicode character set
-- **C. By transmitting redundant information with the data**  ←
+- C. By transmitting redundant information with the data
 - D. By using a parity bit with each character
+-
+- Answer: C
 
 **G8C11**
 
@@ -433,16 +515,20 @@ How are the two separate frequencies of a Frequency Shift Keyed (FSK) signal ide
 - A. Dot and dash
 - B. On and off
 - C. High and low
-- **D. Mark and space**  ←
+- D. Mark and space
+-
+- Answer: D
 
 **G8C12**
 
 Which type of code is used for sending characters in a PSK31 signal?
 
-- **A. Varicode**  ←
+- A. Varicode
 - B. Viterbi
 - C. Volumetric
 - D. Binary
+-
+- Answer: A
 
 **G8C13**
 
@@ -451,7 +537,9 @@ What is indicated on a waterfall display by one or more vertical lines on either
 - A. Long path propagation
 - B. Backscatter propagation
 - C. Insufficient modulation
-- **D. Overmodulation**  ←
+- D. Overmodulation
+-
+- Answer: D
 
 **G8C14**
 
@@ -459,8 +547,10 @@ Which of the following describes a waterfall display?
 
 - A. Frequency is horizontal, signal strength is vertical, time is intensity
 - B. Frequency is vertical, signal strength is intensity, time is horizontal
-- **C. Frequency is horizontal, signal strength is intensity, time is vertical**  ←
+- C. Frequency is horizontal, signal strength is intensity, time is vertical
 - D. Frequency is vertical, signal strength is horizontal, time is intensity
+-
+- Answer: C
 
 **G8C15**
 
@@ -468,8 +558,10 @@ What does an FT8 signal report of +3 mean?
 
 - A. The signal is 3 times the noise level of an equivalent SSB signal
 - B. The signal is S3 (weak signals)
-- **C. The signal-to-noise ratio is equivalent to +3dB in a 2.5 kHz bandwidth**  ←
+- C. The signal-to-noise ratio is equivalent to +3dB in a 2.5 kHz bandwidth
 - D. The signal is 3 dB over S9
+-
+- Answer: C
 
 **G8C16**
 
@@ -478,7 +570,9 @@ Which of the following provide digital voice modes?
 - A. WSPR, MFSK16, and EasyPAL
 - B. FT8, FT4, and FST4
 - C. Winlink, PACTOR II, and PACTOR III
-- **D. DMR, D-STAR, and SystemFusion**  ←
+- D. DMR, D-STAR, and SystemFusion
+-
+- Answer: D
 
 ---
 

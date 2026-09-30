@@ -5,6 +5,14 @@
 The smallest subelement along with G0. Pure component trivia: no math, no reasoning, just a short
 list of facts. Because it is short, it is worth learning completely — two easy questions.
 
+## Table of Contents
+
+- [G6A — Resistors; capacitors; inductors; diodes and transistors; vacuum tubes; batteries](#g6a--resistors-capacitors-inductors-diodes-and-transistors-vacuum-tubes-batteries)
+  - [All 12 pool questions for G6A](#all-12-pool-questions-for-g6a)
+- [G6B — Integrated circuits; MMICs; display devices; RF connectors; ferrite cores](#g6b--integrated-circuits-mmics-display-devices-rf-connectors-ferrite-cores)
+  - [All 11 pool questions for G6B](#all-11-pool-questions-for-g6b)
+- [Bottom line for G6](#bottom-line-for-g6)
+
 ---
 
 ## G6A — Resistors; capacitors; inductors; diodes and transistors; vacuum tubes; batteries
@@ -42,26 +50,32 @@ What is the minimum allowable discharge voltage for maximum life of a standard 1
 
 - A. 6 volts
 - B. 8.5 volts
-- **C. 10.5 volts**  ←
+- C. 10.5 volts
 - D. 12 volts
+-
+- Answer: C
 
 **G6A02**
 
 What is an advantage of batteries with low internal resistance?
 
 - A. Long life
-- **B. High discharge current**  ←
+- B. High discharge current
 - C. High voltage
 - D. Rapid recharge
+-
+- Answer: B
 
 **G6A03**
 
 What is the approximate forward threshold voltage of a germanium diode?
 
 - A. 0.1 volt
-- **B. 0.3 volts**  ←
+- B. 0.3 volts
 - C. 0.7 volts
 - D. 1.0 volts
+-
+- Answer: B
 
 **G6A04**
 
@@ -69,8 +83,10 @@ Which of the following is characteristic of an electrolytic capacitor?
 
 - A. Tight tolerance
 - B. Much less leakage than any other type
-- **C. High capacitance for a given volume**  ←
+- C. High capacitance for a given volume
 - D. Inexpensive RF capacitor
+-
+- Answer: C
 
 **G6A05**
 
@@ -78,26 +94,32 @@ What is the approximate forward threshold voltage of a silicon junction diode?
 
 - A. 0.1 volt
 - B. 0.3 volts
-- **C. 0.7 volts**  ←
+- C. 0.7 volts
 - D. 1.0 volts
+-
+- Answer: C
 
 **G6A06**
 
 Why should wire-wound resistors not be used in RF circuits?
 
 - A. The resistor’s tolerance value would not be adequate
-- **B. The resistor’s inductance could make circuit performance unpredictable**  ←
+- B. The resistor’s inductance could make circuit performance unpredictable
 - C. The resistor could overheat
 - D. The resistor’s internal capacitance would detune the circuit
+-
+- Answer: B
 
 **G6A07**
 
 What are the operating points for a bipolar transistor used as a switch?
 
-- **A. Saturation and cutoff**  ←
+- A. Saturation and cutoff
 - B. The active region (between cutoff and saturation)
 - C. Peak and valley current points
 - D. Enhancement and depletion modes
+-
+- Answer: A
 
 **G6A08**
 
@@ -106,25 +128,31 @@ Which of the following is characteristic of low voltage ceramic capacitors?
 - A. Tight tolerance
 - B. High stability
 - C. High capacitance for given volume
-- **D. Comparatively low cost**  ←
+- D. Comparatively low cost
+-
+- Answer: D
 
 **G6A09**
 
 Which of the following describes MOSFET construction?
 
 - A. The gate is formed by a back-biased junction
-- **B. The gate is separated from the channel by a thin insulating layer**  ←
+- B. The gate is separated from the channel by a thin insulating layer
 - C. The source is separated from the drain by a thin insulating layer
 - D. The source is formed by depositing metal on silicon
+-
+- Answer: B
 
 **G6A10**
 
 Which element of a vacuum tube regulates the flow of electrons between cathode and plate?
 
-- **A. Control grid**  ←
+- A. Control grid
 - B. Suppressor grid
 - C. Screen grid
 - D. Trigger electrode
+-
+- Answer: A
 
 **G6A11**
 
@@ -132,17 +160,21 @@ What happens when an inductor is operated above its self-resonant frequency?
 
 - A. Its reactance increases
 - B. Harmonics are generated
-- **C. It becomes capacitive**  ←
+- C. It becomes capacitive
 - D. Catastrophic failure is likely
+-
+- Answer: C
 
 **G6A12**
 
 What is the primary purpose of a screen grid in a vacuum tube?
 
-- **A. To reduce grid-to-plate capacitance**  ←
+- A. To reduce grid-to-plate capacitance
 - B. To increase efficiency
 - C. To increase the control grid resistance
 - D. To decrease plate resistance
+-
+- Answer: A
 
 ---
 
@@ -181,26 +213,32 @@ What determines the performance of a ferrite core at different frequencies?
 
 - A. Its conductivity
 - B. Its thickness
-- **C. The composition, or “mix,” of materials used**  ←
+- C. The composition, or “mix,” of materials used
 - D. The ratio of outer diameter to inner diameter
+-
+- Answer: C
 
 **G6B02**
 
 What is meant by the term MMIC?
 
 - A. Multi-Mode Integrated Circuit
-- **B. Monolithic Microwave Integrated Circuit**  ←
+- B. Monolithic Microwave Integrated Circuit
 - C. Metal Monolayer Integrated Circuit
 - D. Mode Modulated Integrated Circuit
+-
+- Answer: B
 
 **G6B03**
 
 Which of the following is an advantage of CMOS integrated circuits compared to TTL integrated circuits?
 
-- **A. Low power consumption**  ←
+- A. Low power consumption
 - B. High power handling capability
 - C. Better suited for RF amplification
 - D. Better suited for power supply regulation
+-
+- Answer: A
 
 **G6B04**
 
@@ -208,8 +246,10 @@ What is a typical upper frequency limit for low SWR operation of 50-ohm BNC conn
 
 - A. 50 MHz
 - B. 500 MHz
-- **C. 4 GHz**  ←
+- C. 4 GHz
 - D. 40 GHz
+-
+- Answer: C
 
 **G6B05**
 
@@ -218,7 +258,9 @@ What is an advantage of using a ferrite core toroidal inductor?
 - A. Large values of inductance may be obtained
 - B. The magnetic properties of the core may be optimized for a specific range of frequencies
 - C. Most of the magnetic field is contained in the core
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G6B06**
 
@@ -227,16 +269,20 @@ What kind of device is an integrated circuit operational amplifier?
 - A. Digital
 - B. MMIC
 - C. Programmable Logic
-- **D. Analog**  ←
+- D. Analog
+-
+- Answer: D
 
 **G6B07**
 
 Which of the following describes a type N connector?
 
-- **A. A moisture-resistant RF connector useful to 10 GHz**  ←
+- A. A moisture-resistant RF connector useful to 10 GHz
 - B. A small bayonet connector used for data circuits
 - C. A low noise figure VHF connector
 - D. A nickel plated version of the PL-259
+-
+- Answer: A
 
 **G6B08**
 
@@ -245,25 +291,31 @@ How is an LED biased when emitting light?
 - A. In the tunnel-effect region
 - B. At the Zener voltage
 - C. Reverse biased
-- **D. Forward biased**  ←
+- D. Forward biased
+-
+- Answer: D
 
 **G6B10**
 
 How does a ferrite bead or core reduce common-mode RF current on the shield of a coaxial cable?
 
-- **A. By creating an impedance in the current’s path**  ←
+- A. By creating an impedance in the current’s path
 - B. It converts common-mode current to differential mode current
 - C. By creating an out-of-phase current to cancel the common-mode current
 - D. Ferrites expel magnetic fields
+-
+- Answer: A
 
 **G6B11**
 
 What is an SMA connector?
 
 - A. A type-S to type-M adaptor
-- **B. A small threaded connector suitable for signals up to several GHz**  ←
+- B. A small threaded connector suitable for signals up to several GHz
 - C. A connector designed for serial multiple access signals
 - D. A type of push-on connector intended for high-voltage applications
+-
+- Answer: B
 
 **G6B12**
 
@@ -271,8 +323,10 @@ Which of these connector types is commonly used for low frequency or dc signal c
 
 - A. PL-259
 - B. BNC
-- **C. RCA Phono**  ←
+- C. RCA Phono
 - D. Type N
+-
+- Answer: C
 
 ---
 

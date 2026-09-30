@@ -5,6 +5,14 @@
 The smallest subelement along with G6, and the one where the safest-sounding answer is usually
 correct. When genuinely unsure, pick the option that protects a person.
 
+## Table of Contents
+
+- [G0A — RF safety principles, rules, and guidelines; routine station evaluation](#g0a--rf-safety-principles-rules-and-guidelines-routine-station-evaluation)
+  - [All 12 pool questions for G0A](#all-12-pool-questions-for-g0a)
+- [G0B — Station safety: electrical shock, grounding, fusing, interlocks, wiring; tower safety](#g0b--station-safety-electrical-shock-grounding-fusing-interlocks-wiring-tower-safety)
+  - [All 13 pool questions for G0B](#all-13-pool-questions-for-g0b)
+- [Bottom line for G0](#bottom-line-for-g0)
+
 ---
 
 ## G0A — RF safety principles, rules, and guidelines; routine station evaluation
@@ -41,10 +49,12 @@ neighbor is in your beam's main lobe, **ensure the antenna cannot be pointed at 
 
 What is one way that RF energy can affect human body tissue?
 
-- **A. It heats body tissue**  ←
+- A. It heats body tissue
 - B. It causes radiation poisoning
 - C. It causes the blood count to reach a dangerously low level
 - D. It cools body tissue
+-
+- Answer: A
 
 **G0A02**
 
@@ -53,7 +63,9 @@ Which of the following is used to determine RF exposure from a transmitted signa
 - A. Its duty cycle
 - B. Its frequency
 - C. Its power density
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G0A03** &nbsp;·&nbsp; `[97.13(c)(1)]`
 
@@ -62,7 +74,9 @@ How can you determine that your station complies with FCC RF exposure regulation
 - A. By calculation based on FCC OET Bulletin 65
 - B. By calculation based on computer modeling
 - C. By measurement of field strength using calibrated equipment
-- **D. All these choices are correct**  ←
+- D. All these choices are correct
+-
+- Answer: D
 
 **G0A04**
 
@@ -71,34 +85,42 @@ What does “time averaging” mean when evaluating RF radiation exposure?
 - A. The average amount of power developed by the transmitter over a specific 24-hour period
 - B. The average time it takes RF radiation to have any long-term effect on the body
 - C. The total time of the exposure
-- **D. The total RF exposure averaged over a certain period**  ←
+- D. The total RF exposure averaged over a certain period
+-
+- Answer: D
 
 **G0A05** &nbsp;·&nbsp; `[97.13(c)(2), 1.1307(b)]`
 
 What must you do if an evaluation of your station shows that the RF energy radiated by your station exceeds permissible limits for possible human absorption?
 
-- **A. Take action to prevent human exposure to the excessive RF fields**  ←
+- A. Take action to prevent human exposure to the excessive RF fields
 - B. File an Environmental Impact Statement (EIS-97) with the FCC
 - C. Secure written permission from your neighbors to operate above the controlled MPE limits
 - D. All these choices are correct
+-
+- Answer: A
 
 **G0A06** &nbsp;·&nbsp; `[97.13(c)(2), 1.1307(1)(b)(3)(i)]`
 
 What must you do if your station fails to meet the FCC RF exposure exemption criteria?
 
-- **A. Perform an RF exposure evaluation in accordance with FCC OET Bulletin 65**  ←
+- A. Perform an RF exposure evaluation in accordance with FCC OET Bulletin 65
 - B. Contact the FCC for permission to transmit
 - C. Perform an RF exposure evaluation in accordance with World Meteorological Organization guidelines
 - D. Use an FCC-approved band-pass filter
+-
+- Answer: A
 
 **G0A07**
 
 What is the effect of modulation duty cycle on RF exposure?
 
-- **A. A lower duty cycle permits greater power levels to be transmitted**  ←
+- A. A lower duty cycle permits greater power levels to be transmitted
 - B. A higher duty cycle permits greater power levels to be transmitted
 - C. Low duty cycle transmitters are exempt from RF exposure evaluation requirements
 - D. High duty cycle transmitters are exempt from RF exposure requirements
+-
+- Answer: A
 
 **G0A08** &nbsp;·&nbsp; `[97.13(c)(2)]`
 
@@ -106,17 +128,21 @@ Which of the following steps must an amateur operator take to ensure compliance 
 
 - A. Post a copy of FCC Part 97.13 in the station
 - B. Notify neighbors within a 100-foot radius of the antenna of the existence of the station and power levels
-- **C. Perform a routine RF exposure evaluation and prevent access to any identified high exposure areas**  ←
+- C. Perform a routine RF exposure evaluation and prevent access to any identified high exposure areas
 - D. All these choices are correct
+-
+- Answer: C
 
 **G0A09**
 
 What type of instrument can be used to accurately measure an RF field strength?
 
 - A. A receiver with digital signal processing (DSP) noise reduction
-- **B. A calibrated field strength meter with a calibrated antenna**  ←
+- B. A calibrated field strength meter with a calibrated antenna
 - C. An SWR meter with a peak-reading function
 - D. An oscilloscope with a high-stability crystal marker generator
+-
+- Answer: B
 
 **G0A10**
 
@@ -124,8 +150,10 @@ What should be done if evaluation shows that a neighbor might experience more th
 
 - A. Change to a non-polarized antenna with higher gain
 - B. Use an antenna with a higher front-to-back ratio
-- **C. Take precautions to ensure that the antenna cannot be pointed in their direction when they are present**  ←
+- C. Take precautions to ensure that the antenna cannot be pointed in their direction when they are present
 - D. All these choices are correct
+-
+- Answer: C
 
 **G0A11**
 
@@ -133,8 +161,10 @@ What precaution should be taken if you install an indoor transmitting antenna?
 
 - A. Locate the antenna close to your operating position to minimize feed-line radiation
 - B. Position the antenna along the edge of a wall to reduce parasitic radiation
-- **C. Make sure that MPE limits are not exceeded in occupied areas**  ←
+- C. Make sure that MPE limits are not exceeded in occupied areas
 - D. Make sure the antenna is properly shielded
+-
+- Answer: C
 
 **G0A12** &nbsp;·&nbsp; `[1.1307(1)(b)(3)(i)(A)]`
 
@@ -143,7 +173,9 @@ What stations are subject to the FCC rules on RF exposure?
 - A. All commercial stations; amateur radio stations are exempt
 - B. Only stations with antennas lower than one wavelength above the ground
 - C. Only stations transmitting more than 500 watts PEP
-- **D. All stations with a time-averaged transmission of more than one milliwatt**  ←
+- D. All stations with a time-averaged transmission of more than one milliwatt
+-
+- Answer: D
 
 ---
 
@@ -179,10 +211,12 @@ hands are not washed carefully** after handling it.
 
 Which wire or wires in a four-conductor 240 VAC circuit should be attached to fuses or circuit breakers?
 
-- **A. Only the hot wires**  ←
+- A. Only the hot wires
 - B. Only the neutral wire
 - C. Only the ground wire
 - D. All wires
+-
+- Answer: A
 
 **G0B02**
 
@@ -190,8 +224,10 @@ According to the National Electrical Code, what is the minimum wire size that ma
 
 - A. AWG number 20
 - B. AWG number 16
-- **C. AWG number 12**  ←
+- C. AWG number 12
 - D. AWG number 8
+-
+- Answer: C
 
 **G0B03**
 
@@ -200,25 +236,31 @@ Which size of fuse or circuit breaker would be appropriate to use with a circuit
 - A. 30 amperes
 - B. 25 amperes
 - C. 20 amperes
-- **D. 15 amperes**  ←
+- D. 15 amperes
+-
+- Answer: D
 
 **G0B04**
 
 Where should the station’s lightning protection ground system be located?
 
 - A. As close to the station equipment as possible
-- **B. Outside the building**  ←
+- B. Outside the building
 - C. Next to the closest power pole
 - D. Parallel to the water supply line
+-
+- Answer: B
 
 **G0B05**
 
 Which of the following conditions will cause a ground fault circuit interrupter (GFCI) to disconnect AC power?
 
 - A. Current flowing from one or more of the hot wires to the neutral wire
-- **B. Current flowing from one or more of the hot wires directly to ground**  ←
+- B. Current flowing from one or more of the hot wires directly to ground
 - C. Overvoltage on the hot wires
 - D. All these choices are correct
+-
+- Answer: B
 
 **G0B06**
 
@@ -226,44 +268,54 @@ Which of the following is covered by the National Electrical Code?
 
 - A. Acceptable bandwidth limits
 - B. Acceptable modulation limits
-- **C. Electrical safety of the station**  ←
+- C. Electrical safety of the station
 - D. RF exposure limits of the human body
+-
+- Answer: C
 
 **G0B07**
 
 Which of these choices should be observed when climbing a tower using a safety harness?
 
 - A. Always hold on to the tower with one hand
-- **B. Confirm that the harness is rated for the weight of the climber and that it is within its allowable service life**  ←
+- B. Confirm that the harness is rated for the weight of the climber and that it is within its allowable service life
 - C. Ensure that all heavy tools are securely fastened to the harness
 - D. All these choices are correct
+-
+- Answer: B
 
 **G0B08**
 
 What should be done before climbing a tower that supports electrically powered devices?
 
 - A. Notify the electric company that a person will be working on the tower
-- **B. Make sure all circuits that supply power to the tower are locked out and tagged**  ←
+- B. Make sure all circuits that supply power to the tower are locked out and tagged
 - C. Unground the base of the tower
 - D. All these choices are correct
+-
+- Answer: B
 
 **G0B09**
 
 Which of the following is true of an emergency generator installation?
 
-- **A. The generator should be operated in a well-ventilated area**  ←
+- A. The generator should be operated in a well-ventilated area
 - B. The generator must be insulated from ground
 - C. Fuel should be stored near the generator for rapid refueling in case of an emergency
 - D. All these choices are correct
+-
+- Answer: A
 
 **G0B10**
 
 Which of the following is a danger from lead-tin solder?
 
-- **A. Lead can contaminate food if hands are not washed carefully after handling the solder**  ←
+- A. Lead can contaminate food if hands are not washed carefully after handling the solder
 - B. High voltages can cause lead-tin solder to disintegrate suddenly
 - C. Tin in the solder can “cold flow,” causing shorts in the circuit
 - D. RF energy can convert the lead into a poisonous gas
+-
+- Answer: A
 
 **G0B11**
 
@@ -272,7 +324,9 @@ Which of the following is required for lightning protection ground rods?
 - A. They must be bonded to all buried water and gas lines
 - B. Bends in ground wires must be made as close as possible to a right angle
 - C. Lightning grounds must be connected to all ungrounded wiring
-- **D. They must be bonded together with all other grounds**  ←
+- D. They must be bonded together with all other grounds
+-
+- Answer: D
 
 **G0B12**
 
@@ -280,17 +334,21 @@ What is the purpose of a power supply interlock?
 
 - A. To prevent unauthorized changes to the circuit that would void the manufacturer’s warranty
 - B. To shut down the unit if it becomes too hot
-- **C. To ensure that dangerous voltages are removed if the cabinet is opened**  ←
+- C. To ensure that dangerous voltages are removed if the cabinet is opened
 - D. To shut off the power supply if too much voltage is produced
+-
+- Answer: C
 
 **G0B13**
 
 Where should lightning arrestors be located?
 
-- **A. Where the feed lines enter the building**  ←
+- A. Where the feed lines enter the building
 - B. On the antenna, opposite the feed point
 - C. In series with each ground lead
 - D. At the closest power pole ground electrode
+-
+- Answer: A
 
 ---
 
