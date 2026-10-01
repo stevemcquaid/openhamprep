@@ -2,7 +2,7 @@
 
 **3 of your 50 exam questions · 3 groups (E3A–E3C) · 39 questions in the pool**
 
-General's G3 built the standard ionosphere model — D/E/F1/F2 layers, MUF/LUF, sunspot and K/A
+General's G3 built the standard ionosphere model — D/E/F1/F2 layers, MUF/LUF (maximum usable frequency / lowest usable frequency), sunspot and K/A
 indices. E3 assumes you already have that model and spends its three questions on the propagation
 modes that model doesn't cover: bouncing signals off the Moon, off meteor trails, off the aurora,
 and through tropospheric ducts, plus the geometric oddities of transequatorial, long-path,
@@ -11,7 +11,7 @@ chordal-hop, and sporadic-E propagation. The third group turns from *how* signal
 G-scale) that tell you when any of the above will actually work.
 
 Like G3, this rewards building the mental model over rote memorization, but it leans harder on
-paired facts and specific numbers — EME path loss versus libration fading, TEP timing and range,
+paired facts and specific numbers — EME (earth-moon-earth, or moonbounce) path loss versus libration fading, TEP (transequatorial propagation) timing and range,
 Bz orientation, flare and storm scales. Three questions, but a wide spread of topics to cover them.
 
 ## Table of Contents
@@ -40,15 +40,15 @@ relative motion between Earth and the (rotating, librating) Moon smearing the re
 
 **Meteor scatter.** A meteor ionizes a short-lived linear trail in the **E region**, and signals
 briefly reflect off it. The useful range for meteor-scatter work is **28 MHz to 148 MHz** — 10
-meters through 2 meters — well above the HF bands used for ordinary ionospheric skip.
+meters through 2 meters — well above the HF (high frequency) bands used for ordinary ionospheric skip.
 
 **Tropospheric ducting.** Microwave signals get trapped in atmospheric ducts that typically form
 over **large bodies of water**, giving a typical range of **100 to 300 miles** — far short of the
-thousand-plus-mile hops of HF skip, but far beyond ordinary VHF/UHF line-of-sight.
+thousand-plus-mile hops of HF skip, but far beyond ordinary VHF/UHF (very high frequency / ultra high frequency) line-of-sight.
 
 **Auroral propagation.** Triggered by **severe geomagnetic storms**, not quiet conditions and not
-meteor activity. Because the aurora badly distorts a reflected signal, **CW** is the best emission
-mode for auroral contacts — voice and RTTY don't survive the flutter well.
+meteor activity. Because the aurora badly distorts a reflected signal, **CW** (continuous wave) is the best emission
+mode for auroral contacts — voice and RTTY (radioteletype) don't survive the flutter well.
 
 **Basic wave physics.** An electromagnetic wave's electric and magnetic fields are **at right
 angles to each other**, and the wave itself travels **at a right angle to both fields** — three
@@ -56,7 +56,7 @@ mutually perpendicular directions. What sets the wave's *speed* through a given 
 medium's **index of refraction**. **Circularly polarized** waves are waves whose **electric and
 magnetic fields rotate** as the wave propagates, rather than staying fixed in one plane.
 
-**One HF operating tip lives here too:** when the MUF on a path drops as darkness falls, **switch
+**One HF operating tip lives here too:** when the MUF (maximum usable frequency) on a path drops as darkness falls, **switch
 to a lower frequency HF band** to keep the contact going.
 
 #### All 14 pool questions for E3A
@@ -224,7 +224,7 @@ What are circularly polarized electromagnetic waves?
 **Transequatorial propagation (TEP).** Occurs on paths **2,000 to 3,000 miles** long that run
 **perpendicular to the geomagnetic equator** — not parallel, and not tied to the geographic
 equator or the terminator. Maximum range tops out around **5,000 miles**, and the best time of day
-is **afternoon or early evening**, well after the ordinary daytime peak for other HF propagation.
+is **afternoon or early evening**, well after the ordinary daytime peak for other HF (high frequency) propagation.
 
 **Sporadic E.** Two independent variables, easy to keep straight once you notice they're testing
 different axes: **time of year** peaks **around the solstices, especially the summer solstice**;
@@ -405,7 +405,7 @@ What type of polarization is supported by ground-wave propagation?
 
 **The A-index and K-index rise together** with **increasing disturbance of the geomagnetic
 field** — and when either is elevated, the signal path most likely to suffer heavy absorption is
-one that runs **through the auroral oval**, not a transequatorial, sporadic-E, or NVIS path.
+one that runs **through the auroral oval**, not a transequatorial, sporadic-E, or NVIS (near vertical incidence skywave) path.
 
 **Bz** (the north-south component of the interplanetary magnetic field) is the number that predicts
 whether solar particles will actually couple into Earth's field: Bz represents the
@@ -418,15 +418,15 @@ case — the opposite of the trap answer.
 indicates the **greatest flare intensity** (A, then B, C, M, X — X is the top). Geomagnetic storms
 use the **G-scale**, and **G5** is the term for an **extreme geomagnetic storm**. **Solar flares
 themselves cause short-term radio blackouts** — their burst of X-rays ionizes the D region and
-wipes out HF for the duration.
+wipes out HF (high frequency) for the duration.
 
 **Other propagation-prediction numbers.** The **VHF/UHF radio horizon** extends about **15 percent
-farther** than the plain geographic horizon, because the atmosphere bends VHF/UHF signals slightly
-downward. The **304A** solar parameter measures **UV emissions at 304 angstroms**, which correlate
-with the solar flux index. **VOACAP** software is a prediction tool that models **HF propagation**
-specifically — not VHF, and not AC circuit behavior despite the acronym's superficial resemblance
+farther** than the plain geographic horizon, because the atmosphere bends VHF/UHF (very high frequency / ultra high frequency) signals slightly
+downward. The **304A** solar parameter measures **UV emissions at 304 angstroms** (UV = ultraviolet), which correlate
+with the solar flux index. **VOACAP** (Voice of America Coverage Analysis Program) software is a prediction tool that models **HF propagation**
+specifically — not VHF, and not AC (alternating current) circuit behavior despite the acronym's superficial resemblance
 to electrical terms. Amateur radio propagation reporting networks report **digital-mode and CW
-signal** reception, giving real-time, crowd-sourced propagation data. Finally, a **sudden rise in
+signal** (CW = continuous wave) reception, giving real-time, crowd-sourced propagation data. Finally, a **sudden rise in
 HF background noise across a large portion of the spectrum** is a telltale sign that a **coronal
 mass ejection impact or a solar flare has occurred**.
 
@@ -568,14 +568,14 @@ Which of the following is indicated by a sudden rise in radio background noise a
 
 ## Bottom line for E3
 
-**EME:** separation up to **12,000 miles** while the Moon is mutually visible; **perigee** for
+**EME:** (earth-moon-earth, or moonbounce) separation up to **12,000 miles** while the Moon is mutually visible; **perigee** for
 least path loss; **libration fading** is fluttery and irregular. **Meteor scatter** ionizes the
 **E region**, works **28–148 MHz**. **Tropospheric ducts** form over **water**, run **100–300
-miles**. **Auroral propagation** needs **severe geomagnetic storms** and favors **CW**. EM waves:
+miles**. **Auroral propagation** needs **severe geomagnetic storms** and favors **CW** (continuous wave). EM (electromagnetic) waves:
 E and B fields **at right angles**, wave travels **at a right angle to both**; speed set by
 **index of refraction**; **circular polarization** = rotating fields.
 
-**TEP:** **2,000–3,000 mile** paths **perpendicular to the geomagnetic equator**, max range
+**TEP:** (transequatorial propagation) **2,000–3,000 mile** paths **perpendicular to the geomagnetic equator**, max range
 **5,000 miles**, best in **afternoon/early evening**. **Sporadic E:** **summer solstice**,
 **sunrise to sunset**. **Chordal hop** skips the ground bounce, so it loses **less** than ordinary
 multi-hop. **Ordinary/extraordinary waves** are elliptically polarized, ionosphere-created.
@@ -585,5 +585,5 @@ angle → **longer hops**. **Ground wave** is **vertical**-only and shrinks as *
 **Space weather:** rising **A/K-index** = more disturbance, worst absorption **through the
 auroral oval**. **Bz southward** = disturbed; northward = calm. Flare scale tops out at
 **Class X**; storm scale tops out at **G5**. **Flares** cause the short-term blackouts. Radio
-horizon runs **~15% farther** than geographic. **304A** = UV at **304 Å**. **VOACAP** models
-**HF**. A sudden **HF noise floor jump** signals a **CME or flare**.
+horizon runs **~15% farther** than geographic. **304A** = UV (ultraviolet) at **304 Å**. **VOACAP** (Voice of America Coverage Analysis Program) models
+**HF** (high frequency). A sudden **HF noise floor jump** signals a **CME or flare** (CME = coronal mass ejection).

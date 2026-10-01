@@ -3,7 +3,7 @@
 **8 of your 50 exam questions · 8 groups (E7A–E7H) · 99 questions in the pool**
 
 The largest subelement in the Extra pool by a wide margin: eight groups covering digital logic,
-RF and audio amplifiers, filters and matching networks, power supplies and voltage regulators,
+RF (radio frequency) and audio amplifiers, filters and matching networks, power supplies and voltage regulators,
 modulation and demodulation circuits, software defined radio fundamentals, operational amplifiers,
 and oscillators. It still only counts for eight of your 50 questions — one per group, same as
 everywhere else — but with 99 questions feeding those eight slots it holds nearly a fifth of the
@@ -52,9 +52,9 @@ halves the frequency, dividing by 16 (2⁴) takes **4 flip-flops**.
 <p align="center"><img src="figures/e7a-2-multivibrators-dividers.svg" alt="Multivibrator types and flip-flop frequency division" width="760"></p>
 
 **Gate logic — read the output condition carefully.** A **NAND gate outputs 0 only if all inputs
-are 1** (it is an AND gate with an inverted output). An **OR gate outputs 1 if any input is 1**. A
+are 1** (NAND = NOT-AND) (it is an AND gate with an inverted output). An **OR gate outputs 1 if any input is 1**. A
 two-input **exclusive NOR (XNOR) gate outputs 0 if one and only one of its inputs is 1** — it is
-high only when the inputs *agree*, the mirror image of XOR.
+high only when the inputs *agree*, the mirror image of XOR (exclusive OR).
 
 <p align="center"><img src="figures/e7a-1-gates.svg" alt="NAND, OR and XNOR gates with truth tables" width="760"></p>
 
@@ -208,9 +208,9 @@ waveform swings without clipping.
 switching (square-wave-like) operation generates — without it, a switching PA is a spray of
 harmonics. Feeding a **Class C amplifier a single-sideband phone signal produces distortion and
 excessive bandwidth**, because Class C is non-linear and only reproduces constant-envelope signals
-(CW, FM) faithfully.
+(CW (continuous wave), FM (frequency modulation)) faithfully.
 
-**Stability.** Unwanted oscillations in an RF power amplifier are prevented by **installing
+**Stability.** Unwanted oscillations in an RF (radio frequency) power amplifier are prevented by **installing
 parasitic suppressors and/or neutralizing the stage**. A **grounded-grid amplifier's defining trait
 is low input impedance** — it is driven into the cathode, and that low impedance is part of why the
 configuration is inherently stable without separate neutralization.
@@ -222,7 +222,7 @@ impedance, which is why it is used as a buffer.
 <p align="center"><img src="figures/e7b-2-loadline-follower.svg" alt="Class A load line and emitter follower" width="760"></p>
 
 **Figure E7-1 (common-emitter amplifier).** **R1 and R2 form a voltage divider that sets the DC
-bias** on the base. **R3, in the emitter leg, provides self bias** (emitter degeneration) rather
+bias** (DC = direct current) on the base. **R3, in the emitter leg, provides self bias** (emitter degeneration) rather
 than acting as a load or feedback element on its own.
 
 <p align="center"><img src="figures/e7-1.png" alt="Figure E7-1" width="560"></p>
@@ -396,8 +396,8 @@ more notches in the stop band** — it goes further than Chebyshev by adding sto
 for an even sharper transition.
 
 **Applications.** A **helical filter is most frequently used as a band-pass or notch filter in VHF
-and UHF transceivers**. A **crystal lattice filter is a filter for low-level signals made using
-quartz crystals** — narrow, high-Q IF filtering. A **cavity filter is used in a 2-meter band repeater
+and UHF transceivers** (VHF = very high frequency; UHF = ultra high frequency). A **crystal lattice filter is a filter for low-level signals made using
+quartz crystals** — narrow, high-Q IF (intermediate frequency) filtering. A **cavity filter is used in a 2-meter band repeater
 duplexer**, where it separates closely-spaced transmit and receive frequencies.
 
 **Measuring selectivity.** **Shape factor measures a filter's ability to reject signals in adjacent
@@ -569,7 +569,7 @@ supply because its high-frequency inverter design uses much smaller transformers
 components for the same output power** — size and weight scale inversely with operating frequency.
 
 **Solar and safety odds and ends.** An **inverter on a solar panel converts the panel's DC output to
-AC**. **Equal-value resistors across series-connected filter capacitors equalize the voltage across
+AC** (DC = direct current; AC = alternating current). **Equal-value resistors across series-connected filter capacitors equalize the voltage across
 each capacitor** (and, per the pool's own answer, also discharge them and provide a minimum load —
 “all these choices are correct”). A **step-start circuit in a high-voltage supply lets the filter
 capacitors charge gradually**, preventing the inrush current that would otherwise arc across the
@@ -754,7 +754,7 @@ What is the purpose of a step-start circuit in a high-voltage power supply?
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Generating FM/PM.** FM phone signals are generated by **reactance modulation of a local
+**Generating FM/PM.** FM (frequency modulation) phone signals are generated by **reactance modulation of a local
 oscillator** — varying a reactive element (varying capacitance for PM/FM specifically) to shift the
 oscillator's frequency in step with audio. A **reactance modulator produces PM or FM signals by
 varying a capacitance**. On the receive side, a **frequency discriminator is a circuit for detecting
@@ -779,9 +779,9 @@ difference frequencies** — that sum/difference pair is what makes frequency co
 Drive a mixer too hard and **spurious mixer products are generated** — overload distortion inside
 the mixer itself, a classic strong-signal problem.
 
-**Detectors.** A **diode envelope detector works by rectification and filtering of RF signals** —
-simple AM demodulation. **SSB signals are demodulated with a product detector**, which needs a
-locally-generated carrier (BFO) to reconstruct the missing carrier that SSB deliberately suppresses.
+**Detectors.** A **diode envelope detector works by rectification and filtering of RF signals** (RF = radio frequency) —
+simple AM (amplitude modulation) demodulation. **SSB signals are demodulated with a product detector**, which needs a
+locally-generated carrier (beat-frequency oscillator, BFO) to reconstruct the missing carrier that SSB (single sideband) deliberately suppresses.
 
 <p align="center"><img src="figures/e7e-2-mixers-detectors.svg" alt="Mixer products, detectors and pre-emphasis" width="760"></p>
 
@@ -915,15 +915,15 @@ Which type of detector is used for demodulating SSB signals?
 *One exam question comes from this group. 14 questions in the pool.*
 
 **Direct sampling.** “Direct sampling” means **incoming RF is digitized by an analog-to-digital
-converter without being mixed with a local oscillator signal** — no analog IF stage at all, the ADC
-sees the RF spectrum directly.
+converter without being mixed with a local oscillator signal** — no analog IF (intermediate frequency) stage at all, the ADC
+sees the RF (radio frequency) spectrum directly.
 
 <p align="center"><img src="figures/e7f-1-direct-sampling.svg" alt="Conventional vs direct-sampling receiver and quantization" width="760"></p>
 
 **DSP filters, matched to their job.** An **adaptive filter removes unwanted noise from a received
 SSB signal**, continuously adjusting itself to the noise environment. A **Hilbert-transform filter
 generates an SSB signal**, by producing a 90-degree-shifted version of the audio; equivalently, the
-DSP method for generating SSB is described as **signals combined in quadrature phase relationship**
+DSP method for generating SSB (single sideband) is described as **signals combined in quadrature phase relationship**
 — that is the phasing method done in software.
 
 **Sampling theory.** An analog signal must be sampled **at least twice the rate of its highest
@@ -945,7 +945,7 @@ level is set by the reference voltage level and the sample width in bits** — t
 quantization noise floor becomes the limiting factor.
 
 **FIR filters and taps.** **FIR (Finite Impulse Response) filters can delay all frequency components
-of the signal by the same amount** — linear phase, a key advantage over analog or IIR designs.
+of the signal by the same amount** — linear phase, a key advantage over analog or IIR (infinite impulse response) designs.
 **Taps in a DSP filter provide incremental signal delays for the filter algorithm**, and **more taps
 allow a DSP filter to create a sharper filter response**.
 
@@ -1139,7 +1139,7 @@ with frequency** — the idealization the “gain-bandwidth” concept above exi
 devices.
 
 **Gain arithmetic — this is the one place E7 asks you to compute.** For the inverting amplifier of
-Figure E7-3, gain magnitude = RF / R1:
+Figure E7-3, gain magnitude = RF (radio frequency) / R1:
 
 <p align="center"><img src="figures/e7-3.png" alt="Figure E7-3" width="520"></p>
 
@@ -1324,7 +1324,7 @@ sliding as the circuit warms up.
 **Phase-locked loops.** A **PLL is an electronic servo loop consisting of a phase detector, a
 low-pass filter, a voltage-controlled oscillator, and a stable reference oscillator**. Its two
 signature jobs are **frequency synthesis and FM demodulation** — the same servo loop that locks a
-VCO to a reference can also track an FM signal's instantaneous frequency and output the recovered
+VCO to a reference can also track an FM (frequency modulation) signal's instantaneous frequency and output the recovered
 audio.
 
 **Direct digital synthesis (DDS).** A **DDS uses a phase accumulator, a lookup table, a
@@ -1342,7 +1342,7 @@ designed it against — change the load capacitance and the crystal pulls off fr
 
 **Microwave-grade accuracy.** For highly accurate and stable oscillators at microwave frequencies,
 the accepted techniques are **a GPS signal reference, a rubidium-stabilized reference oscillator, or
-a temperature-controlled high-Q dielectric resonator** — the pool's answer is “all these choices are
+a temperature-controlled high-Q dielectric resonator** (GPS = Global Positioning System) — the pool's answer is “all these choices are
 correct.”
 
 #### All 13 pool questions for E7H
@@ -1495,17 +1495,17 @@ Which of the following is a technique for providing highly accurate and stable o
 ## Bottom line for E7
 
 **Flip-flop = bistable; monostable = one-shot; astable = free-running.** One flip-flop halves a
-frequency, so 16 needs **4**. NAND is 0 only when all inputs are 1; XNOR is 0 when exactly one input
+frequency, so 16 needs **4**. NAND (NOT-AND) is 0 only when all inputs are 1; XNOR (exclusive NOR) is 0 when exactly one input
 is 1. **Class AB conducts 180–360°**, Class A sits at the **midpoint of the load line**, and Class C
-on SSB means **distortion and splatter**. RF switching amps need a **harmonic filter**. Low-pass Pi:
+on SSB (single sideband) means **distortion and splatter**. RF (radio frequency) switching amps need a **harmonic filter**. Low-pass Pi:
 **C-L-C**; Pi-L adds a **series output inductor** for more suppression. Chebyshev has **passband
 ripple**, elliptical has **stopband notches**. Linear regulators **vary a pass element's conduction**
 and dissipate **(Vin−Vout)×Iout**; switchers **vary duty cycle** and win on size because of
-**high-frequency transformers**. Dropout voltage is the **minimum headroom to stay regulated**. FM is
+**high-frequency transformers**. Dropout voltage is the **minimum headroom to stay regulated**. FM (frequency modulation) is
 made with **reactance modulation** of an oscillator; SSB with a **balanced modulator plus filter** or
 **quadrature combining**; mixers output **sum and difference**; SSB is recovered with a **product
-detector**. Direct sampling means **no LO ahead of the ADC**; Nyquist needs **2× the highest
-frequency**; **more taps = sharper** DSP filters. Op-amps have **low output, high input impedance**;
+detector**. Direct sampling means **no LO ahead of the ADC** (LO = local oscillator; ADC = analog-to-digital converter); Nyquist needs **2× the highest
+frequency**; **more taps = sharper** DSP (digital signal processing) filters. Op-amps have **low output, high input impedance**;
 inverting gain is **RF/R1**; adding **C across the feedback resistor makes a low-pass**. Oscillators:
-**Colpitts = capacitive divider, Pierce = crystal**; **NP0 caps** fight thermal drift; a **PLL** is a
-phase detector, filter, VCO, and reference; **DDS** spurs are **discrete, not broadband**.
+**Colpitts = capacitive divider, Pierce = crystal**; **NP0 caps** fight thermal drift; a **PLL** (phase-locked loop) is a
+phase detector, filter, VCO (voltage-controlled oscillator), and reference; **DDS** (direct digital synthesizer) spurs are **discrete, not broadband**.

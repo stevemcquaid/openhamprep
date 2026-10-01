@@ -4,8 +4,8 @@
 
 Operating Procedures is a five-group tour through everything that isn't circuit theory: working
 amateur satellites, sending and receiving television over ham bands, running contests and chasing
-DX (including by remote control), and the alphabet soup of modern digital modes — first on VHF/UHF
-(APRS, meteor scatter, EME) and then on HF (FT8, FT4, PACTOR, ALE, and the rest). None of it
+DX (including by remote control), and the alphabet soup of modern digital modes — first on VHF (very high frequency)/UHF
+(APRS (Automatic Packet Reporting System), meteor scatter, EME (earth-moon-earth, or moonbounce)) and then on HF (FT8, FT4, PACTOR, ALE (automatic link establishment), and the rest). None of it
 involves math; it is operational knowledge about how each mode and practice actually works.
 
 Unlike the regulatory subelements, there are no Part 97 citations anchoring these questions — the
@@ -41,14 +41,14 @@ simply **the parameters that define a satellite's orbit** — don't confuse them
 or spread-spectrum codes.
 
 **Linear transponders invert.** An inverting linear transponder flips the signal: **USB on the
-uplink comes down as LSB**, the **signal's position in the passband is reversed**, and because the
+uplink comes down as LSB** (USB = upper sideband; LSB = lower sideband), the **signal's position in the passband is reversed**, and because the
 uplink and downlink Doppler shifts run in opposite directions they partly cancel — all three of these
 are true at once, so that question answers **"all these choices are correct."** Mechanically, the
 transponder **mixes the uplink signal with a local oscillator and transmits the difference
 product** — it does not demodulate and remodulate. A linear transponder is mode-agnostic: it relays
-**FM, CW, SSB, SSTV, PSK, and packet alike** ("all these choices are correct" again). Because the
+**FM, CW, SSB, SSTV, PSK, and packet alike** (FM = frequency modulation; CW = continuous wave; SSB = single sideband; SSTV = slow-scan television; PSK = phase-shift keying) ("all these choices are correct" again). Because the
 whole passband shares one downlink, **ERP is limited so a strong uplink signal doesn't rob downlink
-power from every other user** sharing that transponder.
+power from every other user** (ERP = effective radiated power) sharing that transponder.
 
 **Orbits and antennas.** **L band and S band are the 23- and 13-centimeter bands.** A
 **geostationary** satellite is the one that appears to stay fixed in the sky. Spacecraft tumble, so a
@@ -197,17 +197,17 @@ What is the purpose of digital store-and-forward functions on an amateur radio s
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Fast-scan (NTSC) fundamentals.** A frame is **525 horizontal lines**, built by **interlacing** —
+**Fast-scan (NTSC) fundamentals.** (NTSC = National Television System Committee) A frame is **525 horizontal lines**, built by **interlacing** —
 one field carries the **odd-numbered lines**, the next carries the **even-numbered** ones.
 **Vestigial sideband** is the reason analog TV fits into its allocated bandwidth: it's **AM in which
-one complete sideband and a portion of the other are transmitted**, and in fast-scan TV specifically
+one complete sideband and a portion of the other are transmitted** (AM = amplitude modulation), and in fast-scan TV specifically
 it **reduces bandwidth while increasing the fidelity of the low-frequency (coarse-detail) video
-components**. Digital amateur TV (DVB-T) instead uses **QAM and QPSK** modulation, and a coding rate
+components**. Digital amateur TV (DVB-T) instead uses **QAM and QPSK** (QAM = quadrature amplitude modulation; QPSK = quadrature phase-shift keying) modulation, and a coding rate
 of 3/4 means **25% of the transmitted data is forward error correction overhead** — read that one
 carefully, since the "3/4" names the useful-data fraction, not the FEC fraction.
 
 **Repurposing gear.** Hams get 70-centimeter fast-scan TV onto ordinary analog TV sets by
-**transmitting USB and demodulating the signal with a computer sound card** — there's no special
+**transmitting USB and demodulating the signal with a computer sound card** (USB = upper sideband) — there's no special
 70-cm tuner trick involved.
 
 **Slow-scan (SSTV).** Picture brightness rides on **tone frequency**, not amplitude. Each new
@@ -215,7 +215,7 @@ picture line is triggered by **specific tone frequencies**, and analog color SST
 lines sequentially** rather than all at once. The **vertical interval signaling (VIS) code** at the
 start of a transmission **identifies which SSTV mode is being used**, so receiving software can
 decode correctly. SSTV carried over the **Digital Radio Mondiale (DRM)** protocol is received on an
-ordinary **SSB** receiver — DRM here is a mode riding inside SSB audio, not a separate radio system.
+ordinary **SSB** receiver — DRM here is a mode riding inside SSB (single sideband) audio, not a separate radio system.
 
 #### All 12 pool questions for E2B
 
@@ -357,20 +357,20 @@ What signals SSTV receiving software to begin a new picture line?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Remote operation and logs.** A US station operated by remote control, with the remote transmitter
+**Remote operation and logs.** A US (United States) station operated by remote control, with the remote transmitter
 also located in the US, needs **no additional indicator** — a plain call sign is enough. Amateur log
-data is exchanged in **ADIF** format; when you submit a finished log to a contest sponsor, that's the
+data is exchanged in **ADIF** (Amateur Data Interchange Format) format; when you submit a finished log to a contest sponsor, that's the
 **Cabrillo format** instead — two different standards for two different jobs. Confirmations flow
 through **Logbook of The World (LoTW)** for essentially any qualifying contact — special event
 contacts, contacts with non-US stations, Worked All States credit — so that question answers **"all
 these choices are correct."**
 
-**Contests.** **30 meters is generally excluded from amateur radio contesting.** During a VHF/UHF
+**Contests.** **30 meters is generally excluded from amateur radio contesting.** During a VHF/UHF (very high frequency / ultra high frequency)
 contest, activity concentrates in the **weak-signal segment, near the calling frequency** — not at
 the top of the band and not 25 kHz above the calling frequency. In a pileup or contest, identify by
 sending your **full call sign once or twice** — nothing abbreviated, nothing repeated three times.
 
-**DX operating.** DX stations split their transmit and receive frequencies for every reason at
+**DX operating.** DX (long-distance communication) stations split their transmit and receive frequencies for every reason at
 once — avoiding a frequency prohibited to some responding stations, separating callers from the DX
 station, and reducing interference — so that question is also **"all these choices are correct."** A
 **DX QSL Manager handles the receiving and sending of confirmations** for a DX station, distinct from
@@ -378,7 +378,7 @@ someone running a pileup net or relaying propagation information to a DXpedition
 
 **Mesh networking.** Amateur mesh networks run on **frequencies shared with various unlicensed
 wireless data services**, built from **wireless routers running custom firmware** — not repurposed
-packet TNCs.
+packet TNCs (terminal node controllers).
 
 **One more term.** The delay between a control operator's action and the resulting change in the
 transmitted signal is **latency**, not jitter, hang time, or anti-VOX.
@@ -528,10 +528,10 @@ communications. EME (moonbounce) instead uses **Q65**, and the classic method fo
 EME contact is **time-synchronous transmissions that alternate between stations** — you transmit in
 your assigned slot, the other station transmits in theirs. **JT65**, the mode both of these descend
 from, is prized for **decoding signals with a very low signal-to-noise ratio**, using **multitone
-AFSK** modulation. In a VHF contest run on **FT8 or FT4**, the exchange substitutes a **grid square**
+AFSK** (AFSK = audio frequency-shift keying) modulation. In a VHF (very high frequency) contest run on **FT8 or FT4**, the exchange substitutes a **grid square**
 for the usual signal-to-noise report.
 
-**APRS.** APRS beacon data rides on **AX.25** packet, carried in an **Unnumbered Information**
+**APRS.** APRS (Automatic Packet Reporting System) beacon data rides on **AX.25** packet, carried in an **Unnumbered Information**
 frame — the frame type built for connectionless broadcast data. Stations relay each other's packets
 through **packet digipeaters**. A path of **WIDE3-1 means three digipeater hops were requested, with
 one hop remaining** — the number counts down as each digipeater passes the packet along. APRS is
@@ -667,10 +667,10 @@ How do APRS stations relay data?
 *One exam question comes from this group. 13 questions in the pool.*
 
 **FSK basics.** Below 30 MHz, data emissions generally use **FSK** — frequency shift keying, not
-DTMF-modulated FM, pulse modulation, or spread spectrum. There are two flavors: **direct FSK
-modulates the transmitter's VFO itself**, while audio FSK shifts a tone fed into the mic input;
+DTMF-modulated FM (frequency modulation), pulse modulation, or spread spectrum. There are two flavors: **direct FSK
+modulates the transmitter's VFO itself** (VFO = variable-frequency oscillator), while audio FSK shifts a tone fed into the mic input;
 direct FSK is the one the exam names. **WSJT-X modes synchronize transmit/receive timing through
-synchronization of computer clocks**, which is why an accurate clock matters for FT8/FT4/WSPR/JT65
+synchronization of computer clocks**, which is why an accurate clock matters for FT8/FT4/WSPR (Weak Signal Propagation Reporter)/JT65
 operation.
 
 **The FTx family.** The "4" in **FT4** refers to **four-tone continuous-phase frequency shift
@@ -678,12 +678,12 @@ keying**. **FST4** adds **four-tone Gaussian frequency shift keying, variable tr
 periods, and seven different tone spacings** — all three at once, so that question is **"all these
 choices are correct."** An **FT8 transmission cycle is 15 seconds** long. **Q65** differs from its
 ancestor **JT65** in that **multiple receive cycles are averaged** to pull weaker signals out of the
-noise. Of **WSPR, RTTY, PSK31, and MFSK16**, only **WSPR does not support keyboard-to-keyboard
+noise. Of **WSPR, RTTY, PSK31, and MFSK16** (RTTY = radioteletype), only **WSPR does not support keyboard-to-keyboard
 operation** — it is a one-way, beacon-style propagation-reporting mode.
 
 **Bandwidth and throughput.** Of the modes compared on the exam, **FT8 has the narrowest
 bandwidth**, while **PACTOR IV has the highest data throughput** under clear communication
-conditions. **PACTOR** is also the HF digital mode used to **transfer binary files**. **PSK31** is
+conditions. **PACTOR** is also the HF (high frequency) digital mode used to **transfer binary files**. **PSK31** is
 the mode built on **variable-length character coding**.
 
 **ALE.** Automatic Link Establishment stations **constantly scan a list of frequencies, activating

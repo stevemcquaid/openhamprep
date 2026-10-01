@@ -19,20 +19,20 @@ correct. When genuinely unsure, pick the option that protects a person.
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**The mechanism is heating.** RF energy **heats body tissue** — that is what the FCC's rules are
+**The mechanism is heating.** RF (radio frequency) energy **heats body tissue** — that is what the FCC's (Federal Communications Commission) rules are
 built around. Exposure is determined by **power density, frequency, and duty cycle: all these
 choices are correct.** Distance is your most powerful tool, because power density falls off with the
 square of distance; frequency matters because the body absorbs most efficiently around 30-300 MHz,
 where a standing adult is roughly resonant.
 
-**Duty cycle** cuts in your favor: **a lower duty cycle permits greater power levels**. SSB voice has
-a low duty cycle, so you can run more power than on FM or FT8 for the same average exposure.
+**Duty cycle** cuts in your favor: **a lower duty cycle permits greater power levels**. SSB (single sideband) voice has
+a low duty cycle, so you can run more power than on FM (frequency modulation) or FT8 for the same average exposure.
 **"Time averaging" means the total RF exposure averaged over a certain period.**
 
 **Who is covered:** **all stations with a time-averaged transmission of more than one milliwatt.**
 Essentially everybody — there is no blanket amateur exemption anymore.
 
-**Evaluating.** You may determine compliance by calculation per **OET Bulletin 65**, by computer
+**Evaluating.** You may determine compliance by calculation per **OET Bulletin 65** (OET = Office of Engineering and Technology), by computer
 modeling, or by measurement: **all these choices are correct**. If you fail the exemption criteria,
 **perform an evaluation per OET Bulletin 65**. What you must actually do is **perform a routine
 evaluation and prevent access to identified high-exposure areas** — not post rules, not notify
@@ -40,7 +40,7 @@ neighbors.
 
 **Fixing problems.** Exceed the limits and you **take action to prevent human exposure**. If a
 neighbor is in your beam's main lobe, **ensure the antenna cannot be pointed at them**. Indoors,
-**make sure MPE limits are not exceeded in occupied areas**. Accurate field measurement needs a
+**make sure MPE limits are not exceeded in occupied areas** (MPE = maximum permissible exposure). Accurate field measurement needs a
 **calibrated field strength meter with a calibrated antenna** — both parts calibrated.
 
 #### All 12 pool questions for G0A
@@ -183,13 +183,13 @@ What stations are subject to the FCC rules on RF exposure?
 
 *One exam question comes from this group. 13 questions in the pool.*
 
-**AC wiring.** Fuses and breakers go in **the hot wires only** — never the neutral, never the ground.
-**AWG 12** is the minimum wire size for a 20-ampere circuit, and conversely AWG 14 wiring calls for a
+**AC wiring.** (AC = alternating current) Fuses and breakers go in **the hot wires only** — never the neutral, never the ground.
+**AWG 12** is the minimum wire size for a 20-ampere circuit, and conversely AWG (American wire gauge) 14 wiring calls for a
 **15-ampere** fuse. Remember that a **smaller AWG number means thicker wire**. The **National
 Electrical Code** covers the **electrical safety of the station**.
 
 **A GFCI disconnects when current flows from a hot wire directly to ground** — that is the leak it is
-watching for, and it is why a GFCI protects people rather than wiring.
+watching for, and it is why a GFCI (ground-fault circuit interrupter) protects people rather than wiring.
 
 **Equipment.** A **power supply interlock ensures dangerous voltages are removed if the cabinet is
 opened**. Paired with the bleeder resistor from G7A01, that is the two-part safety system in any
@@ -354,10 +354,10 @@ Where should lightning arrestors be located?
 
 ## Bottom line for G0
 
-RF **heats tissue**; exposure depends on **power density, frequency, and duty cycle**, and a **lower
+RF (radio frequency) **heats tissue**; exposure depends on **power density, frequency, and duty cycle**, and a **lower
 duty cycle permits more power**. Everyone above **one milliwatt** time-averaged is covered. Evaluate
-per **OET Bulletin 65** and **prevent access to high-exposure areas**. Fuses go in the **hot wires**;
-**AWG 12** for 20 A, **15 A** for AWG 14. A **GFCI** watches for current going to ground. Interlocks
+per **OET Bulletin 65** (OET = Office of Engineering and Technology) and **prevent access to high-exposure areas**. Fuses go in the **hot wires**;
+**AWG 12** for 20 A, **15 A** for AWG (American wire gauge) 14. A **GFCI** (ground-fault circuit interrupter) watches for current going to ground. Interlocks
 **remove dangerous voltage when the cabinet opens**. Lightning ground goes **outside**, arrestors go
 **where feed lines enter**, rods get **bonded together**. **Lock out and tag** before climbing; run
 generators **well ventilated**; wash your hands after handling **lead solder**.

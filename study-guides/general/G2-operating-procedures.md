@@ -7,7 +7,7 @@ Q signals and the digital-mode facts are the parts that need genuine memorizatio
 usually reason out by asking "what would a considerate operator do?"
 
 G2E (digital modes) is the deepest group in this subelement at 15 questions, and it is the one most
-likely to contain material you have never encountered on VHF.
+likely to contain material you have never encountered on VHF (very high frequency).
 
 ## Table of Contents
 
@@ -31,18 +31,18 @@ likely to contain material you have never encountered on VHF.
 
 **The sideband convention** is asked four different ways, and one rule covers all of them:
 
-> **Below 10 MHz use LSB. Above 10 MHz use USB. VHF/UHF SSB uses USB.**
+> **Below 10 MHz use LSB. Above 10 MHz use USB. VHF/UHF SSB uses USB.** (USB = upper sideband; VHF = very high frequency; UHF = ultra high frequency; SSB = single sideband)
 
 So 160/75/40 m are lower sideband; 20, 17, 12 m and everything above are upper. And *why* LSB on the
-low bands? Not efficiency, not legality, not AM compatibility — it is simply **commonly accepted
+low bands? Not efficiency, not legality, not AM (amplitude modulation) compatibility — it is simply **commonly accepted
 amateur practice**. Pick the boring answer.
 
-**SSB itself.** It is the most common HF voice mode. One sideband is transmitted; **the other
+**SSB itself.** It is the most common HF (high frequency) voice mode. One sideband is transmitted; **the other
 sideband and the carrier are both suppressed** (the distractor keeps the carrier). Its advantage
 over other analog voice modes is **less bandwidth and greater power efficiency** — not fidelity.
 
-**Habits.** Break into a contact by saying **your call sign once**. Answer a "CQ DX" from the lower
-48 only if you are outside the lower 48. VOX gives **hands-free** operation. Set ALC with the
+**Habits.** Break into a contact by saying **your call sign once**. Answer a "CQ DX" (CQ = a general call to any station; DX = long-distance communication) from the lower
+48 only if you are outside the lower 48. VOX (voice-operated switch) gives **hands-free** operation. Set ALC (automatic level control) with the
 **microphone or transmit audio gain**.
 
 #### All 12 pool questions for G2A
@@ -190,16 +190,16 @@ not QSOs in progress, not contesters. This is the answer whenever a question ask
 frequency — and the corollary is that when propagation shifts and someone appears on top of you, you
 resolve it **mutually**, not by asserting priority.
 
-**Spacing:** CW wants **150–500 Hz** of separation; SSB wants **2–3 kHz**. Roughly one signal width
+**Spacing:** CW (continuous wave) wants **150–500 Hz** of separation; SSB (single sideband) wants **2–3 kHz**. Roughly one signal width
 plus margin, and SSB signals are about 3 kHz wide.
 
-**Before calling CQ:** send **"QRL?" plus your call sign** on CW, or ask whether the frequency is in
+**Before calling CQ:** (CQ = a general call to any station) send **"QRL?" plus your call sign** on CW, or ask whether the frequency is in
 use plus your call sign on phone. Always identify — that is what separates the right answer from the
 "just listen for two minutes" distractors. And choose the frequency by **following the voluntary
 band plan**.
 
 **Emergencies.** If a station in distress breaks in, **acknowledge them and find out what help is
-needed**. A RACES control operator must hold an **FCC amateur license**. RACES drills run **no more
+needed**. A RACES (Radio Amateur Civil Emergency Service) control operator must hold an **FCC amateur license** (FCC = Federal Communications Commission). RACES drills run **no more
 than one hour per week** without special authorization. Good net management means having a **backup
 frequency**.
 
@@ -349,8 +349,8 @@ means "received and understood," *not* "we have already confirmed the contact."
 SK ends the contact. The formal-message question wants AR, not SK.
 
 **Other facts.** Full break-in (QSK) means you **can receive between code characters and elements**.
-Answer a CQ at a speed you can copy but **no faster than the CQ**. "Zero beat" means **matching your
-transmit frequency to the received signal**. A **"C"** appended to an RST report means the signal is
+Answer a CQ (a general call to any station) at a speed you can copy but **no faster than the CQ**. "Zero beat" means **matching your
+transmit frequency to the received signal**. A **"C"** appended to an RST (readability-strength-tone) report means the signal is
 **chirpy or unstable**.
 
 #### All 11 pool questions for G2C
@@ -487,15 +487,15 @@ rules violations**, whose objective is to **encourage amateurs to self-regulate*
 carrier holding a repeater open, monitors **compare beam headings from their separate home
 locations** — triangulation.
 
-**HF operating.** Call CQ by repeating "CQ" a few times, then "this is," then your call a few times,
+**HF operating.** Call CQ (a general call to any station) by repeating "CQ" a few times, then "this is," then your call a few times,
 then **pause and listen**. Point the beam **180 degrees from the short-path heading** for long path.
 An **azimuthal projection map** shows **true bearings and distances from one specific location** —
-land masses look distorted, and that is the point. The NATO alphabet is **Alpha, Bravo, Charlie,
+land masses look distorted, and that is the point. The NATO (North Atlantic Treaty Organization) alphabet is **Alpha, Bravo, Charlie,
 Delta**. **QRP** is low-power operation. Signal reports get exchanged early so each station can
 **operate according to conditions**.
 
-**Logs and contests.** The FCC does not require a log; you keep one **to help answer an FCC inquiry
-about your station**. The only thing *required* in an HF contest is to **identify per normal FCC
+**Logs and contests.** The FCC (Federal Communications Commission) does not require a log; you keep one **to help answer an FCC inquiry
+about your station**. The only thing *required* in an HF (high frequency) contest is to **identify per normal FCC
 rules** — submitting logs and sending QSLs are courtesies.
 
 #### All 11 pool questions for G2D
@@ -629,22 +629,22 @@ Why are signal reports typically exchanged at the beginning of an HF contact?
 
 The deepest group in G2 at 15 questions, and the facts here are not derivable. Learn them.
 
-**Sideband for digital:** RTTY via AFSK uses **LSB**. JT65, JT9, FT4, and FT8 use **USB**. RTTY is
-the odd one out; everything modern is USB.
+**Sideband for digital:** RTTY (radioteletype) via AFSK (audio frequency-shift keying) uses **LSB** (lower sideband). JT65, JT9, FT4, and FT8 use **USB**. RTTY is
+the odd one out; everything modern is USB (upper sideband).
 
 **FT8** needs computer time accurate to about **1 second**, lives around **14.074–14.077 MHz** on 20
-m, and you answer a CQ by finding a clear frequency in the **alternate time slot** to the caller.
+m, and you answer a CQ (a general call to any station) by finding a clear frequency in the **alternate time slot** to the caller.
 
 **Vocabulary.** **VARA** is a protocol used with **Winlink**. A **Winlink Remote Message Server** is
-a **gateway**, reached by transmitting a **connect message on its published frequency**. **AREDN**
+a **gateway**, reached by transmitting a **connect message on its published frequency**. **AREDN** (Amateur Radio Emergency Data Network)
 mesh provides **high-speed data during emergencies or community events**. **PACTOR** connections are
 strictly two stations — you cannot join one in progress.
 
 **Troubleshooting.** Both the "interference to PACTOR/VARA" question and the "cannot decode an FSK
-signal" question answer **all these choices are correct**. Digital mode failures are rarely
+signal" (FSK = frequency-shift keying) question answer **all these choices are correct**. Digital mode failures are rarely
 single-cause.
 
-Two numbers: RTTY standard shift on HF is **170 Hz**, and digital modes cluster at **14.070–14.100
+Two numbers: RTTY standard shift on HF (high frequency) is **170 Hz**, and digital modes cluster at **14.070–14.100
 MHz** on 20 meters.
 
 #### All 15 pool questions for G2E
@@ -818,8 +818,8 @@ Which of the following is a common location for FT8?
 
 ## Bottom line for G2
 
-**LSB below 10 MHz, USB above** — and the reason is just custom. **Nobody has priority** on a
-frequency outside emergencies. Spacing: **150-500 Hz** on CW, **2-3 kHz** on SSB. The five Q signals:
+**LSB below 10 MHz, USB above** (LSB = lower sideband; USB = upper sideband) — and the reason is just custom. **Nobody has priority** on a
+frequency outside emergencies. Spacing: **150-500 Hz** on CW (continuous wave), **2-3 kHz** on SSB (single sideband). The five Q signals:
 **QRL? QRS QRN QRV QSL**. **AR** ends a formal message. **RTTY uses LSB**, everything modern uses
-**USB**. FT8 wants **1-second time accuracy** and lives near **14.074 MHz**. RTTY shift is **170 Hz**.
-You keep a log **to answer an FCC inquiry**.
+**USB**. FT8 wants **1-second time accuracy** and lives near **14.074 MHz**. RTTY (radioteletype) shift is **170 Hz**.
+You keep a log **to answer an FCC inquiry** (FCC = Federal Communications Commission).

@@ -3,8 +3,8 @@
 **8 of your 50 exam questions · 8 groups (E9A–E9H) · 93 questions in the pool**
 
 This is the largest content subelement on the Extra exam, and it builds directly on General's G9
-(4 groups: feed lines, SWR, and basic dipole/vertical behavior). E9 doubles that to eight groups and
-goes much deeper: antenna gain math (dBi vs. dBd, ERP/EIRP conversions), radiation patterns and
+(4 groups: feed lines, SWR (standing wave ratio), and basic dipole/vertical behavior). E9 doubles that to eight groups and
+goes much deeper: antenna gain math (dBi vs. dBd, ERP/EIRP (effective radiated power / effective isotropic radiated power) conversions), radiation patterns and
 computer antenna modeling, practical wire antennas and phased vertical arrays, Yagis and the theory
 of loading electrically short antennas, five named impedance-matching systems, transmission-line
 stub behavior and dielectrics, the Smith chart, and receiving-only antennas for direction finding.
@@ -59,7 +59,7 @@ choices given, the highest frequency has the smallest first Fresnel zone. **Ante
 **radiation resistance divided by total resistance** (radiation resistance plus every loss
 resistance in the system) — and for a ground-mounted quarter-wave vertical, the single biggest
 efficiency lever is a good **ground radial system**, because **soil conductivity** is what drives
-ground loss on HF.
+ground loss on HF (high frequency).
 
 #### All 12 pool questions for E9A
 
@@ -577,7 +577,7 @@ contrast, is prized for **improved radiation efficiency**, since it raises the c
 higher and increases effective height.
 
 **Q and bandwidth are inversely linked**, on any resonant circuit including an antenna: loading a
-short antenna to resonance raises its Q, which **decreases its SWR bandwidth**. A **Yagi's driven
+short antenna to resonance raises its Q, which **decreases its SWR bandwidth** (SWR = standing wave ratio). A **Yagi's driven
 element is about 1/2 wavelength** long — that's the baseline; the **parasitic elements** (reflector,
 directors) are deliberately made longer or shorter than resonance specifically to **control the
 phase shift** of their induced currents, which is what produces gain and front-to-back ratio. Most
@@ -882,7 +882,7 @@ quarter wave:
 
 **Cable construction.** Foam-dielectric coax, versus solid dielectric otherwise identical, has
 **lower loss per length**, a **higher velocity factor**, and a **lower safe maximum operating
-voltage** — "all of these" is correct because foam trades away voltage handling for better RF
+voltage** — "all of these" is correct because foam trades away voltage handling for better RF (radio frequency)
 performance (more air, less material). **Parallel-conductor (open-wire) line has lower loss** than
 plastic-dielectric coax, largely because its dielectric is mostly air. **Microstrip** is precision
 printed-circuit conductors over a ground plane providing constant-impedance interconnects at
@@ -1029,7 +1029,7 @@ What impedance does a 1/4-wavelength transmission line present to an RF generato
 *One exam question comes from this group. 11 questions in the pool.*
 
 **What it's for.** A Smith chart is used to **calculate impedance along transmission lines**, and in
-practice its most common uses are finding **impedance and SWR values in transmission lines** and
+practice its most common uses are finding **impedance and SWR values in transmission lines** (SWR = standing wave ratio) and
 **determining the length and position of an impedance matching stub** — not antenna gain, not
 propagation, not radiation patterns.
 
@@ -1185,7 +1185,7 @@ In what units are the wavelength scales on a Smith chart calibrated?
 **Beverage antenna.** A long, low, horizontal receiving-only wire: it should be **at least one
 wavelength long**, and its **terminating resistor's** job is to **absorb signals arriving from the
 reverse direction**, giving the antenna its directivity. The right terminating resistance is the one
-that produces the **minimum variation in SWR over the desired frequency range** — a broadband match,
+that produces the **minimum variation in SWR over the desired frequency range** (SWR = standing wave ratio) — a broadband match,
 not a peak reading. On **160 and 80 meters**, atmospheric noise is so high that **directivity matters
 far more than losses** — a lossy but directional receiving antenna still outperforms an efficient
 omnidirectional one, because it nulls noise as much as it nulls unwanted signals.

@@ -29,13 +29,13 @@ questions predictable rather than to be memorized on their own.
 
 *One exam question comes from this group. 10 questions in the pool.*
 
-**The one table that matters.** General gets all of every HF band *except* four, where Extra holds
+**The one table that matters.** General gets all of every HF (high frequency) band *except* four, where Extra holds
 an exclusive slice at the bottom: **80, 40, 20, and 15 meters**. Those same four bands answer two
 differently-worded questions (G1A01 and G1A08). On 160, 60, 30, 17, 12, and 10 meters, General and
 Extra have identical privileges.
 
 **30 meters is the odd one.** Both phone *and* image transmission are prohibited there — two
-separate questions, same band. It is CW and data only.
+separate questions, same band. It is CW (continuous wave) and data only.
 
 **Specific numbers:** 7.125–7.175 MHz is off limits to General. 21.300 MHz falls inside the General
 portion of 15 m. 10 m repeaters live above 29.5 MHz. General gets 10 m CW across the entire band.
@@ -162,19 +162,19 @@ When General class licensees are not permitted to use the entire voice portion o
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Antenna structures.** 200 feet is the height near a public-use airport that triggers FAA
-notification and FCC registration. For local zoning, the answer is always the long one: PRB-1
+**Antenna structures.** 200 feet is the height near a public-use airport that triggers FAA (Federal Aviation Administration)
+notification and FCC (Federal Communications Commission) registration. For local zoning, the answer is always the long one: PRB-1
 requires that amateur communications be **reasonably accommodated** and that any regulation be the
 **minimum practical** to serve the locality's legitimate purpose.
 
-**Beacons** account for four questions here. Power limit 100 W PEP output; automatically controlled
-HF beacons live at 28.20–28.30 MHz; their stated purpose is observation of propagation and
+**Beacons** account for four questions here. Power limit 100 W PEP (peak envelope power) output; automatically controlled
+HF (high frequency) beacons live at 28.20–28.30 MHz; their stated purpose is observation of propagation and
 reception; and no more than one beacon may transmit in the same band from the same location.
 
-**What you may transmit.** Occasional retransmission of weather and propagation information *from US
+**What you may transmit.** Occasional retransmission of weather and propagation information *from US (United States)
 government stations* is permitted — note all three qualifiers. Morse code practice is the permitted
 one-way transmission. Abbreviations and prosigns are fine as long as they do not obscure meaning.
-International contacts are allowed with any country that has not objected to the ITU — an opt-out
+International contacts are allowed with any country that has not objected to the ITU (International Telecommunication Union) — an opt-out
 system, not an opt-in one.
 
 **"Good engineering and good amateur practice"** is determined by the **FCC**, not the control
@@ -319,15 +319,15 @@ Who or what determines “good engineering and good amateur practice,” as appl
 Three separate questions in this group all answer 1500 W. Only 30 meters is different. When a
 question names a band you have not specifically flagged, answer 1500 W.
 
-**How power is measured:** PEP *output from the transmitter*. Not RMS, not input to the antenna.
+**How power is measured:** PEP (peak envelope power) *output from the transmitter*. Not RMS (root mean square), not input to the antenna.
 
-**60 meters:** maximum bandwidth on USB is 2.8 kHz, and if you use anything other than a dipole you
+**60 meters:** maximum bandwidth on USB (upper sideband) is 2.8 kHz, and if you use anything other than a dipole you
 must keep a record of your antenna's gain. (The tempting distractor is a log of contacts — wrong.)
 
 **New digital protocols** require only that you **publicly document the technical characteristics**
-before using one on the air. No FCC permission, no type certification, no rulemaking petition.
+before using one on the air. No FCC (Federal Communications Commission) permission, no type certification, no rulemaking petition.
 
-*Errata note: the two symbol-rate questions and the 60-meter ERP question that used to live in this
+*Errata note: the two symbol-rate questions and the 60-meter ERP (effective radiated power) question that used to live in this
 group were withdrawn. They still appear in older study guides.*
 
 #### All 8 pool questions for G1C
@@ -426,14 +426,14 @@ What measurement is specified by FCC rules that regulate maximum power?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**The VE facts.** Minimum age 18. Accredited by a **VEC**, not the FCC. Three VEs of General class
+**The VE facts.** Minimum age 18. Accredited by a **VEC** (volunteer examiner coordinator), not the FCC (Federal Communications Commission). Three VEs of General class
 or higher must observe an exam. A non-US citizen may be a VE if they hold an FCC license of General
 or above.
 
 A VE may only administer exams **below** their own class — which is why a General VE gives
 **Technician exams only**.
 
-**CSCE and credit.** A CSCE is valid **365 days**. Holding one for General lets a Technician operate
+**CSCE and credit.** A CSCE (Certificate of Successful Completion of Examination) is valid **365 days**. Holding one for General lets a Technician operate
 on any General or Technician band segment, with no carve-outs. Until the upgrade appears in the FCC
 database you identify with **"AG"** — but only when actually *using* General privileges.
 
@@ -443,7 +443,7 @@ the expired grant and pass the current Element 2 exam.
 
 **Remote operation — the two-question trap.** These look similar and have opposite answers. The rule
 is *the law of the place where the transmitter is*. Operating a **US** station remotely from abroad
-needs a **US** license. Operating a station **in South America** from the US is governed **only by
+needs a **US** license. Operating a station **in South America** from the US (United States) is governed **only by
 that country's** regulations — the FCC does not reach across the border.
 
 #### All 12 pool questions for G1D
@@ -596,8 +596,8 @@ signal only if the **10 m repeater's control operator holds at least General**. 
 automatically controlled digital station outside the auto-control segments, the **initiating station
 must be under local or remote control** — a human has to start it.
 
-**Numbers and regions.** The Americas are **ITU Region 2**. Spread spectrum is capped at **10 W
-PEP**. Amateurs may communicate with unlicensed Wi-Fi stations in **no part** of the 2.4 GHz band —
+**Numbers and regions.** The Americas are **ITU Region 2** (ITU = International Telecommunication Union). Spread spectrum is capped at **10 W
+PEP** (PEP = peak envelope power). Amateurs may communicate with unlicensed Wi-Fi stations in **no part** of the 2.4 GHz band —
 the correct answer is the refusal.
 
 **The beacon frequencies.** 14.100, 18.110, 21.150, 24.930, and 28.200 MHz host the International
@@ -733,6 +733,6 @@ When may third-party messages be transmitted via remote control?
 
 Four bands where General loses a portion: **80, 40, 20, 15**. Phone and image both prohibited on
 **30 m**. Power is **1500 W** everywhere except **200 W on 30 m**, measured as **PEP output from the
-transmitter**. Beacons: **100 W**, **28.20-28.30 MHz**. CSCE lasts **365 days**; VEs must be **18**;
+transmitter** (PEP = peak envelope power). Beacons: **100 W**, **28.20-28.30 MHz**. CSCE (Certificate of Successful Completion of Examination) lasts **365 days**; VEs (volunteer examiners) must be **18**;
 a General VE administers **Technician only**. Spread spectrum is **10 W**. The Americas are **ITU
-Region 2**. Good amateur practice is defined by **the FCC**.
+Region 2** (ITU = International Telecommunication Union). Good amateur practice is defined by **the FCC** (FCC = Federal Communications Commission).

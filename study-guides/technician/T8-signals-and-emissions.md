@@ -2,8 +2,8 @@
 
 **4 of your 35 exam questions · 4 groups (T8A–T8D) · 47 questions in the pool**
 
-T8 covers how a signal actually gets shaped and sent: the analog modulation modes (AM, FM, SSB,
-CW) and how their bandwidths compare, when to choose USB over LSB and SSB over FM, the vocabulary
+T8 covers how a signal actually gets shaped and sent: the analog modulation modes (AM (amplitude modulation), FM (frequency modulation), SSB (single sideband),
+CW (continuous wave)) and how their bandwidths compare, when to choose USB (upper sideband) over LSB (lower sideband) and SSB over FM, the vocabulary
 and operating practices of working through amateur satellites, common operating activities like
 direction finding, contesting, and linking repeaters over the internet, and finally the alphabet
 soup of non-voice and digital modes.
@@ -31,19 +31,19 @@ learnable by rote. Four groups, four questions, one from each.
 
 **SSB is a form of amplitude modulation** — the sidebands come from varying the carrier's
 amplitude, then suppressing the carrier and one sideband. That is also why **SSB has narrower
-bandwidth than FM**: FM trades bandwidth for noise immunity, SSB doesn't spend any bandwidth on a
+bandwidth than FM**: FM (frequency modulation) trades bandwidth for noise immunity, SSB (single sideband) doesn't spend any bandwidth on a
 carrier or a redundant sideband.
 
 **Bandwidth, narrowest to widest — memorize this order, since several questions just ask you to
 rank or pick from it:** **CW is about 150 Hz**, **SSB voice is about 3 kHz**, **FM voice on VHF
-repeaters runs 10–15 kHz**, and **AM fast-scan TV is about 6 MHz**. CW is easily the narrowest
-signal type tested here; fast-scan TV is easily the widest.
+repeaters runs 10–15 kHz**, and **AM fast-scan TV is about 6 MHz**. CW (continuous wave) is easily the narrowest
+signal type tested here; fast-scan TV (television) is easily the widest.
 
 **Mode selection is a short list of pairings to memorize:** **FM or PM is used for VHF packet
-radio** and also **for VHF/UHF voice repeaters** — same modulation, two different uses. **SSB is
+radio** (PM = phase modulation) and also **for VHF/UHF voice repeaters** — same modulation, two different uses. **SSB is
 the choice for long-distance, weak-signal contacts on VHF and UHF** because of its narrow
 bandwidth and concentrated power. **Upper sideband (USB)** is the sideband convention for 10-meter
-HF, VHF, and UHF SSB communications — lower sideband is reserved for 40, 80, and 160 meters, which
+HF (high frequency), VHF (very high frequency), and UHF (ultra high frequency) SSB communications — lower sideband is reserved for 40, 80, and 160 meters, which
 isn't tested in this group but explains why USB is the answer here.
 
 **FM's one real disadvantage next to SSB:** because FM is a full-quieting, capture-effect mode,
@@ -359,7 +359,7 @@ Which of the following is a way to determine whether your satellite uplink power
 
 **Radio direction finding** is the method used to **locate sources of noise interference or
 jamming**, and for a hidden transmitter hunt the useful gear is **a directional antenna** — not an
-SWR meter or wattmeter.
+SWR (standing wave ratio) meter or wattmeter.
 
 **Contesting** is the activity defined as **contacting as many stations as possible during a
 specified period**. Good contest etiquette is to **send only the minimum information needed for
@@ -509,20 +509,20 @@ What is an amateur radio station that connects other amateur stations to the int
 *One exam question comes from this group. 12 questions in the pool.*
 
 **The broadest "all these choices are correct" group in T8** — three separate questions here
-(digital modes in general, what APRS carries, and what WSJT-X supports) resolve to "all of the
+(digital modes in general, what APRS (Automatic Packet Reporting System) carries, and what WSJT-X supports) resolve to "all of the
 above," so when you see that option paired with a list of plausible-sounding items in T8D, it is
 often the right answer.
 
-**Definitions to lock in:** **CW is another name for a Morse code transmission**. **PSK stands for
-Phase Shift Keying**. **NTSC is an analog fast-scan color TV signal**. **FT8 is a digital mode
+**Definitions to lock in:** **CW is another name for a Morse code transmission** (CW = continuous wave). **PSK stands for
+Phase Shift Keying**. **NTSC is an analog fast-scan color TV signal** (NTSC = National Television System Committee; TV = television). **FT8 is a digital mode
 capable of low signal-to-noise operation** — that low-SNR capability is FT8's whole selling point
 and the fact the exam tests.
 
-**APRS** carries **GPS position data, text messages, and weather data** (all correct), and its
+**APRS** carries **GPS position data, text messages, and weather data** (GPS = Global Positioning System) (all correct), and its
 signature *application* is **providing real-time tactical digital communications together with a
 map showing station locations** — not a PACTOR packet counter or a repeater sign-in list.
 
-**DMR** is described as **a technique for time-multiplexing two digital voice signals on a single
+**DMR** (digital mobile radio) is described as **a technique for time-multiplexing two digital voice signals on a single
 12.5 kHz repeater channel** — two conversations sharing one channel by taking turns in time.
 
 **Packet radio transmissions include a checksum for error detection, a header with the
@@ -534,7 +534,7 @@ station detects errors and sends a request for retransmission**.
 beacons, and meteor scatter — all these choices are correct.**
 
 **An amateur radio mesh network is a data network built on commercial Wi-Fi equipment running
-modified firmware** — this is the Broadband-Hamnet / AREDN concept, not a satellite network and
+modified firmware** — this is the Broadband-Hamnet / AREDN (Amateur Radio Emergency Data Network) concept, not a satellite network and
 not an internet linking protocol.
 
 #### All 12 pool questions for T8D

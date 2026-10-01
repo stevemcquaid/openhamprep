@@ -6,7 +6,7 @@ The Technician exam's safety subelement is the biggest of the three license clas
 sections — General's G0 has 2 groups and 25 questions, Extra's E0 has just 1 group and 12 — but it
 still carries only 3 of your 35 questions here. It covers three distinct areas: electrical hazards
 around the shack (batteries, fuses, grounding, lightning), physical hazards around a tower (climbing,
-guying, ground systems, power-line clearance), and RF exposure hazards (radiation type, duty cycle,
+guying, ground systems, power-line clearance), and RF (radio frequency) exposure hazards (radiation type, duty cycle,
 who's responsible for compliance). None of it requires math or Part 97 citations — it's straight
 fact recall, and unlike most of the exam it's genuinely worth knowing cold rather than just for test
 day, since some of these facts will keep you alive.
@@ -28,13 +28,13 @@ day, since some of these facts will keep you alive.
 
 **Batteries.** An unprotected 12-volt storage battery's real hazard is **shorting the terminals**,
 which can cause burns, fire, or an explosion — not electrical shock from touching both terminals
-(12 V is too low for that) and not poison gas from nearby RF. **Rapidly charging or discharging** an
+(12 V is too low for that) and not poison gas from nearby RF (radio frequency). **Rapidly charging or discharging** an
 unprotected battery risks **overheating or out-gassing**. Electrical current flowing through the body
 is dangerous for several overlapping reasons at once — it can heat tissue, disrupt cells' electrical
 functions, and cause involuntary muscle contractions — so when the pool asks what hazard current
 flowing through the body poses, the answer is **all these choices are correct**.
 
-**Household wiring.** In a US three-wire 120 V AC cable, **black insulation means hot**. A **fuse's
+**Household wiring.** In a US (United States) three-wire 120 V AC (alternating current) cable, **black insulation means hot**. A **fuse's
 job is to remove power in case of an overload** — and that's why you should never replace a 5-ampere
 fuse with a 20-ampere one: the **excessive current a bigger fuse would allow through could cause a
 fire**, since the fuse is protecting the wiring, not just the load. Fuses and circuit breakers go
@@ -217,7 +217,7 @@ a fraction of a wavelength, not a height-based formula. For the same reason, **a
 antenna to a utility pole**: the antenna could contact high-voltage power lines.
 
 **Whose rules govern grounding.** Amateur radio tower and antenna grounding requirements come from
-**local electrical codes** — not FCC Part 97, not FAA tower-lighting rules, and not UL recommended
+**local electrical codes** — not FCC (Federal Communications Commission) Part 97, not FAA (Federal Aviation Administration) tower-lighting rules, and not UL (Underwriters Laboratories) recommended
 practices.
 
 #### All 11 pool questions for T0B
@@ -350,8 +350,8 @@ Which of the following establishes grounding requirements for an amateur radio t
 *One exam question comes from this group. 13 questions in the pool.*
 
 **Radio signals are non-ionizing radiation** — they lack the energy of gamma, alpha, or other ionizing
-radiation, which is precisely why RF exposure hazards differ from radioactivity hazards: **RF
-radiation does not have sufficient energy to cause chemical changes in cells and damage DNA**. Of the
+radiation, which is precisely why RF (radio frequency) exposure hazards differ from radioactivity hazards: **RF
+radiation does not have sufficient energy to cause chemical changes in cells and damage DNA** (DNA = deoxyribonucleic acid). Of the
 bands in the pool, **50 MHz has the lowest maximum permissible exposure** for RF safety, reflecting
 how efficiently the body absorbs energy in that range.
 
@@ -366,9 +366,9 @@ these choices are correct. Exposure limits vary with frequency for one core reas
 absorbs more RF energy at some frequencies than at others**.
 
 **Checking and maintaining compliance.** You may determine compliance by **calculation based on FCC
-OET Bulletin 65, by computer modeling, or by measurement with calibrated equipment** — all these
+OET Bulletin 65, by computer modeling, or by measurement with calibrated equipment** (OET = Office of Engineering and Technology) — all these
 choices are correct. Once compliant, stay that way by **re-evaluating the station whenever an item in
-the transmitter or antenna system changes** — not by notifying the FCC and not by chasing low SWR.
+the transmitter or antenna system changes** — not by notifying the FCC (Federal Communications Commission) and not by chasing low SWR (standing wave ratio).
 
 **Direct hazards and responsibility.** Touching an antenna during transmission creates a risk of **RF
 burn to the skin** — not electrocution or ionizing exposure. You can reduce RF exposure by

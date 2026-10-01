@@ -3,15 +3,15 @@
 **4 of your 50 exam questions · 4 groups (E8A–E8D) · 48 questions in the pool**
 
 E8 covers the signal-processing side of Extra: how a waveform is built and measured (Fourier
-analysis, RMS, PEP vs. average power, A/D and D/A conversion), how modulation encodes information
-(FM modulation index and deviation ratio, FDM/TDM, OFDM), how digital modes are defined and bounded
+analysis, RMS (root mean square), PEP (peak envelope power) vs. average power, A/D and D/A conversion), how modulation encodes information
+(FM (frequency modulation) modulation index and deviation ratio, FDM/TDM (frequency-division multiplexing / time-division multiplexing), OFDM (orthogonal frequency-division multiplexing)), how digital modes are defined and bounded
 (symbol rate, bandwidth, error correction, constellation diagrams), and what goes wrong when a
-transmitter is driven or keyed badly (key clicks, AFSK overmodulation, spread spectrum).
+transmitter is driven or keyed badly (key clicks, AFSK (audio frequency-shift keying) overmodulation, spread spectrum).
 
 This is General's G8 (Signals and Emissions) with the training wheels off: G8 mostly asked you to
 recognize a definition, while E8 asks you to compute a modulation index from two numbers, read a
-constellation diagram, and know specific memorized bandwidth figures (13-WPM CW, FT8, a 9600-baud
-ASCII FSK link). E8C, with 15 questions, is the single largest group in this subelement and worth
+constellation diagram, and know specific memorized bandwidth figures (13-WPM CW (continuous wave), FT8, a 9600-baud
+ASCII (American Standard Code for Information Interchange) FSK (frequency-shift keying) link). E8C, with 15 questions, is the single largest group in this subelement and worth
 learning as its own mini-topic; the other three groups are compact, built mostly from single
 memorized facts.
 
@@ -50,7 +50,7 @@ converter's output removes spurious sampling artifacts** left over from the conv
 **very high speed allows digitizing high frequencies** directly. **Total harmonic distortion** is
 the standard measure of an analog-to-digital converter's quality.
 
-**RMS and power.** A **true-RMS** meter is worth the extra cost because it correctly measures RMS
+**RMS and power.** A **true-RMS** meter is worth the extra cost because it correctly measures RMS (root mean square)
 for **both sinusoidal and non-sinusoidal signals** — an average-responding meter calibrated for
 sine waves reads wrong on anything else. For an **unprocessed single-sideband phone signal**, the
 ratio of **PEP to average power is about 2.5 to 1**, and that ratio is set by **speech
@@ -186,7 +186,7 @@ Which of the following is a measure of the quality of an analog-to-digital conve
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Modulation index, the formula tested six ways.** For FM, modulation index = **frequency
+**Modulation index, the formula tested six ways.** For FM (frequency modulation), modulation index = **frequency
 deviation ÷ modulating signal frequency**. Run the pool's own numbers through it: 3000 Hz deviation
 over a 1000 Hz tone gives **3**; 6 kHz deviation over a 2 kHz tone also gives **3**. Same formula,
 same order — deviation goes on top, modulating frequency goes on the bottom, never the reverse.
@@ -194,7 +194,7 @@ same order — deviation goes on top, modulating frequency goes on the bottom, n
 **Deviation ratio uses the same formula, but with the worst case on both sides:** **maximum carrier
 deviation ÷ highest modulating frequency** the system is designed to handle. 5 kHz over 3 kHz gives
 **1.67**; 7.5 kHz over 3.5 kHz gives **2.14**. And a phase-modulated (as opposed to
-frequency-modulated) signal's modulation index **does not depend on the RF carrier frequency** at
+frequency-modulated) signal's modulation index **does not depend on the RF carrier frequency** (RF = radio frequency) at
 all — a favorite "not what you'd expect" answer.
 
 **Multiplexing, three ways to share a channel.** **FDM** divides the transmitted signal into
@@ -204,7 +204,7 @@ time. **OFDM** is the modern digital-mode workhorse: a **digital modulation tech
 subcarriers at frequencies chosen to avoid intersymbol interference** — "orthogonal" means those
 subcarriers don't interfere with each other even though they overlap in frequency. OFDM is used
 for **digital modes** on the amateur bands, full stop; the other choices (extremely low-power
-contacts, EME, "not allowed") are all distractors.
+contacts, EME (earth-moon-earth, or moonbounce), "not allowed") are all distractors.
 
 #### All 11 pool questions for E8B
 
@@ -337,24 +337,24 @@ What is digital time division multiplexing?
 
 **QAM, in one sentence:** **Quadrature Amplitude Modulation** transmits data by **modulating the
 amplitude of two carriers of the same frequency but 90 degrees out of phase** — two independent
-amplitude channels riding in quadrature. The **constellation diagram** of a QAM or QPSK signal
+amplitude channels riding in quadrature. The **constellation diagram** of a QAM or QPSK (quadrature phase-shift keying) signal
 shows exactly that: **the possible phase and amplitude states for each symbol**, one point per
 valid combination.
 
 **Symbol rate and baud are the same thing** — don't overthink the relationship question. **Symbol
 rate** itself is defined as **the rate at which the waveform changes to convey information**.
 
-**PSK.** A PSK signal's phase should change **at the zero crossing of the RF signal**, because
+**PSK.** A PSK (phase-shift keying) signal's phase should change **at the zero crossing of the RF signal** (RF = radio frequency), because
 doing so **minimizes bandwidth**. **PSK31** specifically minimizes its bandwidth through **use of
 sinusoidal data pulses** rather than sharp-edged linear pulses, which splatter energy into
 harmonics.
 
-**Bandwidth numbers worth memorizing outright:** 13-WPM CW runs about **52 Hz** wide; an **FT8**
-signal is about **50 Hz** wide; a 4,800-Hz frequency shift, 9,600-baud ASCII FM transmission is
+**Bandwidth numbers worth memorizing outright:** 13-WPM CW (continuous wave) runs about **52 Hz** wide; an **FT8**
+signal is about **50 Hz** wide; a 4,800-Hz frequency shift, 9,600-baud ASCII (American Standard Code for Information Interchange) FM (frequency modulation) transmission is
 **15.36 kHz** wide. For plain CW, bandwidth is set by **keying speed and shape factor (rise and
-fall time)** — not IF bandwidth, not Q, not modulation index.
+fall time)** — not IF (intermediate frequency) bandwidth, not Q, not modulation index.
 
-**Error correction and codes.** **ARQ** corrects errors by **requesting a retransmission** when
+**Error correction and codes.** **ARQ** (automatic repeat request) corrects errors by **requesting a retransmission** when
 errors are detected — contrast this with *forward* error correction, which corrects without asking
 for a resend. **Gray code** is the digital code where **only one bit changes between sequential
 code values**, which limits how bad a single symbol error can be. Data rate can be **increased
@@ -540,24 +540,24 @@ What technique do individual nodes use to form a mesh network?
 *One exam question comes from this group. 11 questions in the pool.*
 
 **Spread spectrum, two flavors.** **Direct sequence** uses a **high-speed binary bit stream to
-shift the phase of an RF carrier**. **Frequency hopping** instead **rapidly varies the transmitted
+shift the phase of an RF carrier** (RF = radio frequency). **Frequency hopping** instead **rapidly varies the transmitted
 frequency according to a pseudorandom sequence**. Either way, a spread-spectrum receiver resists
 interference because **signals not using the spread-spectrum algorithm are suppressed in the
 receiver** — it is the despreading process itself that rejects interference, not raw transmitter
 power.
 
-**Key clicks are a keying-speed problem.** An **extremely short rise or fall time** on a CW signal
+**Key clicks are a keying-speed problem.** An **extremely short rise or fall time** on a CW (continuous wave) signal
 is the primary cause of **key clicks** — snapping the carrier on and off too abruptly splatters
 energy into adjacent frequencies. The fix is the opposite of what you might guess: **increase the
 keying waveform's rise and fall times**, softening the edges rather than sharpening them.
 
-**AFSK overmodulation** is usually caused by **excessive transmit audio levels** driving the radio
+**AFSK overmodulation** (AFSK = audio frequency-shift keying) is usually caused by **excessive transmit audio levels** driving the radio
 too hard, and the standard way to evaluate the resulting distortion is **Intermodulation
-Distortion (IMD)**. An idling PSK signal should hold its IMD to **-30 dB** or better — a positive
+Distortion (IMD)**. An idling PSK (phase-shift keying) signal should hold its IMD to **-30 dB** or better — a positive
 IMD figure (+5, +10, +15 dB) would mean the signal is badly overdriven and splattering across the
 band.
 
-**Digital codes.** **Parity bits** added to ASCII characters let **some types of errors be
+**Digital codes.** **Parity bits** added to ASCII (American Standard Code for Information Interchange) characters let **some types of errors be
 detected** — not corrected, and not a bigger character set or a faster rate. **Baudot** uses
 **5 data bits per character** and needs **two shift characters** (letters/figures) to cover its
 limited symbol space; **ASCII** uses **7 or 8 bits** and needs **no shift code** at all — which is

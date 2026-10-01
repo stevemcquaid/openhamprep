@@ -35,7 +35,7 @@ convey a schematic drawing.
 *One exam question comes from this group. 11 questions in the pool.*
 
 **The big three passive components, by what they do:** a **resistor** opposes the flow of current in
-a DC circuit; a **capacitor** stores energy in an **electric field** and is built from conductive
+a DC (direct current) circuit; a **capacitor** stores energy in an **electric field** and is built from conductive
 surfaces separated by an insulator; an **inductor** stores energy in a **magnetic field** and is
 typically constructed as a **coil of wire**. A **potentiometer** is a variable resistor whose wiper
 controls **resistance**, which is why it's the classic adjustable volume control.
@@ -185,7 +185,7 @@ Which of the following battery chemistries is not rechargeable?
 group doesn't ask for specific numbers, just that the drop varies by type). A diode's basic job is to
 **allow current to flow in only one direction**. Its two electrodes are the **anode and cathode**,
 and on the package the cathode lead is typically marked **with a stripe**. An **LED emits light when
-forward current** flows through it — reverse current does not light it.
+forward current** (LED = light-emitting diode) flows through it — reverse current does not light it.
 
 **Transistors.** A transistor is built from **three regions of semiconductor material** and can be
 used as an **electronic switch** or to provide **power gain**. Bipolar junction transistors have
@@ -345,7 +345,7 @@ drawing.
 numbered component in one of the pool's three figures (T-1, T-2, and T-3). Those questions
 (T6C02–T6C10, plus T6D10 in the next group) can't be answered from text alone; study the figures
 shown with each question to learn to recognize the standard symbols
-for a resistor, battery, lamp, ground, transistor, capacitor, regulator IC, LED, variable resistor,
+for a resistor, battery, lamp, ground, transistor, capacitor, regulator IC (integrated circuit), LED (light-emitting diode), variable resistor,
 transformer, variable inductor, and antenna. The text below reproduces each question exactly as
 written, with the figure shown above its answer choices.
 
@@ -526,8 +526,8 @@ package.
 about keeping interference out (or in), not about current capacity or DC resistance. A **resonant
 (tuned) circuit** is formed by combining an **inductor and a capacitor**, in series or parallel — the
 same L-C pairing that shows up throughout the pool. For visual indication, the pool's answer is
-specifically the **LED** (not "all these choices," despite FET and Zener diode appearing as
-distractors — only the LED is actually an indicator here). One question (T6D10) also reaches back
+specifically the **LED** (not "all these choices," despite FET (field-effect transistor) and Zener diode appearing as
+distractors — only the LED (light-emitting diode) is actually an indicator here). One question (T6D10) also reaches back
 into figure T-1 to ask what component 2 *does*, functionally, rather than what it's called.
 
 #### All 11 pool questions for T6D

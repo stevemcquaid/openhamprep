@@ -3,15 +3,15 @@
 **6 of your 50 exam questions · 6 groups (E6A–E6F) · 68 questions in the pool**
 
 Circuit Components is the "what's inside the box" subelement: semiconductor materials and the
-BJT-versus-FET distinction, the specialized diode family (Zener, Schottky, varactor, PIN,
+BJT-versus-FET distinction, the specialized diode family (Zener, Schottky, varactor, PIN (positive-intrinsic-negative),
 point-contact), digital-logic building blocks and programmable logic, inductor cores and the
-piezoelectric effect, the RF-specific materials and packages that show up above HF (GaAs, GaN,
-MMICs, surface mount), and the optoelectronic devices that convert between light and electricity.
+piezoelectric effect, the RF-specific materials and packages that show up above HF (GaAs (gallium arsenide), GaN (gallium nitride),
+MMICs (monolithic microwave integrated circuits), surface mount), and the optoelectronic devices that convert between light and electricity.
 
 Like General's G6, this is almost pure component trivia with essentially no math — but Extra goes
 several layers deeper into *why* one component beats another (a Schottky diode versus a silicon
 junction diode as a rectifier, for instance) and expects you to recognize schematic symbols for
-MOSFETs, logic gates, and diode types from the pool's figures. Six groups, six questions, and every
+MOSFETs (metal-oxide-semiconductor field-effect transistors), logic gates, and diode types from the pool's figures. Six groups, six questions, and every
 one of them is learnable by rote.
 
 ## Table of Contents
@@ -37,18 +37,18 @@ one of them is learnable by rote.
 
 **N-type vs. P-type.** N-type material has **excess free electrons**; an **acceptor impurity** is
 what adds holes to create P-type material (a donor impurity, by contrast, is what creates N-type —
-don't let the pool's wording flip you). At a reverse-biased PN junction, holes in the P side and
+don't let the pool's wording flip you). At a reverse-biased PN (positive-negative) junction, holes in the P side and
 electrons in the N side are pulled apart by the applied voltage, **widening the depletion region** —
 that's why no current flows.
 
 <p align="center"><img src="figures/e6a-1-pn-junction.svg" alt="PN junction under forward and reverse bias" width="760"></p>
 
-**GaAs shows up twice** in this pool and in E6E: it's used in **microwave circuits**, a fact worth
+**GaAs shows up twice** (GaAs = gallium arsenide) in this pool and in E6E: it's used in **microwave circuits**, a fact worth
 locking in since the exam asks it more than one way.
 
-**FET vs. BJT.** An FET's gate has **higher DC input impedance** than a bipolar transistor's base —
+**FET vs. BJT.** An FET's gate has **higher DC input impedance** (DC = direct current) than a bipolar transistor's base —
 FETs are voltage-controlled, BJTs are current-controlled. **Beta** is the change in collector current
-with respect to the change in base current. A silicon NPN transistor biased on shows a
+with respect to the change in base current. A silicon NPN (negative-positive-negative) transistor biased on shows a
 **base-to-emitter voltage of about 0.6–0.7 V** (watch for distractors phrased in ohms instead of
 volts — those are wrong on their face). **Alpha cutoff frequency** is the frequency at which
 grounded-base current gain has fallen to 0.7 of its value at 1 kHz; don't confuse it with "beta
@@ -59,12 +59,12 @@ applied at all** — current flows until you apply a gate voltage to pinch it of
 enhancement-mode devices you may know from other contexts.
 
 **Zener diodes on a MOSFET's gate** exist for one reason: to **protect the gate from static
-damage** (ESD), not to set a bias reference or regulate temperature.
+damage** (electrostatic discharge, ESD), not to set a bias reference or regulate temperature.
 
 <p align="center"><img src="figures/e6a-2-bjt-fet.svg" alt="BJT beta and VBE, alpha cutoff, and FET depletion vs enhancement" width="760"></p>
 
 Two questions in this group reference Figure E6-1 for schematic symbols (an N-channel dual-gate
-MOSFET and a P-channel junction FET); the pool text is reproduced below exactly, with the figure
+MOSFET (metal-oxide-semiconductor field-effect transistor) and a P-channel junction FET); the pool text is reproduced below exactly, with the figure
 shown beside each question.
 
 <p align="center"><img src="figures/e6-1.png" alt="Figure E6-1" width="560"></p>
@@ -218,19 +218,19 @@ voltage-reference component.
 
 **Schottky diode.** It's a **metal-semiconductor junction**, and its defining edge over a silicon
 junction diode as a power-supply rectifier is a **lower forward voltage drop**. That same fast,
-low-drop junction is also why it's the common choice for a **VHF/UHF mixer or detector**.
+low-drop junction is also why it's the common choice for a **VHF/UHF mixer or detector** (VHF = very high frequency; UHF = ultra high frequency).
 
 <p align="center"><img src="figures/e6b-1-diode-iv.svg" alt="Diode I-V curves for silicon, Schottky and Zener" width="760"></p>
 
-**LED forward voltage** is set by the semiconductor's **band gap** — not by junction depth or
+**LED forward voltage** (LED = light-emitting diode) is set by the semiconductor's **band gap** — not by junction depth or
 capacitance, which are distractors borrowed from other diode questions.
 
 **Varactor diode** = voltage-controlled capacitor (a reverse-biased junction's depletion width, and
 therefore its capacitance, changes with applied voltage).
 
-**PIN diode.** At RF it behaves like a variable resistor rather than a rectifier: its **low junction
+**PIN diode.** (PIN = positive-intrinsic-negative) At RF (radio frequency) it behaves like a variable resistor rather than a rectifier: its **low junction
 capacitance** is what makes it useful as an RF switch, and the attenuation it produces is controlled
-by **forward DC bias current** — more forward current, less RF resistance.
+by **forward DC bias current** (DC = direct current) — more forward current, less RF resistance.
 
 <p align="center"><img src="figures/e6b-2-varactor-pin-led.svg" alt="Varactor capacitance, PIN resistance and LED forward voltage" width="760"></p>
 
@@ -387,7 +387,7 @@ is what lets multiple devices share a bus without fighting each other.
 
 **Logic families.** **CMOS has the lowest power consumption** of the listed families. Its high noise
 immunity comes from an input switching threshold that sits at about **half the supply voltage** —
-noise has to swing a long way to flip a CMOS input by accident. **BiCMOS** combines the best of both
+noise has to swing a long way to flip a CMOS (complementary metal-oxide semiconductor) input by accident. **BiCMOS** (bipolar complementary metal-oxide semiconductor) combines the best of both
 worlds: the **high input impedance of CMOS** with the **low output impedance of bipolar**
 transistors.
 
@@ -396,11 +396,11 @@ transistors.
 
 <p align="center"><img src="figures/e6c-2-tristate-pullup-cmos.svg" alt="Tri-state bus, pull-up resistor and CMOS threshold" width="760"></p>
 
-**FPGAs** are configured using a **hardware description language (HDL)** — not Karnaugh maps, not an
+**FPGAs** (field-programmable gate arrays) are configured using a **hardware description language (HDL)** — not Karnaugh maps, not an
 auto-router, and not assembly language.
 
 Three questions in this group (E6C08, E6C10, E6C11) ask you to match a gate's schematic symbol —
-NAND, NOR, and the NOT/inversion symbol — against Figure E6-3; the question text is reproduced as
+NAND (NOT-AND), NOR (NOT-OR), and the NOT/inversion symbol — against Figure E6-3; the question text is reproduced as
 printed, with the figure shown beside each question.
 
 <p align="center"><img src="figures/e6-3.png" alt="Figure E6-3" width="560"></p>
@@ -545,7 +545,7 @@ the same ones that **flex when a voltage is applied**. The piezoelectric *effect
 **mechanical deformation caused by an applied voltage**.
 
 **Quartz crystal equivalent circuit:** a **series RLC** combination **in parallel with a shunt
-capacitance** representing electrode and stray capacitance. Get the topology backwards (parallel RLC
+capacitance** representing electrode and stray capacitance. Get the topology backwards (parallel RLC (resistor-inductor-capacitor)
 with a series C) and you've picked a distractor.
 
 <p align="center"><img src="figures/e6d-1-crystal.svg" alt="Quartz crystal symbol, equivalent circuit and piezoelectric effect" width="760"></p>
@@ -555,7 +555,7 @@ with a series C) and you've picked a distractor.
 powdered iron:** ferrite's higher permeability means it needs **fewer turns** for a given inductance
 value, but **powdered iron has better temperature stability** of its magnetic characteristics —
 these two facts are easy to swap by mistake, so pin them to their materials specifically. **Ferrite
-beads** are the standard VHF/UHF parasitic suppressor at the input/output leads of an HF transistor
+beads** are the standard VHF/UHF (very high frequency / ultra high frequency) parasitic suppressor at the input/output leads of an HF (high frequency) transistor
 amplifier.
 
 **Toroid vs. solenoid:** a toroidal core's main advantage is that it **confines most of the magnetic
@@ -703,14 +703,14 @@ What causes inductor saturation?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**GaAs again, with the reason this time:** gallium arsenide is useful at UHF and higher because of
+**GaAs again, with the reason this time:** gallium arsenide is useful at UHF (ultra high frequency) and higher because of
 its **higher electron mobility** — electrons move through it faster than through silicon, which
-matters as frequency climbs. For MMICs specifically, the material that supports the **highest
+matters as frequency climbs. For MMICs (monolithic microwave integrated circuits) specifically, the material that supports the **highest
 frequency of operation** is **gallium nitride**.
 
 **MMIC facts, one paragraph:** the standard input/output impedance is **50 ohms**. A typical
 low-noise UHF preamplifier noise figure is a small positive number, **0.5 dB** (not a large dB value
-and not a dBm value — those are unit-confusion distractors). What makes MMICs popular from VHF
+and not a dBm value — those are unit-confusion distractors). What makes MMICs popular from VHF (very high frequency)
 through microwave is **controlled gain, low noise figure, and constant input/output impedance over
 the specified frequency range** — not infinite gain or extreme Q, which describe other devices
 entirely. **Microstrip** is the transmission line typically used to connect to them, and power is
@@ -724,7 +724,7 @@ directly to a bias pin and not through the input.
 length**, which becomes electrically significant at high frequency. **Surface-mount** packaging is
 the opposite case: smaller circuit area, shorter board traces, and less parasitic inductance and
 capacitance all describe it, which is why "all these choices are correct" is the right answer when
-the question asks for surface mount's advantage at RF — and surface mount is the package type with
+the question asks for surface mount's advantage at RF (radio frequency) — and surface mount is the package type with
 the **least parasitic effects** above the HF range.
 
 <p align="center"><img src="figures/e6e-2-materials-packages.svg" alt="Si, GaAs and GaN, and DIP vs surface-mount packages" width="760"></p>
@@ -882,8 +882,8 @@ These devices are most commonly built from **crystalline semiconductor** materia
 
 <p align="center"><img src="figures/e6f-2-photo-devices.svg" alt="Photovoltaic cell, photoconductor and optical shaft encoder" width="760"></p>
 
-**Optoisolators/optocouplers.** The standard configuration is an **LED and a phototransistor**. Their
-whole purpose when paired with solid-state circuits controlling 120 VAC loads is to provide
+**Optoisolators/optocouplers.** The standard configuration is an **LED and a phototransistor** (LED = light-emitting diode). Their
+whole purpose when paired with solid-state circuits controlling 120 VAC (volts alternating current) loads is to provide
 **electrical isolation between the control circuit and the circuit being switched** — not impedance
 matching, not a low-impedance link.
 

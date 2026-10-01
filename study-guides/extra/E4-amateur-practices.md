@@ -37,17 +37,17 @@ sampling rate of their analog-to-digital converter**, not by circuit Q or ADC re
 sample too slowly and **aliasing** produces a false, jittery low-frequency ghost of the real waveform.
 **Spectrum analyzers plot amplitude on the vertical axis and frequency on the horizontal** (a scope
 plots amplitude vs. time) — that distinction is exactly why a spectrum analyzer, not a scope, is the
-tool for viewing SSB spurious signals and intermodulation distortion products, which show up as
+tool for viewing SSB (single sideband) spurious signals and intermodulation distortion products, which show up as
 sidebands at specific frequencies rather than as time-domain distortion.
 
 **Probe compensation** is done by displaying a square wave and trimming the probe until the top of the
 wave is as flat as possible. Good probe technique also means **keeping the ground lead as short as
 possible** to avoid ringing and inaccurate high-frequency readings. A **prescaler divides a high
 frequency down** so that a slower frequency counter can display it. For measuring ripple on a linear
-power supply's output, use **Line trigger** — it locks the sweep to the AC line frequency that's
+power supply's output, use **Line trigger** — it locks the sweep to the AC (alternating current) line frequency that's
 causing the ripple in the first place.
 
-**Antenna analyzers** go well beyond a simple SWR bridge: they **compute SWR and impedance
+**Antenna analyzers** go well beyond a simple SWR (standing wave ratio) bridge: they **compute SWR and impedance
 automatically**, and the same instrument can also read out **resonant frequency, cable length, and
 velocity factor** — which is why "all these choices are correct" keeps showing up as the answer for
 antenna-analyzer capability questions in this group.
@@ -184,7 +184,7 @@ Which of the following can be measured with an antenna analyzer?
 This group pairs S-parameter vocabulary with a few calculation and technique questions.
 **S-parameters are labeled by port**: the subscript digits simply identify which port the signal
 enters and exits. **S21** (output at port 2, input at port 1) is **forward gain**; **S11** is the
-**input port return loss, or reflection coefficient** — just another way of expressing VSWR at that
+**input port return loss, or reflection coefficient** — just another way of expressing VSWR (voltage standing wave ratio) at that
 port. To **calibrate a vector network analyzer**, you connect three known test loads: **short
 circuit, open circuit, and 50 ohms**. Once calibrated, a two-port VNA reports things like **filter
 frequency response**, along with input impedance, output impedance, and reflection coefficient;
@@ -193,11 +193,11 @@ measuring **phase noise** or **pulse rise time** is outside what a VNA does.
 **Frequency counter accuracy** is set almost entirely by the **time base accuracy** — the reference
 oscillator everything else in the counter is compared against. **Voltmeter sensitivity expressed in
 ohms per volt**, multiplied by the full-scale reading, gives the meter's **input impedance** on that
-range — the standard VOM loading calculation. For a **directional power meter**, absorbed power is
+range — the standard VOM (volt-ohm-milliammeter) loading calculation. For a **directional power meter**, absorbed power is
 simply forward minus reflected power: 100 W − 25 W = **75 W**. The **Q of a series-tuned circuit** is
 read from the **bandwidth of its frequency response** — a narrower response means a higher Q. And the
-correct way to **measure SSB intermodulation distortion** is a two-tone test: modulate the
-transmitter with two **AF** tones that are **non-harmonically related** and observe the RF output on a
+correct way to **measure SSB intermodulation distortion** (SSB = single sideband) is a two-tone test: modulate the
+transmitter with two **AF** (audio frequency) tones that are **non-harmonically related** and observe the RF (radio frequency) output on a
 spectrum analyzer.
 
 #### All 11 pool questions for E4B
@@ -342,11 +342,11 @@ receiver can still pull out of that noise floor.
 out-of-band signals before they reach the mixer; a **high IF** makes it easier for that front-end
 circuitry to reject **image responses**; a **narrow-band roofing filter**, sitting right after the
 first mixer, improves **blocking dynamic range** by attenuating strong signals close to the receive
-frequency; and having a choice of IF **bandwidths lets the receiver match the modulation**, maximizing
+frequency; and having a choice of IF (intermediate frequency) **bandwidths lets the receiver match the modulation**, maximizing
 signal-to-noise ratio and minimizing adjacent-signal interference. The **IF Shift** control shifts the
 receive passband to dodge an adjacent interfering station without moving the transmit frequency.
 
-**SDR-specific**: an SDR receiver overloads once the input exceeds the **reference voltage of its
+**SDR-specific**: an SDR (software-defined radio) receiver overloads once the input exceeds the **reference voltage of its
 analog-to-digital converter** — the digital equivalent of clipping. **Phase noise on an SDR's master
 clock oscillator** doesn't just blur the display; it can **combine with a strong signal on a nearby
 frequency to generate interference** on the frequency you're trying to receive, which is the same
@@ -355,7 +355,7 @@ strong signal to bury a weaker desired one.
 
 **Two terms worth keeping straight**: **desensitization** is an overall loss of sensitivity caused by
 a strong signal nearby in frequency; **capture effect** (FM-specific) is one strong signal fully
-suppressing a weaker one on the *same* frequency. Finally, **input attenuation on the lower HF bands**
+suppressing a weaker one on the *same* frequency. Finally, **input attenuation on the lower HF bands** (HF = high frequency)
 barely hurts signal-to-noise ratio, because **atmospheric noise there already exceeds the receiver's
 own internally generated noise** — attenuating both together costs signal margin but not real
 sensitivity.
@@ -532,7 +532,7 @@ overloaded by something *near* the frequency you're listening to, not *on* it.
 **Third-order intercept (TOI/IP3)** is a theoretical extrapolation, not a real operating condition: a
 third-order intercept of 40 dBm means a pair of hypothetical 40 dBm input tones would theoretically
 generate a third-order intermodulation product with the **same output amplitude as either input
-tone** — the higher the intercept point, the more real-world IMD headroom the receiver actually has.
+tone** — the higher the intercept point, the more real-world IMD (intermodulation distortion) headroom the receiver actually has.
 **Odd-order products** (chiefly third-order) matter because, unlike even-order products, they fall
 **close to the two original signals in frequency** — so odd-order products of two in-band signals are
 also likely to land **in-band**, right where you're trying to listen.
@@ -543,7 +543,7 @@ final amplifier** of one or both radios — a classic problem at shared repeater
 energy from ever reaching the offending final amplifier. More generally, intermodulation in any
 circuit traces back to **nonlinear circuits or devices**. A **preselector** attacks the same problem
 from the receive side by **increasing rejection of signals outside the band being received**, and
-inserting **attenuation ahead of the first RF stage** is the standard cure for **desensitization**.
+inserting **attenuation ahead of the first RF stage** (RF = radio frequency) is the standard cure for **desensitization**.
 
 **The arithmetic**: link margin and received signal level are both link-budget problems — add transmit
 power and antenna gains, subtract losses and (for margin) the receiver's required sensitivity plus
@@ -704,13 +704,13 @@ What power level does a receiver minimum discernible signal of -100 dBm represen
 The noise-and-grounding group — mostly cause-and-effect pairs, plus a couple of terms worth
 keeping straight. **Noise blankers** target **impulse noise** (ignition pulses, switching transients)
 by gating it out in the time domain, but that gating can **distort strong signals so they appear to
-cause spurious emissions** — the tradeoff to remember. **Digital/DSP noise reduction** works on a
+cause spurious emissions** — the tradeoff to remember. **Digital/DSP noise reduction** (DSP = digital signal processing) works on a
 broader menu: **broadband white noise, ignition noise, and power line noise** are all reducible by it.
-An **automatic notch filter (ANF)**, tuned for CW work, has the opposite failure mode — because it's
+An **automatic notch filter (ANF)**, tuned for CW (continuous wave) work, has the opposite failure mode — because it's
 simply hunting for any steady carrier, it can **notch out the desired CW signal right along with the
 interfering one**.
 
-**Common-mode current** is the culprit behind most cable-related RFI: it's the current that **flows
+**Common-mode current** is the culprit behind most cable-related RFI (radio-frequency interference): it's the current that **flows
 equally, in the same direction, on every conductor of a cable** (as opposed to differential-mode
 current, which flows in opposite directions on a pair). On a shielded cable, it's specifically
 **common-mode current on the shield and conductors together** that lets the cable radiate or pick up
@@ -720,11 +720,11 @@ finding multiple paths** through a multi-wire station, and the **AC surge protec
 same panel** rather than at the service entrance or a random outlet.
 
 **Suppression by source**: automotive charging-system noise gets **ferrite chokes on the charging
-leads**; a line-driven AC motor gets a **brute-force AC-line filter in series with its power leads**;
+leads**; a line-driven AC (alternating current) motor gets a **brute-force AC-line filter in series with its power leads**;
 **computer network equipment** tends to produce **unstable modulated or unmodulated signals at
 specific frequencies** rather than hum or clicking. Two "regularly-spaced pulses" sources are worth
-telling apart: **corroded metal connections mixing and reradiating nearby AM broadcast signals**
-explains spurious signals showing up on MF/HF, while **switch-mode power supplies** are the classic
+telling apart: **corroded metal connections mixing and reradiating nearby AM broadcast signals** (AM = amplitude modulation)
+explains spurious signals showing up on MF/HF (medium frequency / high frequency), while **switch-mode power supplies** are the classic
 source of **carriers spaced at regular intervals across a wide frequency range**.
 
 #### All 14 pool questions for E4E
@@ -889,20 +889,20 @@ What is the purpose of a single point ground panel?
 
 **Scopes and analyzers.** Sampling rate limits a digital scope's usable frequency, and undersampling
 causes **aliasing**; a spectrum analyzer plots **amplitude vs. frequency**; probe compensation is
-checked with a **flat-topped square wave**; **Line trigger** locks to AC ripple; an antenna analyzer
-**computes SWR and impedance automatically** and can also read resonant frequency, cable length, and
+checked with a **flat-topped square wave**; **Line trigger** locks to AC (alternating current) ripple; an antenna analyzer
+**computes SWR and impedance automatically** (SWR = standing wave ratio) and can also read resonant frequency, cable length, and
 velocity factor.
 
 **S-parameters and VNAs.** Subscripts name **ports**; **S21 is forward gain**, **S11 is input return
-loss/VSWR**; VNA calibration loads are **short, open, and 50 ohms**. **Time base accuracy** drives
+loss/VSWR** (VSWR = voltage standing wave ratio); VNA (vector network analyzer) calibration loads are **short, open, and 50 ohms**. **Time base accuracy** drives
 frequency-counter accuracy; ohms-per-volt times full-scale reading gives a voltmeter's **input
-impedance**; **Q comes from bandwidth**; SSB IMD is checked with a two-tone, non-harmonic **AF** test.
+impedance**; **Q comes from bandwidth**; SSB (single sideband) IMD (intermodulation distortion) is checked with a two-tone, non-harmonic **AF** (audio frequency) test.
 
 **Receiver performance.** Noise figure is measured against the **-174 dBm/Hz** theoretical floor; a
-20x bandwidth increase costs **13 dB** more noise; **MDS** is the weakest discernible signal; a **high
-IF** improves image rejection; a **roofing filter** improves blocking dynamic range; **SDR overload**
-is set by the ADC's **reference voltage**; **capture effect** is same-frequency FM suppression,
-**desensitization** is nearby-frequency suppression, and **reciprocal mixing** is LO phase noise
+20x bandwidth increase costs **13 dB** more noise; **MDS** (minimum detectable signal) is the weakest discernible signal; a **high
+IF** (IF = intermediate frequency) improves image rejection; a **roofing filter** improves blocking dynamic range; **SDR overload** (SDR = software-defined radio)
+is set by the ADC's (analog-to-digital converter) **reference voltage**; **capture effect** is same-frequency FM (frequency modulation) suppression,
+**desensitization** is nearby-frequency suppression, and **reciprocal mixing** is LO (local oscillator) phase noise
 combining with an adjacent strong signal.
 
 **Dynamic range and links.** **Blocking dynamic range** is measured to **1 dB compression**;
@@ -910,7 +910,7 @@ combining with an adjacent strong signal.
 in-band**; repeater intermod comes from **mixing in a final amplifier**, cured with a **terminated
 circulator**; a **preselector** rejects out-of-band signals; **-100 dBm = 0.1 picowatt**.
 
-**Noise and grounding.** Noise blankers cut **impulse noise** but can distort strong signals; DSP
+**Noise and grounding.** Noise blankers cut **impulse noise** but can distort strong signals; DSP (digital signal processing)
 noise reduction also handles broadband and line noise; **common-mode current** — equal, same-direction
 current on every conductor — is what makes cables radiate or pick up interference; the **single point
 ground panel** is where the surge protector lives and where common-mode transients get stopped.

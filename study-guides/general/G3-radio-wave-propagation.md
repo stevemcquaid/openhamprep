@@ -8,7 +8,7 @@ widest margin. Build the mental model of the ionosphere once and most answers fa
 **The core model.** The Sun ionizes the upper atmosphere. Ionized gas refracts radio waves back
 toward Earth — that is skip. Four regions, stacked bottom to top: **D** (absorbs below ~10 MHz,
 daytime only), **E** (~1,200 miles per hop), **F1**, and **F2** (highest, ~2,500 miles per hop, the
-workhorse of HF DX). More solar activity means more ionization, which means the higher bands open.
+workhorse of HF (high frequency) DX (long-distance communication)). More solar activity means more ionization, which means the higher bands open.
 
 ## Table of Contents
 
@@ -51,8 +51,8 @@ regions back around.
 
 **Disturbances.** A sudden ionospheric disturbance **hurts lower frequencies more**. A geomagnetic
 storm is a **temporary disturbance in Earth's geomagnetic field** and it **degrades high-latitude HF
-paths** — but its upside is **auroras that reflect VHF signals**. Coronal hole particles **disturb**
-HF. At solar minimum, **15, 12, and 10 meters** are least reliable, while **20 meters works
+paths** — but its upside is **auroras that reflect VHF signals** (VHF = very high frequency). Coronal hole particles **disturb**
+HF (high frequency). At solar minimum, **15, 12, and 10 meters** are least reliable, while **20 meters works
 worldwide in daylight at any point in the cycle**.
 
 #### All 14 pool questions for G3A
@@ -232,7 +232,7 @@ point-to-point — "during a 24-hour period" is the distractor on both questions
 through the absorbing lower layers.
 
 **Determining conditions** practically: use a **network of automated receiving stations on the
-internet** to see where your own transmissions land. Reverse beacon networks and PSK Reporter, not
+internet** to see where your own transmissions land. Reverse beacon networks and PSK (phase-shift keying) Reporter, not
 the A-index and not listening for your own echoes.
 
 **Hop distances: E region 1,200 miles, F2 region 2,500 miles.** Signals arriving by both short and
@@ -395,7 +395,7 @@ density, not Doppler.
 **flutter**, they sound **distorted because energy arrives by several different paths**, and they are
 **weak because only a small part of the energy is scattered** in there.
 
-**NVIS** is **short-distance MF or HF propagation at high elevation angles** — fire nearly straight
+**NVIS** (near vertical incidence skywave) is **short-distance MF or HF propagation at high elevation angles** (MF = medium frequency; HF = high frequency) — fire nearly straight
 up, drop signals back down in a circle around you, fill in the skip zone. The matching antenna is in
 G9D01.
 
@@ -528,6 +528,6 @@ Which ionospheric region is the most absorbent of signals below 10 MHz during da
 
 **D absorbs, E hops 1,200 miles, F2 hops 2,500 miles and is highest.** **K is Kwick** (short-term),
 A is long-term, both measure **Earth's** field. Solar flux is measured at **10.7 cm**. Flare **8
-minutes**, CME **15 hours to days**, solar rotation **26-28 days**. Work **just below the MUF**.
-**LUF above MUF means no path.** Both "critical" terms mean **highest**. **Scatter** fills the skip
-zone, weak and fluttery. **NVIS** is high-angle short-range HF.
+minutes**, CME (coronal mass ejection) **15 hours to days**, solar rotation **26-28 days**. Work **just below the MUF** (MUF = maximum usable frequency).
+**LUF above MUF means no path.** (LUF = lowest usable frequency) Both "critical" terms mean **highest**. **Scatter** fills the skip
+zone, weak and fluttery. **NVIS** (near vertical incidence skywave) is high-angle short-range HF (high frequency).

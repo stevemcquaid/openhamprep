@@ -2,10 +2,10 @@
 
 **2 of your 35 exam questions · 2 groups (T4A–T4B) · 23 questions in the pool**
 
-The "getting a station on the air and running it" subelement: connecting a microphone, an RF power
-meter, a power source, a computer, and digital equipment; an SWR meter; bonding; and mobile radio
-installation, plus the everyday operating controls — tuning, filters, squelch, AGC, memory channels,
-noise blanker, RIT, and DMR code plugs. Small and hands-on, like G6 in the General pool — two groups,
+The "getting a station on the air and running it" subelement: connecting a microphone, an RF (radio frequency) power
+meter, a power source, a computer, and digital equipment; an SWR (standing wave ratio) meter; bonding; and mobile radio
+installation, plus the everyday operating controls — tuning, filters, squelch, AGC (automatic gain control), memory channels,
+noise blanker, RIT (receiver incremental tuning), and DMR (digital mobile radio) code plugs. Small and hands-on, like G6 in the General pool — two groups,
 23 questions, and nothing here requires math or a table of numbers to memorize. Learn what each
 control and connection actually does and both questions fall into place.
 
@@ -22,17 +22,17 @@ control and connection actually does and both questions fall into place.
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Mobile power.** A typical 50-watt mobile FM transceiver wants **13.8 volts at 12 amperes** — the
+**Mobile power.** A typical 50-watt mobile FM (frequency modulation) transceiver wants **13.8 volts at 12 amperes** — the
 standard nominal voltage of a vehicle's regulated 12-volt system, sized to the current the radio
-actually draws at full output. DC power leads should be **short and heavy-gauge to minimize voltage
-drop when transmitting**, not for RFI or impedance-matching reasons. The **negative power return of a
+actually draws at full output. DC (direct current) power leads should be **short and heavy-gauge to minimize voltage
+drop when transmitting**, not for RFI (radio-frequency interference) or impedance-matching reasons. The **negative power return of a
 mobile transceiver belongs at the 12-volt battery's chassis ground**, not on the mounting bracket or
 "any metal part of the vehicle" — a direct path back to the battery avoids ground loops and noise
 picked up elsewhere in the chassis.
 
 **Metering.** An accessory **SWR meter should be chosen for the frequency and power level at which
-the measurements will be made** — meters have operating ranges. An **RF power meter installs in the
-feed line, between the transmitter and the antenna**, reading the power actually flowing to the load.
+the measurements will be made** (SWR = standing wave ratio) — meters have operating ranges. An **RF power meter installs in the
+feed line, between the transmitter and the antenna** (RF = radio frequency), reading the power actually flowing to the load.
 
 **Computer and digital mode connections.** A computer-radio interface for digital modes carries three
 signals: **receive audio, transmit audio, and transmitter keying**. One of the required connections is
@@ -191,26 +191,26 @@ What is an electronic keyer?
 
 **Microphone and frequency entry.** **Excessive microphone gain on SSB causes distorted transmitted
 audio** — overdriving the mic stage clips and splatters the signal rather than shifting frequency or
-raising SWR. A transceiver's **operating frequency is entered with the keypad or the VFO knob**, not
-through a CTCSS/DTMF encoder or automatic frequency control.
+raising SWR (standing wave ratio). A transceiver's **operating frequency is entered with the keypad or the VFO knob** (VFO = variable-frequency oscillator), not
+through a CTCSS/DTMF (continuous tone-coded squelch system / dual-tone multi-frequency) encoder or automatic frequency control.
 
 **FM reception.** **Squelch is adjusted for a weak FM signal by setting the threshold low enough that
 receiver output audio is on all the time** — turning up the audio level alone does nothing if the
 signal never crosses the squelch threshold. An **FM signal received slightly off frequency sounds
-distorted**, a direct consequence of how an FM discriminator responds to a carrier that isn't centered.
+distorted**, a direct consequence of how an FM (frequency modulation) discriminator responds to a carrier that isn't centered.
 The **scanning function tunes through a range of frequencies checking for activity**, stopping when it
 finds a signal.
 
-**SSB and filtering.** If a station answering your CQ sounds too high- or low-pitched, reach for the
+**SSB and filtering.** If a station answering your CQ (a general call to any station) sounds too high- or low-pitched, reach for the
 **RIT (receiver incremental tuning) or Clarifier** — it shifts your receive frequency without moving
 your transmit frequency. Having a **choice of receiver filter bandwidths lets you reduce noise or
 interference by matching the filter to the mode** in use — wide for full-fidelity audio, narrow to
-squeeze out adjacent noise. For SSB specifically, **2400 Hz gives the best signal-to-noise ratio** of
+squeeze out adjacent noise. For SSB (single sideband) specifically, **2400 Hz gives the best signal-to-noise ratio** of
 the bandwidth choices — narrow enough to cut noise, wide enough not to clip the voice audio a
 well-tuned SSB signal needs.
 
 **Digital transceiver configuration.** A **DMR "code plug" is configuration data loaded onto the radio
-to give it access to repeaters and talkgroups** — not a cable, a software upgrade, or a CODEC. A
+to give it access to repeaters and talkgroups** (DMR = digital mobile radio) — not a cable, a software upgrade, or a CODEC (coder-decoder). A
 **specific group of stations on a DMR radio is selected by entering the group's identification code**
 (its talkgroup ID). Before transmitting on **D-STAR**, the radio must have **your call sign**
 programmed into it — every D-STAR transmission carries it.

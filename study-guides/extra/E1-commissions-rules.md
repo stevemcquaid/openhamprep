@@ -3,8 +3,8 @@
 **6 of your 50 exam questions · 6 groups (E1A–E1F) · 68 questions in the pool**
 
 Extra's rules subelement assumes you already know General's material and pushes into the edge
-cases: carrier-frequency arithmetic on SSB, the narrow 630- and 2200-meter bands, automatic and
-remote control minutiae, VE program mechanics at the level VEs actually experience them, and the
+cases: carrier-frequency arithmetic on SSB (single sideband), the narrow 630- and 2200-meter bands, automatic and
+remote control minutiae, VE (volunteer examiner) program mechanics at the level VEs actually experience them, and the
 space- and Earth-station rules that exist because Extra class licensees are the ones flying
 satellites and high-altitude balloons.
 
@@ -34,17 +34,17 @@ fall relative to a band edge — work through those carefully rather than just m
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Carrier frequency vs. sidebands.** USB energy sits *above* the carrier frequency; LSB energy sits
+**Carrier frequency vs. sidebands.** USB (upper sideband) energy sits *above* the carrier frequency; LSB (lower sideband) energy sits
 *below* it. A displayed carrier frequency is legal only if the entire occupied bandwidth stays
 inside the band edges — so the lowest legal LSB carrier is one full signal-width (roughly 3 kHz)
 *above* the lower band edge, and the highest legal USB carrier is one full signal-width *below* the
 upper edge. Get the sideband direction backwards and you'll pick the wrong edge every time.
 
-**630 and 2200 meters run on EIRP, not PEP.** 2200 meters caps at **1 watt EIRP**; 630 meters caps
+**630 and 2200 meters run on EIRP, not PEP.** (EIRP = effective isotropic radiated power; PEP = peak envelope power) 2200 meters caps at **1 watt EIRP**; 630 meters caps
 at **5 watts EIRP** (except in parts of Alaska). Both are measured as *equivalent isotropic radiated
 power*, not the PEP-output-from-transmitter standard used elsewhere in Part 97.
 
-**60-meter channelized CW** must be transmitted at the **center frequency** of the channel — not the
+**60-meter channelized CW** (CW = continuous wave) must be transmitted at the **center frequency** of the channel — not the
 edge, and not "wherever the sidebands happen to fit."
 
 **Shipboard/aircraft stations.** Physical control requires **any FCC-issued amateur license** (or
@@ -184,11 +184,11 @@ What licensing is required when operating an amateur station aboard a US-registe
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Spurious emissions**, by FCC definition, are emissions **outside the necessary bandwidth** that
+**Spurious emissions**, by FCC (Federal Communications Commission) definition, are emissions **outside the necessary bandwidth** that
 can be reduced or eliminated without affecting the transmitted information — not simply any
 interfering signal, and not the same thing as an unidentified transmission.
 
-**Bandwidth and distance numbers.** Digital voice and slow-scan TV on the HF bands are limited to
+**Bandwidth and distance numbers.** Digital voice and slow-scan TV (television) on the HF (high frequency) bands are limited to
 **3 kHz**. An amateur station must protect any **FCC monitoring facility** from harmful interference
 within **1 mile** of it.
 
@@ -205,12 +205,12 @@ FCC's own monitoring station and not a military test range.
 **Antenna structures near public-use airports** may trigger a requirement to **notify the FAA and
 register with the FCC under Part 17**.
 
-**PRB-1** governs **state and local zoning** of antenna structures (not HOAs, not FAA height rules)
+**PRB-1** governs **state and local zoning** of antenna structures (not HOAs (homeowners' associations), not FAA (Federal Aviation Administration) height rules)
 and requires that amateur communications be **reasonably accommodated**.
 
 **RACES** is open to **any FCC-licensed amateur station certified by the responsible civil defense
 organization** for the area served, and such a station may use **all amateur frequencies authorized
-to its control operator** — RACES doesn't carve out a separate, narrower set of channels.
+to its control operator** — RACES (Radio Amateur Civil Emergency Service) doesn't carve out a separate, narrower set of channels.
 
 #### All 11 pool questions for E1B
 
@@ -341,7 +341,7 @@ What does PRB-1 require of state and local regulations affecting amateur radio a
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**60-meter data bandwidth** tops out at **2.8 kHz** — the same figure as the 60-meter USB voice
+**60-meter data bandwidth** tops out at **2.8 kHz** — the same figure as the 60-meter USB (upper sideband) voice
 limit, which makes it easy to remember as "one number for the whole band."
 
 **Foreign communications content.** Messages to amateur stations in foreign countries must be
@@ -355,12 +355,12 @@ Technology Council (UTC)** of your call sign and station coordinates. You may th
 Line Carrier (PLC) system using those frequencies — no separate approval or test-signal step is
 required.
 
-**IARP vs. CEPT.** An **IARP** is a permit letting US amateurs operate in certain countries **of the
+**IARP vs. CEPT.** (IARP = International Amateur Radio Permit; CEPT = European Conference of Postal and Telecommunications Administrations) An **IARP** is a permit letting US (United States) amateurs operate in certain countries **of the
 Americas**. **CEPT** is the separate European reciprocal arrangement — to operate under it you need
-a copy of **FCC Public Notice DA 16-1048**, not an embassy sign-off or a "/CEPT" call sign suffix.
+a copy of **FCC Public Notice DA 16-1048** (FCC = Federal Communications Commission), not an embassy sign-off or a "/CEPT" call sign suffix.
 
 **Automatic control and third parties.** A station under automatic control may transmit
-**third-party communications only when sending RTTY or data emissions** — SSB and CW are excluded
+**third-party communications only when sending RTTY or data emissions** (RTTY = radioteletype) — SSB (single sideband) and CW (continuous wave) are excluded
 from that exception.
 
 **Remote control failsafe.** If a remotely controlled station's control link fails, its
@@ -528,14 +528,14 @@ Earth’s surface: a label with the **name, address, and telephone number of the
 
 **Power cap for model craft by telecommand:** **1 watt**.
 
-**Space station band allocations are specific, not "wherever."** HF: **40, 20, 15, and 10 meters**.
-VHF: **2 meters only**. UHF: **70 centimeters and 13 centimeters**. Memorize these as a short list
+**Space station band allocations are specific, not "wherever."** HF (high frequency): **40, 20, 15, and 10 meters**.
+VHF (very high frequency): **2 meters only**. UHF (ultra high frequency): **70 centimeters and 13 centimeters**. Memorize these as a short list
 rather than assuming satellite operation is permitted broadly across the bands.
 
 **Eligibility is privilege-based, not credential-based.** Any amateur station **designated by the
 space station licensee** may serve as its telecommand station, and any amateur station may operate
 as an **Earth station**, subject to the ordinary privileges of the control operator's license
-class — no AMSAT course, no minimum license class, and no ITU designation required.
+class — no AMSAT course, no minimum license class, and no ITU (International Telecommunication Union) designation required.
 
 **One-way transmissions** are permitted specifically from a **space station, beacon station, or
 telecommand station** — not from repeaters or message-forwarding stations.
@@ -683,9 +683,9 @@ Which of the following amateur stations may transmit one-way communications?
 **Reimbursement** covers only the **out-of-pocket costs of preparing, processing, administering,
 and coordinating an exam session** — not teaching a prep course and not providing prep materials.
 
-**Who does what.** **VECs** maintain the question pools for all US amateur exams (not the FCC, and
-not the ARRL directly). A **VEC** itself is an organization that has an **agreement with the FCC**
-to coordinate, prepare, and administer exams — being a VE is a separate role from being a VEC.
+**Who does what.** **VECs** maintain the question pools for all US (United States) amateur exams (not the FCC (Federal Communications Commission), and
+not the ARRL (American Radio Relay League) directly). A **VEC** itself is an organization that has an **agreement with the FCC**
+to coordinate, prepare, and administer exams — being a VE is a separate role from being a VEC (volunteer examiner coordinator).
 Accreditation as a **VE** requires a **VEC to confirm** the applicant meets FCC requirements; there's
 no automatic accreditation on upgrade and no FCC-administered VE exam.
 
@@ -835,9 +835,9 @@ What must the VE team do if an examinee scores a passing grade on all examinatio
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Spread spectrum** is permitted only **above 222 MHz** — nowhere on HF or the lower VHF bands.
+**Spread spectrum** is permitted only **above 222 MHz** — nowhere on HF (high frequency) or the lower VHF (very high frequency) bands.
 
-**Canadian reciprocal privileges** in the US track the operator's **own Canadian license terms and
+**Canadian reciprocal privileges** in the US (United States) track the operator's **own Canadian license terms and
 conditions**, capped at whatever **US Amateur Extra class privileges** allow — it's not a flat
 General-class or full-Extra grant regardless of the Canadian license held.
 
@@ -862,8 +862,8 @@ obscure their meaning** cannot be sent over an amateur mesh network.
 **Auxiliary stations** may be controlled by **Technician, General, Advanced, or Amateur Extra**
 operators — Novice is the one class excluded.
 
-**Amplifier certification standard.** To be FCC-certificated, an external RF amplifier must meet the
-FCC's **spurious emission standards** when operated at the **lesser of 1500 watts or its full output
+**Amplifier certification standard.** To be FCC-certificated, an external RF (radio frequency) amplifier must meet the
+FCC's (Federal Communications Commission) **spurious emission standards** when operated at the **lesser of 1500 watts or its full output
 power**.
 
 #### All 11 pool questions for E1F

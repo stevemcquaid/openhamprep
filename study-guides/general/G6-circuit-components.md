@@ -25,14 +25,14 @@ list of facts. Because it is short, it is worth learning completely — two easy
 tolerance and *not* low leakage, whatever the distractors say). Low-voltage ceramics are
 **comparatively low cost**.
 
-**Why no wire-wound resistors at RF?** Their **inductance makes circuit performance
+**Why no wire-wound resistors at RF?** (RF = radio frequency) Their **inductance makes circuit performance
 unpredictable** — a wire-wound resistor is literally a coil. Relatedly, an **inductor operated above
 its self-resonant frequency becomes capacitive**, because stray capacitance between turns takes over.
 
 **Transistors.** A bipolar transistor used as a **switch** operates at **saturation and cutoff** —
 fully on, fully off; the linear region between them is for amplifiers. A **MOSFET's gate is separated
 from the channel by a thin insulating layer**, which is the "oxide" in the name and the reason
-MOSFETs are static-sensitive.
+MOSFETs (metal-oxide-semiconductor field-effect transistors) are static-sensitive.
 
 **Vacuum tubes.** The **control grid regulates electron flow** between cathode and plate; the
 **screen grid reduces grid-to-plate capacitance**. The control grid controls, the screen grid
@@ -189,9 +189,9 @@ is a lossy choke, not a shield and not a cancellation effect. And the advantages
 toroidal inductor are **all these choices are correct**.
 
 **ICs.** **MMIC** is **Monolithic Microwave Integrated Circuit** — the other expansions offered are
-invented. An **operational amplifier is analog**. **CMOS beats TTL on low power consumption**.
+invented. An **operational amplifier is analog**. **CMOS beats TTL on low power consumption** (CMOS = complementary metal-oxide semiconductor; TTL = transistor-transistor logic).
 
-**An LED is forward biased when emitting light** — conducting is what makes it glow.
+**An LED is forward biased when emitting light** (LED = light-emitting diode) — conducting is what makes it glow.
 
 **Connectors, roughly a frequency ladder:**
 
@@ -333,8 +333,8 @@ Which of these connector types is commonly used for low frequency or dc signal c
 ## Bottom line for G6
 
 Silicon **0.7 V**, germanium **0.3 V**. Electrolytics give **capacitance per volume**; ceramics are
-**cheap**. No wire-wound resistors at RF because of **inductance**; above self-resonance an inductor
-goes **capacitive**. A switching transistor runs at **saturation and cutoff**; a MOSFET gate sits
+**cheap**. No wire-wound resistors at RF (radio frequency) because of **inductance**; above self-resonance an inductor
+goes **capacitive**. A switching transistor runs at **saturation and cutoff**; a MOSFET (metal-oxide-semiconductor field-effect transistor) gate sits
 behind **a thin insulator**. **Control grid controls, screen grid reduces grid-to-plate capacitance.**
 Lead-acid stops at **10.5 V**. Ferrite performance comes from the **mix**; a bead works by **adding
 impedance**. **Type N** is the weatherproof 10 GHz connector.

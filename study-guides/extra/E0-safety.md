@@ -2,8 +2,8 @@
 
 **1 of your 50 exam questions · 1 group (E0A) · 12 questions in the pool**
 
-The smallest subelement in the entire pool, worth exactly one question on the exam. It covers RF
-exposure evaluation (MPE limits, duty cycle, who is exempt), a handful of grounding and hazard
+The smallest subelement in the entire pool, worth exactly one question on the exam. It covers RF (radio frequency)
+exposure evaluation (MPE (maximum permissible exposure) limits, duty cycle, who is exempt), a handful of grounding and hazard
 facts, and tower-climbing safety. There is no math here and only one group to learn — it is quick
 to master completely.
 
@@ -18,10 +18,10 @@ to master completely.
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**RF exposure basics.** The FCC's human body RF exposure limits are **most restrictive from 30-300
+**RF exposure basics.** The FCC's (Federal Communications Commission) human body RF (radio frequency) exposure limits are **most restrictive from 30-300
 MHz** — the range where a standing adult body is roughly resonant and absorbs energy most
 efficiently. **SAR** (Specific Absorption Rate) measures **the rate at which RF energy is absorbed
-by the body**. There are separate electric (E) field and magnetic (H) field MPE limits below 300
+by the body**. There are separate electric (E) field and magnetic (H) field MPE (maximum permissible exposure) limits below 300
 MHz because the body reacts to both fields, ground reflections and scattering make field strength
 vary with location, and the E- and H-field intensity peaks can occur at different spots — **all
 these choices are correct**.

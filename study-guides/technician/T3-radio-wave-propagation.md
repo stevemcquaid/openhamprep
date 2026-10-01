@@ -3,13 +3,13 @@
 **3 of your 35 exam questions · 3 groups (T3A–T3C) · 35 questions in the pool**
 
 This subelement covers how radio signals actually get from your antenna to someone else's: fading
-and multipath, antenna polarization, the relationship between wavelength and frequency, where VHF,
-UHF, and HF sit on the electromagnetic spectrum, and the handful of "beyond line of sight" tricks —
+and multipath, antenna polarization, the relationship between wavelength and frequency, where VHF (very high frequency),
+UHF (ultra high frequency), and HF (high frequency) sit on the electromagnetic spectrum, and the handful of "beyond line of sight" tricks —
 sporadic E, meteor scatter, auroral backscatter, tropospheric ducting, and F-region skip — that let
 VHF/UHF and HF signals travel farther than you'd expect.
 
 Compared to General's G3, which builds a full model of the ionosphere (sunspot numbers, K/A
-indices, MUF/LUF, critical angle, NVIS), T3 stays much shallower — it names the propagation modes
+indices, MUF/LUF (maximum usable frequency / lowest usable frequency), critical angle, NVIS (near vertical incidence skywave)), T3 stays much shallower — it names the propagation modes
 and their headline facts without asking you to reason through *why* with numbers and formulas. It
 is closer to short vocabulary recall than General-level analysis, which makes it a lighter lift per
 question than G3 despite covering some of the same ground.
@@ -29,13 +29,13 @@ question than G3 despite covering some of the same ground.
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Multipath is the recurring theme.** Signal strength swinging wildly when you move a VHF antenna a
+**Multipath is the recurring theme.** Signal strength swinging wildly when you move a VHF (very high frequency) antenna a
 few feet, "picket fencing" (rapid flutter on mobile signals), and irregular fading of
 ionosphere-propagated signals are all **multipath propagation** — signals arriving by more than one
 path combining, canceling, or reinforcing each other. On data transmissions, multipath's effect is
 to **increase error rates**, not change the required transmission rate.
 
-**Polarization.** For long-distance VHF/UHF CW and SSB contacts, **horizontal** polarization is
+**Polarization.** For long-distance VHF/UHF (ultra high frequency) CW (continuous wave) and SSB (single sideband) contacts, **horizontal** polarization is
 normal. Cross-polarizing your antenna relative to the other station's on a line-of-sight VHF/UHF
 path **reduces received signal strength** — it doesn't invert sidebands or add an echo. Signals
 propagated by the ionosphere come out **elliptically polarized**, which is why either vertically or
@@ -46,8 +46,8 @@ need matched polarization for ionospheric contacts the way you do for line-of-si
 reception. Precipitation (not wind, pressure, or cold) **decreases range at microwave frequencies**,
 while fog or rain has **little effect** on 10-meter and 6-meter signals — attenuation from weather
 only really bites at microwave. When buildings block a direct path to a repeater, try to find a path
-that **reflects** signals to the repeater rather than changing polarization or increasing SWR. The
-**ionosphere** is the region that reflects HF radio waves back to Earth.
+that **reflects** signals to the repeater rather than changing polarization or increasing SWR (standing wave ratio). The
+**ionosphere** is the region that reflects HF (high frequency) radio waves back to Earth.
 
 #### All 12 pool questions for T3A
 
@@ -194,7 +194,7 @@ sit **at right angles** to each other. Polarization is defined by the orientatio
 field specifically — not the magnetic field, and not a ratio between the two.
 
 **Velocity.** A radio wave travels through free space at the **speed of light**, roughly
-**300,000,000 meters per second**, and every radio frequency — microwave, UHF, VHF, alike — travels
+**300,000,000 meters per second**, and every radio frequency — microwave, UHF (ultra high frequency), VHF (very high frequency), alike — travels
 at that same velocity in free space. Frequency doesn't change the speed, only the wavelength.
 
 **Wavelength and frequency move opposite each other:** wavelength gets **shorter** as frequency
@@ -211,7 +211,7 @@ a band.
 | **VHF** | **30 to 300 MHz** |
 | **UHF** | **300 to 3000 MHz** |
 
-Each band's ceiling is the next band's floor — HF tops out at 30, VHF starts at 30 and tops out at
+Each band's ceiling is the next band's floor — HF (high frequency) tops out at 30, VHF starts at 30 and tops out at
 300, UHF starts at 300.
 
 #### All 12 pool questions for T3B
@@ -354,11 +354,11 @@ Which of these frequencies travels at the highest velocity in free space?
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Line of sight and the radio horizon.** Simplex UHF signals are rarely heard beyond their radio
+**Line of sight and the radio horizon.** Simplex UHF (ultra high frequency) signals are rarely heard beyond their radio
 horizon because UHF signals **usually are not propagated by the ionosphere** — they need a clear
-path. Even so, the **radio horizon extends farther than the visual horizon** for VHF/UHF signals,
+path. Even so, the **radio horizon extends farther than the visual horizon** for VHF (very high frequency)/UHF signals,
 because **the atmosphere refracts radio waves slightly**, bending them a bit beyond straight-line
-sight. Compared with VHF and higher, HF's defining characteristic is that **long-distance
+sight. Compared with VHF and higher, HF's (high frequency) defining characteristic is that **long-distance
 ionospheric propagation is far more common** on HF.
 
 **Beyond-the-horizon modes, matched to their signatures:**

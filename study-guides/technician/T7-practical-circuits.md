@@ -32,12 +32,12 @@ matched to a single plain-English definition or a common-sense troubleshooting s
 **transceiver** simply **combines a receiver and transmitter** in one unit. A **mixer converts a
 signal from one frequency to another**, while an **oscillator generates a signal at a specific
 frequency** — the mixer moves a signal, the oscillator makes one. A **transverter converts the RF
-input and output of a transceiver to another band** entirely.
+input and output of a transceiver to another band** (RF = radio frequency) entirely.
 
 **Controls and add-ons.** A transceiver's **PTT input switches it from receive to transmit when
 grounded**. An **RF power amplifier** can be added to a transceiver's output to **increase the
-transmitted output power**. On some VHF power amplifiers, the **SSB/CW-FM mode switch sets the
-amplifier for proper operation in the selected mode** — it isn't changing the transmitted signal's
+transmitted output power**. On some VHF (very high frequency) power amplifiers, the **SSB/CW-FM mode switch sets the
+amplifier for proper operation in the selected mode** (SSB = single sideband) — it isn't changing the transmitted signal's
 mode itself or shifting the amplifier's frequency range, just biasing/configuring the amp correctly
 for how it's being driven. The **VFO (Variable Frequency Oscillator) sets the receive and transmit
 frequency** of a transceiver. Finally, **modulation is combining speech (or other information) with
@@ -172,7 +172,7 @@ What is the function of the Variable Frequency Oscillator (VFO) circuit in a tra
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Fixing your own transmit audio.** If told your FM handheld or mobile is **over-deviating**, **talk
+**Fixing your own transmit audio.** If told your FM (frequency modulation) handheld or mobile is **over-deviating**, **talk
 farther away from the microphone**. If a report says your FM repeater audio is **distorted or
 unintelligible**, the cause could be off-frequency, too-loud/too-close mic technique, or a bad
 location — **all these choices are correct**. To **eliminate distorted voice transmissions** caused
@@ -180,20 +180,20 @@ by RF getting into the audio chain, add a **clip-on ferrite "choke" to the micro
 the transmitted signal from feeding back into the transmitter (classic **RF feedback** fix).
 
 **Diagnosing low power and interference causes.** **Low RF power output** from a solid-state
-transceiver is often caused by **high SWR**. **Radio frequency interference** in general can come
+transceiver is often caused by **high SWR** (SWR = standing wave ratio). **Radio frequency interference** in general can come
 from **fundamental overload, harmonics, or spurious emissions** — **all these choices are correct**.
-When a **broadcast AM/FM radio unintentionally receives a ham transmission**, the fault is on the
+When a **broadcast AM/FM radio unintentionally receives a ham transmission** (AM = amplitude modulation), the fault is on the
 victim's end: **the receiver is unable to reject strong signals outside the AM or FM band**
 (fundamental overload of that receiver), not anything wrong with your transmitter.
 
 **Curing interference to others and from others.** To reduce interference *from* your station to a
 nearby non-amateur receiver, **block the amateur signal with a filter at the antenna input of the
-affected receiver**. If a neighbor reports your transmissions interfere with their radio/TV, first
+affected receiver**. If a neighbor reports your transmissions interfere with their radio/TV (television), first
 **make sure your own station is functioning properly and doesn't interfere with your own radio or TV**
 when tuned to the same channel — good amateur practice starts with checking yourself. To reduce
 interference to a **2-meter transceiver from a nearby commercial FM station**, install a **band-reject
 filter**. If something in a **neighbor's home** is causing harmful interference to *your* station,
-work with the neighbor, remind them (politely) of FCC rules, and make sure your own station meets
+work with the neighbor, remind them (politely) of FCC (Federal Communications Commission) rules, and make sure your own station meets
 good-practice standards — again **all these choices are correct**. For non-fiber-optic **cable TV
 interference**, the first step is to **be sure all TV feed line coaxial connectors are installed
 properly** — a loose or poorly shielded connector is the most common real-world culprit.
@@ -328,7 +328,7 @@ Which of the following can eliminate distorted voice transmissions?
 *One exam question comes from this group. 11 questions in the pool.*
 
 **Dummy loads.** The primary purpose of a dummy load is **to prevent transmitting signals over the
-air when making tests** — it lets you key up without putting a signal on the antenna. A typical RF
+air when making tests** — it lets you key up without putting a signal on the antenna. A typical RF (radio frequency)
 dummy load is **a 50-ohm non-inductive resistor mounted on a heat sink**, which safely dissipates the
 transmitter's power as heat instead of radiating it.
 
@@ -336,9 +336,9 @@ transmitter's power as heat instead of radiating it.
 desired frequency. On an **SWR meter**, a reading of **1:1 indicates a perfect impedance match**
 between antenna and feed line; a reading of **4:1 indicates an impedance mismatch**. Most solid-state
 transmitters **reduce output power as SWR increases** beyond a certain level **to protect the RF
-output amplifier transistors** — this is self-protection, not an FCC spectral-purity requirement.
+output amplifier transistors** — this is self-protection, not an FCC (Federal Communications Commission) spectral-purity requirement.
 Power lost in a feed line **is converted into heat**, not radiated as harmonics or otherwise. The
-instrument used to determine SWR is a **directional wattmeter**.
+instrument used to determine SWR (standing wave ratio) is a **directional wattmeter**.
 
 **Coaxial cable care.** Coax cable failure is commonly caused by **moisture contamination** —
 water getting into the line raises loss and can corrode the conductors. That's also why the outer

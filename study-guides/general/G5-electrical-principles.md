@@ -34,11 +34,11 @@ Reactance is measured in **ohms** and carries the letter **X**.
 | **Inductor** | Reactance **increases** |
 | **Capacitor** | Reactance **decreases** |
 
-Sanity check from physics: a capacitor blocks DC (infinite reactance at 0 Hz) and passes RF; an
+Sanity check from physics: a capacitor blocks DC (infinite reactance at 0 Hz) and passes RF (radio frequency); an
 inductor passes DC and chokes RF. That picture gets you both answers every time. Note also that
 **amplitude is irrelevant** — several distractors offer "as the amplitude increases."
 
-**Resonance** is where **inductive and capacitive reactance cancel**. In a **series** LC circuit at
+**Resonance** is where **inductive and capacitive reactance cancel**. In a **series** LC (inductor-capacitor) circuit at
 resonance, impedance is **very low**.
 
 **Impedance matching** at RF can be done with a transformer, a Pi-network, or a length of
@@ -196,11 +196,11 @@ P = V x I          P = V^2 / R          P = I^2 x R
 400 V across 800 ohms gives 160,000/800 = **200 W**. A 12 V bulb drawing 0.2 A gives **2.4 W**.
 7.0 mA through 1,250 ohms gives 0.000049 x 1250 = **61 milliwatts** — watch the units there.
 
-**RMS.** `V_RMS = V_peak x 0.707` and `V_peak = V_RMS x 1.414`. RMS matters because it is the AC
-value that **produces the same power in a resistor as the same DC voltage**. So 120 V RMS is 169.7 V
+**RMS.** `V_RMS = V_peak x 0.707` and `V_peak = V_RMS x 1.414`. RMS (root mean square) matters because it is the AC (alternating current)
+value that **produces the same power in a resistor as the same DC voltage** (DC = direct current). So 120 V RMS is 169.7 V
 peak and **339.4 V peak-to-peak**; 17 V peak is **12 V RMS**.
 
-**PEP from peak-to-peak volts — always the same three steps:**
+**PEP from peak-to-peak volts — always the same three steps:** (PEP = peak envelope power)
 
 ```
 1. Vpp / 2        = Vpeak
@@ -396,7 +396,7 @@ To **increase capacitance add a capacitor in parallel**; to **increase inductanc
 series**.
 
 **Transformers.** Voltage appears on the secondary through **mutual inductance**, and voltage follows
-the turns ratio directly: 500:1500 turns with 120 VAC in gives **360 V**. Feed a 4:1 step-down
+the turns ratio directly: 500:1500 turns with 120 VAC (volts alternating current) in gives **360 V**. Feed a 4:1 step-down
 transformer backwards and the input is **multiplied by 4**.
 
 **Impedance ratio is the turns ratio squared**, so go the other way with a square root: matching 600
@@ -565,7 +565,7 @@ Which of the following components should be added to an inductor to increase the
 ## Bottom line for G5
 
 **Inductive reactance rises with frequency, capacitive falls.** At resonance they **cancel**; series
-LC goes to **very low** impedance. **3 dB is 2x power**; **1 dB loss is 20.6%**. `P = V^2/R` and
-`P = I^2 R`. **RMS = peak x 0.707.** For PEP: halve the peak-to-peak, multiply by 0.707, square, and
+LC (inductor-capacitor) goes to **very low** impedance. **3 dB is 2x power**; **1 dB loss is 20.6%**. `P = V^2/R` and
+`P = I^2 R`. **RMS = peak x 0.707.** (RMS = root mean square) For PEP (peak envelope power): halve the peak-to-peak, multiply by 0.707, square, and
 divide by R. **PEP equals average power for an unmodulated carrier.** **Capacitors combine backwards**
 from resistors and inductors. Transformer **voltage follows turns; impedance follows turns squared**.

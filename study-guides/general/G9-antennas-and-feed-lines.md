@@ -31,7 +31,7 @@ is 3 feet or 300 feet long. **Window line is 450 ohms.**
 **decibels per 100 feet**. **High SWR increases loss in a lossy line** — note the qualifier; the
 extra loss comes from reflected power making extra trips through a line that was already lossy.
 
-**The counterintuitive one:** higher line loss **reduces** the SWR you measure at the input, because
+**The counterintuitive one:** higher line loss **reduces** the SWR (standing wave ratio) you measure at the input, because
 loss attenuates the reflected wave on its way back to your meter. A long lossy run makes a bad
 antenna look deceptively good.
 
@@ -199,11 +199,11 @@ maxima — which is also why an end-fed half-wave has a very high feed point imp
 
 **Verticals.** Ground-mounted radials go **on the surface or a few inches below**. On an **elevated**
 ground plane, **sloping the radials downward** brings the feed point from about 35 ohms toward 50.
-Horizontal polarization on HF gives **lower ground losses**.
+Horizontal polarization on HF (high frequency) gives **lower ground losses**.
 
 **A random wire fed directly** means **station equipment may carry significant RF current** — without
 a counterpoise, your chassis and power cables become the other half of the antenna. That is the
-classic source of RF burns and hot microphones.
+classic source of RF (radio frequency) burns and hot microphones.
 
 #### All 12 pool questions for G9B
 
@@ -350,7 +350,7 @@ the director is shortest.** The pattern fires toward the director end.
 
 **Performance.** More boom length and more directors means **gain increases**. **Larger-diameter
 elements increase bandwidth** — fat elements are broadband, thin elements are sharp. What can be
-adjusted to optimize gain, front-to-back, or SWR bandwidth? **All these choices are correct.**
+adjusted to optimize gain, front-to-back, or SWR (standing wave ratio) bandwidth? **All these choices are correct.**
 
 **Definitions.** **Front-to-back ratio** is power in the **main lobe compared to the opposite
 direction**. The **main lobe** is the **direction of maximum radiated field strength**.
@@ -493,11 +493,11 @@ Which of the following is a characteristic of using a gamma match with a Yagi an
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Wire antennas.** The **NVIS antenna** for daytime short skip on 40 m is a **horizontal dipole
+**Wire antennas.** The **NVIS antenna** (NVIS = near vertical incidence skywave) for daytime short skip on 40 m is a **horizontal dipole
 between 1/10 and 1/4 wavelength above ground** — low and horizontal. An **end-fed half-wave** has a
 **very high** feed point impedance. A dipole with a **single central support** is an **inverted V**. A
 **multi-wavelength horizontal loop** is **virtually omnidirectional with a lower peak vertical
-radiation angle than a dipole**. A **Beverage** is for **directional receiving on the low HF bands** —
+radiation angle than a dipole**. A **Beverage** is for **directional receiving on the low HF bands** (HF = high frequency) —
 it is a long, low, lossy wire that radiates poorly but rejects noise beautifully, and on 160 and 80
 meters that trade is worth it.
 
@@ -656,7 +656,7 @@ What is the common name of a dipole with a single central support?
 ## Bottom line for G9
 
 Characteristic impedance comes from **geometry alone**; window line is **450 ohms**. **Line loss
-lowers measured SWR.** **SWR is larger over smaller.** A tuner at the shack **does not change feed
+lowers measured SWR.** (SWR = standing wave ratio) **SWR is larger over smaller.** A tuner at the shack **does not change feed
 line SWR**. **468 / MHz** for a dipole, **234 / MHz** for a quarter wave. A dipole is a **figure-eight
 broadside**; below half a wavelength it goes nearly **omnidirectional**. Yagi: **reflector longest,
 director shortest**; **dBi = dBd + 2.15**; stacking adds **3 dB**. **Traps** give multiband at the

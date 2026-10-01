@@ -3,7 +3,7 @@
 **3 of your 35 exam questions · 3 groups (T2A–T2C) · 37 questions in the pool**
 
 This subelement is the practical, on-the-air half of the Technician exam: how to actually use a
-repeater or work simplex, what the buttons and tones on a VHF/UHF radio do, and how nets and
+repeater or work simplex, what the buttons and tones on a VHF/UHF (very high frequency / ultra high frequency) radio do, and how nets and
 emergency traffic are handled. There is very little math and almost no rule-citation memorization
 — just operating habits and a handful of specific numbers (offsets, calling frequencies, tone
 names) that show up again and again in slightly different wording.
@@ -25,19 +25,19 @@ names) that show up again and again in slightly different wording.
 
 **Offsets, memorize both:** on 2 meters the standard repeater offset is **±600 kHz**; on 70
 centimeters it's **±5 MHz** — a common mix-up is swapping which band gets which number. The
-**national FM simplex calling frequency on 2 meters is 146.520 MHz** (not 145.000, which is a
+**national FM simplex calling frequency on 2 meters is 146.520 MHz** (FM = frequency modulation) (not 145.000, which is a
 distractor). A **repeater offset** is simply **the difference between a repeater's transmit and
 receive frequencies**.
 
 **Calling procedures.** If you know the other station's call sign, say **their call sign, then
-identify with your own**. When answering a station calling CQ, transmit **the other station's call
+identify with your own**. When answering a station calling CQ (a general call to any station), transmit **the other station's call
 sign followed by your own**. To call CQ generally, repeat **"CQ" a few times, then "this is" and
 your call sign, then pause to listen**, repeating as necessary. **"CQ" simply means "calling any
 station."** To show you're listening on a repeater for a contact, give **your call sign followed
 by the word "listening."**
 
 **Band plans** are **voluntary guidelines** for how a band's modes/activities are organized —
-they exist on top of, not instead of, the FCC's actual privileges. **Simplex** describes a station
+they exist on top of, not instead of, the FCC's (Federal Communications Commission) actual privileges. **Simplex** describes a station
 **transmitting and receiving on the same frequency** (as opposed to the split transmit/receive
 frequencies used through a repeater).
 
@@ -170,12 +170,12 @@ What term describes an amateur station that is transmitting and receiving on the
 
 *One exam question comes from this group. 14 questions in the pool.*
 
-**Repeater access tones, don't mix these up:** **CTCSS** is a continuous **sub-audible tone** sent
-along with your voice audio to **open the squelch of a receiver**; **DTMF** is the **two
+**Repeater access tones, don't mix these up:** **CTCSS** (continuous tone-coded squelch system) is a continuous **sub-audible tone** sent
+along with your voice audio to **open the squelch of a receiver**; **DTMF** (dual-tone multi-frequency) is the **two
 simultaneous audio tones** used for touch-tone-style signaling (the same tones your phone's keypad
 makes). If a repeater's output is audible but you can't access it, the culprit could be **improper
-offset, wrong CTCSS tone, or wrong DCS code — "all these choices are correct."** The **reverse
-function** on a VHF/UHF transceiver lets you **listen on a repeater's input frequency**, handy for
+offset, wrong CTCSS tone, or wrong DCS code — "all these choices are correct."** (DCS = digital-coded squelch) The **reverse
+function** on a VHF/UHF (very high frequency / ultra high frequency) transceiver lets you **listen on a repeater's input frequency**, handy for
 checking whether you can hear the other station directly.
 
 **Why simplex channels exist:** so stations within range of each other can talk **without tying
@@ -188,7 +188,7 @@ negotiate continued use of the frequency** — there's no automatic "first one t
 **DMR (digital) specifics.** A **talkgroup** is a DMR identifier that **organizes radio traffic
 so listeners aren't bothered by other traffic**; you join one by **programming your radio with the
 group's ID or code**. A DMR **color code** is an **access code that must be programmed into a DMR
-transmitter to access a specific repeater** — it's not related to CODEC identification or offset
+transmitter to access a specific repeater** — it's not related to CODEC (coder-decoder) identification or offset
 programming, both of which are distractors.
 
 **Squelch** simply **mutes receiver audio when no signal is present**, so you don't have to listen
@@ -360,8 +360,8 @@ Which of the following is a "talkgroup"?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**The one citation in this whole subelement:** FCC Part 97 rules **always apply** to amateur
-station operation — that holds true even when operating under RACES, FEMA, or ARES arrangements,
+**The one citation in this whole subelement:** FCC (Federal Communications Commission) Part 97 rules **always apply** to amateur
+station operation — that holds true even when operating under RACES (Radio Amateur Civil Emergency Service), FEMA (Federal Emergency Management Agency), or ARES (Amateur Radio Emergency Service) arrangements,
 which are organizational frameworks, not exemptions from the rules. The one specific rule-based
 carve-out elsewhere in the pool is that control operators **may operate outside their normal
 frequency privileges only in situations involving the immediate safety of human life or protection

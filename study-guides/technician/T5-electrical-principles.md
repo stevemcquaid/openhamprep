@@ -46,7 +46,7 @@ actually conductors, some poor, but conductors nonetheless.)
 **Alternating current** is defined as current that **alternates between positive and negative
 directions** — not merely between a direction and zero, which is how the wrong answers try to trick
 you. **Resistance opposes current flow regardless of type**: direct current, alternating current, and
-RF current are all opposed by resistance — "all these choices are correct" for that one.
+RF (radio frequency) current are all opposed by resistance — "all these choices are correct" for that one.
 
 #### All 11 pool questions for T5A
 
@@ -352,14 +352,14 @@ energy in a magnetic field**, and its unit is the **henry**. Keep the pairing st
 ↔ capacitance ↔ farad; magnetic field ↔ inductance ↔ henry.
 
 **Impedance** is defined here simply as **the opposition to AC current flow**, and its unit is the
-**ohm** — the same unit as plain resistance, since impedance is resistance's AC generalization.
+**ohm** — the same unit as plain resistance, since impedance is resistance's AC (alternating current) generalization.
 
 **Frequency abbreviations are case-sensitive on this exam.** The correct abbreviation for kilohertz is
 **kHz** (lowercase k, capital H, lowercase z); for megahertz it's **MHz** (capital M). The
 lowercase/uppercase distractors (khz, KHz, KHZ, mHz, mHZ, Mhz) are all wrong.
 
 **Power in a DC circuit** uses the simplest form of the power law: **P = I x E** (current times
-voltage). Two worked examples from the pool: 13.8 volts DC at 10 amperes delivers 13.8 x 10 =
+voltage). Two worked examples from the pool: 13.8 volts DC (direct current) at 10 amperes delivers 13.8 x 10 =
 **138 watts**; 12 volts DC at 2.5 amperes delivers 12 x 2.5 = **30 watts**. Rearranged to solve for
 current, **I = P / E**: delivering 120 watts at 12 volts DC requires 120 / 12 = **10 amperes**.
 
@@ -688,16 +688,16 @@ In which type of circuit is the voltage always the same across all components?
 ## Bottom line for T5
 
 Current is **amperes**, power is **watts**, frequency is **hertz**; a **voltage difference** drives
-**current** (electron flow), and **power** is the rate energy is used. AC **alternates between
+**current** (electron flow), and **power** is the rate energy is used. AC (alternating current) **alternates between
 positive and negative directions**. Metals conduct because of **free electrons**; glass insulates.
-**Resistance opposes DC, AC, and RF current alike.**
+**Resistance opposes DC, AC, and RF current alike.** (RF = radio frequency)
 
 Metric prefixes: **milli x0.001, kilo x1000, mega x1,000,000, micro x0.000001, pico x10^-12.**
 Decibels: **+3 dB = double power, +10 dB = 10x power**, and halvings stack (two halvings = **-6 dB**).
 
 **Capacitance** stores energy in an **electric field** (unit: **farad**); **inductance** stores energy
 in a **magnetic field** (unit: **henry**); **impedance** is opposition to AC current flow (unit:
-**ohm**). Abbreviations are case-sensitive: **kHz**, **MHz**. DC power: **P = I x E**.
+**ohm**). Abbreviations are case-sensitive: **kHz**, **MHz**. DC (direct current) power: **P = I x E**.
 
 Ohm's Law: **I = E/R, E = I x R, R = E/I**. **Series circuits share the same current**; **parallel
 circuits share the same voltage**.

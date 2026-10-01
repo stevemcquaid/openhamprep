@@ -2,13 +2,13 @@
 
 **4 of your 50 exam questions · 4 groups (E5A–E5D) · 49 questions in the pool**
 
-The math-and-abstraction subelement of the Extra pool: resonance and Q, RL/RC time constants, phase
+The math-and-abstraction subelement of the Extra pool: resonance and Q, RL/RC (resistor-inductor / resistor-capacitor) time constants, phase
 angle in reactive circuits, rectangular/polar coordinate systems for impedance, and how real
-components misbehave at RF. It builds directly on General's G5 — same reactance and resonance
+components misbehave at RF (radio frequency). It builds directly on General's G5 — same reactance and resonance
 vocabulary — but goes a level deeper: quantitative Q and bandwidth calculations, phase-angle
 arithmetic with arctangent, and formal rectangular/polar notation for impedance.
 
-As with G5, the arithmetic is fixed — the same handful of RLC and phase-angle problems recur with the
+As with G5, the arithmetic is fixed — the same handful of RLC (resistor-inductor-capacitor) and phase-angle problems recur with the
 same numbers every renewal cycle — so working each calculation once by hand is worth more than
 memorizing the answer letter. E5C's three figure-based questions (E5C10–E5C12) reference a pool
 diagram (Figure E5-1, shown with each question); know the underlying R/X-plane geometry and you can
@@ -32,7 +32,7 @@ also answer them by calculation.
 
 *One exam question comes from this group. 13 questions in the pool.*
 
-**Resonance is where XL and XC cancel,** leaving the circuit's opposition determined by resistance
+**Resonance is where XL and XC cancel,** (XL = inductive reactance; XC = capacitive reactance) leaving the circuit's opposition determined by resistance
 alone — but *only* at the input/overall level. Inside the loop it's a different story: at series
 resonance, current is **maximum** and impedance is **minimum**, approximately equal to the circuit
 resistance (E5A03). At parallel resonance, input current is **minimum** and impedance is
@@ -42,7 +42,7 @@ question carefully: series and parallel resonance give opposite-sounding but ind
 "equal to circuit resistance" answers.
 
 **Voltage and current multiply inside a resonant circuit even though they cancel at the terminals.** A
-high-Q series RLC circuit at resonance can show reactive voltages **higher than the source voltage**
+high-Q series RLC (resistor-inductor-capacitor) circuit at resonance can show reactive voltages **higher than the source voltage**
 (E5A01) — that's the mechanism, and increasing Q makes it worse: internal voltages increase with Q
 (E5A13). The parallel-resonant mirror image is circulating tank current: at resonance the current
 circulating between L and C is at a **maximum** (E5A06), even though the current the source has to
@@ -57,7 +57,7 @@ Q = **resistance divided by reactance** (E5A09); the series form is the reciproc
 divided by resistance. Higher Q means a **narrower matching bandwidth** (E5A05) — Q and bandwidth
 trade off directly.
 
-**Resonant frequency:** `f = 1 / (2π√(LC))`. With R = 22 Ω, L = 50 µH, C = 40 pF, f ≈ **3.56 MHz**
+**Resonant frequency:** `f = 1 / (2π√(LC))` (LC = inductor-capacitor). With R = 22 Ω, L = 50 µH, C = 40 pF, f ≈ **3.56 MHz**
 (E5A02); with R = 33 Ω, L = 50 µH, C = 10 pF, f ≈ **7.12 MHz** (E5A10) — note R never enters the
 resonant-frequency formula; it only matters for computing Q afterward.
 
@@ -215,7 +215,7 @@ What is an effect of increasing Q in a series resonant circuit?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**One time constant** is how long an RC circuit takes to charge to **63.2%** of the applied voltage,
+**One time constant** is how long an RC (resistor-capacitor) circuit takes to charge to **63.2%** of the applied voltage,
 or discharge to **36.8%** of its initial voltage (E5B01) — those two numbers (63.2 and its complement
 36.8) are the whole definition; memorize them as a pair.
 
@@ -224,14 +224,14 @@ or discharge to **36.8%** of its initial voltage (E5B01) — those two numbers (
 two 1-megohm resistors in parallel give 500 kΩ; `τ = 500,000 Ω × 0.00044 F = 220 seconds` (E5B04).
 
 **Admittance, conductance, and susceptance** are the reactive-circuit cousins of resistance and
-conductance in a DC circuit. **Admittance (Y) is the inverse of impedance (Z)** (E5B12); its
+conductance in a DC (direct current) circuit. **Admittance (Y) is the inverse of impedance (Z)** (E5B12); its
 imaginary part is **susceptance**, symbol **B** (E5B02, E5B06). To convert an impedance in **polar
 form** to admittance: **take the reciprocal of the magnitude and change the sign of the angle**
 (E5B03). Converting pure reactance to susceptance also uses a reciprocal: the magnitude of a
 reactance is **replaced by its reciprocal** when expressed as susceptance (E5B05).
 
-**Phase angle in a series RLC circuit:** find net reactance `X = XL − XC`, then
-`angle = arctan(X / R)`. A **positive** result (XL > XC, net inductive) means **voltage leads
+**Phase angle in a series RLC circuit:** (RLC = resistor-inductor-capacitor) find net reactance `X = XL − XC`, then
+`angle = arctan(X / R)`. A **positive** result (XL (inductive reactance) > XC (capacitive reactance), net inductive) means **voltage leads
 current**; a **negative** result (XC > XL, net capacitive) means **voltage lags current** — the same
 "ELI the ICE man" rule from General class, extended to mixed circuits with the arctangent layered on
 top. Three worked examples appear verbatim in the pool:
@@ -401,7 +401,7 @@ rectangular form. **Polar coordinates** are the standard way to display the phas
 circuit that mixes R, L, and/or C (E5C08), and a **phasor diagram** is the picture used to show the
 phase relationship between multiple impedances at one frequency (E5C05).
 
-**Frequency response graphs use a logarithmic Y-axis** (E5C04) — RF quantities like gain and response
+**Frequency response graphs use a logarithmic Y-axis** (E5C04) — RF (radio frequency) quantities like gain and response
 span orders of magnitude, so log scaling is standard.
 
 **The three figure questions (E5C10–E5C12)** ask you to locate a computed impedance on the pool's
@@ -559,9 +559,9 @@ Which point on Figure E5-1 best represents the impedance of a series circuit con
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Skin effect:** as frequency rises, RF current crowds toward the conductor's **surface**, shrinking
+**Skin effect:** as frequency rises, RF (radio frequency) current crowds toward the conductor's **surface**, shrinking
 the effective cross-section, so **resistance increases as frequency increases** (E5D01). That's why
-**short leads matter at VHF and above** — short leads **minimize inductive reactance** (E5D02), and
+**short leads matter at VHF and above** (VHF = very high frequency) — short leads **minimize inductive reactance** (E5D02), and
 at microwave frequencies short connections specifically **reduce phase shift along the connection**
 (E5D04); at those frequencies even a short wire is an appreciable fraction of a wavelength.
 
@@ -730,12 +730,12 @@ What is reactive power?
 
 ## Bottom line for E5
 
-At resonance, **XL cancels XC**, voltage and current are **in phase**, and impedance is **≈ R** for
+At resonance, **XL cancels XC** (XL = inductive reactance; XC = capacitive reactance), voltage and current are **in phase**, and impedance is **≈ R** for
 both series and parallel circuits — series current is maximum/impedance minimum, parallel input
-current is minimum/impedance maximum, tank circulating current is maximum. `f = 1/(2π√(LC))`;
+current is minimum/impedance maximum, tank circulating current is maximum. `f = 1/(2π√(LC))` (LC = inductor-capacitor);
 `BW = f/Q`; parallel `Q = R/X`. Higher Q means **narrower bandwidth** and **higher internal voltages**.
 
-One time constant is **63.2%** charge / **36.8%** discharge; `τ = RC` after combining parallel caps
+One time constant is **63.2%** charge / **36.8%** discharge; `τ = RC` (RC = resistor-capacitor) after combining parallel caps
 (add) and parallel resistors (reciprocal). **Admittance is 1/Z**; its imaginary part is
 **susceptance (B)**; polar-to-admittance takes the **reciprocal magnitude, flipped-sign angle**.
 Phase angle is `arctan((XL−XC)/R)`: positive means **voltage leads current** (net inductive), negative
@@ -746,7 +746,7 @@ Rectangular form is `R ± jX` (**+j inductive, −j capacitive**), plotted with 
 axis, X on the vertical**. Polar form is **magnitude and angle**; a phasor diagram shows relative
 phase; frequency-response graphs use a **logarithmic** Y-axis.
 
-**Skin effect** raises resistance with frequency. Electrolytic capacitors fail at RF from
+**Skin effect** raises resistance with frequency. Electrolytic capacitors fail at RF (radio frequency) from
 **inductance**; film capacitors from **dielectric loss**; inductors self-resonate from **inter-turn
 capacitance** combining with nominal inductance. Real power is `I²R` and lives only in resistance;
 **reactive power is wattless**, stored in the field and returned every half-cycle, **90° out of

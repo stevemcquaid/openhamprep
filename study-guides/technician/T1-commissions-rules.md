@@ -34,20 +34,20 @@ questions predictable rather than to be memorized on their own.
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Who and why.** The **FCC** regulates and enforces Part 97 — not the ARRL, not Homeland Security.
+**Who and why.** The **FCC** regulates and enforces Part 97 — not the ARRL (American Radio Relay League), not Homeland Security.
 The Basis and Purpose section (§97.1) lists several goals; the pool question tests one specific
 phrase — **advancing skills in the technical and communication phases of the radio art** — so
 resist the tempting "all these choices are correct" distractor.
 
 **Proof of license, not paperwork.** What legally proves your operator/primary license grant is
-that **it appears in the FCC's ULS database** — a printed CSCE or an NCVEC email is not the grant
+that **it appears in the FCC's ULS database** (ULS = Universal Licensing System) — a printed CSCE (Certificate of Successful Completion of Examination) or an NCVEC (National Conference of Volunteer Examiner Coordinators) email is not the grant
 itself. Relatedly, official notice of a new license and call sign comes as an **email from the FCC
-with a link to download the license grant**; the FCC does not mail printed licenses.
+with a link to download the license grant**; the FCC (Federal Communications Commission) does not mail printed licenses.
 
 **Phonetics are encouraged, not required.** On phone emissions, using a standard phonetic alphabet
 is **encouraged** — there is no rule forcing it, even for emergency traffic or foreign contacts.
 
-**Beacons and frequency coordinators.** Automatically controlled propagation beacons on HF live in
+**Beacons and frequency coordinators.** Automatically controlled propagation beacons on HF (high frequency) live in
 one specific place for Technicians: **10 meters, 28.200–28.300 MHz** — not "a portion of every HF
 Technician band." A **Volunteer Frequency Coordinator** — not an FCC office — recommends
 repeater/auxiliary channels, and that coordinator is **selected by the local amateurs** whose
@@ -55,11 +55,11 @@ stations are eligible to be repeaters or auxiliary stations.
 
 **Two definitions worth memorizing verbatim.** A **space station** is an amateur station located
 **more than 50 km above Earth's surface** — altitude is the only test, not who built it or how many
-people are aboard. A **RACES** control operator needs, beyond an FCC amateur license, **certification
-of current enrollment by a civil defense organization** — not ARES membership, not an ARRL letter.
+people are aboard. A **RACES** (Radio Amateur Civil Emergency Service) control operator needs, beyond an FCC amateur license, **certification
+of current enrollment by a civil defense organization** — not ARES (Amateur Radio Emergency Service) membership, not an ARRL letter.
 
 **What's actually prohibited.** Of the choices you'll see, only **willful or malicious
-interference** is banned outright; international VHF+ contacts and digital third-party traffic are
+interference** is banned outright; international VHF (very high frequency)+ contacts and digital third-party traffic are
 both allowed.
 
 #### All 11 pool questions for T1A
@@ -192,21 +192,21 @@ Which of the following is prohibited?
 *One exam question comes from this group. 12 questions in the pool.*
 
 **Technician HF is thin, VHF/UHF is generous.** Technicians get **phone privileges on 10 meters
-only** among the HF bands — specifically **28.300–28.500 MHz** — and CW/data across the rest of the
+only** among the HF (high frequency) bands — specifically **28.300–28.500 MHz** — and CW (continuous wave)/data across the rest of the
 Technician 10 m allocation. Nowhere else on HF do Technicians have phone. Above 30 MHz, digital
 modes such as **FT8** are authorized on **10 meters, 6 meters, and 2 meters** — all three, so "all
 these choices are correct" is the right answer whenever that combination appears.
 
 **Landmark frequencies worth memorizing.** **52.525 MHz** sits in the 6-meter band; **146.52 MHz**
-sits in the 2-meter band (the national FM simplex calling frequency, though the pool only tests the
-band identification). SSB phone above 50 MHz is legal in **at least some segment of every one** of
+sits in the 2-meter band (the national FM (frequency modulation) simplex calling frequency, though the pool only tests the
+band identification). SSB (single sideband) phone above 50 MHz is legal in **at least some segment of every one** of
 those bands.
 
 **CW-only segments are narrow slivers.** **50.0–50.1 MHz** (6 m) and **144.0–144.1 MHz** (2 m) are
 CW-only — don't confuse these narrow CW sub-bands with the much wider phone/data allocations
 surrounding them.
 
-**Secondary status means coexistence, not exclusion.** Where the Amateur Service is secondary, US
+**Secondary status means coexistence, not exclusion.** Where the Amateur Service is secondary, US (United States)
 amateurs may **encounter non-amateur (primary) stations** in that segment and must avoid
 interfering with them — the service isn't banned there, it just yields.
 
@@ -215,10 +215,10 @@ for calibration error**, **keeping modulation sidebands inside the band**, and *
 transmitter frequency drift** — the pool question wants "all these choices are correct."
 
 **Power — Technician HF is capped much lower than General's.** On their HF band segments,
-Technicians are limited to **200 watts PEP output** — a fraction of General's 1500 W on the same
-10-meter band. Above 30 MHz (VHF/UHF), that cap jumps to the standard **1500 watts PEP output**,
+Technicians are limited to **200 watts PEP output** (PEP = peak envelope power) — a fraction of General's 1500 W on the same
+10-meter band. Above 30 MHz (very high frequency / ultra high frequency, VHF/UHF), that cap jumps to the standard **1500 watts PEP output**,
 except where specific rules restrict it further. Finally, **any Technician-or-higher** licensee may
-contact the ISS on VHF — no NASA approval or upgrade required, contrary to two tempting distractors.
+contact the ISS on VHF — no NASA (National Aeronautics and Space Administration) approval or upgrade required, contrary to two tempting distractors.
 
 #### All 12 pool questions for T1B
 
@@ -360,7 +360,7 @@ Except for some specific restrictions, what is the maximum peak envelope power o
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**Three classes issued today.** The FCC currently issues only **Technician, General, and Amateur
+**Three classes issued today.** The FCC (Federal Communications Commission) currently issues only **Technician, General, and Amateur
 Extra** licenses. Novice, Technician Plus, and Advanced are legacy classes that can still be
 renewed but are no longer newly issued — a distractor combination worth recognizing on sight.
 
@@ -381,7 +381,7 @@ be requested up to **90 days** before expiration. If it lapses, there's a **2-ye
 during which you may hold the license for renewal purposes but — this is the trap — **you may not
 transmit** until the renewal is actually granted; the grace period protects your right to renew, not
 your right to operate. You may start transmitting on a brand-new license **as soon as the grant
-appears in the FCC's license database** — not upon receiving a CSCE, and not upon receiving anything
+appears in the FCC's license database** — not upon receiving a CSCE (Certificate of Successful Completion of Examination), and not upon receiving anything
 in the mail.
 
 **Maritime operation.** You may operate from a **US-documented vessel** in international waters
@@ -521,7 +521,7 @@ If your license has expired and is still within the allowable grace period, may 
 *One exam question comes from this group. 12 questions in the pool.*
 
 **Off-limits countries.** Communications are prohibited with any country whose administration has
-notified the **ITU** — not the ARRL, not the IARU — that it objects to such communications. It's an
+notified the **ITU** — not the ARRL (American Radio Relay League), not the IARU (International Amateur Radio Union) — that it objects to such communications. It's an
 opt-out system administered at the international level.
 
 **One-way transmissions: mostly banned, with named exceptions.** General **broadcasting** is
@@ -542,7 +542,7 @@ equipment for sale or trade **when doing so is not on a regular basis** — the 
 retail operation, it's no longer permitted, regardless of who owns the equipment or whether a profit
 is made.
 
-**Indecent or obscene language is flatly prohibited** — no FCC or ITU "banned word list" exists;
+**Indecent or obscene language is flatly prohibited** — no FCC (Federal Communications Commission) or ITU (International Telecommunication Union) "banned word list" exists;
 the ban is general and unconditional.
 
 **Auxiliary stations, by definition,** carry **one-way transmissions between a remote repeater
@@ -741,7 +741,7 @@ there's no category exempted from it.
 **Definition to memorize verbatim.** A control operator is **an amateur operator designated by the
 licensee of a station to be responsible for transmissions and FCC rules compliance at that
 station** — the emphasis is on "designated," which rules out the choice describing someone merely
-identified in the FCC database.
+identified in the FCC (Federal Communications Commission) database.
 
 #### All 11 pool questions for T1E
 
@@ -872,7 +872,7 @@ What is a control operator as defined in Part 97?
 
 *One exam question comes from this group. 11 questions in the pool.*
 
-**FCC inspections happen on demand.** The station and its records must be made available **at any
+**FCC inspections happen on demand.** (FCC = Federal Communications Commission) The station and its records must be made available **at any
 time upon request by an FCC representative** — there is no advance-notice requirement and no
 warrant requirement.
 
@@ -883,7 +883,7 @@ tactical calls never substitute for it.
 
 **Identification language and method.** When using phone emissions, identification must be in
 **English**, regardless of what language the rest of the contact used. Identification on a
-phone-emission station may be sent using **either CW or phone emission** — not phone only.
+phone-emission station may be sent using **either CW or phone emission** (CW = continuous wave) — not phone only.
 
 **Self-assigned indicators are flexible in wording.** "Stroke," "slant," and "slash" before a
 portable/mobile designator (e.g., "KL7CC stroke W3") are all acceptable — the words are
@@ -891,7 +891,7 @@ interchangeable, so "all these choices are correct" is the answer whenever this 
 together.
 
 **Third-party traffic to a non-licensed speaker requires a treaty.** When a non-licensed person
-speaks to a foreign amateur station through a station under the control of a licensed US amateur,
+speaks to a foreign amateur station through a station under the control of a licensed US (United States) amateur,
 the restriction is that the **foreign station must be in a country with which the US has a
 third-party agreement** — nationality of the speaker and who performs the ID are not the controlling
 factors here.
@@ -910,7 +910,7 @@ introduced the violating content is responsible, not the relay.
 
 **Club stations need a minimum roster.** A club station license grant requires the club to have
 **at least four members** — there's no requirement that the trustee hold Extra class or that the
-club be registered with the ARRL.
+club be registered with the ARRL (American Radio Relay League).
 
 #### All 11 pool questions for T1F
 

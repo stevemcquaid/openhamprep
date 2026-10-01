@@ -41,7 +41,7 @@ this is a safety device, and without it a supply can hold a lethal charge long a
 why a 30 A switcher weighs a few pounds and a linear one weighs thirty.
 
 **Figure G7-1** is provided at the exam. What you need is symbol recognition, not the numbering:
-an **NPN transistor** has the emitter arrow pointing *outward* (Not Pointing iN); a **FET** has a
+an **NPN transistor** (NPN = negative-positive-negative) has the emitter arrow pointing *outward* (Not Pointing iN); a **FET** (field-effect transistor) has a
 flat gate bar instead of an emitter arrow; a **Zener diode** has a bent, flag-like cathode bar; a
 **solid core transformer** shows solid lines between the two coils; a **tapped inductor** has an
 extra lead off the middle of the winding. The figure is shown with each question below; practice reading it before exam day.
@@ -219,17 +219,17 @@ Which symbol in Figure G7-1 represents a tapped inductor?
 | **C** | Less than 50% | **Highest efficiency** |
 
 Two questions follow from that table. Class C has the highest efficiency, and **Class C is suitable
-for FM only** — FM carries information in frequency, so it survives a nonlinear stage, while SSB and
-AM carry information in the envelope and would be destroyed.
+for FM only** — FM (frequency modulation) carries information in frequency, so it survives a nonlinear stage, while SSB (single sideband) and
+AM (amplitude modulation) carry information in the envelope and would be destroyed.
 
 A **linear amplifier** is simply one whose **output preserves the input waveform**.
 
 **Practicalities.** **Neutralizing eliminates self-oscillation** by cancelling feedback through
-internal capacitance. **Efficiency = RF output power / DC input power.**
+internal capacitance. **Efficiency = RF output power / DC input power.** (RF = radio frequency; DC = direct current)
 
 **Oscillators** need **a filter and an amplifier in a feedback loop** — amplify, filter to select one
 frequency, feed it back. An **LC oscillator's frequency is set by the tank circuit's inductance and
-capacitance**.
+capacitance** (LC = inductor-capacitor).
 
 **Digital.** An **AND gate is high only when both inputs are high**. A **3-bit counter has 8 states**
 (2^n). A **shift register is a clocked array that passes data in steps** along the array.
@@ -364,9 +364,9 @@ For which of the following modes is a Class C power stage appropriate for amplif
 *One exam question comes from this group. 14 questions in the pool.*
 
 **The SSB signal chain, which answers three questions in order.** A **balanced modulator outputs
-double-sideband RF** — it mixes audio with the carrier and cancels the carrier, leaving both
+double-sideband RF** (RF = radio frequency) — it mixes audio with the carrier and cancels the carrier, leaving both
 sidebands. A **filter then selects one sideband**. On receive, a **product detector extracts the
-modulated signal** in an SSB receiver by reinserting the missing carrier.
+modulated signal** in an SSB (single sideband) receiver by reinserting the missing carrier.
 
 **Filter terminology — four terms, four questions:**
 
@@ -382,11 +382,11 @@ stopband. Both "half-power" answers are the same -3 dB idea.
 
 **DSP and SDR.** A DSP filter's advantage is that **a wide range of bandwidths and shapes can be
 created** — software synthesizes any response, while a crystal filter has one shape forever. A
-**DDS** gives **variable output frequency with the stability of a crystal oscillator**.
+**DDS** (direct digital synthesizer) gives **variable output frequency with the stability of a crystal oscillator**.
 
 **I and Q are 90 degrees apart** (quadrature means 90 degrees — the name is a free hint), and I-Q
 modulation means **all types of modulation can be created with appropriate processing**. What
-software does in an SDR: **all these choices are correct**. Likewise for what affects receiver
+software does in an SDR (software-defined radio): **all these choices are correct**. Likewise for what affects receiver
 sensitivity.
 
 #### All 14 pool questions for G7C
@@ -551,7 +551,7 @@ The bandwidth of a band-pass filter is measured between what two frequencies?
 
 **Half-wave: one diode, 180 degrees. Full-wave: two diodes plus a center tap, 360 degrees, twice the
 ripple frequency.** Bleeder resistors **discharge filter capacitors**. **Class A conducts 100%,
-Class C is most efficient and works only with FM.** Efficiency is **RF out over DC in**. An
+Class C is most efficient and works only with FM.** (FM = frequency modulation) Efficiency is **RF out over DC in** (RF = radio frequency; DC = direct current). An
 oscillator is **a filter and amplifier in a feedback loop**; 3 bits give **8 states**. Balanced
 modulator gives **double sideband**, a **filter** picks one, a **product detector** recovers it.
 **Insertion loss** is inside the passband, **ultimate rejection** outside. **I and Q are 90 degrees

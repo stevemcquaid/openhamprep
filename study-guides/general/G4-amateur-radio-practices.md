@@ -2,7 +2,7 @@
 
 **5 of your 35 exam questions · 5 groups (G4A–G4E) · 60 questions in the pool**
 
-The "running a real HF station" subelement: front panel controls, test gear, RFI, and mobile
+The "running a real HF station" (HF = high frequency) subelement: front panel controls, test gear, RFI (radio-frequency interference), and mobile
 operating. Tied with G1 and G2 for the heaviest weight on the exam, and the most immediately useful
 material once you are licensed.
 
@@ -29,14 +29,14 @@ material once you are licensed.
 **Receiver controls, one purpose each.** The **notch filter** removes a **carrier (a single tone) in
 the passband**. The **noise blanker** works by **reducing receiver gain during a noise pulse**.
 **Noise reduction** turned up too far makes **signals distorted**. The **attenuator** prevents
-**overload from strong signals**. Selecting the **reverse sideband on CW** can **reduce or eliminate
+**overload from strong signals**. Selecting the **reverse sideband on CW** (CW = continuous wave) can **reduce or eliminate
 interference** by flipping where interferers land in the passband.
 
-**Transmit side.** ALC on an amplifier exists **to prevent excessive drive**, and it must be
-**inactive for AFSK data because ALC action distorts the signal**. An **antenna tuner increases
-power transfer from the transmitter to the feed line** — note it does *not* fix SWR out at the
-antenna (see G9A08). Delaying RF after keying an amplifier gives **time for the amplifier to switch
-the antenna**. A **dual VFO** lets you **transmit on one frequency and listen on another**.
+**Transmit side.** ALC (automatic level control) on an amplifier exists **to prevent excessive drive**, and it must be
+**inactive for AFSK data because ALC action distorts the signal** (AFSK = audio frequency-shift keying). An **antenna tuner increases
+power transfer from the transmitter to the feed line** — note it does *not* fix SWR (standing wave ratio) out at the
+antenna (see G9A08). Delaying RF (radio frequency) after keying an amplifier gives **time for the amplifier to switch
+the antenna**. A **dual VFO** (VFO = variable-frequency oscillator) lets you **transmit on one frequency and listen on another**.
 
 **Tube amplifier tuning — dip the plate, load for power.** The **TUNE** control is correct at a
 **pronounced dip in plate current**; the **LOAD** control is set for **desired power output without
@@ -195,13 +195,13 @@ What is the purpose of using a receive attenuator?
 
 **The oscilloscope** contains **horizontal and vertical channel amplifiers**, and its advantage over
 a digital voltmeter is that **complex waveforms can be measured**. It is the best instrument for
-checking a **CW keying waveform**, and for envelope patterns you feed its vertical input from the
-**attenuated RF output of the transmitter**.
+checking a **CW keying waveform** (CW = continuous wave), and for envelope patterns you feed its vertical input from the
+**attenuated RF output of the transmitter** (RF = radio frequency).
 
 **Meters.** Voltmeters have high input impedance to **decrease loading on the circuit being
 measured**. Digital multimeters win on **precision**; analog meters win **when adjusting for a
 maximum or minimum**, because you can watch the needle. A **directional wattmeter** gives you
-**SWR**.
+**SWR** (standing wave ratio).
 
 **The two-tone test** uses **two non-harmonically related audio signals** — non-harmonic matters,
 because harmonically related tones would hide the very distortion you are looking for — and it
@@ -362,8 +362,8 @@ Which of the following can be measured with an antenna analyzer?
 
 *One exam question comes from this group. 12 questions in the pool.*
 
-**Diagnose RFI by its sound.** Your audio gear crudely rectifies your RF, so it reproduces your
-envelope: an **SSB** transmitter comes through as **distorted speech**, and a **CW** transmitter as
+**Diagnose RFI by its sound.** (RFI = radio-frequency interference) Your audio gear crudely rectifies your RF (radio frequency), so it reproduces your
+envelope: an **SSB** (single sideband) transmitter comes through as **distorted speech**, and a **CW** (continuous wave) transmitter as
 **on-and-off humming or clicking**. Interference across a **wide range of frequencies** usually means
 **arcing at a poor electrical connection** — a spark is a broadband noise generator.
 
@@ -528,9 +528,9 @@ correct**.
 from **S8 to S9 takes about 4 times the power**. Twenty dB is a factor of 100, so **20 dB over S9 is
 100 times** stronger than S9. Derive these rather than memorizing them.
 
-**Band edges.** A 3 kHz SSB signal occupies 3 kHz on **one** side of your displayed carrier, and
-which side depends on the sideband. USB extends **upward** (dial at 14.347 occupies 14.347–14.350).
-LSB extends **downward** (dial at 7.178 occupies 7.175–7.178).
+**Band edges.** A 3 kHz SSB (single sideband) signal occupies 3 kHz on **one** side of your displayed carrier, and
+which side depends on the sideband. USB (upper sideband) extends **upward** (dial at 14.347 occupies 14.347–14.350).
+LSB (lower sideband) extends **downward** (dial at 7.178 occupies 7.175–7.178).
 
 So to stay legal you always back off 3 kHz *into* the band: **at least 3 kHz above** the lower edge
 when running LSB, **at least 3 kHz below** the upper edge when running USB.
@@ -668,7 +668,7 @@ How close to the upper edge of a band’s phone segment should your displayed ca
 needs loading, which gives it high Q, which makes its **bandwidth very limited** and its
 **efficiency poor** — and that efficiency is **what most limits a mobile installation**. A
 **capacitance hat electrically lengthens** a physically short antenna. A **corona ball reduces RF
-voltage discharge from the tip**.
+voltage discharge from the tip** (RF = radio frequency).
 
 **Power.** Connect **directly to the battery with heavy-gauge wire**, fused. Do not use the
 auxiliary power socket, because its **wiring may be inadequate for the current** — a 100 W radio
@@ -676,7 +676,7 @@ pulls around 20 amperes on transmit. Receive interference in a vehicle can come 
 system, the fuel system, or the control computers: **all these choices are correct**.
 
 **Solar.** Cells in a panel are connected **series-parallel**. One illuminated silicon cell produces
-about **0.5 VDC** open-circuit — which is why a "12 volt" panel needs roughly 36 cells in series. A
+about **0.5 VDC** (VDC = volts direct current) open-circuit — which is why a "12 volt" panel needs roughly 36 cells in series. A
 **series diode prevents the battery discharging back through the panel** in darkness, and a lithium
 iron phosphate battery requires a **charge controller**.
 
@@ -809,7 +809,7 @@ What precaution should be taken when connecting a solar panel to a lithium iron 
 
 Notch kills a **carrier**, blanker **reduces gain during pulses**, attenuator prevents **overload**.
 **Dip the plate, load for power.** Two-tone test uses **non-harmonically related** tones to measure
-**linearity**. **SSB RFI sounds like distorted speech; CW sounds like clicking.** Grounding problems
+**linearity**. **SSB RFI sounds like distorted speech; CW sounds like clicking.** (SSB = single sideband; RFI = radio-frequency interference; CW = continuous wave) Grounding problems
 are fixed by **bonding enclosures together**; never **solder** a lightning ground. A speech processor
 raises **average** power. **One S unit is 6 dB**; S8 to S9 needs **4x** power. Back off **3 kHz** from
-a band edge. Mobile antennas are limited by **efficiency**; a silicon PV cell makes **0.5 V**.
+a band edge. Mobile antennas are limited by **efficiency**; a silicon PV (photovoltaic) cell makes **0.5 V**.

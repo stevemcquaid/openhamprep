@@ -2,9 +2,9 @@
 
 **2 of your 35 exam questions · 2 groups (T9A–T9B) · 23 questions in the pool**
 
-This subelement covers the practical side of getting RF from your radio into the air: basic
-antenna types and behavior (polarization, gain, loading, beam antennas, common VHF/UHF whips),
-plus feed lines, connectors, and the basics of SWR and antenna tuners. It's almost entirely
+This subelement covers the practical side of getting RF (radio frequency) from your radio into the air: basic
+antenna types and behavior (polarization, gain, loading, beam antennas, common VHF/UHF (very high frequency / ultra high frequency) whips),
+plus feed lines, connectors, and the basics of SWR (standing wave ratio) and antenna tuners. It's almost entirely
 plain-language, real-world knowledge — no math beyond intuition about "shorter antenna, higher
 resonant frequency."
 
@@ -51,9 +51,9 @@ frequency; this is the inverse of loading it longer with coils).
   because the **vehicle body shields** the radio — the car acts like a Faraday cage.
 - A **19-inch vertical** is common on 2 meters because it's a **resonant quarter-wave** antenna
   at that frequency (not a half-wave, and not chosen for low exposure or high gain).
-- A **5/8-wavelength whip** beats a 1/4-wave whip for VHF/UHF mobile use because it has **more
+- A **5/8-wavelength whip** beats a 1/4-wave whip for VHF/UHF (very high frequency / ultra high frequency) mobile use because it has **more
   gain** — it produces a lower-angle radiation pattern that puts more signal toward the horizon,
-  not lower SWR or lower impedance.
+  not lower SWR (standing wave ratio) or lower impedance.
 
 **Dipole radiation pattern:** a half-wave dipole radiates its strongest signal **broadside to the
 antenna** (perpendicular to the wire), and is weakest off the ends.
@@ -192,7 +192,7 @@ requires few special installation considerations** — not because it has the le
 the most power, or costs the least (other feed line types can beat coax on each of those). The
 **most common coax impedance** used in amateur radio is **50 ohms**. As frequency **increases**,
 **loss in coax increases** too — attenuation rises with frequency, which is why HF-length coax
-runs are more forgiving than VHF/UHF ones.
+runs are more forgiving than VHF/UHF (very high frequency / ultra high frequency) ones.
 
 **Loss sources in coaxial feed line** are cumulative and the exam rewards knowing they *all*
 count: **water intrusion into connectors, high SWR, and multiple connectors in the line** are
@@ -212,10 +212,10 @@ find weak stations.
 transmission line** — not an amplifier efficiency figure and not a ground-quality indicator.
 
 **Connectors:**
-- **PL-259** connectors are **commonly used at HF and VHF frequencies** — not preferred for
+- **PL-259** connectors are **commonly used at HF and VHF frequencies** (HF = high frequency) — not preferred for
   microwave use, and not watertight or bayonet-style on their own.
 - **Type N** connectors are the best choice **above 400 MHz**.
-- **All of PL-259, BNC, and Type N** need to be **carefully taped for weather protection** when
+- **All of PL-259, BNC, and Type N** (BNC = Bayonet Neill–Concelman) need to be **carefully taped for weather protection** when
   used outdoors — none of them are weatherproof out of the box on this exam's logic.
 
 #### All 12 pool questions for T9B
