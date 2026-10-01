@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="360" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450.0" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">Varactor, PIN diode and LED: what controls each one</text>
+<text x="155" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Varactor diode</text>
+<text x="155" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">voltage-controlled capacitor</text>
+<line x1="60.0" y1="110.0" x2="60.0" y2="260.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="60.0" y1="260.0" x2="250.0" y2="260.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="155.0" y="284" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">reverse voltage →</text>
+<text transform="rotate(-90 46 185.0)" x="46" y="185.0" font-size="12.5" text-anchor="middle" fill="#222">capacitance</text>
+<polyline points="60.0,126.0 64.8,133.7 69.5,140.1 74.2,145.7 79.0,150.6 83.8,154.9 88.5,158.7 93.2,162.1 98.0,165.2 102.8,168.1 107.5,170.7 112.2,173.0 117.0,175.3 121.8,177.3 126.5,179.2 131.2,181.0 136.0,182.6 140.8,184.2 145.5,185.7 150.2,187.1 155.0,188.4 159.8,189.6 164.5,190.8 169.2,191.9 174.0,193.0 178.8,194.0 183.5,195.0 188.2,195.9 193.0,196.8 197.8,197.7 202.5,198.5 207.2,199.3 212.0,200.1 216.8,200.8 221.5,201.5 226.2,202.2 231.0,202.9 235.8,203.5 240.5,204.1 245.2,204.7 250.0,205.3" fill="none" stroke="#1a6fd4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="155" y="300" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">more reverse voltage → wider depletion</text>
+<text x="155" y="318" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">region → less capacitance</text>
+<text x="445" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">PIN diode</text>
+<text x="445" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">RF switch / attenuator</text>
+<line x1="350.0" y1="110.0" x2="350.0" y2="260.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="350.0" y1="260.0" x2="540.0" y2="260.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="445.0" y="284" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">forward DC bias current →</text>
+<text transform="rotate(-90 336 185.0)" x="336" y="185.0" font-size="12.5" text-anchor="middle" fill="#222">RF resistance</text>
+<polyline points="350.0,124.0 354.8,135.3 359.5,144.7 364.2,152.7 369.0,159.7 373.8,165.9 378.5,171.5 383.2,176.6 388.0,181.2 392.8,185.5 397.5,189.5 402.2,193.2 407.0,196.7 411.8,200.0 416.5,203.1 421.2,206.0 426.0,208.8 430.8,211.5 435.5,214.0 440.2,216.4 445.0,218.8 449.8,221.0 454.5,223.1 459.2,225.2 464.0,227.2 468.8,229.1 473.5,231.0 478.2,232.8 483.0,234.5 487.8,236.2 492.5,237.8 497.2,239.4 502.0,241.0 506.8,242.5 511.5,243.9 516.2,245.4 521.0,246.8 525.8,248.1 530.5,249.4 535.2,250.7 540.0,252.0" fill="none" stroke="#d1342f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="445" y="300" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">more forward current → lower RF</text>
+<text x="445" y="318" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">resistance (low junction capacitance)</text>
+<text x="765" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">LED</text>
+<text x="765" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">forward voltage set by band gap</text>
+<rect x="660.0" y="216.0" width="38.0" height="46.0" rx="3" fill="#8b2e2e" stroke="#8b2e2e" stroke-width="1"/>
+<text x="679" y="282" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">infrared</text>
+<rect x="712.0" y="190.7" width="38.0" height="71.3" rx="3" fill="#d1342f" stroke="#d1342f" stroke-width="1"/>
+<text x="731" y="282" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">red</text>
+<rect x="764.0" y="156.2" width="38.0" height="105.8" rx="3" fill="#2e8b57" stroke="#2e8b57" stroke-width="1"/>
+<text x="783" y="282" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">green</text>
+<rect x="816.0" y="124.0" width="38.0" height="138.0" rx="3" fill="#1a6fd4" stroke="#1a6fd4" stroke-width="1"/>
+<text x="835" y="282" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">blue</text>
+<line x1="652.0" y1="262.0" x2="868.0" y2="262.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text transform="rotate(-90 644 190)" x="644" y="190" font-size="12.5" text-anchor="middle" fill="#222">forward voltage</text>
+<text x="765" y="308" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">wider band gap → higher forward voltage</text>
+<text x="765" y="326" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">(not junction depth or capacitance)</text>
+<line x1="300.0" y1="50.0" x2="300.0" y2="340.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<line x1="610.0" y1="50.0" x2="610.0" y2="340.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+</svg>

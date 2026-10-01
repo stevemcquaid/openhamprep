@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="360" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450.0" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">BJT vs FET: beta, base-emitter voltage, alpha cutoff, and depletion vs enhancement mode</text>
+<line x1="130.0" y1="165.0" x2="130.0" y2="245.0" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+<line x1="70.0" y1="205.0" x2="130.0" y2="205.0" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="130.0" y1="185.0" x2="170.0" y2="150.0" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="170.0" y1="150.0" x2="170.0" y2="115.0" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="130.0" y1="225.0" x2="170.0" y2="260.0" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="170.0" y1="260.0" x2="170.0" y2="295.0" stroke="#222" stroke-width="2.5" stroke-linecap="round"/>
+<text x="60" y="210" font-size="14" text-anchor="end" font-weight="bold" fill="#222">B</text>
+<text x="184" y="115" font-size="14" text-anchor="start" font-weight="bold" fill="#222">C</text>
+<text x="184" y="300" font-size="14" text-anchor="start" font-weight="bold" fill="#222">E</text>
+<polygon points="160.0,251.5 146.5,247.8 154.5,238.6" fill="#222"/>
+<line x1="25.0" y1="183.0" x2="68.0" y2="201.0" stroke="#d1342f" stroke-width="2" stroke-linecap="round"/>
+<polygon points="68.0,201.0 59.0,201.0 61.7,194.6" fill="#d1342f"/>
+<text x="22" y="175" font-size="12.5" text-anchor="start" font-weight="normal" fill="#d1342f">small Ib</text>
+<line x1="196.0" y1="119.0" x2="196.0" y2="155.0" stroke="#1a6fd4" stroke-width="3.5" stroke-linecap="round"/>
+<polygon points="196.0,155.0 192.5,146.7 199.5,146.7" fill="#1a6fd4"/>
+<text x="206" y="141" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1a6fd4">large Ic</text>
+<text x="150" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">NPN bipolar transistor</text>
+<text x="150" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">current-controlled</text>
+<text x="150" y="322" font-size="14" text-anchor="middle" font-weight="bold" fill="#1a6fd4">β = ΔIc / ΔIb</text>
+<text x="150" y="341" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">VBE ≈ 0.6 – 0.7 V when on (silicon)</text>
+<text x="470.0" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Alpha cutoff frequency</text>
+<text x="470.0" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">(grounded-base current gain)</text>
+<line x1="360.0" y1="110.0" x2="360.0" y2="270.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="360.0" y1="270.0" x2="560.0" y2="270.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="460.0" y="294" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">frequency (log scale) →</text>
+<text transform="rotate(-90 346 190.0)" x="346" y="190.0" font-size="12.5" text-anchor="middle" fill="#222">current gain α</text>
+<polyline points="360.0,130.1 365.0,130.1 370.0,130.1 375.0,130.2 380.0,130.3 385.0,130.4 390.0,130.6 395.0,130.8 400.0,131.1 405.0,131.5 410.0,132.2 415.0,133.0 420.0,134.2 425.0,135.9 430.0,138.1 435.0,141.0 440.0,144.8 445.0,149.7 450.0,155.7 455.0,162.9 460.0,171.0 465.0,179.9 470.0,189.1 475.0,198.4 480.0,207.3 485.0,215.6 490.0,223.2 495.0,230.0 500.0,235.9 505.0,241.1 510.0,245.5 515.0,249.3 520.0,252.5 525.0,255.3 530.0,257.6 535.0,259.5 540.0,261.2 545.0,262.6 550.0,263.8 555.0,264.7 560.0,265.6" fill="none" stroke="#1a6fd4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="360.0" y1="171.0" x2="460.0" y2="171.0" stroke="#999" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/>
+<line x1="460.0" y1="171.0" x2="460.0" y2="270.0" stroke="#999" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/>
+<circle cx="460.0" cy="171.0" r="4" fill="#d1342f" stroke="none" stroke-width="1.5"/>
+<text x="468.0" y="262" font-size="13" text-anchor="start" font-weight="bold" fill="#d1342f">fα</text>
+<text x="368" y="165.02" font-size="12.5" text-anchor="start" font-weight="normal" fill="#d1342f">0.7 × (α at 1 kHz)</text>
+<text x="470.0" y="322" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">fα: α has fallen to 0.7 of its</text>
+<text x="470.0" y="339" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">value at 1 kHz (not "beta cutoff")</text>
+<text x="766.0" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">FET operating modes</text>
+<text x="766.0" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">voltage-controlled, high DC input Z</text>
+<line x1="660.0" y1="110.0" x2="660.0" y2="270.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="660.0" y1="270.0" x2="860.0" y2="270.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="760.0" y="294" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">gate voltage VGS →</text>
+<text transform="rotate(-90 646 190.0)" x="646" y="190.0" font-size="12.5" text-anchor="middle" fill="#222">drain current ID</text>
+<line x1="740.0" y1="110.0" x2="740.0" y2="270.0" stroke="#999" stroke-width="1.2" stroke-dasharray="4 3" stroke-linecap="round"/>
+<text x="740" y="104" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">VGS = 0</text>
+<polyline points="660.0,270.0 664.5,269.9 669.0,269.6 673.5,269.1 678.0,268.5 682.5,267.6 687.0,266.6 691.5,265.3 696.0,263.9 700.5,262.3 705.0,260.5 709.5,258.5 714.0,256.3 718.5,254.0 723.0,251.4 727.5,248.6 732.0,245.7 736.5,242.6 741.0,239.2 745.5,235.7 750.0,232.0 754.5,228.1 759.0,224.1 763.5,219.8 768.0,215.3 772.5,210.7 777.0,205.8 781.5,200.8 786.0,195.6 790.5,190.2 795.0,184.6 799.5,178.8 804.0,172.8 808.5,166.6 813.0,160.3 817.5,153.7 822.0,147.0 826.5,140.1 831.0,132.9 835.5,125.6 840.0,118.1" fill="none" stroke="#1a6fd4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="660.0,270.0 664.5,270.0 669.0,270.0 673.5,270.0 678.0,270.0 682.5,270.0 687.0,270.0 691.5,270.0 696.0,270.0 700.5,270.0 705.0,270.0 709.5,270.0 714.0,270.0 718.5,270.0 723.0,270.0 727.5,270.0 732.0,270.0 736.5,270.0 741.0,270.0 745.5,270.0 750.0,270.0 754.5,270.0 759.0,270.0 763.5,269.9 768.0,269.4 772.5,268.4 777.0,267.1 781.5,265.3 786.0,263.2 790.5,260.6 795.0,257.6 799.5,254.3 804.0,250.5 808.5,246.3 813.0,241.7 817.5,236.6 822.0,231.2 826.5,225.4 831.0,219.1 835.5,212.5 840.0,205.4 844.5,197.9 849.0,190.1 853.5,181.8 858.0,173.1 862.5,164.0 867.0,154.5 871.5,144.5 876.0,134.2 880.5,123.5" fill="none" stroke="#d1342f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="666" y="132" font-size="12.5" text-anchor="start" font-weight="bold" fill="#1a6fd4">depletion mode:</text>
+<text x="666" y="148" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1a6fd4">conducts at 0 V</text>
+<text x="856" y="208" font-size="12.5" text-anchor="end" font-weight="bold" fill="#d1342f">enhancement:</text>
+<text x="856" y="224" font-size="12.5" text-anchor="end" font-weight="normal" fill="#d1342f">needs +VGS</text>
+<line x1="300.0" y1="50.0" x2="300.0" y2="350.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<line x1="610.0" y1="50.0" x2="610.0" y2="350.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+</svg>

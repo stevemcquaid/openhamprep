@@ -41,6 +41,8 @@ don't let the pool's wording flip you). At a reverse-biased PN junction, holes i
 electrons in the N side are pulled apart by the applied voltage, **widening the depletion region** —
 that's why no current flows.
 
+<p align="center"><img src="figures/e6a-1-pn-junction.svg" alt="PN junction under forward and reverse bias" width="760"></p>
+
 **GaAs shows up twice** in this pool and in E6E: it's used in **microwave circuits**, a fact worth
 locking in since the exam asks it more than one way.
 
@@ -58,6 +60,8 @@ enhancement-mode devices you may know from other contexts.
 
 **Zener diodes on a MOSFET's gate** exist for one reason: to **protect the gate from static
 damage** (ESD), not to set a bias reference or regulate temperature.
+
+<p align="center"><img src="figures/e6a-2-bjt-fet.svg" alt="BJT beta and VBE, alpha cutoff, and FET depletion vs enhancement" width="760"></p>
 
 Two questions in this group reference Figure E6-1 for schematic symbols (an N-channel dual-gate
 MOSFET and a P-channel junction FET); the pool text is reproduced below exactly, with the figure
@@ -216,6 +220,8 @@ voltage-reference component.
 junction diode as a power-supply rectifier is a **lower forward voltage drop**. That same fast,
 low-drop junction is also why it's the common choice for a **VHF/UHF mixer or detector**.
 
+<p align="center"><img src="figures/e6b-1-diode-iv.svg" alt="Diode I-V curves for silicon, Schottky and Zener" width="760"></p>
+
 **LED forward voltage** is set by the semiconductor's **band gap** — not by junction depth or
 capacitance, which are distractors borrowed from other diode questions.
 
@@ -225,6 +231,8 @@ therefore its capacitance, changes with applied voltage).
 **PIN diode.** At RF it behaves like a variable resistor rather than a rectifier: its **low junction
 capacitance** is what makes it useful as an RF switch, and the attenuation it produces is controlled
 by **forward DC bias current** — more forward current, less RF resistance.
+
+<p align="center"><img src="figures/e6b-2-varactor-pin-led.svg" alt="Varactor capacitance, PIN resistance and LED forward voltage" width="760"></p>
 
 **Point-contact diodes** are simple, low-capacitance devices whose classic use is as an **RF
 detector**.
@@ -372,6 +380,8 @@ What is used to control the attenuation of RF signals by a PIN diode?
 (the classic chattering problem near the threshold). When a comparator's input crosses the threshold
 voltage, its output simply **changes state**.
 
+<p align="center"><img src="figures/e6c-1-comparator-hysteresis.svg" alt="Comparator hysteresis on a noisy input" width="760"></p>
+
 **Tri-state logic** means a device's output can sit at **0, 1, or high-impedance** — the high-Z state
 is what lets multiple devices share a bus without fighting each other.
 
@@ -383,6 +393,8 @@ transistors.
 
 **Pull-up/pull-down resistors** are tied to the positive or negative supply rail specifically to
 **establish a defined voltage when an input or output would otherwise be an open circuit** (floating).
+
+<p align="center"><img src="figures/e6c-2-tristate-pullup-cmos.svg" alt="Tri-state bus, pull-up resistor and CMOS threshold" width="760"></p>
 
 **FPGAs** are configured using a **hardware description language (HDL)** — not Karnaugh maps, not an
 auto-router, and not assembly language.
@@ -536,6 +548,8 @@ the same ones that **flex when a voltage is applied**. The piezoelectric *effect
 capacitance** representing electrode and stray capacitance. Get the topology backwards (parallel RLC
 with a series C) and you've picked a distractor.
 
+<p align="center"><img src="figures/e6d-1-crystal.svg" alt="Quartz crystal symbol, equivalent circuit and piezoelectric effect" width="760"></p>
+
 **Permeability** is the core-material property that determines an inductor's inductance.
 **Laminating a core into thin layers** reduces power loss from **eddy currents**. **Ferrite versus
 powdered iron:** ferrite's higher permeability means it needs **fewer turns** for a given inductance
@@ -554,6 +568,8 @@ core, which increases inductance).
 
 **Saturation** happens from **operation at excessive magnetic flux** — push a core past the point
 where it can support more flux and inductance collapses.
+
+<p align="center"><img src="figures/e6d-2-cores.svg" alt="Toroid vs solenoid, core slugs, saturation and laminations" width="760"></p>
 
 Note: E6D07 was withdrawn by errata and does not appear in the current pool; the group's other
 questions keep their original numbers, so E6D06 is followed by E6D08.
@@ -701,6 +717,8 @@ entirely. **Microstrip** is the transmission line typically used to connect to t
 supplied **through a resistor and/or RF choke connected to the amplifier's output lead** — not
 directly to a bias pin and not through the input.
 
+<p align="center"><img src="figures/e6e-1-mmic.svg" alt="MMIC amplifier with 50 ohm microstrip and output-lead bias" width="760"></p>
+
 **Packages.** **DIP (dual in-line package)** — two rows of pins on opposite sides — is the classic
 **through-hole** package, and it's a poor performer at UHF and above because of its **excessive lead
 length**, which becomes electrically significant at high frequency. **Surface-mount** packaging is
@@ -708,6 +726,8 @@ the opposite case: smaller circuit area, shorter board traces, and less parasiti
 capacitance all describe it, which is why "all these choices are correct" is the right answer when
 the question asks for surface mount's advantage at RF — and surface mount is the package type with
 the **least parasitic effects** above the HF range.
+
+<p align="center"><img src="figures/e6e-2-materials-packages.svg" alt="Si, GaAs and GaN, and DIP vs surface-mount packages" width="760"></p>
 
 #### All 12 pool questions for E6E
 
@@ -860,6 +880,8 @@ silicon diode's 0.7 V forward drop; they're different numbers for different reas
 **Photoconductivity.** When light hits a photoconductive material, its **resistance decreases**.
 These devices are most commonly built from **crystalline semiconductor** material.
 
+<p align="center"><img src="figures/e6f-2-photo-devices.svg" alt="Photovoltaic cell, photoconductor and optical shaft encoder" width="760"></p>
+
 **Optoisolators/optocouplers.** The standard configuration is an **LED and a phototransistor**. Their
 whole purpose when paired with solid-state circuits controlling 120 VAC loads is to provide
 **electrical isolation between the control circuit and the circuit being switched** — not impedance
@@ -870,6 +892,8 @@ patterned wheel**.
 
 **Solid-state relay:** a device that uses **semiconductors to implement the functions of an
 electromechanical relay** — no coil, no mechanical contacts.
+
+<p align="center"><img src="figures/e6f-1-optoisolator.svg" alt="Optoisolator and solid-state relay block diagram" width="760"></p>
 
 #### All 11 pool questions for E6F
 
