@@ -49,10 +49,14 @@ alternates between two states without an external clock signal** — it free-run
 pulses**. A single **flip-flop divides a pulse train's frequency by 2**; since each flip-flop only
 halves the frequency, dividing by 16 (2⁴) takes **4 flip-flops**.
 
+<p align="center"><img src="figures/e7a-2-multivibrators-dividers.svg" alt="Multivibrator types and flip-flop frequency division" width="760"></p>
+
 **Gate logic — read the output condition carefully.** A **NAND gate outputs 0 only if all inputs
 are 1** (it is an AND gate with an inverted output). An **OR gate outputs 1 if any input is 1**. A
 two-input **exclusive NOR (XNOR) gate outputs 0 if one and only one of its inputs is 1** — it is
 high only when the inputs *agree*, the mirror image of XOR.
+
+<p align="center"><img src="figures/e7a-1-gates.svg" alt="NAND, OR and XNOR gates with truth tables" width="760"></p>
 
 **Vocabulary.** A **truth table is a list of inputs and corresponding outputs for a digital
 device**. **“Positive logic” means high voltage represents a 1, low voltage a 0** — logic level
@@ -194,6 +198,8 @@ exactly 180 degrees. **Class AB, in a push-pull pair, has each active element co
 time at saturation or cutoff rather than in a lossy linear region — the same reason switching
 amplifiers generally beat linear ones on efficiency.
 
+<p align="center"><img src="figures/e7b-1-amplifier-classes.svg" alt="Conduction angle for amplifier classes A, AB, B, C and D" width="760"></p>
+
 **Class A bias point.** The operating point of a **Class A common emitter amplifier sits
 approximately halfway between saturation and cutoff** — centered on the load line so the full
 waveform swings without clipping.
@@ -212,6 +218,8 @@ configuration is inherently stable without separate neutralization.
 **Emitter follower (common collector).** Its signature is **input and output signals in-phase** —
 no phase inversion, unlike a common-emitter stage — paired with high input impedance and low output
 impedance, which is why it is used as a buffer.
+
+<p align="center"><img src="figures/e7b-2-loadline-follower.svg" alt="Class A load line and emitter follower" width="760"></p>
 
 **Figure E7-1 (common-emitter amplifier).** **R1 and R2 form a voltage divider that sets the DC
 bias** on the base. **R3, in the emitter leg, provides self bias** (emitter degeneration) rather
@@ -375,6 +383,8 @@ of the low-pass case.
 suppression**. Structurally, a **Pi-L network is a Pi-network with an additional output series
 inductor**.
 
+<p align="center"><img src="figures/e7c-1-matching-networks.svg" alt="Pi, T and Pi-L matching networks" width="760"></p>
+
 **Impedance matching, conceptually.** A matching circuit transforms a complex impedance to a
 resistive one by **canceling the reactive part of the impedance and changing the resistive part to
 the desired value** — it is not about dissipating power in resistors or introducing negative
@@ -393,6 +403,8 @@ duplexer**, where it separates closely-spaced transmit and receive frequencies.
 **Measuring selectivity.** **Shape factor measures a filter's ability to reject signals in adjacent
 channels** — the ratio of a filter's stopband width to its passband width; the closer to 1, the more
 rectangular (and better) the response.
+
+<p align="center"><img src="figures/e7c-2-filter-responses.svg" alt="Chebyshev, elliptical and shape factor responses" width="760"></p>
 
 #### All 11 pool questions for E7C
 
@@ -529,6 +541,8 @@ resistor. A **switchmode regulator varies the duty cycle of pulses fed into a fi
 switching a device fully on and off and controlling the average by timing, which is far more
 efficient.
 
+<p align="center"><img src="figures/e7d-1-linear-vs-switching.svg" alt="Linear and switchmode regulator block diagrams" width="760"></p>
+
 **Regulator topologies.** A **three-terminal voltage regulator is a series regulator**. A **shunt
 regulator works by loading (diverting current away from) the unregulated voltage source** rather
 than sitting in series with the load. A **Zener diode is the standard stable voltage reference** that
@@ -546,6 +560,8 @@ required to maintain regulation** — how close the input can sag to the output 
 lost. **Power dissipated by a series linear regulator equals the voltage difference from input to
 output, multiplied by the output current** — the classic (Vin − Vout) × Iout, which is exactly why
 linear regulators run hot and switchers don't.
+
+<p align="center"><img src="figures/e7d-2-regulator-specs.svg" alt="Dropout voltage, linear-regulator heat and series vs shunt" width="760"></p>
 
 **Batteries and switchers.** **Battery operating time equals capacity in amp-hours divided by
 average current.** A **switching power supply is cheaper and lighter than an equivalent linear
@@ -747,6 +763,8 @@ FM signals**.
 **Generating SSB.** **One way to produce SSB is a balanced modulator followed by a filter** — the
 filter method: generate double-sideband, then strip one sideband.
 
+<p align="center"><img src="figures/e7e-1-modulators.svg" alt="Reactance modulator and SSB filter method" width="760"></p>
+
 **Pre-emphasis / de-emphasis, the FM pair.** A **pre-emphasis network is added to an FM speech
 channel to boost the higher audio frequencies** at the transmitter; the receiver applies the
 complementary **de-emphasis**. **De-emphasis is used for compatibility with transmitters using phase
@@ -764,6 +782,8 @@ the mixer itself, a classic strong-signal problem.
 **Detectors.** A **diode envelope detector works by rectification and filtering of RF signals** —
 simple AM demodulation. **SSB signals are demodulated with a product detector**, which needs a
 locally-generated carrier (BFO) to reconstruct the missing carrier that SSB deliberately suppresses.
+
+<p align="center"><img src="figures/e7e-2-mixers-detectors.svg" alt="Mixer products, detectors and pre-emphasis" width="760"></p>
 
 #### All 11 pool questions for E7E
 
@@ -898,6 +918,8 @@ Which type of detector is used for demodulating SSB signals?
 converter without being mixed with a local oscillator signal** — no analog IF stage at all, the ADC
 sees the RF spectrum directly.
 
+<p align="center"><img src="figures/e7f-1-direct-sampling.svg" alt="Conventional vs direct-sampling receiver and quantization" width="760"></p>
+
 **DSP filters, matched to their job.** An **adaptive filter removes unwanted noise from a received
 SSB signal**, continuously adjusting itself to the noise environment. A **Hilbert-transform filter
 generates an SSB signal**, by producing a 90-degree-shifted version of the audio; equivalently, the
@@ -915,6 +937,8 @@ narrow bandwidth and reduce processing load after the signal has already been fi
 components that would otherwise be reproduced as (aliased into) lower frequency components** once
 the sample rate is reduced.
 
+<p align="center"><img src="figures/e7f-2-nyquist-decimation.svg" alt="Nyquist sampling, aliasing and decimation" width="760"></p>
+
 **SDR performance limits.** **Sample rate determines the maximum receive bandwidth** of a
 direct-sampling SDR. In the absence of atmospheric or thermal noise, the **minimum detectable signal
 level is set by the reference voltage level and the sample width in bits** — the ADC's own
@@ -924,6 +948,8 @@ quantization noise floor becomes the limiting factor.
 of the signal by the same amount** — linear phase, a key advantage over analog or IIR designs.
 **Taps in a DSP filter provide incremental signal delays for the filter algorithm**, and **more taps
 allow a DSP filter to create a sharper filter response**.
+
+<p align="center"><img src="figures/e7f-3-fir-fft.svg" alt="FIR filter structure, tap count response and FFT" width="760"></p>
 
 #### All 14 pool questions for E7F
 
@@ -1095,11 +1121,15 @@ clean building block — it barely loads its source and barely sags under its lo
 op-amp stage turns it into a low-pass filter** — the capacitor shorts out high-frequency gain as
 frequency rises.
 
+<p align="center"><img src="figures/e7g-2-inverting-amp.svg" alt="Inverting amplifier and low-pass feedback capacitor" width="760"></p>
+
 **Vocabulary.** **Input offset voltage is the differential input voltage needed to bring the
 open-loop output voltage to zero** — a real op-amp isn't perfectly balanced, and this is the input
 mismatch that corrects for it. **Gain-bandwidth is the frequency at which the open-loop gain of the
 amplifier equals one** (unity) — every op-amp has one, and it is the ceiling on gain × bandwidth for
 any feedback configuration built from it.
+
+<p align="center"><img src="figures/e7g-1-opamp-basics.svg" alt="Op-amp impedances, gain-bandwidth and input offset" width="760"></p>
 
 **Stability in active filters.** To prevent unwanted ringing and audio instability in an op-amp audio
 filter, **restrict both gain and Q** — pushing either one too high invites peaking and oscillation.
@@ -1289,6 +1319,8 @@ vibration path rather than chasing it electrically.
 near-zero temperature coefficient keeps the oscillator's frequency-determining capacitance from
 sliding as the circuit warms up.
 
+<p align="center"><img src="figures/e7h-1-oscillators.svg" alt="Colpitts, Hartley and Pierce oscillators with drift notes" width="760"></p>
+
 **Phase-locked loops.** A **PLL is an electronic servo loop consisting of a phase detector, a
 low-pass filter, a voltage-controlled oscillator, and a stable reference oscillator**. Its two
 signature jobs are **frequency synthesis and FM demodulation** — the same servo loop that locks a
@@ -1301,6 +1333,8 @@ values that represent the desired waveform** — a phase value steps through the
 returns the corresponding amplitude sample. DDS's characteristic weakness is **spurious signals at
 discrete frequencies** — clean broadband noise it is not; instead it produces spurs at specific,
 predictable frequencies tied to the clock and accumulator math.
+
+<p align="center"><img src="figures/e7h-2-pll-dds.svg" alt="PLL and DDS block diagrams" width="760"></p>
 
 **Keeping a crystal on its rated frequency.** A crystal oscillates at the frequency printed on the
 can only if it is **provided with the specified parallel (load) capacitance** the manufacturer

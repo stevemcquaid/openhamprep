@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="360" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450.0" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">Pi, T and Pi-L matching networks (they also filter)</text>
+<text x="150" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Low-pass Pi-network</text>
+<text x="150" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">C to ground, L between, C to ground</text>
+<circle cx="30.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="30.0" y1="130.0" x2="80.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="80.0" cy="130.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<path d="M 80 130 L 86 130 A 16.0 16.0 0 0 1 118.0 130 A 16.0 16.0 0 0 1 150.0 130 A 16.0 16.0 0 0 1 182.0 130 A 16.0 16.0 0 0 1 214.0 130 L 220 130" fill="none" stroke="#222" stroke-width="2"/>
+<circle cx="220.0" cy="130.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="220.0" y1="130.0" x2="280.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="280.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="80.0" y1="130.0" x2="80.0" y2="163.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="80.0" y1="172.0" x2="80.0" y2="205.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="71.0" y1="163.0" x2="89.0" y2="163.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="71.0" y1="172.0" x2="89.0" y2="172.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="80.0" y1="205.0" x2="80.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="70.0" y1="213.0" x2="90.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="74.0" y1="218.0" x2="86.0" y2="218.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="78.0" y1="223.0" x2="82.0" y2="223.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="220.0" y1="130.0" x2="220.0" y2="163.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="220.0" y1="172.0" x2="220.0" y2="205.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="211.0" y1="163.0" x2="229.0" y2="163.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="211.0" y1="172.0" x2="229.0" y2="172.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="220.0" y1="205.0" x2="220.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="210.0" y1="213.0" x2="230.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="214.0" y1="218.0" x2="226.0" y2="218.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="218.0" y1="223.0" x2="222.0" y2="223.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="60" y="170" font-size="13" text-anchor="end" font-weight="bold" fill="#222">C1</text>
+<text x="150" y="114" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">L</text>
+<text x="240" y="170" font-size="13" text-anchor="start" font-weight="bold" fill="#222">C2</text>
+<line x1="95.0" y1="272.0" x2="205.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="95.0" y1="232.0" x2="95.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="150" y="290" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">frequency →</text>
+<polyline points="95.0,236.0 97.8,236.0 100.5,236.0 103.2,236.1 106.0,236.1 108.8,236.2 111.5,236.3 114.2,236.5 117.0,236.8 119.8,237.2 122.5,237.8 125.2,238.5 128.0,239.4 130.8,240.4 133.5,241.7 136.2,243.1 139.0,244.7 141.8,246.3 144.5,248.0 147.2,249.7 150.0,251.3 152.8,252.9 155.5,254.4 158.2,255.8 161.0,257.1 163.8,258.3 166.5,259.4 169.2,260.4 172.0,261.3 174.8,262.1 177.5,262.9 180.2,263.6 183.0,264.2 185.8,264.7 188.5,265.3 191.2,265.7 194.0,266.2 196.8,266.5 199.5,266.9 202.2,267.2 205.0,267.5" fill="none" stroke="#1a6fd4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="450" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">High-pass T-network</text>
+<text x="450" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">series C's, shunt L</text>
+<circle cx="330.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="330.0" y1="130.0" x2="370.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="370.0" y1="130.0" x2="395.5" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="404.5" y1="130.0" x2="430.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="395.5" y1="121.0" x2="395.5" y2="139.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="404.5" y1="121.0" x2="404.5" y2="139.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="430.0" y1="130.0" x2="480.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="450.0" cy="130.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="480.0" y1="130.0" x2="505.5" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="514.5" y1="130.0" x2="540.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="505.5" y1="121.0" x2="505.5" y2="139.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="514.5" y1="121.0" x2="514.5" y2="139.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="540.0" y1="130.0" x2="580.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="580.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<path d="M 450 130 L 450 136 A 7.9 7.9 0 0 1 450 151.8 A 7.9 7.9 0 0 1 450 167.5 A 7.9 7.9 0 0 1 450 183.2 A 7.9 7.9 0 0 1 450 199.0 L 450 205" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="450.0" y1="205.0" x2="450.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="440.0" y1="213.0" x2="460.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="444.0" y1="218.0" x2="456.0" y2="218.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="448.0" y1="223.0" x2="452.0" y2="223.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="400" y="108" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">C1</text>
+<text x="510" y="108" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">C2</text>
+<text x="470" y="174" font-size="13" text-anchor="start" font-weight="bold" fill="#222">L</text>
+<line x1="395.0" y1="272.0" x2="505.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="395.0" y1="232.0" x2="395.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="450" y="290" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">frequency →</text>
+<polyline points="395.0,271.4 397.8,271.1 400.5,270.6 403.2,270.0 406.0,269.2 408.8,268.3 411.5,267.2 414.2,265.9 417.0,264.4 419.8,262.7 422.5,260.9 425.2,258.9 428.0,256.8 430.8,254.7 433.5,252.6 436.2,250.5 439.0,248.6 441.8,246.8 444.5,245.2 447.2,243.8 450.0,242.5 452.8,241.5 455.5,240.6 458.2,239.9 461.0,239.2 463.8,238.7 466.5,238.3 469.2,237.9 472.0,237.6 474.8,237.4 477.5,237.2 480.2,237.0 483.0,236.9 485.8,236.7 488.5,236.6 491.2,236.6 494.0,236.5 496.8,236.4 499.5,236.4 502.2,236.3 505.0,236.3" fill="none" stroke="#1a6fd4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="750" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Pi-L network</text>
+<text x="750" y="80" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">Pi + output series inductor</text>
+<circle cx="630.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="630.0" y1="130.0" x2="670.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="670.0" cy="130.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<path d="M 670 130 L 676 130 A 14.7 14.7 0 0 1 705.3 130 A 14.7 14.7 0 0 1 734.7 130 A 14.7 14.7 0 0 1 764.0 130 L 770 130" fill="none" stroke="#222" stroke-width="2"/>
+<circle cx="770.0" cy="130.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<path d="M 770 130 L 776 130 A 12.2 12.2 0 0 1 800.3 130 A 12.2 12.2 0 0 1 824.7 130 A 12.2 12.2 0 0 1 849.0 130 L 855 130" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="855.0" y1="130.0" x2="880.0" y2="130.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="880.0" cy="130.0" r="4" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="670.0" y1="130.0" x2="670.0" y2="163.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="670.0" y1="172.0" x2="670.0" y2="205.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="661.0" y1="163.0" x2="679.0" y2="163.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="661.0" y1="172.0" x2="679.0" y2="172.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="670.0" y1="205.0" x2="670.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="660.0" y1="213.0" x2="680.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="664.0" y1="218.0" x2="676.0" y2="218.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="668.0" y1="223.0" x2="672.0" y2="223.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="770.0" y1="130.0" x2="770.0" y2="163.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="770.0" y1="172.0" x2="770.0" y2="205.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="761.0" y1="163.0" x2="779.0" y2="163.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="761.0" y1="172.0" x2="779.0" y2="172.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<line x1="770.0" y1="205.0" x2="770.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="760.0" y1="213.0" x2="780.0" y2="213.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="764.0" y1="218.0" x2="776.0" y2="218.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="768.0" y1="223.0" x2="772.0" y2="223.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="650" y="170" font-size="13" text-anchor="end" font-weight="bold" fill="#222">C1</text>
+<text x="720" y="114" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">L1</text>
+<text x="790" y="170" font-size="13" text-anchor="start" font-weight="bold" fill="#222">C2</text>
+<text x="812" y="114" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">L2</text>
+<line x1="695.0" y1="272.0" x2="805.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="695.0" y1="232.0" x2="695.0" y2="272.0" stroke="#222" stroke-width="1.2" stroke-linecap="round"/>
+<text x="750" y="290" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">frequency →</text>
+<polyline points="695.0,236.0 697.8,236.0 700.5,236.0 703.2,236.1 706.0,236.1 708.8,236.2 711.5,236.3 714.2,236.5 717.0,236.8 719.8,237.2 722.5,237.8 725.2,238.5 728.0,239.4 730.8,240.4 733.5,241.7 736.2,243.1 739.0,244.7 741.8,246.3 744.5,248.0 747.2,249.7 750.0,251.3 752.8,252.9 755.5,254.4 758.2,255.8 761.0,257.1 763.8,258.3 766.5,259.4 769.2,260.4 772.0,261.3 774.8,262.1 777.5,262.9 780.2,263.6 783.0,264.2 785.8,264.7 788.5,265.3 791.2,265.7 794.0,266.2 796.8,266.5 799.5,266.9 802.2,267.2 805.0,267.5" fill="none" stroke="#1a6fd4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="750" y="322" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#1a6fd4">greater harmonic suppression</text>
+<line x1="300.0" y1="50.0" x2="300.0" y2="335.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<line x1="600.0" y1="50.0" x2="600.0" y2="335.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<text x="450" y="350" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999" font-style="italic">A matching network cancels the reactive part of an impedance and sets the resistive part to the value you need</text>
+</svg>

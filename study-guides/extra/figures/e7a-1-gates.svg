@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="360" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450.0" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">Logic gates: read the output condition carefully</text>
+<text x="150" y="60" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">NAND</text>
+<path d="M 124 80 L 150 80 A 22 22 0 0 1 150 124 L 124 124 Z" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="100.0" y1="92.0" x2="124.0" y2="92.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="100.0" y1="112.0" x2="124.0" y2="112.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="177.0" cy="102.0" r="5" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="182.0" y1="102.0" x2="206.0" y2="102.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="94" y="97" font-size="13" text-anchor="end" font-weight="bold" fill="#222">A</text>
+<text x="94" y="117" font-size="13" text-anchor="end" font-weight="bold" fill="#222">B</text>
+<text x="214" y="107" font-size="13" text-anchor="start" font-weight="bold" fill="#222">Y</text>
+<rect x="90.0" y="150.0" width="120.0" height="26.0" rx="0" fill="#eeeeee" stroke="#222" stroke-width="1.5"/>
+<text x="110" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">A</text>
+<text x="150" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">B</text>
+<text x="190" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Y</text>
+<rect x="90.0" y="176.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="110" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="150" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="190" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="90.0" y="202.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="110" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="150" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="190" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="90.0" y="228.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="110" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="150" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="190" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="90.0" y="254.0" width="120.0" height="26.0" rx="0" fill="#fbe3e1" stroke="#ccc" stroke-width="1"/>
+<text x="110" y="272" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">1</text>
+<text x="150" y="272" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">1</text>
+<text x="190" y="272" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<text x="150" y="310" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">outputs 0 only if</text>
+<text x="150" y="327" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">all inputs are 1</text>
+<text x="450" y="60" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">OR</text>
+<path d="M 424 80 C 446 80 466 90 476 102 C 466 114 446 124 424 124 C 436 112 436 92 424 80 Z" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="400.0" y1="92.0" x2="430.0" y2="92.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="400.0" y1="112.0" x2="430.0" y2="112.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="476.0" y1="102.0" x2="500.0" y2="102.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="394" y="97" font-size="13" text-anchor="end" font-weight="bold" fill="#222">A</text>
+<text x="394" y="117" font-size="13" text-anchor="end" font-weight="bold" fill="#222">B</text>
+<text x="508" y="107" font-size="13" text-anchor="start" font-weight="bold" fill="#222">Y</text>
+<rect x="390.0" y="150.0" width="120.0" height="26.0" rx="0" fill="#eeeeee" stroke="#222" stroke-width="1.5"/>
+<text x="410" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">A</text>
+<text x="450" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">B</text>
+<text x="490" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Y</text>
+<rect x="390.0" y="176.0" width="120.0" height="26.0" rx="0" fill="#fbe3e1" stroke="#ccc" stroke-width="1"/>
+<text x="410" y="194" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<text x="450" y="194" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<text x="490" y="194" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<rect x="390.0" y="202.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="410" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="450" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="490" y="220" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="390.0" y="228.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="410" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="450" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="490" y="246" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="390.0" y="254.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="410" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="450" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="490" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="450" y="310" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">outputs 1 if</text>
+<text x="450" y="327" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">any input is 1</text>
+<text x="750" y="60" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">XNOR</text>
+<path d="M 724 80 C 746 80 766 90 776 102 C 766 114 746 124 724 124 C 736 112 736 92 724 80 Z" fill="#fff" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M 716 80 C 728 92 728 112 716 124" fill="none" stroke="#222" stroke-width="2.5"/>
+<line x1="692.0" y1="92.0" x2="730.0" y2="92.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="692.0" y1="112.0" x2="730.0" y2="112.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="781.0" cy="102.0" r="5" fill="#fff" stroke="#222" stroke-width="2"/>
+<line x1="786.0" y1="102.0" x2="810.0" y2="102.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="686" y="97" font-size="13" text-anchor="end" font-weight="bold" fill="#222">A</text>
+<text x="686" y="117" font-size="13" text-anchor="end" font-weight="bold" fill="#222">B</text>
+<text x="818" y="107" font-size="13" text-anchor="start" font-weight="bold" fill="#222">Y</text>
+<rect x="690.0" y="150.0" width="120.0" height="26.0" rx="0" fill="#eeeeee" stroke="#222" stroke-width="1.5"/>
+<text x="710" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">A</text>
+<text x="750" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">B</text>
+<text x="790" y="168" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Y</text>
+<rect x="690.0" y="176.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="710" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="750" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">0</text>
+<text x="790" y="194" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<rect x="690.0" y="202.0" width="120.0" height="26.0" rx="0" fill="#fbe3e1" stroke="#ccc" stroke-width="1"/>
+<text x="710" y="220" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<text x="750" y="220" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">1</text>
+<text x="790" y="220" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<rect x="690.0" y="228.0" width="120.0" height="26.0" rx="0" fill="#fbe3e1" stroke="#ccc" stroke-width="1"/>
+<text x="710" y="246" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">1</text>
+<text x="750" y="246" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<text x="790" y="246" font-size="13" text-anchor="middle" font-weight="bold" fill="#d1342f">0</text>
+<rect x="690.0" y="254.0" width="120.0" height="26.0" rx="0" fill="#fff" stroke="#ccc" stroke-width="1"/>
+<text x="710" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="750" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="790" y="272" font-size="13" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<text x="750" y="310" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">high only when inputs agree;</text>
+<text x="750" y="327" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">0 if exactly one input is 1</text>
+<line x1="300.0" y1="50.0" x2="300.0" y2="345.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<line x1="600.0" y1="50.0" x2="600.0" y2="345.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+</svg>

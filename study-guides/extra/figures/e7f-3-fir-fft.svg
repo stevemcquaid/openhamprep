@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="400" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450.0" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">FIR filter taps and the FFT</text>
+<text x="155" y="60" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">FIR filter structure</text>
+<text x="155" y="78" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">taps = incremental delays</text>
+<text x="14" y="112" font-size="13" text-anchor="start" font-weight="bold" fill="#222">x[n]</text>
+<line x1="14.0" y1="135.0" x2="40.0" y2="135.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<rect x="40.0" y="118.0" width="44.0" height="34.0" rx="6" fill="#fff4d6" stroke="#c98a00" stroke-width="2"/>
+<text x="62.0" y="139.0" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#222">z⁻¹</text>
+<line x1="84.0" y1="135.0" x2="110.0" y2="135.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<rect x="110.0" y="118.0" width="44.0" height="34.0" rx="6" fill="#fff4d6" stroke="#c98a00" stroke-width="2"/>
+<text x="132.0" y="139.0" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#222">z⁻¹</text>
+<line x1="154.0" y1="135.0" x2="180.0" y2="135.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<rect x="180.0" y="118.0" width="44.0" height="34.0" rx="6" fill="#fff4d6" stroke="#c98a00" stroke-width="2"/>
+<text x="202.0" y="139.0" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#222">z⁻¹</text>
+<line x1="224.0" y1="135.0" x2="250.0" y2="135.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="28.0" cy="135.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="28.0" y1="135.0" x2="28.0" y2="200.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="28.0" cy="215.0" r="14" fill="#dce9fb" stroke="#1a6fd4" stroke-width="2"/>
+<text x="28" y="220" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">×</text>
+<text x="46" y="245" font-size="12.5" text-anchor="start" font-weight="bold" fill="#1a6fd4">b0</text>
+<line x1="28.0" y1="229.0" x2="28.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="98.0" cy="135.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="98.0" y1="135.0" x2="98.0" y2="200.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="98.0" cy="215.0" r="14" fill="#dce9fb" stroke="#1a6fd4" stroke-width="2"/>
+<text x="98" y="220" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">×</text>
+<text x="116" y="245" font-size="12.5" text-anchor="start" font-weight="bold" fill="#1a6fd4">b1</text>
+<line x1="98.0" y1="229.0" x2="98.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="168.0" cy="135.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="168.0" y1="135.0" x2="168.0" y2="200.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="168.0" cy="215.0" r="14" fill="#dce9fb" stroke="#1a6fd4" stroke-width="2"/>
+<text x="168" y="220" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">×</text>
+<text x="186" y="245" font-size="12.5" text-anchor="start" font-weight="bold" fill="#1a6fd4">b2</text>
+<line x1="168.0" y1="229.0" x2="168.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="238.0" cy="135.0" r="3.5" fill="#222" stroke="none" stroke-width="1.5"/>
+<line x1="238.0" y1="135.0" x2="238.0" y2="200.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="238.0" cy="215.0" r="14" fill="#dce9fb" stroke="#1a6fd4" stroke-width="2"/>
+<text x="238" y="220" font-size="15" text-anchor="middle" font-weight="bold" fill="#222">×</text>
+<text x="256" y="245" font-size="12.5" text-anchor="start" font-weight="bold" fill="#1a6fd4">b3</text>
+<line x1="238.0" y1="229.0" x2="238.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<line x1="28.0" y1="270.0" x2="249.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="263.0" cy="270.0" r="14" fill="#e3f3ea" stroke="#2e8b57" stroke-width="2"/>
+<text x="263" y="275" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Σ</text>
+<line x1="277.0" y1="270.0" x2="300.0" y2="270.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<polygon points="300.0,270.0 291.7,273.5 291.7,266.5" fill="#222"/>
+<text x="155" y="320" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">same delay for every frequency:</text>
+<text x="155" y="337" font-size="12.5" text-anchor="middle" font-weight="bold" fill="#999">linear phase</text>
+<line x1="310.0" y1="50.0" x2="310.0" y2="385.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<text x="465" y="60" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">More taps, sharper response</text>
+<text x="465" y="78" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">same low-pass design, different tap count</text>
+<line x1="360.0" y1="100.0" x2="360.0" y2="290.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="360.0" y1="290.0" x2="570.0" y2="290.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<text x="465.0" y="314" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">frequency →</text>
+<text transform="rotate(-90 346 195.0)" x="346" y="195.0" font-size="12.5" text-anchor="middle" fill="#222">response (dB)</text>
+<polyline points="360.0,107.3 361.8,107.3 363.5,107.4 365.2,107.4 367.0,107.5 368.8,107.5 370.5,107.6 372.2,107.7 374.0,107.8 375.8,107.9 377.5,108.1 379.2,108.2 381.0,108.4 382.8,108.6 384.5,108.9 386.2,109.1 388.0,109.4 389.8,109.6 391.5,110.0 393.2,110.3 395.0,110.6 396.8,111.0 398.5,111.4 400.2,111.9 402.0,112.4 403.8,112.9 405.5,113.4 407.2,114.0 409.0,114.5 410.8,115.2 412.5,115.8 414.2,116.5 416.0,117.3 417.8,118.1 419.5,118.9 421.2,119.7 423.0,120.6 424.8,121.6 426.5,122.6 428.2,123.6 430.0,124.7 431.8,125.8 433.5,127.0 435.2,128.2 437.0,129.5 438.8,130.8 440.5,132.2 442.2,133.6 444.0,135.1 445.8,136.6 447.5,138.2 449.2,139.9 451.0,141.6 452.8,143.4 454.5,145.2 456.2,147.1 458.0,149.1 459.8,151.1 461.5,153.2 463.2,155.4 465.0,157.6 466.8,160.0 468.5,162.4 470.2,164.8 472.0,167.4 473.8,170.0 475.5,172.7 477.2,175.5 479.0,178.4 480.8,181.5 482.5,184.6 484.2,188.0 486.0,191.5 487.8,195.2 489.5,199.2 491.2,203.6 493.0,208.5 494.8,214.3 496.5,221.3 498.2,230.8 500.0,246.6 501.8,290.0 503.5,245.3 505.2,233.3 507.0,226.5 508.8,221.9 510.5,218.6 512.2,216.0 514.0,214.0 515.8,212.5 517.5,211.3 519.2,210.4 521.0,209.7 522.8,209.4 524.5,209.2 526.2,209.3 528.0,209.7 529.8,210.3 531.5,211.2 533.2,212.4 535.0,214.0 536.8,216.0 538.5,218.6 540.2,221.8 542.0,225.9 543.8,231.6 545.5,239.9 547.2,255.0 549.0,290.0 550.8,250.0 552.5,237.6 554.2,230.2 556.0,225.1 557.8,221.4 559.5,218.5 561.2,216.3 563.0,214.6 564.8,213.3 566.5,212.4 568.2,211.9 570.0,211.8" fill="none" stroke="#999" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="360.0,106.9 361.8,106.9 363.5,106.9 365.2,106.9 367.0,106.8 368.8,106.8 370.5,106.8 372.2,106.8 374.0,106.8 375.8,106.9 377.5,106.9 379.2,106.9 381.0,106.9 382.8,106.9 384.5,106.9 386.2,106.9 388.0,106.9 389.8,106.8 391.5,106.8 393.2,106.8 395.0,106.8 396.8,106.9 398.5,106.9 400.2,106.8 402.0,106.8 403.8,106.9 405.5,106.9 407.2,107.1 409.0,107.3 410.8,107.8 412.5,108.5 414.2,109.4 416.0,110.8 417.8,112.5 419.5,114.7 421.2,117.4 423.0,120.7 424.8,124.6 426.5,129.2 428.2,134.7 430.0,141.1 431.8,148.6 433.5,157.5 435.2,168.3 437.0,181.7 438.8,199.9 440.5,233.3 442.2,235.7 444.0,227.7 445.8,231.4 447.5,239.8 449.2,249.4 451.0,254.9 452.8,254.5 454.5,253.2 456.2,255.8 458.0,268.1 459.8,289.3 461.5,256.3 463.2,246.6 465.0,243.9 466.8,246.7 468.5,257.5 470.2,290.0 472.0,257.9 473.8,246.9 475.5,244.1 477.2,246.9 479.0,257.5 480.8,290.0 482.5,259.8 484.2,248.5 486.0,245.6 487.8,248.5 489.5,259.0 491.2,290.0 493.0,261.6 494.8,250.3 496.5,247.4 498.2,250.2 500.0,260.9 501.8,290.0 503.5,263.2 505.2,252.0 507.0,249.1 508.8,251.9 510.5,262.6 512.2,290.0 514.0,264.6 515.8,253.4 517.5,250.5 519.2,253.3 521.0,264.0 522.8,290.0 524.5,265.7 526.2,254.6 528.0,251.7 529.8,254.5 531.5,265.3 533.2,290.0 535.0,266.6 536.8,255.5 538.5,252.6 540.2,255.4 542.0,266.2 543.8,290.0 545.5,267.2 547.2,256.1 549.0,253.2 550.8,256.1 552.5,266.9 554.2,290.0 556.0,267.5 557.8,256.5 559.5,253.6 561.2,256.5 563.0,267.4 564.8,290.0 566.5,267.6 568.2,256.6 570.0,253.8" fill="none" stroke="#1a6fd4" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="566" y="128" font-size="12.5" text-anchor="end" font-weight="bold" fill="#1a6fd4">41 taps: sharper</text>
+<text x="566" y="146" font-size="12.5" text-anchor="end" font-weight="normal" fill="#999">11 taps: gentle</text>
+<line x1="610.0" y1="50.0" x2="610.0" y2="385.0" stroke="#e5e5e5" stroke-width="1" stroke-linecap="round"/>
+<text x="755" y="60" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">FFT: time → frequency</text>
+<text x="755" y="78" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">two tones become two spikes</text>
+<line x1="640.0" y1="150.0" x2="870.0" y2="150.0" stroke="#ddd" stroke-width="1" stroke-linecap="round"/>
+<polyline points="640.0,150.0 641.8,136.9 643.6,126.3 645.4,120.0 647.2,118.6 649.1,121.7 650.9,127.5 652.7,133.8 654.5,138.4 656.3,139.9 658.1,138.0 659.9,133.6 661.7,128.6 663.5,125.1 665.4,125.1 667.2,129.8 669.0,139.0 670.8,151.3 672.6,164.5 674.4,176.0 676.2,183.7 678.0,186.3 679.8,183.9 681.7,177.8 683.5,170.0 685.3,163.0 687.1,158.5 688.9,157.5 690.7,159.7 692.5,163.7 694.3,167.3 696.1,168.5 698.0,165.6 699.8,158.3 701.6,147.4 703.4,134.8 705.2,122.9 707.0,114.3 708.8,110.5 710.6,112.0 712.4,118.0 714.3,126.8 716.1,135.9 717.9,143.1 719.7,146.9 721.5,147.1 723.3,144.6 725.1,141.1 726.9,139.0 728.7,139.9 730.6,145.0 732.4,154.0 734.2,165.3 736.0,176.9 737.8,186.1 739.6,190.9 741.4,190.4 743.2,184.8 745.0,175.5 746.9,164.9 748.7,155.4 750.5,148.9 752.3,146.2 754.1,147.1 755.9,150.0 757.7,152.9 759.5,153.8 761.3,151.1 763.1,144.6 765.0,135.1 766.8,124.5 768.6,115.2 770.4,109.6 772.2,109.1 774.0,113.9 775.8,123.1 777.6,134.7 779.4,146.0 781.3,155.0 783.1,160.1 784.9,161.0 786.7,158.9 788.5,155.4 790.3,152.9 792.1,153.1 793.9,156.9 795.7,164.1 797.6,173.2 799.4,182.0 801.2,188.0 803.0,189.5 804.8,185.7 806.6,177.1 808.4,165.2 810.2,152.6 812.0,141.7 813.9,134.4 815.7,131.5 817.5,132.7 819.3,136.3 821.1,140.3 822.9,142.5 824.7,141.5 826.5,137.0 828.3,130.0 830.2,122.2 832.0,116.1 833.8,113.7 835.6,116.3 837.4,124.0 839.2,135.5 841.0,148.7 842.8,161.0 844.6,170.2 846.5,174.9 848.3,174.9 850.1,171.4 851.9,166.4 853.7,162.0 855.5,160.1 857.3,161.6 859.1,166.2 860.9,172.5 862.8,178.3 864.6,181.4 866.4,180.0 868.2,173.7 870.0,163.1" fill="none" stroke="#1a6fd4" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="755.0" y="214" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">time domain (sum of two sines)</text>
+<line x1="755.0" y1="224.0" x2="755.0" y2="248.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<polygon points="755.0,248.0 751.5,239.7 758.5,239.7" fill="#222"/>
+<text x="776" y="241" font-size="13" text-anchor="start" font-weight="bold" fill="#222">FFT</text>
+<line x1="640.0" y1="330.0" x2="870.0" y2="330.0" stroke="#222" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="648.0" y1="330.0" x2="648.0" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="657.3" y1="330.0" x2="657.3" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="666.6" y1="330.0" x2="666.6" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="675.9" y1="330.0" x2="675.9" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="685.2" y1="330.0" x2="685.2" y2="275.0" stroke="#1a6fd4" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="694.5" y1="330.0" x2="694.5" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="703.8" y1="330.0" x2="703.8" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="713.1" y1="330.0" x2="713.1" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="722.4" y1="330.0" x2="722.4" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="731.7" y1="330.0" x2="731.7" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="741.0" y1="330.0" x2="741.0" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="750.3" y1="330.0" x2="750.3" y2="297.0" stroke="#1a6fd4" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="759.7" y1="330.0" x2="759.7" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="769.0" y1="330.0" x2="769.0" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="778.3" y1="330.0" x2="778.3" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="787.6" y1="330.0" x2="787.6" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="796.9" y1="330.0" x2="796.9" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="806.2" y1="330.0" x2="806.2" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="815.5" y1="330.0" x2="815.5" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="824.8" y1="330.0" x2="824.8" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="834.1" y1="330.0" x2="834.1" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="843.4" y1="330.0" x2="843.4" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="852.7" y1="330.0" x2="852.7" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<line x1="862.0" y1="330.0" x2="862.0" y2="330.0" stroke="#ccc" stroke-width="1" stroke-linecap="round"/>
+<text x="870" y="350" font-size="12.5" text-anchor="end" font-weight="normal" fill="#999">frequency →</text>
+<text x="755" y="372" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">frequency-domain view of the signal</text>
+</svg>
