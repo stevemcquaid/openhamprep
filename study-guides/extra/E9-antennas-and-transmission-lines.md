@@ -371,10 +371,16 @@ of the array (end-fire); spacing **1/2 wavelength, fed in phase** gives a **figu
 to the axis; spacing **1/4 wavelength, fed 90° out of phase** gives a **cardioid** — one direction
 reinforced, the other cancelled. Memorize spacing+phasing → pattern as a triplet.
 
+<p align="center"><img src="figures/e9c-1-phased-array.svg" alt="Two vertical elements: spacing and phasing determine the pattern" width="760"></p>
+
 **Long wire and rhombic antennas.** As an unterminated long wire gets longer, it sprouts **more
 lobes, increasingly aligned with the wire's own axis** rather than broadside to it. Adding a
 **terminating resistor** to a rhombic or long-wire changes the pattern from **bidirectional to
 unidirectional**, by absorbing the wave that would otherwise reflect back and radiate the other way.
+
+<p align="center"><img src="figures/e9c-2-long-wire.svg" alt="Long wire patterns for 1, 3 and 6 wavelengths" width="760"></p>
+
+<p align="center"><img src="figures/e9c-3-rhombic.svg" alt="Rhombic antenna without and with a terminating resistor" width="760"></p>
 
 **Named wire antennas.** A **folded dipole** is a half-wave dipole with a **second wire connecting
 its two ends**, and its center feed point impedance is about **300 ohms** (four times a plain
@@ -383,11 +389,15 @@ balun and coax**. A **Zepp** is an **end-fed half-wave dipole**; an **extended d
 that to a **center-fed 1.25-wavelength** dipole for extra gain. An **off-center-fed dipole (OCFD)**
 is fed off-midpoint specifically to give a **similar feed point impedance across multiple bands**.
 
+<p align="center"><img src="figures/e9c-4-wire-antennas.svg" alt="Folded dipole, G5RV, Zepp, extended double Zepp and OCFD" width="760"></p>
+
 **Ground effects.** Vertically polarized low-angle radiation **increases** over **seawater** compared
 to soil, because seawater is a far better ground conductor and loses less energy to the earth. For a
 **horizontally polarized** antenna, raising it higher **decreases the takeoff angle** of its lowest
 lobe; mounted over a **downhill slope**, that takeoff angle **decreases further** in the downhill
 direction, effectively raising the antenna's height relative to the terrain it's shooting over.
+
+<p align="center"><img src="figures/e9c-5-ground-effects.svg" alt="Takeoff angle versus height, downhill slope and seawater" width="760"></p>
 
 #### All 14 pool questions for E9C
 

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="900" height="400" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="450" y="28" font-size="16" text-anchor="middle" font-weight="bold" fill="#222">Named wire antennas (side/top view, schematic)</text>
+<text x="150" y="72" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Folded dipole</text>
+<text x="150" y="90" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">center feed ≈ 300 Ω (plain dipole ≈ 72 Ω)</text>
+<line x1="40.0" y1="140.0" x2="260.0" y2="140.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<line x1="40.0" y1="160.0" x2="260.0" y2="160.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<line x1="40.0" y1="140.0" x2="40.0" y2="160.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<line x1="260.0" y1="140.0" x2="260.0" y2="160.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="150" cy="160" r="5" fill="#222"/>
+<text x="150.0" y="188" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#222">half-wave dipole + a second wire joining its two ends</text>
+<text x="440" y="72" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">G5RV</text>
+<text x="440" y="90" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">center-fed through open-wire line</text>
+<line x1="320.0" y1="130.0" x2="560.0" y2="130.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<line x1="440.0" y1="130.0" x2="440.0" y2="168.0" stroke="#888" stroke-width="2" stroke-dasharray="2 3" stroke-linecap="round"/>
+<rect x="430" y="168" width="20" height="14" fill="#e8f0fb" stroke="#222"/>
+<line x1="440.0" y1="182.0" x2="440.0" y2="204.0" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<text x="454" y="156" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">open-wire line</text>
+<text x="456" y="179" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">balun</text>
+<text x="454" y="200" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">coax to radio</text>
+<text x="730" y="72" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Zepp</text>
+<text x="730" y="90" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">end-fed half-wave dipole</text>
+<line x1="630.0" y1="140.0" x2="840.0" y2="140.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<line x1="630.0" y1="140.0" x2="630.0" y2="192.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<circle cx="630" cy="140" r="5" fill="#222"/>
+<text x="636" y="210" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">feed at the end</text>
+<text x="745.0" y="130" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">½ λ</text>
+<text x="290" y="257" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Extended double Zepp</text>
+<text x="290" y="275" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">center-fed, 1.25 λ total (two 5⁄8 λ legs)</text>
+<line x1="160.0" y1="325.0" x2="420.0" y2="325.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="290" cy="325" r="5" fill="#222"/>
+<text x="225.0" y="315" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">5⁄8 λ</text>
+<text x="355.0" y="315" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">5⁄8 λ</text>
+<line x1="290.0" y1="325.0" x2="290.0" y2="365.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="298" y="361" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">feed</text>
+<text x="620" y="257" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">Off-center-fed dipole (OCFD)</text>
+<text x="620" y="275" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">similar feed point Z on several bands</text>
+<line x1="490.0" y1="325.0" x2="750.0" y2="325.0" stroke="#d1342f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="583" cy="325" r="5" fill="#222"/>
+<line x1="583.0" y1="325.0" x2="583.0" y2="365.0" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+<text x="591" y="361" font-size="12.5" text-anchor="start" font-weight="normal" fill="#222">feed (not at the middle)</text>
+<line x1="620.0" y1="317.0" x2="620.0" y2="333.0" stroke="#999" stroke-width="1" stroke-dasharray="2 2" stroke-linecap="round"/>
+<text x="620" y="311" font-size="12.5" text-anchor="middle" font-weight="normal" fill="#999">center</text>
+</svg>
